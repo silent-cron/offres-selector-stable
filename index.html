@@ -73,6 +73,32 @@
 
     .sep { width: 1px; height: 24px; background: #ddd; margin: 0 4px; }
 
+    .zone-btn {
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1.5px solid #d0d0d0;
+      background: #fff;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      color: #555;
+    }
+    .zone-btn.active, .zone-btn:hover {
+      border-color: #e67e22;
+      background: #fef5ec;
+      color: #e67e22;
+    }
+    .zone-badge {
+      font-size: 0.68rem;
+      padding: 1px 6px;
+      border-radius: 8px;
+      background: #e8f4fd;
+      color: #2980b9;
+      font-weight: 700;
+      margin-left: 4px;
+    }
+
     .sel-btn {
       padding: 7px 14px;
       border-radius: 20px;
@@ -168,18 +194,18 @@
     .card-company{ font-size: 0.88rem; color: #555; margin-bottom: 6px; }
     .card-loc    { font-size: 0.8rem; color: #888; margin-bottom: 10px; }
 
-    .card-score {
+    .card-raison {
       display: inline-block;
-      font-size: 0.8rem;
-      font-weight: 700;
+      font-size: 0.78rem;
+      font-weight: 600;
       padding: 3px 10px;
       border-radius: 8px;
       background: #f0f2f5;
-      color: #333;
+      color: #555;
     }
-    .score-high  { background: #eafaf1; color: #1e8449; }
-    .score-mid   { background: #fef9e7; color: #d35400; }
-    .score-low   { background: #fdedec; color: #c0392b; }
+    .raison-p1 { background: #eafaf1; color: #1e8449; }
+    .raison-p2 { background: #f5eef8; color: #7d3c98; }
+    .raison-p3 { background: #f0f2f5; color: #888; }
 
     .card-link {
       display: block;
@@ -219,14 +245,61 @@
 </header>
 
 <div class="toolbar">
-  <button class="filter-btn active" onclick="setFilter('all',this)">Toutes</button>
-  <button class="filter-btn" onclick="setFilter('BIM',this)">BIM</button>
-  <button class="filter-btn" onclick="setFilter('RESTO',this)">RESTO</button>
-  <button class="filter-btn" onclick="setFilter('prio',this)">⭐ Prioritaires</button>
+  <button class="filter-btn active" onclick="setDomaine('all',this)">Toutes</button>
+  <button class="filter-btn" onclick="setDomaine('BIM',this)">BIM</button>
+  <button class="filter-btn" onclick="setDomaine('RESTO',this)">RESTO</button>
+  <button class="filter-btn" onclick="setDomaine('prio',this)">⭐ Prioritaires</button>
   <div class="sep"></div>
   <button class="sel-btn" onclick="selectAll()">Tout sélectionner</button>
   <button class="sel-btn" onclick="deselectAll()">Tout désélectionner</button>
   <span id="count-badge">0 sélectionnée(s)</span>
+</div>
+<div class="toolbar" style="background:#fafafa;border-top:none;padding-top:8px;padding-bottom:10px;gap:8px;">
+  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">📍 Distance :</span>
+  <button class="zone-btn active" onclick="setZone('all',this)">Toute France</button>
+  <button class="zone-btn" onclick="setZone('aura',this)">🗺️ AuRA</button>
+  <button class="zone-btn" onclick="setZone('grandlyon',this)">🌍 Grand Lyon</button>
+  <button class="zone-btn" onclick="setZone('lyon',this)">🏙️ Lyon centre</button>
+  <div class="sep"></div>
+  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">Tri :</span>
+  <button class="zone-btn active" onclick="setSort('prio',this)">Priorité</button>
+  <button class="zone-btn" onclick="setSort('dist',this)">Distance ↑</button>
+</div>
+<div class="toolbar" style="background:#fafafa;border-top:1px solid #eee;padding-top:8px;padding-bottom:10px;gap:8px;">
+  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">📄 Contrat :</span>
+  <button class="zone-btn active" onclick="setContrat('all',this)">Tous</button>
+  <button class="zone-btn" onclick="setContrat('CDI',this)">CDI</button>
+  <button class="zone-btn" onclick="setContrat('CDD',this)">CDD</button>
+  <button class="zone-btn" onclick="setContrat('Intérim',this)">Intérim</button>
+  <button class="zone-btn" onclick="setContrat('Freelance',this)">Freelance / Indép.</button>
+  <button class="zone-btn" onclick="setContrat('Stage',this)">Stage / Alternance</button>
+  <div class="sep"></div>
+  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">🏠 Télétravail :</span>
+  <button class="zone-btn active" onclick="setTeletravail('all',this)">Tous</button>
+  <button class="zone-btn" onclick="setTeletravail('oui',this)">✅ Avec télétravail</button>
+</div>
+<div class="toolbar" style="background:#fafafa;border-top:1px solid #eee;padding-top:8px;padding-bottom:10px;gap:8px;">
+  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">📅 Fraîcheur :</span>
+  <button class="zone-btn active" onclick="setFraicheur('all',this)">Toutes</button>
+  <button class="zone-btn" onclick="setFraicheur('today',this)">Aujourd'hui</button>
+  <button class="zone-btn" onclick="setFraicheur('3j',this)">&lt; 3 jours</button>
+  <button class="zone-btn" onclick="setFraicheur('7j',this)">&lt; 7 jours</button>
+  <div class="sep"></div>
+  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">🎓 Expérience :</span>
+  <button class="zone-btn active" onclick="setExperience('all',this)">Tous niveaux</button>
+  <button class="zone-btn" onclick="setExperience('junior',this)">Junior / Débutant</button>
+  <button class="zone-btn" onclick="setExperience('confirme',this)">Confirmé</button>
+  <button class="zone-btn" onclick="setExperience('senior',this)">Senior / Chef</button>
+</div>
+<div class="toolbar" style="background:#fafafa;border-top:1px solid #eee;padding-top:8px;padding-bottom:10px;gap:8px;">
+  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">🌐 Source :</span>
+  <button class="zone-btn active" onclick="setSource('all',this)">Toutes</button>
+  <button class="zone-btn" onclick="setSource('ft',this)">France Travail</button>
+  <button class="zone-btn" onclick="setSource('indeed',this)">Indeed</button>
+  <button class="zone-btn" onclick="setSource('apec',this)">APEC</button>
+  <button class="zone-btn" onclick="setSource('jobspy',this)">JobSpy</button>
+  <button class="zone-btn" onclick="setSource('talentplug',this)">Talentplug</button>
+  <button class="zone-btn" onclick="setSource('other',this)">Autres</button>
 </div>
 
 <div id="loading">⏳ Chargement des offres…</div>
@@ -238,21 +311,86 @@
 const RAW_JSON = "https://raw.githubusercontent.com/silent-cron/offres-selector/main/offres_vertes.json";
 
 let allOffers = [];
-let currentFilter = "all";
+let currentFilter     = "all";
+let currentZone       = "all";
+let currentSort       = "prio";
+let currentContrat    = "all";
+let currentTeletravail= "all";
+let currentFraicheur  = "all";
+let currentExperience = "all";
+let currentSource     = "all";
 let selected = new Set();
+
+// ── Détection zone géographique ──────────────────────────────────────────────
+const GRAND_LYON = ["bron","villeurbanne","vénissieux","venissieux","caluire","décines","decines",
+  "meyzieu","saint-priest","mions","rillieux","chassieu","genas","corbas","feyzin",
+  "pierre-bénite","pierre-benite","saint-fons","vaulx-en-velin","oullins","saint-genis-laval",
+  "tassin","ecully","écully","francheville","craponne","grigny","solaize","irigny","charly",
+  "vernaison","givors","saint-symphorien","fontaines","collonges","sathonay","miribel",
+  "beynost","montluel","neyron","pusignan","jons","jonage","azieu","communay","ternay"];
+
+function getZone(ville) {
+  const v = (ville || "").toLowerCase();
+  if (!v) return 4;
+  // Lyon centre (arrondissements)
+  if (/\blyon\b/.test(v)) return 1;
+  // Grand Lyon communes connues + dept 69
+  if (GRAND_LYON.some(c => v.includes(c))) return 2;
+  if (/\b69\b/.test(v)) return 2;
+  // AuRA (depts 01 38 42 73 74 26 07 + noms région)
+  if (/\b(01|38|42|73|74|26|07)\b/.test(v) ||
+      /ain|isère|isere|loire|savoie|drôme|drome|ardèche|ardeche/.test(v)) return 3;
+  return 4;
+}
+
+function zoneLabel(z) {
+  return z === 1 ? "🏙️ Lyon" : z === 2 ? "🌍 Grand Lyon" : z === 3 ? "🗺️ AuRA" : "🇫🇷";
+}
+
+function detectTeletravail(o) {
+  const t = ((o.titre||"") + " " + (o.description||"") + " " + (o.contrat||"")).toLowerCase();
+  return /télétravail|teletravail|remote|hybride|distanciel/.test(t);
+}
+
+function detectExperience(o) {
+  const t = (o.titre||"").toLowerCase();
+  if (/junior|débutant|debutant|sans expér|0.?[àa].?2 ans|sortie.?école/.test(t)) return "junior";
+  if (/senior|confirmé|confirme|expérimenté|experimente|chef de|responsable|manager|directeur/.test(t)) return "senior";
+  if (/confirmé|confirme|[2-9].?ans|expér/.test(t)) return "confirme";
+  return "all";
+}
+
+function normalizeSource(s) {
+  const v = (s||"").toLowerCase();
+  if (v.includes("france travail") || v.includes("ft") || v.includes("francetravail") || v.includes("pole emploi")) return "ft";
+  if (v.includes("indeed")) return "indeed";
+  if (v.includes("apec")) return "apec";
+  if (v.includes("jobspy") || v.includes("linkedin") || v.includes("glassdoor")) return "jobspy";
+  if (v.includes("talentplug")) return "talentplug";
+  if (v.includes("hellowork") || v.includes("cadremploi") || v.includes("meteojob") ||
+      v.includes("monster") || v.includes("welcometothe") || v.includes("optioncarriere") ||
+      v.includes("btp") || v.includes("jobijoba")) return "other";
+  return "other";
+}
+
+function normalizeContrat(c) {
+  const v = (c || "").toLowerCase();
+  if (v.includes("cdi")) return "CDI";
+  if (v.includes("cdd") || v.includes("déterminé") || v.includes("determine")) return "CDD";
+  if (v.includes("interim") || v.includes("intérim") || v.includes("mis") || v.includes("mission")) return "Intérim";
+  if (v.includes("freelance") || v.includes("indép") || v.includes("indep") || v.includes("auto") || v.includes("libéral")) return "Freelance";
+  if (v.includes("alternance") || v.includes("apprenti") || v.includes("stage") || v.includes("professionnalisation")) return "Stage";
+  return v ? c.toUpperCase() : "";
+}
 
 // ── Chargement ──────────────────────────────────────────────────────────────
 fetch(RAW_JSON + "?t=" + Date.now())
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
     allOffers = Array.isArray(data) ? data : (data.offres || data.offers || []);
-    // tri : priorité 1 d'abord, puis score décroissant
-    allOffers.sort((a,b) => {
-      const pa = parseInt(a.priorite||a.priority||9);
-      const pb = parseInt(b.priorite||b.priority||9);
-      if (pa !== pb) return pa - pb;
-      return (parseInt(b.score||0)) - (parseInt(a.score||0));
-    });
+    // Pré-calcul zone sur chaque offre
+    allOffers.forEach(o => { o._zone = getZone(o.ville || o.location || o.city || ""); });
+    sortOffers();
     document.getElementById("loading").style.display = "none";
     document.getElementById("grid").style.display = "";
     const now = new Date().toLocaleString("fr-FR");
@@ -274,8 +412,8 @@ function renderCards() {
 
   allOffers.forEach((o, i) => {
     const domaine   = (o.domaine || o.domain || "").toUpperCase();
-    const prio      = parseInt(o.priorite || o.priority || 9);
-    const score     = parseInt(o.score || o.score_pertinence || 0);
+    const prio      = parseInt(o.niveau || o.priorite || o.priority || 9);
+    const raison    = o.raison || o.raison_score || "";
     const titre     = o.titre || o.title || o.poste || "Sans titre";
     const entreprise= o.entreprise || o.company || "";
     const ville     = o.ville || o.location || o.city || "";
@@ -283,11 +421,33 @@ function renderCards() {
     const fresh     = o.fraicheur || o.freshness || "";
     const id        = o.id || o.numero || String(i);
 
-    // filtre
+    const zone = o._zone || getZone(ville);
+
+    // filtre domaine + priorité
     let show = true;
     if (currentFilter === "BIM"  && domaine !== "BIM")   show = false;
     if (currentFilter === "RESTO"&& domaine !== "RESTO") show = false;
     if (currentFilter === "prio" && prio > 2)            show = false;
+    // filtre zone
+    if (currentZone === "lyon"     && zone > 1) show = false;
+    if (currentZone === "grandlyon"&& zone > 2) show = false;
+    if (currentZone === "aura"     && zone > 3) show = false;
+    // filtre contrat
+    const contratNorm = normalizeContrat(o.contrat || "");
+    if (currentContrat !== "all" && contratNorm !== currentContrat) show = false;
+    // filtre télétravail
+    if (currentTeletravail === "oui" && !detectTeletravail(o)) show = false;
+    // filtre fraîcheur
+    const jours = parseInt(o.jours_anciennete ?? 99);
+    if (currentFraicheur === "today" && jours > 0)  show = false;
+    if (currentFraicheur === "3j"    && jours > 3)  show = false;
+    if (currentFraicheur === "7j"    && jours > 7)  show = false;
+    // filtre expérience
+    const expLevel = detectExperience(o);
+    if (currentExperience !== "all" && expLevel !== currentExperience && expLevel !== "all") show = false;
+    // filtre source
+    const srcNorm = normalizeSource(o.source || "");
+    if (currentSource !== "all" && srcNorm !== currentSource) show = false;
 
     const card = document.createElement("div");
     card.className = "card" + (show ? "" : " hidden") + (selected.has(id) ? " selected" : "");
@@ -296,8 +456,8 @@ function renderCards() {
     card.onclick = () => toggleCard(card, id);
     if (show) visible++;
 
-    // score couleur
-    let scoreCls = score >= 70 ? "score-high" : score >= 40 ? "score-mid" : "score-low";
+    const raisonCls = prio === 1 ? "raison-p1" : prio === 2 ? "raison-p2" : "raison-p3";
+    const niveauLabel = prio === 1 ? "⭐ Prioritaire" : prio === 2 ? "Intéressant" : "Spontanée";
 
     card.innerHTML = `
       <div class="card-check"></div>
@@ -310,8 +470,8 @@ function renderCards() {
       </div>
       <div class="card-title">${esc(titre)}</div>
       <div class="card-company">${esc(entreprise)}</div>
-      <div class="card-loc">📍 ${esc(ville)}</div>
-      <span class="card-score ${scoreCls}">Score ${score}/100</span>
+      <div class="card-loc">📍 ${esc(ville)}<span class="zone-badge">${zoneLabel(zone)}</span>${contratNorm ? `<span class="zone-badge" style="background:#fef3c7;color:#92400e;">${contratNorm}</span>` : ""}${detectTeletravail(o) ? '<span class="zone-badge" style="background:#e8f8f5;color:#1a7a5e;">🏠 TT</span>' : ""}${jours === 0 ? '<span class="zone-badge" style="background:#fdedec;color:#c0392b;">Aujourd\'hui</span>' : jours <= 3 ? `<span class="zone-badge" style="background:#fdf2e9;color:#d35400;">${jours}j</span>` : ""}</div>
+      <span class="card-raison ${raisonCls}">${niveauLabel}${raison ? " · " + esc(raison) : ""}</span>
       ${lien ? `<a class="card-link" href="${esc(lien)}" target="_blank" onclick="event.stopPropagation()">${esc(lien)}</a>` : ""}
     `;
     grid.appendChild(card);
@@ -334,93 +494,63 @@ function toggleCard(card, id) {
 }
 
 function selectAll() {
-  document.querySelectorAll(".card:not(.hidden)").forEach(c => {
-    selected.add(c.dataset.id);
-    c.classList.add("selected");
+  document.querySelectorAll(".card").forEach(card => {
+    const id = card.dataset.id;
+    if (!selected.has(id)) { selected.add(id); card.classList.add("selected"); }
   });
   updateBadge();
 }
 
 function deselectAll() {
   selected.clear();
-  document.querySelectorAll(".card").forEach(c => c.classList.remove("selected"));
+  document.querySelectorAll(".card.selected").forEach(c => c.classList.remove("selected"));
   updateBadge();
 }
 
 function updateBadge() {
-  const n = selected.size;
-  document.getElementById("count-badge").textContent = n + " sélectionnée(s)";
-  const btn = document.getElementById("dl-btn");
-  btn.textContent = "⬇ Télécharger CSV (" + n + ")";
-  btn.disabled = n === 0;
+  const badge = document.getElementById("badge");
+  const btn   = document.getElementById("dl-btn");
+  const count = selected.size;
+  badge.textContent = count;
+  badge.style.display = count > 0 ? "inline-block" : "none";
+  btn.disabled = count === 0;
 }
 
-// ── Filtres ──────────────────────────────────────────────────────────────────
-function setFilter(f, btn) {
-  currentFilter = f;
-  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
-  renderCards();
-}
-
-// ── Export CSV ───────────────────────────────────────────────────────────────
 function downloadCSV() {
-  const ids = new Set(selected);
-  const rows = allOffers.filter((o, i) => {
-    const id = o.id || o.numero || String(i);
-    return ids.has(id);
+  const cols = ["N offre","Nom entreprise","VILLE","Numero et Rue","Code Postal",
+                "POSTE","CONTRAT","EMAIL","STATUT","Date de soumission","Dates Relances",
+                "Date de reponse","Notes sur la candidature","LINK","SCORE_PERTINENCE",
+                "POINTS_FORTS","POINTS_FAIBLES","TYPE_ENVOI","DOMAINE","REPONSE"];
+  const rows = [cols.map(c => `"${c}"`).join(",")];
+  let i = 1;
+  allOffers.forEach(o => {
+    if (!selected.has(o.id)) return;
+    const titre    = o.titre || o.poste || "";
+    const ville    = o.ville || o.localisation || "";
+    const lien     = o.lien  || o.url  || "";
+    const domaine  = o.domaine || "";
+    const contrat  = normalizeContrat(o.type_contrat || o.contrat || "");
+    const source   = o.source || "";
+    const score    = o.score_pertinence || o.score || "";
+    const forts    = Array.isArray(o.points_forts)  ? o.points_forts.join(" | ")  : (o.points_forts  || "");
+    const faibles  = Array.isArray(o.points_faibles) ? o.points_faibles.join(" | ") : (o.points_faibles || "");
+    const row = [
+      i++,
+      o.entreprise || "",
+      ville, "", "",
+      titre, contrat,
+      "", "A envoyer", "", "", "", "",
+      lien, score, forts, faibles,
+      source, domaine, ""
+    ];
+    rows.push(row.map(v => `"${String(v).replace(/"/g,'""')}"`).join(","));
   });
-  if (rows.length === 0) return;
-
-  const headers = [
-    "N° Offre","Nom entreprise","VILLE","Numero et Rue","Code Postal",
-    "POSTE","EMAIL","STATUT","Date de soumission","Dates Relances",
-    "Date de reponse","Notes sur la candidature","LINK",
-    "SCORE_PERTINENCE","POINTS_FORTS","POINTS_FAIBLES",
-    "TYPE_ENVOI","DOMAINE","REPONSE"
-  ];
-
-  const today = new Date().toLocaleDateString("fr-FR");
-
-  const csvRows = [headers];
-  rows.forEach((o, i) => {
-    const num = i + 1;
-    csvRows.push([
-      o.id || o.numero || ("OFF-" + String(num).padStart(4,"0")),
-      o.entreprise || o.company || "",
-      o.ville || o.location || "",
-      "",
-      o.code_postal || "",
-      o.titre || o.title || o.poste || "",
-      o.email || "",
-      "a faire",
-      today,
-      "",
-      "",
-      o.points_forts || o.description || "",
-      o.lien || o.link || o.url || "",
-      o.score || o.score_pertinence || "",
-      o.points_forts || "",
-      o.points_faibles || "",
-      "email",
-      (o.domaine || o.domain || "").toUpperCase(),
-      ""
-    ]);
-  });
-
-  const csv = "﻿" + csvRows.map(r =>
-    r.map(cell => '"' + String(cell||"").replace(/"/g,'""') + '"').join(",")
-  ).join("\r\n");
-
-  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const bom = "﻿";
+  const blob = new Blob([bom + rows.join("\n")], {type:"text/csv;charset=utf-8"});
   const url  = URL.createObjectURL(blob);
-  const a    = document.createElement("a");
-  const d    = new Date();
-  const fname = "offres_selectionnees_" +
-    String(d.getDate()).padStart(2,"0") +
-    String(d.getMonth()+1).padStart(2,"0") +
-    d.getFullYear() + ".csv";
-  a.href = url; a.download = fname; a.click();
+  const a    = document.createElement("a"); a.href = url;
+  a.download = `offres_selectionnees_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
   URL.revokeObjectURL(url);
 }
 </script>
