@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sélecteur d'offres — Guilaine</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      box-shadow: 0 2px 12px rgba(102,126,234,0.4);
+    }
+    header h1 { font-size: 1.4rem; font-weight: 700; }
+    header p  { font-size: 0.85rem; opacity: 0.85; margin-top: 2px; }
+
+    #dl-btn {
+      background: #fff;
+      color: #764ba2;
+      border: none;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+      white-space: nowrap;
+    }
+    #dl-btn:hover  { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    #dl-btn:active { transform: translateY(0); }
+    #dl-btn:disabled { opacity: 0.5; cursor: default; transform: none; }
+
+    .toolbar {
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .filter-btn {
+      padding: 7px 16px;
+      border-radius: 20px;
+      border: 2px solid #d0d0d0;
+      background: #fff;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      color: #555;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      border-color: #667eea;
+      background: #667eea;
+      color: #fff;
+    }
+
+    .sep { width: 1px; height: 24px; background: #ddd; margin: 0 4px; }
+
+    .sel-btn {
+      padding: 7px 14px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      background: #f8f8f8;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: #444;
+      transition: background 0.15s;
+    }
+    .sel-btn:hover { background: #eee; }
+
+    #count-badge {
+      margin-left: auto;
+      font-size: 0.85rem;
+      color: #667eea;
+      font-weight: 700;
+    }
+
+    #loading {
+      text-align: center;
+      padding: 80px 20px;
+      color: #888;
+      font-size: 1rem;
+    }
+    #error-msg {
+      display: none;
+      text-align: center;
+      padding: 60px 20px;
+      color: #c0392b;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+      padding: 24px 32px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+      position: relative;
+      user-select: none;
+    }
+    .card:hover       { box-shadow: 0 4px 16px rgba(102,126,234,0.15); transform: translateY(-1px); }
+    .card.selected    { border-color: #667eea; background: #f7f6ff; }
+    .card.hidden      { display: none; }
+
+    .card-check {
+      position: absolute;
+      top: 14px; right: 14px;
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      background: #fff;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.15s;
+      font-size: 12px;
+    }
+    .card.selected .card-check {
+      background: #667eea;
+      border-color: #667eea;
+      color: #fff;
+    }
+    .card.selected .card-check::after { content: "✓"; }
+
+    .card-badges {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .badge-bim   { background: #e8f4fd; color: #2980b9; }
+    .badge-resto { background: #fef9e7; color: #d35400; }
+    .badge-p1    { background: #eafaf1; color: #1e8449; }
+    .badge-p2    { background: #f5eef8; color: #7d3c98; }
+    .badge-new   { background: #fdedec; color: #c0392b; }
+
+    .card-title  { font-size: 1rem; font-weight: 700; margin-bottom: 4px; padding-right: 28px; line-height: 1.3; }
+    .card-company{ font-size: 0.88rem; color: #555; margin-bottom: 6px; }
+    .card-loc    { font-size: 0.8rem; color: #888; margin-bottom: 10px; }
+
+    .card-score {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 8px;
+      background: #f0f2f5;
+      color: #333;
+    }
+    .score-high  { background: #eafaf1; color: #1e8449; }
+    .score-mid   { background: #fef9e7; color: #d35400; }
+    .score-low   { background: #fdedec; color: #c0392b; }
+
+    .card-link {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.78rem;
+      color: #667eea;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+    .card-link:hover { text-decoration: underline; }
+
+    #empty-msg {
+      display: none;
+      text-align: center;
+      padding: 60px 20px;
+      color: #aaa;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 16px; }
+      .toolbar { padding: 12px 16px; }
+      .grid { padding: 16px; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🎯 Sélecteur d'offres — Guilaine</h1>
+    <p id="header-info">Chargement…</p>
+  </div>
+  <button id="dl-btn" disabled onclick="downloadCSV()">⬇ Télécharger CSV (0)</button>
+</header>
+
+<div class="toolbar">
+  <button class="filter-btn active" onclick="setFilter('all',this)">Toutes</button>
+  <button class="filter-btn" onclick="setFilter('BIM',this)">BIM</button>
+  <button class="filter-btn" onclick="setFilter('RESTO',this)">RESTO</button>
+  <button class="filter-btn" onclick="setFilter('prio',this)">⭐ Prioritaires</button>
+  <div class="sep"></div>
+  <button class="sel-btn" onclick="selectAll()">Tout sélectionner</button>
+  <button class="sel-btn" onclick="deselectAll()">Tout désélectionner</button>
+  <span id="count-badge">0 sélectionnée(s)</span>
+</div>
+
+<div id="loading">⏳ Chargement des offres…</div>
+<div id="error-msg">❌ Impossible de charger les offres.<br><small>Vérifiez que GitHub Pages est activé et qu'un run s'est terminé récemment.</small></div>
+<div class="grid" id="grid" style="display:none"></div>
+<div id="empty-msg">Aucune offre dans cette catégorie.</div>
+
+<script>
+const RAW_JSON = "https://raw.githubusercontent.com/silent-cron/offres-selector/main/offres_vertes.json";
+
+let allOffers = [];
+let currentFilter = "all";
+let selected = new Set();
+
+// ── Chargement ──────────────────────────────────────────────────────────────
+fetch(RAW_JSON + "?t=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data => {
+    allOffers = Array.isArray(data) ? data : (data.offres || data.offers || []);
+    // tri : priorité 1 d'abord, puis score décroissant
+    allOffers.sort((a,b) => {
+      const pa = parseInt(a.priorite||a.priority||9);
+      const pb = parseInt(b.priorite||b.priority||9);
+      if (pa !== pb) return pa - pb;
+      return (parseInt(b.score||0)) - (parseInt(a.score||0));
+    });
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("grid").style.display = "";
+    const now = new Date().toLocaleString("fr-FR");
+    document.getElementById("header-info").textContent =
+      allOffers.length + " offres · mis à jour le " + now;
+    renderCards();
+  })
+  .catch(e => {
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("error-msg").style.display = "block";
+    console.error(e);
+  });
+
+// ── Rendu ────────────────────────────────────────────────────────────────────
+function renderCards() {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  let visible = 0;
+
+  allOffers.forEach((o, i) => {
+    const domaine   = (o.domaine || o.domain || "").toUpperCase();
+    const prio      = parseInt(o.priorite || o.priority || 9);
+    const score     = parseInt(o.score || o.score_pertinence || 0);
+    const titre     = o.titre || o.title || o.poste || "Sans titre";
+    const entreprise= o.entreprise || o.company || "";
+    const ville     = o.ville || o.location || o.city || "";
+    const lien      = o.lien || o.link || o.url || "";
+    const fresh     = o.fraicheur || o.freshness || "";
+    const id        = o.id || o.numero || String(i);
+
+    // filtre
+    let show = true;
+    if (currentFilter === "BIM"  && domaine !== "BIM")   show = false;
+    if (currentFilter === "RESTO"&& domaine !== "RESTO") show = false;
+    if (currentFilter === "prio" && prio > 2)            show = false;
+
+    const card = document.createElement("div");
+    card.className = "card" + (show ? "" : " hidden") + (selected.has(id) ? " selected" : "");
+    card.dataset.id = id;
+    card.dataset.idx = i;
+    card.onclick = () => toggleCard(card, id);
+    if (show) visible++;
+
+    // score couleur
+    let scoreCls = score >= 70 ? "score-high" : score >= 40 ? "score-mid" : "score-low";
+
+    card.innerHTML = `
+      <div class="card-check"></div>
+      <div class="card-badges">
+        ${domaine === "BIM"   ? '<span class="badge badge-bim">BIM</span>'   : ""}
+        ${domaine === "RESTO" ? '<span class="badge badge-resto">RESTO</span>' : ""}
+        ${prio === 1          ? '<span class="badge badge-p1">⭐ Prio 1</span>' : ""}
+        ${prio === 2          ? '<span class="badge badge-p2">Prio 2</span>'    : ""}
+        ${fresh === "new"     ? '<span class="badge badge-new">Nouveau</span>'  : ""}
+      </div>
+      <div class="card-title">${esc(titre)}</div>
+      <div class="card-company">${esc(entreprise)}</div>
+      <div class="card-loc">📍 ${esc(ville)}</div>
+      <span class="card-score ${scoreCls}">Score ${score}/100</span>
+      ${lien ? `<a class="card-link" href="${esc(lien)}" target="_blank" onclick="event.stopPropagation()">${esc(lien)}</a>` : ""}
+    `;
+    grid.appendChild(card);
+  });
+
+  const emptyMsg = document.getElementById("empty-msg");
+  emptyMsg.style.display = visible === 0 ? "block" : "none";
+  updateBadge();
+}
+
+function esc(s) {
+  return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+// ── Sélection ────────────────────────────────────────────────────────────────
+function toggleCard(card, id) {
+  if (selected.has(id)) { selected.delete(id); card.classList.remove("selected"); }
+  else                  { selected.add(id);    card.classList.add("selected"); }
+  updateBadge();
+}
+
+function selectAll() {
+  document.querySelectorAll(".card:not(.hidden)").forEach(c => {
+    selected.add(c.dataset.id);
+    c.classList.add("selected");
+  });
+  updateBadge();
+}
+
+function deselectAll() {
+  selected.clear();
+  document.querySelectorAll(".card").forEach(c => c.classList.remove("selected"));
+  updateBadge();
+}
+
+function updateBadge() {
+  const n = selected.size;
+  document.getElementById("count-badge").textContent = n + " sélectionnée(s)";
+  const btn = document.getElementById("dl-btn");
+  btn.textContent = "⬇ Télécharger CSV (" + n + ")";
+  btn.disabled = n === 0;
+}
+
+// ── Filtres ──────────────────────────────────────────────────────────────────
+function setFilter(f, btn) {
+  currentFilter = f;
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  renderCards();
+}
+
+// ── Export CSV ───────────────────────────────────────────────────────────────
+function downloadCSV() {
+  const ids = new Set(selected);
+  const rows = allOffers.filter((o, i) => {
+    const id = o.id || o.numero || String(i);
+    return ids.has(id);
+  });
+  if (rows.length === 0) return;
+
+  const headers = [
+    "N° Offre","Nom entreprise","VILLE","Numero et Rue","Code Postal",
+    "POSTE","EMAIL","STATUT","Date de soumission","Dates Relances",
+    "Date de reponse","Notes sur la candidature","LINK",
+    "SCORE_PERTINENCE","POINTS_FORTS","POINTS_FAIBLES",
+    "TYPE_ENVOI","DOMAINE","REPONSE"
+  ];
+
+  const today = new Date().toLocaleDateString("fr-FR");
+
+  const csvRows = [headers];
+  rows.forEach((o, i) => {
+    const num = i + 1;
+    csvRows.push([
+      o.id || o.numero || ("OFF-" + String(num).padStart(4,"0")),
+      o.entreprise || o.company || "",
+      o.ville || o.location || "",
+      "",
+      o.code_postal || "",
+      o.titre || o.title || o.poste || "",
+      o.email || "",
+      "a faire",
+      today,
+      "",
+      "",
+      o.points_forts || o.description || "",
+      o.lien || o.link || o.url || "",
+      o.score || o.score_pertinence || "",
+      o.points_forts || "",
+      o.points_faibles || "",
+      "email",
+      (o.domaine || o.domain || "").toUpperCase(),
+      ""
+    ]);
+  });
+
+  const csv = "﻿" + csvRows.map(r =>
+    r.map(cell => '"' + String(cell||"").replace(/"/g,'""') + '"').join(",")
+  ).join("\r\n");
+
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  const d    = new Date();
+  const fname = "offres_selectionnees_" +
+    String(d.getDate()).padStart(2,"0") +
+    String(d.getMonth()+1).padStart(2,"0") +
+    d.getFullYear() + ".csv";
+  a.href = url; a.download = fname; a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
