@@ -269,16 +269,28 @@
       background: #667eea;
       color: white;
     }
-    #city-clear {
-      cursor: pointer;
-      font-size: 0.8rem;
-      color: #aaa;
-      background: none;
-      border: none;
-      padding: 4px 6px;
-      display: none;
+    .city-chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      background: #ede9fe; color: #6d28d9;
+      border: 1.5px solid #c4b5fd; border-radius: 20px;
+      padding: 3px 10px; font-size: 0.76rem; font-weight: 600;
     }
-    #city-clear:hover { color: #e74c3c; }
+    .city-chip button {
+      background: none; border: none; cursor: pointer;
+      color: #6d28d9; font-size: 0.8rem; padding: 0; line-height: 1;
+    }
+    .city-chip button:hover { color: #c0392b; }
+    #city-chips-row {
+      display: none; flex-wrap: wrap; gap: 5px;
+      padding: 6px 16px 8px; background: #faf8ff;
+      border-top: 1px solid #e9e4ff;
+    }
+    #city-clear-all {
+      background: none; border: 1.5px solid #c4b5fd; border-radius: 20px;
+      color: #6d28d9; font-size: 0.76rem; font-weight: 600;
+      padding: 3px 10px; cursor: pointer;
+    }
+    #city-clear-all:hover { background: #fde8e8; border-color: #e74c3c; color: #e74c3c; }
 
     .zone-toggle {
       padding: 5px 12px;
@@ -331,10 +343,8 @@
 
 <div id="city-search-row">
   <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">🔍 Ville :</span>
-  <input type="text" id="city-search" placeholder="Saisie libre : Lyon 7, Bron, Grenoble..." oninput="setCitySearch(this.value)">
-  <button id="city-clear" onclick="clearCitySearch()">✕</button>
-  <select id="city-select" onchange="setFromSelect(this.value)" style="padding:5px 10px;border:1.5px solid #ddd;border-radius:20px;font-size:0.8rem;color:#555;background:#fff;cursor:pointer;outline:none;max-width:220px;">
-    <option value="">— Choisir une ville —</option>
+  <select id="city-select" onchange="addCityFromSelect(this)" style="padding:5px 10px;border:1.5px solid #ddd;border-radius:20px;font-size:0.8rem;color:#555;background:#fff;cursor:pointer;outline:none;max-width:230px;">
+    <option value="">+ Ajouter une ville…</option>
     <optgroup label="Lyon · Arrondissements">
       <option value="Lyon 1">Lyon 1er</option>
       <option value="Lyon 2">Lyon 2e</option>
@@ -383,11 +393,13 @@
       <option value="Clermont-Ferrand">Clermont-Ferrand</option>
     </optgroup>
   </select>
+  <input type="text" id="city-text" placeholder="Autre ville + Entrée" style="padding:5px 10px;border:1.5px solid #ddd;border-radius:20px;font-size:0.8rem;color:#555;outline:none;width:160px;" onkeydown="if(event.key==='Enter'){addCityText(this.value);this.value='';event.preventDefault();}">
   <div class="sep" style="height:20px;"></div>
   <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:2px;">Tri :</span>
   <button class="zone-btn active" onclick="setSort('prio',this)">⭐ Priorité</button>
   <button class="zone-btn" onclick="setSort('dist',this)">📍 Distance ↑</button>
 </div>
+<div id="city-chips-row"></div>
 <div class="toolbar" style="background:#fafafa;border-top:1px solid #eee;padding-top:8px;padding-bottom:10px;gap:8px;">
   <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">📄 Contrat :</span>
   <button class="zone-btn active" onclick="setContrat('all',this)">Tous</button>
@@ -444,7 +456,7 @@ let currentTeletravail= "all";
 let currentFraicheur  = "all";
 let currentExperience = "all";
 let currentSource     = "all";
-let currentCitySearch = "";
+let currentCityFilters = new Set();
 let currentZones      = new Set();
 let selected = new Set();
 
@@ -569,38 +581,49 @@ function matchesCity(ville, search) {
   return false;
 }
 
-function setCitySearch(val) {
-  currentCitySearch = val.trim();
-  const clearBtn = document.getElementById("city-clear");
-  if (clearBtn) clearBtn.style.display = currentCitySearch ? "inline" : "none";
-  document.querySelectorAll(".arr-btn").forEach(b => b.classList.remove("active"));
+function addCityFromSelect(sel) {
+  const val = sel.value.trim();
+  if (!val) return;
+  currentCityFilters.add(val);
+  sel.value = "";
+  renderCityChips();
   renderCards();
 }
 
-function clearCitySearch() {
-  currentCitySearch = "";
-  const inp = document.getElementById("city-search");
-  if (inp) inp.value = "";
-  const sel = document.getElementById("city-select");
-  if (sel) sel.value = "";
-  const clearBtn = document.getElementById("city-clear");
-  if (clearBtn) clearBtn.style.display = "none";
+function addCityText(val) {
+  val = val.trim();
+  if (!val) return;
+  currentCityFilters.add(val);
+  renderCityChips();
   renderCards();
 }
 
-function setArr(val) {
-  const inp = document.getElementById("city-search");
-  if (inp) inp.value = val;
-  setCitySearch(val);
+function removeCityFilter(val) {
+  currentCityFilters.delete(val);
+  renderCityChips();
+  renderCards();
 }
 
-function setFromSelect(val) {
-  const inp = document.getElementById("city-search");
-  if (inp) inp.value = val;
-  const clearBtn = document.getElementById("city-clear");
-  if (clearBtn) clearBtn.style.display = val ? "inline" : "none";
-  currentCitySearch = val.trim();
+function clearCityFilters() {
+  currentCityFilters.clear();
+  renderCityChips();
   renderCards();
+}
+
+function renderCityChips() {
+  const row = document.getElementById("city-chips-row");
+  if (!row) return;
+  if (currentCityFilters.size === 0) {
+    row.style.display = "none";
+    row.innerHTML = "";
+    return;
+  }
+  row.style.display = "flex";
+  const chips = [...currentCityFilters].map(v => {
+    const safe = v.replace(/'/g, "\\'");
+    return `<span class="city-chip">${v} <button onclick="removeCityFilter('${safe}')">✕</button></span>`;
+  }).join("");
+  row.innerHTML = chips + `<button id="city-clear-all" onclick="clearCityFilters()">✕ Tout effacer</button>`;
 }
 
 function setFilter(v, btn)      { currentFilter     = v; _resetGroup("setFilter",     btn); renderCards(); }
@@ -687,7 +710,10 @@ function renderCards() {
     const srcNorm = normalizeSource(o.source || "");
     if (currentSource !== "all" && srcNorm !== currentSource) show = false;
     // filtre ville / arrondissement
-    if (currentCitySearch && !matchesCity(ville, currentCitySearch)) show = false;
+    if (currentCityFilters.size > 0) {
+      const cityMatch = [...currentCityFilters].some(f => matchesCity(ville, f));
+      if (!cityMatch) show = false;
+    }
 
     const card = document.createElement("div");
     card.className = "card" + (show ? "" : " hidden") + (selected.has(id) ? " selected" : "");
