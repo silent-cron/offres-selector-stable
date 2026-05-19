@@ -695,12 +695,14 @@ function deselectAll() {
 }
 
 function updateBadge() {
-  const badge = document.getElementById("badge");
-  const btn   = document.getElementById("dl-btn");
-  const count = selected.size;
-  badge.textContent = count;
-  badge.style.display = count > 0 ? "inline-block" : "none";
-  btn.disabled = count === 0;
+  const countBadge = document.getElementById("count-badge");
+  const btn        = document.getElementById("dl-btn");
+  const count      = selected.size;
+  if (countBadge) countBadge.textContent = count + " sélectionnée(s)";
+  if (btn) {
+    btn.textContent = "⬇ Télécharger CSV (" + count + ")";
+    btn.disabled    = count === 0;
+  }
 }
 
 function downloadCSV() {
