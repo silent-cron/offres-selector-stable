@@ -279,6 +279,24 @@
       display: none;
     }
     #city-clear:hover { color: #e74c3c; }
+
+    .zone-toggle {
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1.5px solid #d0d0d0;
+      background: #fff;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      color: #555;
+    }
+    .zone-toggle.active {
+      border-color: #667eea;
+      background: #667eea;
+      color: #fff;
+    }
+    .zone-toggle:hover:not(.active) { border-color: #667eea; color: #667eea; }
   </style>
 </head>
 <body>
@@ -300,6 +318,15 @@
   <button class="sel-btn" onclick="selectAll()">Tout sélectionner</button>
   <button class="sel-btn" onclick="deselectAll()">Tout désélectionner</button>
   <span id="count-badge">0 sélectionnée(s)</span>
+</div>
+
+<div class="toolbar" style="background:#fafafa;border-top:none;padding-top:8px;padding-bottom:10px;gap:8px;">
+  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">📍 Zone :</span>
+  <button class="zone-toggle active" data-zone="all"    onclick="toggleZone('all',this)">Toute France</button>
+  <button class="zone-toggle"        data-zone="lyon"   onclick="toggleZone('lyon',this)">🏙️ Lyon</button>
+  <button class="zone-toggle"        data-zone="grandlyon" onclick="toggleZone('grandlyon',this)">🌍 Grand Lyon</button>
+  <button class="zone-toggle"        data-zone="aura"   onclick="toggleZone('aura',this)">🗺️ AuRA</button>
+  <button class="zone-toggle"        data-zone="france" onclick="toggleZone('france',this)">🇫🇷 Hors région</button>
 </div>
 
 <div id="city-search-row">
@@ -377,9 +404,10 @@
 <div class="toolbar" style="background:#fafafa;border-top:1px solid #eee;padding-top:8px;padding-bottom:10px;gap:8px;">
   <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">📅 Fraîcheur :</span>
   <button class="zone-btn active" onclick="setFraicheur('all',this)">Toutes</button>
-  <button class="zone-btn" onclick="setFraicheur('today',this)">Aujourd'hui</button>
-  <button class="zone-btn" onclick="setFraicheur('3j',this)">&lt; 3 jours</button>
-  <button class="zone-btn" onclick="setFraicheur('7j',this)">&lt; 7 jours</button>
+  <button class="zone-btn" onclick="setFraicheur('3j',this)">1 – 3j</button>
+  <button class="zone-btn" onclick="setFraicheur('4_7j',this)">4 – 7j</button>
+  <button class="zone-btn" onclick="setFraicheur('8_15j',this)">8 – 15j</button>
+  <button class="zone-btn" onclick="setFraicheur('16_30j',this)">16 – 30j</button>
   <div class="sep"></div>
   <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">🎓 Expérience :</span>
   <button class="zone-btn active" onclick="setExperience('all',this)">Tous niveaux</button>
@@ -417,6 +445,7 @@ let currentFraicheur  = "all";
 let currentExperience = "all";
 let currentSource     = "all";
 let currentCitySearch = "";
+let currentZones      = new Set();
 let selected = new Set();
 
 // ── Détection zone géographique ──────────────────────────────────────────────
@@ -501,6 +530,28 @@ function _resetGroup(fnName, btn) {
   if (btn) btn.classList.add("active");
 }
 
+
+
+function toggleZone(v, btn) {
+  if (v === 'all') {
+    currentZones.clear();
+    document.querySelectorAll('.zone-toggle').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  } else {
+    document.querySelector('.zone-toggle[data-zone="all"]').classList.remove('active');
+    if (currentZones.has(v)) {
+      currentZones.delete(v);
+      btn.classList.remove('active');
+    } else {
+      currentZones.add(v);
+      btn.classList.add('active');
+    }
+    if (currentZones.size === 0) {
+      document.querySelector('.zone-toggle[data-zone="all"]').classList.add('active');
+    }
+  }
+  renderCards();
+}
 
 function matchesCity(ville, search) {
   const v = (ville || "").toLowerCase();
@@ -607,10 +658,17 @@ function renderCards() {
     if (currentFilter === "BIM"  && domaine !== "BIM")   show = false;
     if (currentFilter === "RESTO"&& domaine !== "RESTO") show = false;
     if (currentFilter === "prio" && prio > 2)            show = false;
-    // filtre zone
-    if (currentZone === "lyon"     && zone > 1) show = false;
-    if (currentZone === "grandlyon"&& zone > 2) show = false;
-    if (currentZone === "aura"     && zone > 3) show = false;
+    // filtre zone (multi-select)
+    if (currentZones.size > 0) {
+      const zoneMatch = [...currentZones].some(z => {
+        if (z === "lyon")      return zone === 1;
+        if (z === "grandlyon") return zone === 2;
+        if (z === "aura")      return zone === 3;
+        if (z === "france")    return zone === 4;
+        return true;
+      });
+      if (!zoneMatch) show = false;
+    }
     // filtre contrat
     const contratNorm = normalizeContrat(o.contrat || "");
     if (currentContrat !== "all" && contratNorm !== currentContrat) show = false;
@@ -618,9 +676,10 @@ function renderCards() {
     if (currentTeletravail === "oui" && !detectTeletravail(o)) show = false;
     // filtre fraîcheur
     const jours = parseInt(o.jours_anciennete ?? 99);
-    if (currentFraicheur === "today" && jours > 0)  show = false;
-    if (currentFraicheur === "3j"    && jours > 3)  show = false;
-    if (currentFraicheur === "7j"    && jours > 7)  show = false;
+    if (currentFraicheur === "3j"    && !(jours >= 1  && jours <= 3))  show = false;
+    if (currentFraicheur === "4_7j"  && !(jours >= 4  && jours <= 7))  show = false;
+    if (currentFraicheur === "8_15j" && !(jours >= 8  && jours <= 15)) show = false;
+    if (currentFraicheur === "16_30j"&& !(jours >= 16 && jours <= 30)) show = false;
     // filtre expérience
     const expLevel = detectExperience(o);
     if (currentExperience !== "all" && expLevel !== currentExperience && expLevel !== "all") show = false;
