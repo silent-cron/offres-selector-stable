@@ -314,19 +314,58 @@
 </div>
 <div id="city-search-row">
   <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">🔍 Ville :</span>
-  <input type="text" id="city-search" placeholder="Ville, arrondissement... (ex: Lyon 7, Bron)" oninput="setCitySearch(this.value)">
-  <button id="city-clear" onclick="clearCitySearch()">✕ effacer</button>
-  <span style="font-size:0.75rem;color:#bbb;margin:0 4px;">|</span>
-  <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:2px;">Lyon :</span>
-  <button class="arr-btn" onclick="setArr('Lyon 1')">1er</button>
-  <button class="arr-btn" onclick="setArr('Lyon 2')">2e</button>
-  <button class="arr-btn" onclick="setArr('Lyon 3')">3e</button>
-  <button class="arr-btn" onclick="setArr('Lyon 4')">4e</button>
-  <button class="arr-btn" onclick="setArr('Lyon 5')">5e</button>
-  <button class="arr-btn" onclick="setArr('Lyon 6')">6e</button>
-  <button class="arr-btn" onclick="setArr('Lyon 7')">7e</button>
-  <button class="arr-btn" onclick="setArr('Lyon 8')">8e</button>
-  <button class="arr-btn" onclick="setArr('Lyon 9')">9e</button>
+  <input type="text" id="city-search" placeholder="Saisie libre : Lyon 7, Bron, Grenoble..." oninput="setCitySearch(this.value)">
+  <button id="city-clear" onclick="clearCitySearch()">✕</button>
+  <select id="city-select" onchange="setFromSelect(this.value)" style="padding:5px 10px;border:1.5px solid #ddd;border-radius:20px;font-size:0.8rem;color:#555;background:#fff;cursor:pointer;outline:none;max-width:220px;">
+    <option value="">— Choisir une ville —</option>
+    <optgroup label="Lyon · Arrondissements">
+      <option value="Lyon 1">Lyon 1er</option>
+      <option value="Lyon 2">Lyon 2e</option>
+      <option value="Lyon 3">Lyon 3e</option>
+      <option value="Lyon 4">Lyon 4e</option>
+      <option value="Lyon 5">Lyon 5e</option>
+      <option value="Lyon 6">Lyon 6e</option>
+      <option value="Lyon 7">Lyon 7e</option>
+      <option value="Lyon 8">Lyon 8e</option>
+      <option value="Lyon 9">Lyon 9e</option>
+    </optgroup>
+    <optgroup label="Grand Lyon · Communes">
+      <option value="Bron">Bron</option>
+      <option value="Caluire">Caluire-et-Cuire</option>
+      <option value="Chassieu">Chassieu</option>
+      <option value="Corbas">Corbas</option>
+      <option value="Décines">Décines-Charpieu</option>
+      <option value="Écully">Écully</option>
+      <option value="Feyzin">Feyzin</option>
+      <option value="Francheville">Francheville</option>
+      <option value="Genas">Genas</option>
+      <option value="Givors">Givors</option>
+      <option value="Grigny">Grigny</option>
+      <option value="Irigny">Irigny</option>
+      <option value="Meyzieu">Meyzieu</option>
+      <option value="Mions">Mions</option>
+      <option value="Oullins">Oullins</option>
+      <option value="Pierre-Bénite">Pierre-Bénite</option>
+      <option value="Rillieux">Rillieux-la-Pape</option>
+      <option value="Saint-Fons">Saint-Fons</option>
+      <option value="Saint-Genis-Laval">Saint-Genis-Laval</option>
+      <option value="Saint-Priest">Saint-Priest</option>
+      <option value="Tassin">Tassin-la-Demi-Lune</option>
+      <option value="Vaulx-en-Velin">Vaulx-en-Velin</option>
+      <option value="Vénissieux">Vénissieux</option>
+      <option value="Villeurbanne">Villeurbanne</option>
+    </optgroup>
+    <optgroup label="AuRA · Villes">
+      <option value="Grenoble">Grenoble</option>
+      <option value="Saint-Étienne">Saint-Étienne</option>
+      <option value="Valence">Valence</option>
+      <option value="Annecy">Annecy</option>
+      <option value="Chambéry">Chambéry</option>
+      <option value="Bourg-en-Bresse">Bourg-en-Bresse</option>
+      <option value="Roanne">Roanne</option>
+      <option value="Clermont-Ferrand">Clermont-Ferrand</option>
+    </optgroup>
+  </select>
 </div>
 <div class="toolbar" style="background:#fafafa;border-top:1px solid #eee;padding-top:8px;padding-bottom:10px;gap:8px;">
   <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">📄 Contrat :</span>
@@ -497,19 +536,26 @@ function clearCitySearch() {
   currentCitySearch = "";
   const inp = document.getElementById("city-search");
   if (inp) inp.value = "";
+  const sel = document.getElementById("city-select");
+  if (sel) sel.value = "";
   const clearBtn = document.getElementById("city-clear");
   if (clearBtn) clearBtn.style.display = "none";
-  document.querySelectorAll(".arr-btn").forEach(b => b.classList.remove("active"));
   renderCards();
 }
 
 function setArr(val) {
   const inp = document.getElementById("city-search");
   if (inp) inp.value = val;
-  document.querySelectorAll(".arr-btn").forEach(b => {
-    b.classList.toggle("active", b.getAttribute("onclick") === "setArr('" + val + "')");
-  });
   setCitySearch(val);
+}
+
+function setFromSelect(val) {
+  const inp = document.getElementById("city-search");
+  if (inp) inp.value = val;
+  const clearBtn = document.getElementById("city-clear");
+  if (clearBtn) clearBtn.style.display = val ? "inline" : "none";
+  currentCitySearch = val.trim();
+  renderCards();
 }
 
 function setFilter(v, btn)      { currentFilter     = v; _resetGroup("setFilter",     btn); renderCards(); }
