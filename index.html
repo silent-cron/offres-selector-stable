@@ -322,6 +322,7 @@
   <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
     <button id="dl-btn" disabled onclick="downloadCSV()" style="background:#fff;color:#764ba2;border:none;padding:10px 18px;border-radius:8px;font-size:0.88rem;font-weight:700;cursor:pointer;transition:transform 0.15s,box-shadow 0.15s;white-space:nowrap;">⬇ CSV (0)</button>
     <button id="pipeline-btn" disabled onclick="launchPipeline()" style="background:#16a34a;color:#fff;border:none;padding:10px 18px;border-radius:8px;font-size:0.88rem;font-weight:700;cursor:pointer;transition:transform 0.15s,box-shadow 0.15s;white-space:nowrap;">🚀 Lancer pipeline (0)</button>
+    <button id="regen-btn" onclick="cleanupFolder()" title="Vider le dossier CV et LM générés (garde .gitkeep)" style="background:#dc2626;color:#fff;border:none;padding:10px 18px;border-radius:8px;font-size:0.88rem;font-weight:700;cursor:pointer;transition:transform 0.15s,box-shadow 0.15s;white-space:nowrap;">🗑️ Vider dossier</button>
     <button onclick="openCfg()" title="Configuration GitHub" style="background:rgba(255,255,255,0.2);color:#fff;border:none;padding:10px 14px;border-radius:8px;font-size:1rem;cursor:pointer;">⚙️</button>
   </div>
 </header>
@@ -832,6 +833,7 @@ function updateBadge() {
   const countBadge = document.getElementById("count-badge");
   const btn        = document.getElementById("dl-btn");
   const pBtn       = document.getElementById("pipeline-btn");
+  const rBtn       = document.getElementById("regen-btn");
   const count      = selected.size;
   if (countBadge) countBadge.textContent = count + " sélectionnée(s)";
   if (btn) {
@@ -843,6 +845,7 @@ function updateBadge() {
     pBtn.disabled    = count === 0;
     pBtn.style.background = count === 0 ? "#9ca3af" : "#16a34a";
   }
+  // regen-btn (🗑️) est toujours actif — action indépendante des offres sélectionnées
 }
 
 function downloadCSV() {
@@ -853,136 +856,175 @@ function downloadCSV() {
   const rows = [cols.map(c => `"${c}"`).join(",")];
   let i = 1;
   allOffers.forEach(o => {
-    if (!selected.has(o.id)) return;
-    const titre    = o.titre || o.poste || "";
-    const ville    = o.ville || o.localisation || "";
-    const lien     = o.lien  || o.url  || "";
-    const domaine  = o.domaine || "";
-    const contrat  = normalizeContrat(o.type_contrat || o.contrat || "");
-    const source   = o.source || "";
-    const score    = o.score_pertinence || o.score || "";
-    const forts    = Array.isArray(o.points_forts)  ? o.points_forts.join(" | ")  : (o.points_forts  || "");
-    const faibles  = Array.isArray(o.points_faibles) ? o.points_faibles.join(" | ") : (o.points_faibles || "");
+    if (!selected.has(o.id || o.numero || String(allOffers.indexOf(o)))) return;
+    const titre   = o.titre || o.poste || "";
+    const ville   = o.ville || o.localisation || "";
+    const lien    = o.lien  || o.url  || "";
+    const domaine = o.domaine || "";
+    const contrat = normalizeContrat(o.type_contrat || o.contrat || "");
     const row = [
-      i++,
-      o.entreprise || "",
-      ville, "", "",
-      titre, contrat,
-      "", "A envoyer", "", "", "", "",
-      lien, score, forts, faibles,
-      source, domaine, ""
+      i++, o.entreprise||"", ville, o.rue||"", o.code_postal||"",
+      titre, contrat, "", "a faire", "", "A relancer dans 7 jours",
+      "", "", lien, o.score||"", o.points_forts||"", o.points_faibles||"",
+      "email", domaine, ""
     ];
-    rows.push(row.map(v => `"${String(v).replace(/"/g,'""')}"`).join(","));
+    rows.push(row.map(v => `"${String(v||"").replace(/"/g,'""')}"`).join(","));
   });
-  const bom = "﻿";
-  const blob = new Blob([bom + rows.join("\n")], {type:"text/csv;charset=utf-8"});
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement("a"); a.href = url;
-  a.download = `offres_selectionnees_${new Date().toISOString().slice(0,10)}.csv`;
+  const blob = new Blob([rows.join("\n")], {type:"text/csv;charset=utf-8;"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "offres_selectionnees.csv";
   a.click();
-  URL.revokeObjectURL(url);
 }
 
-// ── Config modal ──────────────────────────────────────────────────────────────
-function openCfg() {
-  document.getElementById('cfg-pat').value    = localStorage.getItem('gh_pat')    || '';
-  document.getElementById('cfg-owner').value  = localStorage.getItem('gh_owner')  || '';
-  document.getElementById('cfg-repo').value   = localStorage.getItem('gh_repo')   || '';
-  document.getElementById('cfg-branch').value = localStorage.getItem('gh_branch') || 'main';
-  document.getElementById('cfg-modal').style.display = 'flex';
-}
-function closeCfg() { document.getElementById('cfg-modal').style.display = 'none'; }
-function saveCfg() {
-  localStorage.setItem('gh_pat',    document.getElementById('cfg-pat').value.trim());
-  localStorage.setItem('gh_owner',  document.getElementById('cfg-owner').value.trim());
-  localStorage.setItem('gh_repo',   document.getElementById('cfg-repo').value.trim());
-  localStorage.setItem('gh_branch', document.getElementById('cfg-branch').value.trim() || 'main');
-  closeCfg();
-  alert('✅ Config enregistrée !');
-}
-
-// ── Pipeline launch ───────────────────────────────────────────────────────────
 function getSelectedUrls() {
+  const ids = [...selected];
   return allOffers
-    .filter((o, i) => selected.has(o.id || o.numero || String(i)))
-    .map(o => (o.lien || o.link || o.url || '').trim())
-    .filter(u => u.startsWith('http'));
+    .filter((o, i) => ids.includes(o.id || o.numero || String(i)))
+    .map(o => (o.lien || o.url || o.link || "").trim())
+    .filter(u => u.startsWith("http"));
 }
 
+// ── Config GitHub ─────────────────────────────────────────────────────────────
+function getCfg() {
+  return {
+    pat:    localStorage.getItem("gh_pat")    || "",
+    owner:  localStorage.getItem("gh_owner")  || "silent-cron",
+    repo:   localStorage.getItem("gh_repo")   || "candidatures-auto",
+    branch: localStorage.getItem("gh_branch") || "main",
+  };
+}
+
+function openCfg() {
+  const c = getCfg();
+  document.getElementById("cfg-pat").value    = c.pat;
+  document.getElementById("cfg-owner").value  = c.owner;
+  document.getElementById("cfg-repo").value   = c.repo;
+  document.getElementById("cfg-branch").value = c.branch;
+  document.getElementById("cfg-modal").style.display = "flex";
+}
+
+function saveCfg() {
+  localStorage.setItem("gh_pat",    document.getElementById("cfg-pat").value.trim());
+  localStorage.setItem("gh_owner",  document.getElementById("cfg-owner").value.trim());
+  localStorage.setItem("gh_repo",   document.getElementById("cfg-repo").value.trim());
+  localStorage.setItem("gh_branch", document.getElementById("cfg-branch").value.trim());
+  document.getElementById("cfg-modal").style.display = "none";
+  alert("Configuration sauvegardée ✓");
+}
+
+function closeCfg() {
+  document.getElementById("cfg-modal").style.display = "none";
+}
+
+// ── Lancer pipeline ────────────────────────────────────────────────────────────
 async function launchPipeline() {
-  const urls   = getSelectedUrls();
-  const pat    = localStorage.getItem('gh_pat')    || '';
-  const owner  = localStorage.getItem('gh_owner')  || '';
-  const repo   = localStorage.getItem('gh_repo')   || '';
-  const branch = localStorage.getItem('gh_branch') || 'main';
+  const urls = getSelectedUrls();
+  if (urls.length === 0) { alert("Sélectionnez au moins une offre."); return; }
 
-  if (!pat || !owner || !repo) {
-    alert('Configure d\'abord le token GitHub et le dépôt (bouton ⚙️).');
-    openCfg();
-    return;
-  }
-  if (urls.length === 0) { alert('Sélectionne au moins une offre.'); return; }
+  const c = getCfg();
+  if (!c.pat) { alert("Configurez votre PAT GitHub via ⚙️ d\'abord."); openCfg(); return; }
 
-  const btn = document.getElementById('pipeline-btn');
-  btn.disabled = true;
-  btn.textContent = '⏳ Lancement…';
+  if (!confirm(`🚀 Lancer pipeline pour ${urls.length} offre(s) ?\n\n${urls.slice(0,3).join("\n")}${urls.length>3?"\n…":""}`)) return;
+
+  const btn = document.getElementById("pipeline-btn");
+  if (btn) { btn.disabled = true; btn.textContent = "⏳ Envoi…"; }
 
   try {
-    const res = await fetch(
-      `https://api.github.com/repos/${owner}/${repo}/actions/workflows/pipeline_auto.yml/dispatches`,
+    const resp = await fetch(
+      `https://api.github.com/repos/${c.owner}/${c.repo}/actions/workflows/pipeline_auto.yml/dispatches`,
       {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Authorization': `Bearer ${pat}`,
-          'Accept': 'application/vnd.github.v3+json',
-          'Content-Type': 'application/json'
+          "Authorization": `Bearer ${c.pat}`,
+          "Accept": "application/vnd.github+json",
+          "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          ref: branch,
+          ref: c.branch,
           inputs: {
-            selected_urls: urls.join('|'),
-            max_offres: String(urls.length)
+            max_offres:    String(urls.length),
+            selected_urls: urls.join("|"),
+            nettoyer:      "no",
+            regenerer:     "yes"   // sélection manuelle = toujours régénérer même si déjà GENERE/ENVOYE
           }
         })
       }
     );
-
-    if (res.status === 204) {
-      btn.textContent = '✅ Pipeline lancée !';
-      btn.style.background = '#15803d';
-      setTimeout(() => updateBadge(), 3500);
+    if (resp.status === 204) {
+      alert(`✅ Pipeline déclenché pour ${urls.length} offre(s) !\nVérifiez GitHub Actions dans quelques secondes.`);
     } else {
-      const err = await res.json().catch(() => ({}));
-      alert(`Erreur GitHub ${res.status} : ${err.message || res.statusText}`);
-      updateBadge();
+      const txt = await resp.text();
+      alert(`❌ Erreur ${resp.status} : ${txt}\n\nVérifiez votre PAT et les permissions.`);
     }
-  } catch (e) {
-    alert('Erreur réseau : ' + e.message);
-    updateBadge();
+  } catch(e) {
+    alert("❌ Erreur réseau : " + e.message);
+  } finally {
+    if (btn) { btn.disabled = false; updateBadge(); }
   }
 }
+
+// ── Vider dossier CV et LM générés ─────────────────────────────────────────────
+async function cleanupFolder() {
+  const c = getCfg();
+  if (!c.pat) { alert("Configurez votre PAT GitHub via ⚙️ d\'abord."); openCfg(); return; }
+
+  if (!confirm("🗑️ Vider le dossier \"CV et LM générés\" sur GitHub ?\n\nTous les fichiers seront supprimés (le dossier .gitkeep sera conservé).")) return;
+
+  const btn = document.getElementById("regen-btn");
+  if (btn) { btn.disabled = true; btn.textContent = "⏳ Nettoyage…"; }
+
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${c.owner}/${c.repo}/actions/workflows/cleanup_cv.yml/dispatches`,
+      {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${c.pat}`,
+          "Accept": "application/vnd.github+json",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ ref: c.branch })
+      }
+    );
+    if (resp.status === 204) {
+      alert("✅ Nettoyage lancé !\nLe dossier sera vidé dans quelques secondes (vérifiez GitHub Actions).");
+    } else {
+      const txt = await resp.text();
+      alert(`❌ Erreur ${resp.status} : ${txt}\n\nVérifiez votre PAT et les permissions.`);
+    }
+  } catch(e) {
+    alert("❌ Erreur réseau : " + e.message);
+  } finally {
+    if (btn) { btn.disabled = false; }
+  }
+}
+
 </script>
+
 <!-- Modal config GitHub -->
-<div id="cfg-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:1000;align-items:center;justify-content:center;">
-  <div style="background:#fff;border-radius:16px;padding:28px 32px;width:440px;max-width:95vw;box-shadow:0 8px 40px rgba(0,0,0,.25);">
-    <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:6px;">⚙️ Configuration GitHub Actions</h2>
-    <p style="font-size:0.78rem;color:#888;margin-bottom:20px;">Ces infos sont stockées uniquement dans ton navigateur (localStorage).</p>
-
-    <label style="display:block;font-size:.8rem;font-weight:600;color:#555;margin-bottom:4px;">🔑 Token GitHub (PAT)</label>
-    <input id="cfg-pat" type="password" placeholder="ghp_xxxxxxxxxxxx" style="width:100%;padding:8px 12px;border:1.5px solid #ddd;border-radius:8px;font-size:.85rem;margin-bottom:14px;outline:none;">
-
-    <label style="display:block;font-size:.8rem;font-weight:600;color:#555;margin-bottom:4px;">👤 Propriétaire (owner)</label>
-    <input id="cfg-owner" type="text" placeholder="ex: guilaine-atangana" style="width:100%;padding:8px 12px;border:1.5px solid #ddd;border-radius:8px;font-size:.85rem;margin-bottom:14px;outline:none;">
-
-    <label style="display:block;font-size:.8rem;font-weight:600;color:#555;margin-bottom:4px;">📁 Nom du dépôt</label>
-    <input id="cfg-repo" type="text" placeholder="ex: candidatures-auto" style="width:100%;padding:8px 12px;border:1.5px solid #ddd;border-radius:8px;font-size:.85rem;margin-bottom:14px;outline:none;">
-
-    <label style="display:block;font-size:.8rem;font-weight:600;color:#555;margin-bottom:4px;">🌿 Branche</label>
-    <input id="cfg-branch" type="text" placeholder="main" style="width:100%;padding:8px 12px;border:1.5px solid #ddd;border-radius:8px;font-size:.85rem;margin-bottom:22px;outline:none;">
-
-    <div style="display:flex;justify-content:flex-end;gap:10px;">
-      <button onclick="closeCfg()" style="padding:9px 20px;border:1.5px solid #ddd;border-radius:8px;background:#fff;cursor:pointer;font-size:.85rem;color:#555;">Annuler</button>
-      <button onclick="saveCfg()" style="padding:9px 20px;border:none;border-radius:8px;background:#667eea;color:#fff;cursor:pointer;font-size:.85rem;font-weight:700;">Enregistrer</button>
+<div id="cfg-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;">
+  <div style="background:#fff;border-radius:16px;padding:28px;min-width:340px;max-width:90vw;box-shadow:0 8px 32px rgba(0,0,0,0.2);">
+    <h3 style="margin:0 0 18px;color:#4a1d96;font-size:1.1rem;">⚙️ Configuration GitHub</h3>
+    <label style="display:block;margin-bottom:8px;font-size:0.85rem;color:#555;">
+      PAT Token (repo + actions:write)
+      <input id="cfg-pat" type="password" placeholder="ghp_..." style="display:block;width:100%;margin-top:4px;padding:8px;border:1px solid #ddd;border-radius:8px;font-size:0.9rem;box-sizing:border-box;">
+    </label>
+    <label style="display:block;margin-bottom:8px;font-size:0.85rem;color:#555;">
+      Owner
+      <input id="cfg-owner" type="text" placeholder="silent-cron" style="display:block;width:100%;margin-top:4px;padding:8px;border:1px solid #ddd;border-radius:8px;font-size:0.9rem;box-sizing:border-box;">
+    </label>
+    <label style="display:block;margin-bottom:8px;font-size:0.85rem;color:#555;">
+      Repo
+      <input id="cfg-repo" type="text" placeholder="candidatures-auto" style="display:block;width:100%;margin-top:4px;padding:8px;border:1px solid #ddd;border-radius:8px;font-size:0.9rem;box-sizing:border-box;">
+    </label>
+    <label style="display:block;margin-bottom:16px;font-size:0.85rem;color:#555;">
+      Branche
+      <input id="cfg-branch" type="text" placeholder="main" style="display:block;width:100%;margin-top:4px;padding:8px;border:1px solid #ddd;border-radius:8px;font-size:0.9rem;box-sizing:border-box;">
+    </label>
+    <div style="display:flex;gap:10px;justify-content:flex-end;">
+      <button onclick="closeCfg()" style="padding:8px 16px;border:1px solid #ddd;border-radius:8px;background:#f5f5f5;cursor:pointer;">Annuler</button>
+      <button onclick="saveCfg()" style="padding:8px 16px;border:none;border-radius:8px;background:#4a1d96;color:#fff;font-weight:700;cursor:pointer;">Sauvegarder</button>
     </div>
   </div>
 </div>
