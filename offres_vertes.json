@@ -1,8 +1,8 @@
 {
-  "generated_at": "25/05/2026 20:02",
-  "total": 376,
-  "vertes": 268,
-  "bleues": 108,
+  "generated_at": "26/05/2026 06:02",
+  "total": 381,
+  "vertes": 271,
+  "bleues": 110,
   "retention_days": 30,
   "offres": [
     {
@@ -19,7 +19,7 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 0,
+      "jours_anciennete": 1,
       "first_seen": "2026-05-25"
     },
     {
@@ -36,8 +36,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 2,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 3,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -53,8 +53,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · entreprise cible",
-      "jours_anciennete": 2,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 3,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -70,8 +70,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 2,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 3,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -87,8 +87,25 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 2,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 3,
+      "first_seen": "2026-05-26"
+    },
+    {
+      "source": "France Travail",
+      "id": "208RPRL",
+      "titre": "Barmaid de bar à champagne (H/F)",
+      "entreprise": "GIRL'S BAR",
+      "ville": "69 - LYON 05",
+      "contrat": "CDI",
+      "salaire": "Mensuel de 1900.0 Euros sur 12.0 mois",
+      "description": "Notre bar à champagne recherche des personnalités dynamiques et motivées pour rejoindre son équipe.\nOuvert du lundi au samedi de 22h à 5h.\n\nVos missions :\nAccueillir et accompagner notre clientèle\nAssurer un service irréprochable et personnalisé\nAssurer la préparation des commandes\nAssurer les encaissements.\n\nProfil recherché :\nVous êtes doté(e) d'un excellent sens relationnel\nVous appréciez le travail en équipe et savez faire preuve d'initiative.\nVous êtes disponible pour travailler de nuit, jusqu'à 5h du matin\nLes débutant(e)s sont les bienvenu(e)s, une formation complète sera assurée sur place.\n\nNous vous offrons :\nDes horaires et un contrat flexibles, adaptés aux contraintes de chacun(e).\nSi vous souhaitez rejoindre une équipe soudée et évoluer dans un environnement stimulant, envoyez-nous votre candidature !",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/208RPRL",
+      "date": "2026-05-23",
+      "domaine": "RESTO",
+      "niveau": 1,
+      "raison": "CDI restauration",
+      "jours_anciennete": 3,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -98,14 +115,14 @@
       "ville": "69 - LYON 05",
       "contrat": "CDI",
       "salaire": "Mensuel de 1900.0 Euros à 2500.0 Euros sur 12.0 mois",
-      "description": "Notre bar à champagne, lieu d'exception au cœur de Lyon, recherche des personnalités dynamiques et motivées pour rejoindre son équipe. Ouvert du lundi au samedi, de 22h à 5h\n\nVos missions :\nAccueillir et accompagner notre clientèle \nAssurer un service irréprochable \n\nProfil recherché :\nVous êtes doté(e) d'un excellent sens relationne.\nVous appréciez le travail en équipe et savez faire preuve d'initiative.\nVous êtes disponible pour travailler de nuit, jusqu'à 5h du matin\nLes débutant(e)s sont les bienvenu(e)s, une formation complète sera assurée sur place.\n\nNous vous offrons :\nUn cadre de travail agréable, convivial \nDes horaires et un contrat flexibles, adaptés aux contraintes de chacun(e).\nSi vous souhaitez rejoindre une équipe soudée et évoluer dans un environnement stimulant, envoyez-nous votre candidature !",
+      "description": "Notre bar à champagne, lieu d'exception au cœur de Lyon, recherche des personnalités dynamiques et motivées pour rejoindre son équipe. Ouvert du lundi au samedi, de 22h à 5h.\n\nVos missions :\nAccueillir et accompagner notre clientèle \nAssurer un service irréprochable \n\nProfil recherché :\nVous êtes doté(e) d'un excellent sens relationne.\nVous appréciez le travail en équipe et savez faire preuve d'initiative.\nVous êtes disponible pour travailler de nuit, jusqu'à 5h du matin\nLes débutant(e)s sont les bienvenu(e)s, une formation complète sera assurée sur place.\n\nNous vous offrons :\nUn cadre de travail agréable, convivial \nDes horaires et un contrat flexibles, adaptés aux contraintes de chacun(e).\nSi vous souhaitez rejoindre une équipe soudée et évoluer dans un environnement stimulant, envoyez-nous votre candidature !",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/208RPRK",
       "date": "2026-05-23",
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 2,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 3,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -121,8 +138,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -138,8 +155,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -155,8 +172,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -172,8 +189,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -189,8 +206,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -206,8 +223,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -223,8 +240,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -240,8 +257,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 12,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 13,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -257,8 +274,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 12,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 13,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -274,8 +291,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -291,8 +308,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -308,8 +325,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -325,8 +342,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 14,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 15,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -342,8 +359,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 14,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 15,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -359,8 +376,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 14,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 15,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -376,8 +393,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 15,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 16,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -393,8 +410,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · entreprise cible",
-      "jours_anciennete": 16,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 17,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -410,8 +427,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 21,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 22,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -427,7 +444,7 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 21,
+      "jours_anciennete": 22,
       "first_seen": "2026-05-23"
     },
     {
@@ -444,8 +461,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -461,8 +478,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -478,7 +495,7 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 25,
+      "jours_anciennete": 26,
       "first_seen": "2026-05-20"
     },
     {
@@ -495,7 +512,7 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 26,
+      "jours_anciennete": 27,
       "first_seen": "2026-05-25"
     },
     {
@@ -512,8 +529,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 27,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 28,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -529,8 +546,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 28,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 29,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -546,7 +563,7 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 32,
+      "jours_anciennete": 33,
       "first_seen": "2026-05-22"
     },
     {
@@ -563,7 +580,7 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 32,
+      "jours_anciennete": 33,
       "first_seen": "2026-05-22"
     },
     {
@@ -580,8 +597,8 @@
       "domaine": "BIM",
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 45,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 46,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -597,8 +614,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 45,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 46,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -614,8 +631,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 45,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 46,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -631,7 +648,7 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 45,
+      "jours_anciennete": 46,
       "first_seen": "2026-05-22"
     },
     {
@@ -648,7 +665,7 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 45,
+      "jours_anciennete": 46,
       "first_seen": "2026-05-22"
     },
     {
@@ -665,8 +682,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 59,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 60,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -682,8 +699,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 61,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 62,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -699,8 +716,8 @@
       "domaine": "RESTO",
       "niveau": 1,
       "raison": "CDI restauration",
-      "jours_anciennete": 70,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 71,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -712,12 +729,12 @@
       "salaire": "",
       "description": "#### **Bienvenue chez Ekium !**\n\n\n#### **‍ ️‍ 2 700 talents 17 Pays 325 M€ de CA**\n\n\nIci, ça bouillonne d’**ingénieur(e)s**, **d’expert(e)s**, de **technicien(ne)s** **enthousiastes** qui collaborent ensemble pour rendre l’Industrie plus proche des enjeux de notre société.\n\n\nVous avez forcément croisé notre chemin ou aperçu nos réalisations dans le paysage industriel. De l'**Industrie** à l'**Énergie** en passant par le secteur **Naval**, Ekium intervient dans de nombreux domaines d’expertises pointus !\n\n\nEt parce que notre richesse, ce sont nos collaborateurs, nous nous engageons, chaque jour, à préserver leur **santé et leur sécurité**, car c'est ensemble que nous construisons un avenir durable.  \n\n\n\n Projetez\\-vous dans l**'univers Ekium et découvrez la diversité des projets** sur lesquels vous pourriez travailler demain :\n\n\nWelkium dans l'univers EKIUM !\n\n  \n\n  \n\n**Mission**\n\n\n**Envie de projets techniques concrets dans des secteurs clés comme la chimie, la pharma ou l’oil \\& gas ? ✨**\n\n  \n\n  \n\nNotre **bureau d’études de Lyon** renforce ses équipes et recherche un(e) **Projeteur(euse) confirmé(e) en Installation Générale** pour relever des **défis industriels passionnants**\n\n\n**Intégrez une équipe de 27 spécialistes en Installation Générale**, au cœur de notre **Pôle Ingénierie Industrielle**.\n\n  \n\n  \n\nVous collaborerez étroitement avec les autres expertises du pôle – **procédés, électricité, CVC, génie civil…** – dans une ambiance à la fois **challengeante, bienveillante et résolument tournée projet**.\n\n\n Ce que vous ferez au quotidien :\n\n\nEn tant que projeteur(euse), vous serez un maillon essentiel de nos projets industriels :  \n\n  \n\n\n\n* Réaliser des **études de conception et d’exécution** dans le respect des exigences client\n* Co\\-construire les **solutions techniques** avec les autres disciplines de l’ingénierie (électricité, ventilation, génie\\-civil, instrumentation, procédé) afin de résoudre les problèmes de conception et d’installation\n* **Prendre en charge les modifications en maquettes 3D** (E3D ou Plant3D) et **produire les plans 2D (isométriques, PID…)**\n* Appliquer les **normes et standards** du métier en Installation Générale\n* Eventuellement assurer le suivi des techniciens d’études pour respecter les délais fixés\n\n  \n\n**Profil**\n\n\n **Issu(e) d’une formation Bac\\+2/3** type BTS CRCI, DUT GMP ou équivalent, vous avez déjà fait vos preuves en tant que **projeteur(euse)** dans un **bureau d’études**.\n\n\n✅ **Vous justifiez d’au moins 7 ans d’expérience** sur des projets d’installation générale, idéalement dans les secteurs de la chimie, de la pharmacie ou de l’énergie.\n\n\n Vous maîtrisez les outils de modélisation comme **E3D, Plant3D ou AutoCAD**, et êtes à l’aise pour produire des livrables fiables et lisibles.\n\n\n Organisé(e), rigoureux(se) et autonome, vous savez aussi **travailler en équipe** et interagir efficacement avec les autres corps de métiers.\n\n\n Vous avez le goût **de la technique**, **et le sens du service client,** et êtes motivé(e) par des environnements exigeants et des projets concrets à forte valeur ajoutée.\n\n  \n\n  \n\n**L'environnement Ekium :**\n\n\n✅ Prime d’intéressement et de participation, tickets restaurants, prime annuelle de vacances, avantages CSE (chèques vacances, cartes cadeaux, ...)\n\n\n Une entreprise engagée : EKIUM est signataire des chartes de l’ingénierie pour le climat et la mixité\n\n\n Un management de proximité  \n\n\n\n Télétravail possible selon la mission effectuée\n\n\n Un environnement convivial et adapté aux personnes en situation de handicap\n\n\n Des collègues passionnés comme vous avec une communauté de référents métiers et logiciels !\n\n\n Une vigilance collective qui améliore au quotidien la qualité et la sécurité de nos services\n\n\n Des possibilités d'évolution grâce à une charte de mobilité interne\n\n\n Plusieurs événements proposés dans l'année dont nos afterwork d'été et d'hiver\n\n\n Une appartenance au Groupe SNEF qui s'inscrit dans une dynamique de croissance depuis plus de 115 ans\n\n\n**Vous avez un CV ? Nous aussi !**",
       "url": "https://fr.indeed.com/viewjob?jk=23954c3fa0a45e63",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -729,12 +746,12 @@
       "salaire": "",
       "description": "Imaginez voir vos plans prendre vie sur des chantiers emblématiques comme la LDLC Arena à Lyon, la reconstruction de Notre\\-Dame de Paris ou le nouveau restaurant de Disneyland. Chez IDSB, ce n'est pas un rêve, c'est le quotidien de nos Dessinateurs\\-Projeteurs. Si vous cherchez un poste où votre rigueur technique contribue à des projets d'exception, vous êtes au bon endroit.\n\n**L'entreprise : IDSB, le meilleur des deux mondes**\n\nIDSB est un acteur industriel national, spécialisé dans la conception et la fabrication de murs préfabriqués en béton armé. Nous combinons l'agilité et la proximité d'une PME avec la puissance et l'ambition d'un acteur reconnu, partenaire des plus grands noms du BTP. Notre bureau d'études de Chatenay\\-Malabry est le cœur de notre expertise technique, et nous le renforçons pour accompagner notre croissance.\n\n**Votre Mission : Au cœur de la production**\n\nEn tant que Dessinateur\\-Projeteur, vous êtes le maillon essentiel entre la conception architecturale et structurale, et la fabrication en usine. Intégré(e) à notre bureau d'études et après une période de formation à nos méthodes et outils, vous aurez pour missions de :\n\n· **Traduire les plans d'exécution (coffrages et armatures) en plans de fabrication** clairs et précis pour notre usine.\n\n· **Modéliser les murs préfabriqués en 3D sur notre logiciel de CAO (Allplan)**, en y intégrant tous les détails techniques.\n\n· **Concevoir et intégrer les armatures, les inserts et les réservations** nécessaires, en optimisant la faisabilité technique et économique.\n\n· **Collaborer étroitement** avec les chargés d'affaires, les conducteurs de travaux et les équipes de production pour garantir la fluidité du projet.\n\n· **Garantir la conformité** de vos plans avec les contraintes du chantier, les normes (Eurocodes), les capacités de production et les impératifs de transport.\n\n**Votre Profil : L'expert(e) technique que nous attendons**\n\n· **Formation :** Vous êtes titulaire d'un Bac\\+2/Bac\\+3 en Bâtiment ou Génie Civil (BTS Bâtiment, BUT Génie Civil, Licence Pro...).\n\n· **Expérience :** Vous avez une première expérience réussie (stage et alternance inclus) en bureau d'études, idéalement dans le domaine du béton armé ou de la préfabrication.\n\n· **Compétences techniques :**\n\no Vous avez une excellente maîtrise de la lecture de plans de coffrage et de ferraillage.\n\no Vous êtes à l'aise avec un logiciel de CAO/DAO du bâtiment. **La connaissance d'Allplan est un vrai plus.**\n\n· **Qualités personnelles :** Vous êtes reconnu(e) pour votre **rigueur**, votre **précision** et votre **sens de l'organisation**. Vous appréciez le travail en équipe et vous avez une réelle curiosité technique.\n\n**Ce que nous vous offrons (plus qu'un simple poste) :**\n\n· **Participer à des projets d'exception** dont vous serez fier(e) tout au long de votre carrière.\n\n· **Une formation complète** à notre métier et au logiciel Allplan pour vous assurer une montée en compétences rapide.\n\n· **Un poste complet et responsabilisant** où votre autonomie sera valorisée.\n\n· **Des perspectives d'évolution claires** au sein d'une structure en croissance qui promeut le développement interne.\n\n· **Une ambiance de travail conviviale** et un management de proximité au sein d'une équipe soudée.\n\nPrêt(e) à construire l'exceptionnel avec nous ? N'attendez plus, envoyez votre candidature !\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=cf1b3caab08c2197",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -746,12 +763,12 @@
       "salaire": "",
       "description": "**Qui sommes\\-nous ?** **:**\n\nNous sommes un bureau d’étude structure situé à Mâcon, Lyon et Chalon sur Saône. Nous faisons partie d’un groupe d’ingénierie générale pluridisciplinaire de 70 personnes, implanté en Bourgogne, région Lyonnaise et Jura.\n\nNous intervenons sur tous types de projets dans les secteurs industriels, tertiaires, équipements publics, logements, logistique, génie\\-civil pour nos clients publics et privés sur toute la France.\n\nNotre expertise est reconnue sur les constructions en structure béton, bois, métallique et également construction hors\\-site.\n\nNos missions s’étendent sur toutes les phases d’un projet aussi bien en conception pour l’accompagnement de nos clients dans leurs choix constructifs que pendant les phases d’exécution jusqu’à la levée des réserves.\n\nNous proposons par ailleurs des missions de diagnostic technique, nous réalisons les études d’exécution détaillées, les plans d’atelier et de chantier, et les plans de fabrication des charpentes.\n\nNous avons également une offre en BIM management.\n\n**Descriptif du poste** **:**\n\nSous la responsabilité du Directeur de Production, au sein d’une équipe d’ingénieurs et projeteurs spécialisés, vos missions seront :\n\n\\- Concevoir et réaliser les plans des structures métalliques sous TEKLA à toutes les phases de la construction,\n\n\\- Réaliser des relevés sur site dans le cadre de diagnostics,\n\n\\- Assurer le suivi des dossiers en relation avec les clients, architectes et entreprises,\n\n\\- Coordonner les études d’exécution, relancer les demandes de réservations, suivre l’avancement des projets et respecter les délais de production,\n\n\\- Participer aux réunions de conception/exécution avec les intervenants extérieurs,\n\n\\- Vérifier la conformité des ouvrages sur plans et sur site en cours de construction.\n\nVotre mission pourra évoluer vers des calculs de structures, selon l’évolution de vos compétences et des dossiers qui vous seront confiés.\n\n**Profil** **:**\n\nDe formation BAC\\+2 et spécialisé(e) dans le bâtiment, vous avez au minimum 2 ans d’expérience en ingénierie structure bâtiment ou entreprise de charpente métallique.\n\nVous maîtrisez les outils informatiques et logiciels métiers : TEKLA, AUTOCAD…\n\nVous avez une bonne connaissance des DTU, matériaux et technologies liées au bâtiment dans son ensemble.\n\n***Qualités recherchées :*** \n\n\\- Rigueur, sens de l’organisation,\n\n\\- Réactivité, esprit d'équipe, sens de la communication,\n\n\\- Excellentes qualités rédactionnelles et relationnelles (interne/externe),\n\n\\- Veille réglementaire et « curiosité » (procédés techniques innovants…).\n\nType d'emploi : Temps plein, CDI\n\nAvantages :\n\n* RTT\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=2a77c5d21dbe07e7",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -763,12 +780,29 @@
       "salaire": "",
       "description": "***« Vous aimez le terrain, coordonner les équipes et faire avancer concrètement les chantiers ?***\n\n***Vous recherchez un poste mêlant technique, organisation, relation client et suivi opérationnel ?***\n\n***Et, rejoindre une PME familiale technique où votre rôle sera central dans la réussite des installations et la coordination des équipes terrain vous motive ?***\n\n***Alors, lisez\\-la suite. »***\n\n**Notre entreprise et notre expertise**\n\nCOPAS MPA est avant tout le fruit d’une aventure familiale née en 1957\\. Nous nous sommes spécialisés dans un domaine de niche mais essentiel : les systèmes de transport par tubes pneumatiques.\n\nAujourd’hui, une nouvelle génération, issue de la même famille, prend le relais de la direction pour écrire la suite de l’histoire avec le même ADN : proximité, sérieux et engagement. Cette transition s’accompagne d’évolutions, tant RH que techniques, que nous voulons constructives, modernes et porteuses de sens pour nos collaborateurs.\n\nAvec une équipe d’une quinzaine de personnes réparties entre Lyon et Montpellier, nous intervenons principalement dans le monde hospitalier, mais aussi auprès de l’industrie et de la grande distribution.\n\nNotre mission : installer, maintenir et dépanner des systèmes qui assurent le transport rapide et sécurisé de produits et documents sensibles. Un métier à la fois technique et utile, avec un impact direct sur le quotidien de nos clients et sur la fluidité de leurs organisations.\n\nUn poste terrain basé à Lyon\n\nLe poste est rattaché à l’agence de Lyon (Caluire\\-et\\-Cuire) et implique des déplacements réguliers sur les chantiers, principalement sur les régions Auvergne\\-Rhône\\-Alpes et Bourgogne\\-Franche\\-Comté.\n\nDes découchés ponctuels sont à prévoir selon les interventions et l’organisation des chantiers.\n\n**Collaborer avec nous signifie…**\n\nRejoindre une entreprise à taille humaine, avec une direction accessible, technique et proche du terrain, des collègues disposant d’un vrai savoir\\-faire, et un accompagnement pensé pour être personnalisé dès l’arrivée. Chaque technicien est formé à nos produits, épaulé par l’équipe, et évolue dans un environnement stimulant où ses interventions ont un impact concret et immédiat, notamment dans le secteur hospitalier.\n\n**Ce que l’on attend de vous ?**\n\nCe poste n’est pas un poste de bureau. Vous êtes avant tout un coordinateur terrain, garant du bon déroulement des chantiers, du suivi opérationnel des installations et de la bonne exécution des travaux.\n\nEn lien avec les responsables d’agence et les équipes techniques, vous assurez la planification, le suivi et la coordination des interventions terrain.\n\nConcrètement, vous serez amené à:\n\n* Organiser et planifier les chantiers en lien avec les responsables d’agence,\n* Prévoir le matériel nécessaire au projet d’installation,\n* Coordonner les équipes techniques et suivre les interventions sur le terrain,\n* Assurer le suivi opérationnel des installations jusqu’à leur validation,\n* Veiller au respect des délais, des exigences qualité et des règles de sécurité,\n* Être présent sur les chantiers afin d’accompagner les équipes et s’assurer du bon déroulement des travaux,\n* Gérer la relation client pendant les phases chantier,\n* Identifier les besoins complémentaires ou ajustements nécessaires en cours de chantier,\n* Assurer le lien entre les équipes terrain, les responsables d’agence et les clients,\n* Participer ponctuellement aux interventions techniques ou mises en service en appui des équipes,\n* Veiller à la bonne coordination globale des installations afin de garantir des chantiers fluides et conformes aux attentes clients…\n\nLe poste s’inscrit dans une logique de coordination opérationnelle et de suivi terrain, davantage que dans une fonction d’études ou de conduite de travaux lourde.\n\n**Quant à vous ?**\n\nNous recherchons avant tout un profil terrain, autonome et organisé, capable de coordonner des équipes et de suivre concrètement l’avancement des chantiers.\n\nVous disposez idéalement :\n\n\\- d’une expérience en suivi de chantier, coordination technique ou conduite d’équipes terrain,\n\n\\- d’une bonne culture technique (maintenance, électrotechnique, réseaux techniques, travaux techniques, CVC, plomberie industrielle, etc.),\n\n\\- d’une expérience opérationnelle vous permettant d’être crédible auprès des équipes et des clients.\n\nVous êtes :\n\n\\- organisé, rigoureux et réactif,\n\n\\- capable de gérer plusieurs sujets en parallèle,\n\n\\- à l’aise dans la coordination et la prise de décision terrain,\n\n\\- reconnu pour votre professionnalisme, votre sens du relationnel et de la communication,\n\n\\- capable d’instaurer une relation de confiance avec les clients et les équipes,\n\n\\- à l’aise avec l’itinérance et les déplacements fréquents.\n\nLa lecture de plans et la maîtrise des outils informatiques courants sont indispensables. Une connaissance d’Autocad serait un plus.\n\n**Ce que nous vous offrons :**\n\nUn poste terrain avec autonomie et responsabilités ;\n\nUn environnement technique sti",
       "url": "https://fr.indeed.com/viewjob?jk=30d799116262366e",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
+    },
+    {
+      "source": "Indeed",
+      "id": "1afece2ef088",
+      "titre": "Serveur (H/F)",
+      "entreprise": "Restaurant Noucadémie",
+      "ville": "Lyon, ARA, FR",
+      "contrat": "fulltime",
+      "salaire": "",
+      "description": "**Job Summary**  \nNous sommes un restaurant chinois qui situé au centre ville Lyon.\n\nNous recherchons plusieurs Serveur (H/F) pour rejoindre notre équipe dynamique. Le candidat idéal aura une passion pour le service client et une expérience dans les domaines de la restauration. Si vous avez pas d'expérience, nous vous proposer une formation.\n\n**Duties**  \n\\- Accueillir les clients et les accompagner à leur table  \n\\- Prendre les commandes et conseiller les clients sur le choix des plats  \n\\- Servir les aliments et les boissons de manière professionnelle  \n\\- Assurer la satisfaction des clients tout au long de leur repas\n\n\\- Encaissement\n\n\\- Faire les commandes d'empoter et de la plateforme de livraison  \n\\- Maintenir la propreté des tables et de l'espace de restauration\n\n**Qualifications**  \n\\- Expérience antérieure dans le service client, de préférence dans le secteur de l'hôtellerie ou de la restauration  \n\\- Capacité à travailler efficacement en équipe  \n\\- Excellentes compétences en communication et en relations interpersonnelles\n\nType d'emploi : Temps plein, CDI\n\nRémunération : 1 887,00€ à 2 022,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n* Restaurant d'entreprise\n\nExpérience:\n\n* Restauration: 1 an (Optionnel)\n* serveur H/F: 1 an (Optionnel)\n\nLangue:\n\n* Français (Requis)\n* Anglais (Optionnel)\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=2f5cd4c499d1b261",
+      "date": "2026-05-26",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -780,12 +814,12 @@
       "salaire": "",
       "description": "Le Chevreul recrute des extras pour l'été !\n\nServeur(se) Extra H/F\n\nBar\\-Restaurant Le Chevreul – Lyon 7\n\nJuin • Juillet • Août\n\nTu cherches un job d'été dans une ambiance conviviale, dynamique et pleine de bonne humeur ?\n\nLe Chevreul, bistrot lyonnais incontournable du 7ᵉ arrondissement, recherche des serveurs(ses) extras pour renforcer son équipe pendant la saison estivale !\n\nTes missions : Accueillir et conseiller les clients avec le sourire\n\nPrendre les commandes et assurer un service rapide et chaleureux\n\nMettre en avant nos spécialités maison et notre carte de boissons\n\nParticiper à la mise en place et au bon entretien de la salle\n\nEncaisser avec efficacité et professionnalisme\n\nCe qu'on t'offre : Contrat extra sur les mois de juin, juillet et août\n\nHoraires flexibles selon disponibilités\n\nUne équipe jeune, soudée et bienveillante\n\nUne ambiance de travail conviviale et dynamique\n\nUne expérience enrichissante au sein d'un établissement reconnu du quartier depuis 2002\n\nIntéressé(e) ? Passe nous voir directement au restaurant ou envoie\\-nous ton CV !\n\nLe Chevreul – Là où l'été se vit aussi en équipe !\n\nType d'emploi : Temps plein\n\nRémunération : 1 800,00€ à 1 950,00€ par mois\n\nExpérience:\n\n* serveur H/F: 1 an (Optionnel)\n\nLangue:\n\n* Anglais (Optionnel)\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=7937ca9c71a1a812",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -797,12 +831,29 @@
       "salaire": "",
       "description": "**Le Warwick Reine Astrid est une résidence hôtelière 4\\* situé au cœur de Lyon, à deux pas du parc de la Tête d'Or.**\n\n**En plus de sa situation géographique privilégiée, elle possède également un jardin, ce qui lui permet de proposer à ses clients un écrin de verdure en plein centre\\-ville.**\n\n**Avec ses 88 suites rénovées récemment et ses 3 salles de séminaire, le Warwick Reine Astrid est une adresse incontournable de la place lyonnaise.**\n\n**Venez nous rejoindre au sein d'une équipe soudée, toujours prête à se dépasser pour proposer à nos clients un séjour exceptionnel !**\n\nNous sommes à la recherche d'un(e) **Chef de Rang** !\n\nEn étroite collaboration avec chaque membre de l’équipe restauration, vous assurez le service dans tous les points de vente de l’établissement (au restaurant Le Lounge, le bar, le roomservice et les banquets/Catering) en respectant les standards et les procédures établies.\n\n***Vos missions :***\n\n* Effectuer la mise en place du bar et des espaces de restauration (restaurant, terrasse, petits déjeuners, salles de séminaires)\n* Accueillir les clients et les installer à table\n* Assurer le service complet au restaurant, de la prise de commande à l’encaissement.\n* Promouvoir les produits selon les consignes reçues\n* Assurer l’activité quotidienne du bar jusqu’à sa fermeture\n* Editer le rapport journalier, encaisser, contrôler la caisse et clôturer\n* Assurer le nettoyage, l'entretien et la mise en place des espaces de séminaires et banquets, selon les fiches de fonction\n* Assurer le nettoyage, l'entretien des espaces de restauration (restaurant, terrasse)\n\n***Profil :***\n\n* Vous avez une première expérience réussie dans un établissement de même catégorie\n* Vous avez une parfaite maîtrise du Français et de l’Anglais\n* Vous avez de bonnes connaissances en vins et en mixologie\n* Vous avez une excellente présentation, de la rigueur, le souci du détail et un sens relationnel développé\n* Vous avez une bonne condition physique\n* Vous êtes autonome mais avez également un excellent esprit d’équipe.\n* La connaissance de Simphony est un plus\n\n***Modalités \\& Avantages :***\n\n* Horaires en continu : continue après\\-midi et dîner (horaires majoritairement du soir mais remplacement possible au petit déjeuner exceptionnellement)\n* Prime de fin d’année sous conditions\n* Après un an d’ancienneté, 7 nuitées dans les hôtels du groupe Warwick Hotels \\& Resorts\\*\n* Indemnités nourriture selon la législation en vigueur\n* Prise en charge des transports en commun à hauteur de 50%\n\n\\* A l’exception des hôtels affiliés\n\nType d'emploi : Temps plein, CDI\n\nRémunération : 2 150,00€ à 2 230,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=a7fb51ed434c9a98",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
+    },
+    {
+      "source": "Indeed",
+      "id": "ddf8c7383501",
+      "titre": "Hôte service client magasin (H/F) - Lyon Grand Parilly",
+      "entreprise": "Leroy Merlin",
+      "ville": "Vénissieux, ARA, FR",
+      "contrat": "",
+      "salaire": "",
+      "description": "***En résumé, tout ce que ce poste peut vous apporter :***\n\n***Un rôle clé dans l’expérience client*** *: accueil, encaissement, fidélisation, événements clients, relation à distance et même animation sur les réseaux sociaux.*\n\n***Des perspectives d’évolution réelles*** *: Vers un poste de Responsable Service Client, mais aussi en vente, logistique, ou projets transverses (RSE, chantiers solidaires…).*\n\n***Un package motivant*** *: salaire fixe \\+ primes \\+ actionnariat \\+ avantages nombreux (dont produits à prix préférentiels, dispositifs pour concilier vie pro/perso, etc.)*\n\n***Une entreprise inclusive****, avec une équipe soudée et une bonne ambiance au travail.*\n\n**Un poste pour celles et ceux qui aiment voir leurs clients sourire, et dont les valeurs humaines passent avant tout le reste.**\n\n\nEn tant qu’Hôtesse ou Hôte Service client, vous avez un rôle\\-clé dans l’expérience exceptionnelle que nous nous efforçons d’apporter à nos clients.\n\n **Votre futur métier :**\n\n\nIl s’exerce en magasin. Au sein du pôle Service Client, composé d’une équipe importante et polyvalente, vous intervenez à chaque étape de la relation avec nos clients, en magasin, à distance et sur les réseaux sociaux. Comment ? En développant une expérience exceptionnelle pour chaque personne qui interagit avec nos services.\n\n\nLes premiers mois, vous allez apprendre le socle du métier, savoir l'encaissement et la posture relationnelle avec les clients. Ensuite, au bout de quelques mois (environ 6 mois), votre poste devient polyvalent, et vous alternez les tâches entre : accueil du magasin, caisses (traditionnelles et automatiques), reprise des marchandises, fidélisation client, plateforme téléphonique du magasin, relation client à distance, cours de bricolage, événementiel clients, et animation de la communauté locale sur les réseaux sociaux.\n\n\nVous disposez d’une certaine autonomie dans l’organisation de vos semaines, et contribuez au choix de vos tâches hebdomadaires, en accord avec votre Responsable Service Client et dans le respect des souhaits de toute l’équipe.\n\n **Votre profil :**  \n\n\n\n* Vous avez des valeurs humaines fortes, en particulier la bienveillance, l’empathie et l’écoute,\n* Les gens remarquent votre facilité de communication,\n* Vous savez gérer les émotions de vos interlocuteurs, et trouvez les mots pour comprendre et rassurer lorsque c’est nécessaire,\n* Vous aimez travailler dans un environnement organisé par le respect des procédures,\n* Une expérience dans la relation client sera évidemment appréciée. Et dans le cas contraire, on vous formera !\n\n\nLeroy Merlin s’engage en faveur de la diversité et de l’égalité des chances. Ce poste est ouvert à toutes et tous, et nous croyons que la pluralité des parcours, des genres et des regards est une richesse pour le collectif.\n\n **Comment réussir sur ce poste :**\n\n* En développant une certaine connaissance des produits : les clients vous solliciteront souvent, et vous devrez pouvoir apporter des réponses de manière autonome\n* En étant vous\\-même, et en parlant au client de manière naturelle et franche\n* En adoptant un respect complet des procédures, notamment en caisse.\n\n **Ce qui ne fonctionne pas sur ce poste :**\n\n* Chercher à se mettre en avant dans la relation client : c’est un métier où l’on se met à la disposition du client, pas un métier où l’on s’impose,\n* Adopter une posture fermée qui découragerait les clients de venir vous parler.\n\n **Ce que vous retirerez de ce métier ?**\n\n\nLe plaisir de voir vos clients repartir avec le sourire, et celui de les voir revenir !\n\n\nMais aussi, et surtout, parce que nous sommes Leroy Merlin, une qualité de vie au travail, dans une équipe soudée et fière de travailler ensemble. Ici, on construit avec toutes les personnalités, toutes les envies, tous les parcours. Notre diversité fait notre force.\n\n **Et si on regarde plus loin ?**  \n\n\n\nVous allez pouvoir fabriquer un parcours qui vous ressemble, vraiment. Vous pourrez, par exemple, évoluer vers un poste de Responsable Service Client. Mais vous pourrez aussi changer de domaine métier, en rejoignant les équipes de la vente ou de la logistique, ou vous engager sur des projets transverses (RSE, chantiers solidaires, etc.).\n\n  \n\n**Rémunération et avantages**\n\n* Un **salaire fixe** compris entre 1946 € et 2100 € mensuels bruts sur 13 mois (), complété par une **rémunération variable** (Intéressement et Participation aux Bénéfices) qui récompense les efforts collectifs\n* Une **politique de partage** qui permet à 100% des collaborateurs d’être actionnaires de l’entreprise, en investissant tout ou partie de leur rémunération variable dans le plan d’épargne entreprise\n* Des **titres restaurant** à hauteur de 10€ x 15 jours maximum (dont 60% de prise en charge par l’employeur)\n\n\nEt d’autres avantages, notamment :\n\n* 15% de remise sur l’ensemble des produits et services Leroy Merlin, et des prix préférentiels sur \\+ de 1000 produits\n* **Aide partielle au transport** : Leroy Merlin participe aux frais de",
+      "url": "https://fr.indeed.com/viewjob?jk=8529631afeec10c0",
+      "date": "2026-05-26",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 0,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -814,12 +865,29 @@
       "salaire": "",
       "description": "**EMPLOYÉ.E POLYVALENT.E BAR SALLE CUISINE \\- LYON \\-CDI : 30H ANNUALISÉES**\n\nMerci de postuler sur ce lien uniquement CV \\+ LM Obligatoire\n\n***https://livestationdiy.com/recrutements/employe\\-e\\-polyvalent\\-e\\-bar\\-salle\\-cuisine\\-lyon\\-cdi\\-30h/***\n\nLes candidatures sur Indeed ou incomplètes ne sont pas traitées, merci !\n\nLe Live, bar restau évènementiel engagé, recherche son ou sa nouveau.elle collègue de travail pour **un poste de polyvalent !**\n\nDu bar, du run, de la salle, des services de cuisine en autonomie (assemblage uniquement), de la plonge et beaucoup beaucoup de bons moments garantis si tu aimes les gens, les rencontres et les jobs qui bougent !\n\n**Tes missions :**\n\nSelon les shifts :\n\n\\- Le service au bar midi et journée ou soir: boissons chaudes (simples et spéciales) cocktails, vins, bières, conseils et prise de commandes, encaissement avec sourire, et bonne humeur.\n\n\\- Le service en salle le midi en autonomie\n\n\\- Ouverture et fermeture du poste cuisine le soir comprenant l'assemblage de planches dînatoires, et des plats du soir et leur envoi pendant le service\n\n\\- L'ouverture ou la fermeture du lieu, le nettoyage des locaux et du poste concerné et toutes les autres missions polyvalentes du poste.\n\nEn somme : une mission complète et une formation à tous nos métiers, des rushs, un travail en équipe soudée, et beaucoup beaucoup de bons moments avec nos clients.\n\n**​Les conditions de travail au Livestation DIY :** \n\n* 2 jours off consécutifs​ / Coupures rares / Service soir majoritairement (Shift de 6h ou de 7hr)\n* 30:00 ​avec badgeuse et compteurs temps annualisé\n* Pourboires significatifs (Appli sur TPE \\+ pourboires classiques)\n* Formation continue et évolution\n\n**Les critères à valider :** \n\n* Débutant acceptés, mais en connaissance des contraintes des métiers de la restauration (travail soir et week\\-end) et curiosité pour le métier de barman\n* Etre dynamique et rapide\n* Avoir une bonne présentation et un bon relationnel client\n* Aimer le travail en équipe\n* Avoir un petit grain de folie :)\n\n​Un plus : La passion pour le milieu du bar\n\n**GO ! J'fais comment pour postuler ?**\n\nTu postules sur le lien sur site\n\nhttps://livestationdiy.com/recrutements/employe\\-e\\-polyvalent\\-e\\-bar\\-salle\\-cuisine\\-lyon\\-cdi\\-30h/\n\navec ton CV et ta lettre de motivation avec ton parcours pour mieux comprendre qui tu es !\n\nType d'emploi : CDI\n\nRémunération : 12,31€ par heure\n\nAvantages :\n\n* Aide au logement\n* Flextime\n* Prise en charge du transport quotidien\n* Restaurant d'entreprise\n\nQuestion(s) de présélection:\n\n* Postulez sur le site directement : https://livestationdiy.com/recrutements/lyon\\-employe\\-polyvalent\\-bar\\-salle\\-cuisine\\-cdi\\-35h/\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=77a6a18c87e21752",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
+    },
+    {
+      "source": "Indeed",
+      "id": "917d3b3d3d3b",
+      "titre": "EXTRA BAR GROOM X SLO",
+      "entreprise": "Slo Hostels",
+      "ville": "Lyon, ARA, FR",
+      "contrat": "fulltime",
+      "salaire": "",
+      "description": "SLO Hostels conçoit et exploite des auberges de jeunesse nouvelle génération depuis 2014\\. SLO est présent à Lyon (2 établissements), à Bordeaux et à Nice !\n\n**À propos de Slo Lyon Les Pentes**\n\n*Slo Lyon les Pentes est un établissement hôtelier situé dans le centre\\-ville de Lyon.*  \n\n*Le concept reprend le côté convivial et économique des auberges de jeunesse, le design des boutiques hôtel et la qualité de service des chambres d'hôtes.*  \n\n*Tout y est fait pour que nos hôtes du monde entier s'y sentent chez eux et puissent découvrir Lyon de manière originale ! Son coffee shop est ouvert sur le quartier et accueille de nombreux événements toute l'année.*  \n\n*Labellisés Clef Verte, nous sommes fiers de partager une nouvelle vision de l'hébergement touristique avec nos équipes et nos hôtes !*\n\n**Description du poste**\n------------------------\n\n**ENVIRONNEMENT DE TRAVAIL :**\n\n\nCadre convivial et jeune d'une auberge nouvelle génération\n\n**CONDITIONS DU POSTE**\n\n\nNous rechercons une personne pour rejoindre notre pool d'extra et intégrer notre équipe ( durée/ modalités a définir en entretien )\n\n**MISSIONS**\n\n\nSoutenir le bar et l'équipe\n\n\nCréer une ambiance conviviale adaptée à la politique de l’établissement\n\n\nFournir un service de qualité avec un excellent relationnel\n\n\nAssurer l'approvisionnement, la mise en place et le service au bar en intervenant dans les conditions optimales d'hygiène et sécurité.\n\n\nPromouvoir les produits de l'établissement.\n\n\nContribuer à la fidélisation et au développement de la clientèle.\n\n\nAssurer la tenue de la caisse\n\n\nAssurer le nettoyage et la maintenance des machines et des équipements divers\n\n**Profil recherché**\n--------------------\n\n**Profil recherché**\n\n\nNous recherchons un équipier ouvert, dynamique et souriant, aimant l’univers de l'hôtellerie restauration et bar, les voyages et disponible pour des missions d'extras de manière récurrente notamment en saison haut ( mars à sept )\n\n\nQualités professionnelles requises : grande autonomie, première expérience de serveur/barman nécessaire\n\n\nAttrait pour le FnB, monde du bar, des hostels\n\n\nUne disponibilité principalement les après midi / soir\n\n\nLangues étrangères (anglais courant obligatoire une autre langue est un plus)\n\n\nOuverture d'esprit, sens des initiatives, flexibilité et disponibilité",
+      "url": "https://fr.indeed.com/viewjob?jk=0a971b43d653441a",
+      "date": "2026-05-26",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -831,12 +899,12 @@
       "salaire": "",
       "description": "GREET HOTEL CENTRE VILLE LYON\n\nrecherche libre dès maintenant et cet été 2026\n\nserveur ( se ) en extra pour renfort de nos équipes pour le service petit déjeuner les samedis et dimanche matins\n\nhoraires DE 6h30 jusque 12 h \\-\n\n( avec possiblité de travailler jusque 16H le dimanche pour service brunch )\n\nMissions :\n\n* Accueillir les clients\n* Maintenir la propreté et l'organisation du buffet\n* Respecter les normes de sécurité alimentaire\n* exérience obligatoire en service\n* Le sens du service client\n\nType d'emploi : Temps partiel\n\nRémunération : à partir de 12,02€ par heure\n\nExpérience:\n\n* Restauration: 1 an (Optionnel)\n* serveur H/F: 1 an (Requis)\n\nLangue:\n\n* Anglais (Optionnel)\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=26d4662ad2e930ba",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -848,12 +916,12 @@
       "salaire": "",
       "description": "***Job été en restauration \\- IRIGNY***  \n***Mai à Mi Septembre ou en EXTRA***\n\n***CDD .***\n\n***Présentation de la société:***\n\nRestaurant terrasse avec grenouille, confortablement installé à **Irigny**, à 11 kilomètres du centre de Lyon, **R**estaurant traditionnel CHEZ Ruben \\& Bénédicte .\n\n***Mission:***\n\n* Réaliser le service des plats et boissons aux clients ou aider en cuisine et à la plonge\n* réaliser la mise en place et le nettoyage de la salle et des annexes\n* Conseiller les clients\n* Prise de commande\n* Appliquer et faire appliquer les règles d'hygiène et de sécurité alimentaire\n\n***Profile recherché:***\n\nRecherchons pour la période de JUIN à mi septembre; une personne ou étudiants motivés et dynamique afin d'aider à la confection des plats en cuisine , faire la plonge ou pour faire le service en salle.\n\nHoraires à définir; deux jours de repos par semaine dont le lundi.\n\nNous recherchons également des extra pour les weekend.\n\nNous acceptons un étudiant en restauration ou étudiant avec une réel motivation, étant rigoureux et rapide.\n\n***Avantage:***\n\nRepas pris sur place, bonne ambiance.\n\n***Pas de logement possible.***\n\n***Avoir un véhicule car mal desservis par les transports en communs.***\n\n**Merci de nous faire parvenir votre CV avec photo et lettre de motivations.**\n\n**Restaurant CHEZ Ruben \\& Bénédicte**  \n6 imp. du vieux port  \n69540 IRIGNY  \nwww.chezretb.fr  \n04 78 51 71 50\n\nType d'emploi : Temps plein, Temps partiel, CDD  \nDurée du contrat : 2 mois\n\nRémunération : 12,31€ à 13,00€ par heure\n\nExigences linguistiques flexibles :\n\n* Français non requis\n\nQuestion(s) de présélection:\n\n* Sur quelle commune résidez vous?\n\nExpérience:\n\n* Restauration: 1 an (Optionnel)\n\nLangue:\n\n* Français (Requis)\n\nPermis/certification:\n\n* véhicule et Permis B (Requis)\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=4d6760a8d10f1cb8",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -869,7 +937,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 0,
+      "jours_anciennete": 1,
       "first_seen": "2026-05-25"
     },
     {
@@ -886,7 +954,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 0,
+      "jours_anciennete": 1,
       "first_seen": "2026-05-25"
     },
     {
@@ -903,7 +971,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 0,
+      "jours_anciennete": 1,
       "first_seen": "2026-05-25"
     },
     {
@@ -920,24 +988,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
-    },
-    {
-      "source": "Indeed",
-      "id": "ddf8c7383501",
-      "titre": "Hôte service client magasin (H/F) - Lyon Grand Parilly",
-      "entreprise": "Leroy Merlin",
-      "ville": "Vénissieux, ARA, FR",
-      "contrat": "",
-      "salaire": "",
-      "description": "***En résumé, tout ce que ce poste peut vous apporter :***\n\n***Un rôle clé dans l’expérience client*** *: accueil, encaissement, fidélisation, événements clients, relation à distance et même animation sur les réseaux sociaux.*\n\n***Des perspectives d’évolution réelles*** *: Vers un poste de Responsable Service Client, mais aussi en vente, logistique, ou projets transverses (RSE, chantiers solidaires…).*\n\n***Un package motivant*** *: salaire fixe \\+ primes \\+ actionnariat \\+ avantages nombreux (dont produits à prix préférentiels, dispositifs pour concilier vie pro/perso, etc.)*\n\n***Une entreprise inclusive****, avec une équipe soudée et une bonne ambiance au travail.*\n\n**Un poste pour celles et ceux qui aiment voir leurs clients sourire, et dont les valeurs humaines passent avant tout le reste.**\n\n\nEn tant qu’Hôtesse ou Hôte Service client, vous avez un rôle\\-clé dans l’expérience exceptionnelle que nous nous efforçons d’apporter à nos clients.\n\n **Votre futur métier :**\n\n\nIl s’exerce en magasin. Au sein du pôle Service Client, composé d’une équipe importante et polyvalente, vous intervenez à chaque étape de la relation avec nos clients, en magasin, à distance et sur les réseaux sociaux. Comment ? En développant une expérience exceptionnelle pour chaque personne qui interagit avec nos services.\n\n\nLes premiers mois, vous allez apprendre le socle du métier, savoir l'encaissement et la posture relationnelle avec les clients. Ensuite, au bout de quelques mois (environ 6 mois), votre poste devient polyvalent, et vous alternez les tâches entre : accueil du magasin, caisses (traditionnelles et automatiques), reprise des marchandises, fidélisation client, plateforme téléphonique du magasin, relation client à distance, cours de bricolage, événementiel clients, et animation de la communauté locale sur les réseaux sociaux.\n\n\nVous disposez d’une certaine autonomie dans l’organisation de vos semaines, et contribuez au choix de vos tâches hebdomadaires, en accord avec votre Responsable Service Client et dans le respect des souhaits de toute l’équipe.\n\n **Votre profil :**  \n\n\n\n* Vous avez des valeurs humaines fortes, en particulier la bienveillance, l’empathie et l’écoute,\n* Les gens remarquent votre facilité de communication,\n* Vous savez gérer les émotions de vos interlocuteurs, et trouvez les mots pour comprendre et rassurer lorsque c’est nécessaire,\n* Vous aimez travailler dans un environnement organisé par le respect des procédures,\n* Une expérience dans la relation client sera évidemment appréciée. Et dans le cas contraire, on vous formera !\n\n\nLeroy Merlin s’engage en faveur de la diversité et de l’égalité des chances. Ce poste est ouvert à toutes et tous, et nous croyons que la pluralité des parcours, des genres et des regards est une richesse pour le collectif.\n\n **Comment réussir sur ce poste :**\n\n* En développant une certaine connaissance des produits : les clients vous solliciteront souvent, et vous devrez pouvoir apporter des réponses de manière autonome\n* En étant vous\\-même, et en parlant au client de manière naturelle et franche\n* En adoptant un respect complet des procédures, notamment en caisse.\n\n **Ce qui ne fonctionne pas sur ce poste :**\n\n* Chercher à se mettre en avant dans la relation client : c’est un métier où l’on se met à la disposition du client, pas un métier où l’on s’impose,\n* Adopter une posture fermée qui découragerait les clients de venir vous parler.\n\n **Ce que vous retirerez de ce métier ?**\n\n\nLe plaisir de voir vos clients repartir avec le sourire, et celui de les voir revenir !\n\n\nMais aussi, et surtout, parce que nous sommes Leroy Merlin, une qualité de vie au travail, dans une équipe soudée et fière de travailler ensemble. Ici, on construit avec toutes les personnalités, toutes les envies, tous les parcours. Notre diversité fait notre force.\n\n **Et si on regarde plus loin ?**  \n\n\n\nVous allez pouvoir fabriquer un parcours qui vous ressemble, vraiment. Vous pourrez, par exemple, évoluer vers un poste de Responsable Service Client. Mais vous pourrez aussi changer de domaine métier, en rejoignant les équipes de la vente ou de la logistique, ou vous engager sur des projets transverses (RSE, chantiers solidaires, etc.).\n\n  \n\n**Rémunération et avantages**\n\n* Un **salaire fixe** compris entre 1946 € et 2100 € mensuels bruts sur 13 mois (), complété par une **rémunération variable** (Intéressement et Participation aux Bénéfices) qui récompense les efforts collectifs\n* Une **politique de partage** qui permet à 100% des collaborateurs d’être actionnaires de l’entreprise, en investissant tout ou partie de leur rémunération variable dans le plan d’épargne entreprise\n* Des **titres restaurant** à hauteur de 10€ x 15 jours maximum (dont 60% de prise en charge par l’employeur)\n\n\nEt d’autres avantages, notamment :\n\n* 15% de remise sur l’ensemble des produits et services Leroy Merlin, et des prix préférentiels sur \\+ de 1000 produits\n* **Aide partielle au transport** : Leroy Merlin participe aux frais de",
-      "url": "https://fr.indeed.com/viewjob?jk=8529631afeec10c0",
-      "date": "2026-05-25",
-      "domaine": "RESTO",
-      "niveau": 2,
-      "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 0,
+      "jours_anciennete": 1,
       "first_seen": "2026-05-25"
     },
     {
@@ -954,7 +1005,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 0,
+      "jours_anciennete": 1,
       "first_seen": "2026-05-25"
     },
     {
@@ -971,7 +1022,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 1,
+      "jours_anciennete": 2,
       "first_seen": "2026-05-24"
     },
     {
@@ -988,7 +1039,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 1,
+      "jours_anciennete": 2,
       "first_seen": "2026-05-24"
     },
     {
@@ -1005,25 +1056,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 2,
-      "first_seen": "2026-05-25"
-    },
-    {
-      "source": "France Travail",
-      "id": "2985421",
-      "titre": "Technicien de maintenance CVC (H/F)",
-      "entreprise": "",
-      "ville": "69 - Lyon 5e Arrondissement",
-      "contrat": "CDI",
-      "salaire": "Annuel de 35000.0 Euros à 40000.0 Euros",
-      "description": "Description du poste :\nVos missions Réaliser les interventions de maintenance sur les installations vapeur et équipements de production de chaleur.\n* Identifier les pannes, apporter des solutions adaptées et optimiser le fonctionnement des installations.\n* Ajuster et fiabiliser les systèmes de combustion et de régulation.\n* Suivre les paramètres réglementaires (notamment émissions) et garantir une exploitation conforme et sécurisée.\n* Contribuer à la continuité de service via un système d'astreinte tournant.\nDescription du profil :\nProfil recherché Formation technique (énergie, électrotechnique, maintenance) et expérience confirmée en chaudières industrielles.\n* Compétences en installations vapeur et sens de l'analyse technique.\n* Appétence du travail en itinérance et autonomie terrain.",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/2985421",
-      "date": "2026-05-23",
-      "domaine": "BIM",
-      "niveau": 2,
-      "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 2,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 3,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1039,8 +1073,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 2,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 3,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -1056,7 +1090,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 2,
+      "jours_anciennete": 3,
       "first_seen": "2026-05-23"
     },
     {
@@ -1073,7 +1107,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 2,
+      "jours_anciennete": 3,
       "first_seen": "2026-05-23"
     },
     {
@@ -1090,7 +1124,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 2,
+      "jours_anciennete": 3,
       "first_seen": "2026-05-23"
     },
     {
@@ -1107,7 +1141,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 2,
+      "jours_anciennete": 3,
       "first_seen": "2026-05-23"
     },
     {
@@ -1124,7 +1158,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 2,
+      "jours_anciennete": 3,
       "first_seen": "2026-05-23"
     },
     {
@@ -1141,7 +1175,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 2,
+      "jours_anciennete": 3,
       "first_seen": "2026-05-23"
     },
     {
@@ -1158,8 +1192,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1175,8 +1209,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1192,8 +1226,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1209,8 +1243,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1226,8 +1260,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1243,8 +1277,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1260,8 +1294,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1277,8 +1311,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1294,8 +1328,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1311,8 +1345,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1328,8 +1362,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1345,8 +1379,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1362,8 +1396,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1379,8 +1413,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1396,8 +1430,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -1413,7 +1447,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 3,
+      "jours_anciennete": 4,
       "first_seen": "2026-05-22"
     },
     {
@@ -1430,7 +1464,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 3,
+      "jours_anciennete": 4,
       "first_seen": "2026-05-22"
     },
     {
@@ -1447,7 +1481,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 3,
+      "jours_anciennete": 4,
       "first_seen": "2026-05-22"
     },
     {
@@ -1464,7 +1498,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 3,
+      "jours_anciennete": 4,
       "first_seen": "2026-05-22"
     },
     {
@@ -1481,7 +1515,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 3,
+      "jours_anciennete": 4,
       "first_seen": "2026-05-22"
     },
     {
@@ -1498,8 +1532,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1515,8 +1549,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1532,8 +1566,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1549,8 +1583,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1566,8 +1600,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1583,8 +1617,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1600,8 +1634,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1617,8 +1651,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1634,8 +1668,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1651,8 +1685,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -1668,7 +1702,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-22"
     },
     {
@@ -1685,7 +1719,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1702,7 +1736,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1719,7 +1753,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1736,7 +1770,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1753,7 +1787,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1770,7 +1804,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1787,7 +1821,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1804,7 +1838,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1821,7 +1855,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1838,7 +1872,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1855,7 +1889,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1872,7 +1906,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1889,7 +1923,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1906,7 +1940,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1923,7 +1957,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1940,7 +1974,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1957,7 +1991,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1974,7 +2008,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -1991,7 +2025,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -2008,7 +2042,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -2025,7 +2059,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -2042,7 +2076,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -2059,7 +2093,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -2076,7 +2110,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -2093,7 +2127,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -2110,7 +2144,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -2127,8 +2161,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2144,8 +2178,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2161,8 +2195,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2178,8 +2212,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2195,8 +2229,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2212,8 +2246,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2229,7 +2263,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-21"
     },
     {
@@ -2246,7 +2280,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2263,7 +2297,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2280,7 +2314,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2297,7 +2331,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2314,7 +2348,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2331,7 +2365,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2348,7 +2382,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2365,7 +2399,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2382,7 +2416,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2399,7 +2433,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2416,7 +2450,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2433,7 +2467,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2450,7 +2484,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2467,7 +2501,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2484,7 +2518,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -2501,8 +2535,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2518,8 +2552,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2535,8 +2569,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2552,8 +2586,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2569,7 +2603,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-21"
     },
     {
@@ -2586,7 +2620,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-21"
     },
     {
@@ -2603,7 +2637,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2620,7 +2654,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2637,7 +2671,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2654,7 +2688,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2671,7 +2705,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2688,7 +2722,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2705,7 +2739,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2722,7 +2756,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2739,7 +2773,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2756,7 +2790,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2773,7 +2807,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2790,7 +2824,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -2807,8 +2841,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 7,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 8,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2824,8 +2858,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 7,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 8,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2841,8 +2875,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 7,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 8,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2858,8 +2892,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 10,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 11,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2875,8 +2909,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 10,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 11,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2892,8 +2926,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 11,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 12,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2909,8 +2943,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 11,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 12,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2926,8 +2960,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 11,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 12,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2943,8 +2977,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 12,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 13,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2960,8 +2994,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 12,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 13,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2977,8 +3011,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -2994,8 +3028,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3011,8 +3045,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3028,8 +3062,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3045,8 +3079,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3062,7 +3096,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 13,
+      "jours_anciennete": 14,
       "first_seen": "2026-05-21"
     },
     {
@@ -3079,7 +3113,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 13,
+      "jours_anciennete": 14,
       "first_seen": "2026-05-12"
     },
     {
@@ -3096,8 +3130,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 14,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 15,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3113,8 +3147,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 14,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 15,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3130,7 +3164,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 14,
+      "jours_anciennete": 15,
       "first_seen": "2026-05-25"
     },
     {
@@ -3147,8 +3181,25 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 16,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 17,
+      "first_seen": "2026-05-26"
+    },
+    {
+      "source": "France Travail",
+      "id": "2404767",
+      "titre": "Technicien de maintenance CVC (H/F)",
+      "entreprise": "",
+      "ville": "69 - Lyon 5e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Description du poste :\nRattaché à un responsable d'exploitation, vous prenez en charge un secteur géographique défini.\nVos missions principales seront les suivantes Réaliser la maintenance préventive et corrective des installations de chauffage.\n* Assurer les interventions de dépannage sur les équipements thermiques.\n* Diagnostiquer les dysfonctionnements et proposer les actions correctives adaptées.\n* Effectuer les réglages nécessaires sur les organes mécaniques, hydrauliques ou électroniques.\n* Intervenir sur les chaudières, brûleurs, équipements de traitement d'air et systèmes de régulation.\n* Participer à l'amélioration des performances énergétiques des installations.\n* Renseigner les rapports d'intervention et assurer le suivi technique des sites confiés.\n* Participer au dispositif d'astreinte après une période d'intégration.\nDescription du profil :\nVous êtes issu d'une formation technique en maintenance énergétique, génie climatique, chauffage, électrotechnique ou équivalent .\nVous justifiez idéalement d'une première expérience en maintenance CVC, chauffage collectif, chaufferie ou exploitation d'installations thermiques.\nVous êtes à l'aise avec le diagnostic de panne, les interventions terrain et la relation client. Des connaissances en brûleurs, hydraulique ou régulation seront appréciées.\nAu-delà de vos compétences techniques, vous êtes reconnu pour votre autonomie, votre rigueur et votre sens du service.\nConditions proposées***Poste en CDI\n* Véhicule de service\n* Rémunération fixe sur 13 mois\n* Primes, paniers repas, astreintes\n* Intéressement, participation et avantages salariés\nProcessus de recrutement Un entretien avec notre consultante Achil\n* Un entretien RH client\n* Un entretien avec votre futur manager",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/2404767",
+      "date": "2026-05-07",
+      "domaine": "BIM",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3164,8 +3215,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3181,8 +3232,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3198,8 +3249,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3215,8 +3266,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3232,8 +3283,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3249,8 +3300,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3266,8 +3317,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3283,8 +3334,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3300,8 +3351,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3317,8 +3368,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3334,7 +3385,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 18,
+      "jours_anciennete": 19,
       "first_seen": "2026-05-22"
     },
     {
@@ -3351,8 +3402,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 19,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 20,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3368,8 +3419,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 19,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 20,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3385,8 +3436,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 19,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 20,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3402,8 +3453,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 19,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 20,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3419,8 +3470,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 19,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 20,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3436,8 +3487,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 20,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 21,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3453,8 +3504,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 20,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 21,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3470,8 +3521,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 20,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 21,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3487,7 +3538,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 20,
+      "jours_anciennete": 21,
       "first_seen": "2026-05-22"
     },
     {
@@ -3504,8 +3555,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 21,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 22,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3521,8 +3572,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 21,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 22,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3538,8 +3589,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 21,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 22,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3555,8 +3606,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 21,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 22,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3572,8 +3623,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 23,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 24,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3589,8 +3640,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 24,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 25,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3606,8 +3657,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 24,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 25,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3623,8 +3674,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 24,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 25,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3640,8 +3691,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 24,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 25,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3657,8 +3708,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3674,8 +3725,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3691,8 +3742,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3708,8 +3759,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3725,8 +3776,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3742,8 +3793,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3759,8 +3810,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3776,8 +3827,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3793,7 +3844,7 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 26,
+      "jours_anciennete": 27,
       "first_seen": "2026-05-25"
     },
     {
@@ -3810,7 +3861,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 26,
+      "jours_anciennete": 27,
       "first_seen": "2026-05-25"
     },
     {
@@ -3827,7 +3878,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 26,
+      "jours_anciennete": 27,
       "first_seen": "2026-05-20"
     },
     {
@@ -3844,8 +3895,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 27,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 28,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3861,8 +3912,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 27,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 28,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3878,8 +3929,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 27,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 28,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3895,8 +3946,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 28,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 29,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3912,8 +3963,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 29,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 30,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3929,8 +3980,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 30,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 31,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3946,8 +3997,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 31,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 32,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3963,7 +4014,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 31,
+      "jours_anciennete": 32,
       "first_seen": "2026-05-24"
     },
     {
@@ -3980,8 +4031,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 32,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 33,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -3997,8 +4048,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 32,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 33,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4014,8 +4065,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 32,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 33,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4031,7 +4082,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 32,
+      "jours_anciennete": 33,
       "first_seen": "2026-05-22"
     },
     {
@@ -4048,7 +4099,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 32,
+      "jours_anciennete": 33,
       "first_seen": "2026-05-20"
     },
     {
@@ -4065,8 +4116,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 33,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 34,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4082,8 +4133,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 33,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 34,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4099,7 +4150,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 33,
+      "jours_anciennete": 34,
       "first_seen": "2026-05-22"
     },
     {
@@ -4116,7 +4167,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 34,
+      "jours_anciennete": 35,
       "first_seen": "2026-05-20"
     },
     {
@@ -4133,7 +4184,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 34,
+      "jours_anciennete": 35,
       "first_seen": "2026-05-19"
     },
     {
@@ -4150,8 +4201,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 40,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 41,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4167,8 +4218,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 41,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 42,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4184,8 +4235,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 41,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 42,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4201,8 +4252,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 45,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 46,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4218,8 +4269,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 45,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 46,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4235,8 +4286,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 46,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 47,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4252,8 +4303,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 47,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 48,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4269,8 +4320,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 47,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 48,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4286,8 +4337,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 52,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 53,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4303,8 +4354,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 52,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 53,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4320,8 +4371,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 53,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 54,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4337,8 +4388,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 55,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 56,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4354,7 +4405,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 59,
+      "jours_anciennete": 60,
       "first_seen": "2026-05-20"
     },
     {
@@ -4371,8 +4422,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 61,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 62,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4388,8 +4439,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 62,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 63,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4405,8 +4456,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 62,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 63,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4422,7 +4473,7 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 65,
+      "jours_anciennete": 66,
       "first_seen": "2026-05-19"
     },
     {
@@ -4439,8 +4490,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 68,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 69,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4456,8 +4507,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 70,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 71,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4473,8 +4524,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 72,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 73,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4490,8 +4541,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 86,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 87,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4507,8 +4558,8 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
-      "jours_anciennete": 108,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 109,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4524,8 +4575,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 117,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 118,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4541,8 +4592,8 @@
       "domaine": "RESTO",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 124,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 125,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4558,8 +4609,25 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 132,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 133,
+      "first_seen": "2026-05-26"
+    },
+    {
+      "source": "Indeed",
+      "id": "5b14bcbbe277",
+      "titre": "Ingénieur Études HTB (H/F)",
+      "entreprise": "TechTeam",
+      "ville": "Saint-Étienne, ARA, FR",
+      "contrat": "fulltime",
+      "salaire": "",
+      "description": "**À propos**\n------------\n\n\nNée de l'ambition d'accélérer la transformation de l'industrie, Techteam est une société de conseil en performance industrielle implantée à Lyon depuis plus de 15 ans. Organisés en deux pôles complémentaires – Conseil \\& outils décisionnels et Ingénierie 4\\.0 – nous accompagnons nos clients sur toute la chaîne de valeur d'un projet industriel, de la phase amont à la mise en œuvre opérationnelle.\nBoostez votre carrière en devenant un acteur clé de projets industriels passionnants tout en construisant votre propre parcours professionnel. Ensemble, avançons vers l'industrie de demain !\nLes Mousq'Team vous attendent avec impatience pour relever de nouveaux défis (et nous vous promettons une ambiance conviviale et bienveillante).**Le poste**\n------------\n\n\nContexte:\nDans le cadre de projets liés au développement d'infrastructures énergétiques et au raccordement d'installations de production au réseau, nous recherchons un Pilote d'Études HTB pour intervenir sur la conception et le dimensionnement de postes haute tension.\nVous intégrerez une équipe projet en charge d'études électriques sur des projets à dimension européenne.\nMissions principales:\nVous intervenez sur les études et la conception de postes HTB et participez au suivi technique des projets.\nVos missions incluent notamment :\nRéaliser les études de conception et de dimensionnement de postes HTB / HTA\nConcevoir les schémas électriques, unifilaires et architectures contrôle\\-commande\nÉlaborer les plans d'implantation et schémas électriques sous AutoCAD\nDimensionner les équipements HTB / HTA :\ndisjoncteurs\nsectionneurs\ntransformateurs\nprotections\nRéaliser les études électriques (court\\-circuit, load flow, chute de tension)\nRédiger les spécifications techniques et dossiers d'études\nParticiper au chiffrage et aux phases d'avant\\-projet\nSuivre les études d'exécution réalisées par les sous\\-traitants\nParticiper aux phases de mise en service et FAT / SAT\nVous êtes également amené à collaborer avec les équipes projet, commerciales et construction afin d'assurer la bonne réalisation des projets.\nEnvironnement technique:\nPostes électriques HTB / HTA\nNormes IEC (60137, 62271, 61936, 60076\\)\nAutoCAD\nPowerFactory / DigSilent\nElecCalc\nÉtudes électrotechniques\nArchitecture postes électriques**Profil recherché**\n--------------------\n\n\nProfil recherché:\nDe formation Ingénieur en électrotechnique, vous disposez d'une expérience significative dans les études de postes haute tension.\nVous avez idéalement :\nune expérience en bureau d'études électriques\nune bonne connaissance des postes HTB / HTA\nune maîtrise d'AutoCAD\ndes compétences en études électrotechniques\nun niveau d'anglais professionnel\nLa connaissance du BIM / REVIT ou d'environnements internationaux est un plus.\nInformations complémentaires:\nDéplacements ponctuels possibles\nEnvironnement projet international\nCollaboration avec différentes équipes techniques\nAvantages\nSalaire brut annuel : selon expérience.\nPrimes : qualité, cooptation, ancienneté.\nRTT.\nIntéressement et participation.\nTickets restaurants (60 % pris en charge).\nMutuelle (50 %) \\& prévoyance (100 %).\nTransport en commun pris en charge (50 %).\nCarte cadeau anniversaire \\& Noël .\nPlateforme avantages MyEdenred (cinéma, loisirs, réductions).\nFormations certifiantes \\& accompagnement à la mobilité.\n  \n**En résumé**\n-------------\n\n\n#### **Société**\n\n\nTechteam\n\n\n#### **Contrat**\n\n\nCDI • Cadre • Temps Plein\n\n\n#### **Expérience**\n\n\n3 ans minimum\n\n\n#### **Diplôme**\n\n\nBAC \\+4/5\n\n\n#### **Localisation**\n\n\nSaint\\-Étienne (42\\)\n\n\n#### **Référence**\n\n\n2538877",
+      "url": "https://fr.indeed.com/viewjob?jk=0ae97d4e086d3176",
+      "date": "2026-05-26",
+      "domaine": "BIM",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 0,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -4571,12 +4639,12 @@
       "salaire": "",
       "description": "**Qui sommes\\-nous ?**\n\nHungry Club est un atelier lyonnais qui conçoit et fabrique des supports design pour les hôtels, restaurants, cafés et lieux d’accueil : porte\\-menus, supports QR code, letter boards, signalétique et objets personnalisés.\n\nNous travaillons avec des restaurants indépendants, des hôtels, des groupes hôteliers et des établissements qui veulent améliorer leur expérience client avec des produits beaux, utiles et durables.\n\nAujourd’hui, l’activité se développe et nous recherchons une personne fiable, manuelle et soigneuse pour rejoindre l’atelier et participer à la fabrication quotidienne des commandes.\n\nLe poste est avant tout un poste de terrain : préparer, fabriquer, assembler, contrôler, emballer et expédier des produits de qualité.\n\n**Le contexte**\n\nL’équipe est encore petite. Vous serez formé·e à nos produits, nos machines et nos méthodes de fabrication.\n\nVous travaillerez dans un atelier en développement, avec des commandes variées, des produits personnalisés et une vraie exigence de finition.\n\nNous cherchons une personne qui aime produire, manipuler les matières, utiliser des machines, suivre des méthodes claires et voir concrètement le résultat de son travail à la fin de la journée.\n\nAvec le temps, vous pourrez aussi contribuer à améliorer certaines méthodes de fabrication, mais la priorité du poste reste la production atelier.\n\n**Vos missions principales**\n\n**Production atelier**\n\nVous participerez aux différentes étapes de fabrication :\n\n* préparation des matières ;\n* découpe et gravure laser ;\n* nettoyage des pièces ;\n* assemblage des produits ;\n* finitions ;\n* contrôle qualité ;\n* emballage des commandes ;\n* préparation des expéditions ;\n* rangement et entretien de l’espace de travail ;\n* entretien courant des machines.\n\nL’objectif est de produire des commandes propres, conformes, bien finies et dans les délais.\n\n**Préparation des commandes et fichiers clients**\n\nVous pourrez également intervenir sur la partie amont des commandes :\n\n* vérification simple des fichiers clients ;\n* préparation des fichiers pour la gravure ou la découpe ;\n* gestion des bons à tirer selon nos méthodes ;\n* signalement des fichiers manquants, illisibles ou non conformes ;\n* suivi des commandes à produire.\n\nCette partie demande de la rigueur, de l’attention aux détails et une bonne capacité à suivre une méthode.\n\n**Organisation quotidienne de l’atelier**\n\nVous participerez aussi au bon fonctionnement de l’atelier :\n\n* suivre les priorités de production ;\n* garder l’atelier propre et organisé ;\n* anticiper les besoins en matières premières ;\n* signaler les ruptures ou problèmes de stock ;\n* respecter les fiches de production ;\n* remonter les erreurs répétitives ou points de blocage.\n\nNous ne cherchons pas quelqu’un pour tout réinventer, mais une personne capable de travailler proprement, de suivre les méthodes en place et de proposer des améliorations simples quand elles sont utiles.\n\n**Le profil recherché**\n\nVous avez un profil manuel, précis et organisé.\n\nVous aimez le travail concret, les produits bien finis, les machines, les matériaux, les détails propres et les ateliers bien rangés.\n\nVous n’avez pas besoin d’être déjà expert·e en découpe laser. Une formation sera assurée en interne.\n\nEn revanche, vous devez avoir une vraie appétence pour la fabrication, le travail manuel, les tâches de production et la qualité d’exécution.\n\nVous êtes probablement la bonne personne si :\n\n* vous aimez fabriquer ;\n* vous êtes soigneux·se et rigoureux·se ;\n* vous êtes fiable et ponctuel·le ;\n* vous aimez le travail bien fait ;\n* vous êtes à l’aise avec les tâches manuelles ;\n* vous savez suivre une méthode ;\n* vous êtes capable de rester concentré·e sur des commandes précises ;\n* vous aimez travailler dans un atelier ;\n* vous savez signaler clairement un problème ;\n* vous acceptez les tâches répétitives quand elles sont nécessaires ;\n* vous aimez voir le résultat concret de votre travail.\n\n**Une expérience dans l’un de ces domaines est un vrai plus :**\n\n* découpe laser ;\n* signalétique ;\n* impression ou marquage ;\n* atelier de production ;\n* fabrication artisanale ou semi\\-industrielle ;\n* menuiserie fine ;\n* packaging ou préparation de commandes ;\n* préparation de fichiers techniques ;\n* contrôle qualité ;\n* travail manuel précis.\n\nMais le plus important reste l’état d’esprit : rigueur, soin, fiabilité, sens pratique et envie de bien faire.\n\n**Ce qu’on cherche vraiment**\n\nNous cherchons une personne capable de produire au quotidien avec sérieux, soin et régularité.\n\nLe poste comporte des tâches très concrètes : découper, graver, nettoyer, assembler, contrôler, emballer, préparer les commandes et garder l’atelier organisé.\n\nIl ne s’agit pas d’un poste de chef de projet ou de manager.  \nIl ne s’agit pas non plus d’un poste principalement tourné vers le bureau, la stratégie ou la conception.\n\nNous cherchons quelqu’un qui aime faire.\n\nUne personne terrain, manuelle, précise, fiable, capable de prendre en main les comman",
       "url": "https://fr.indeed.com/viewjob?jk=a2f95a7c3063a042",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -4588,12 +4656,12 @@
       "salaire": "",
       "description": "Idéalement situé à 45 minutes de Lyon et 1 heure de Grenoble, le Château de Chapeau Cornu reçoit ses hôtes dans un magnifique cadre au sein d'un écrin de verdure. Le Château de Chapeau Cornu c'est un bistrot traditionnel de qualité La Rôtisserie avec des soirées à thème, un Spa, un centre de séminaires, un hôtel 4\\* (Château et Dépendances), un lieu de mariages et d'évènements privés.\n\nNotre restaurant avec ses soirées à thème cherche un talent : Maître d'hôtel Sommelier (H/F)\n\nCDI à partir du mois d'avril.\n\n\\*\\*\\*\\* Vos missions \\*\\*\\*\\*\n\nLe sommelier est en charge de la cave du restaurant : il choisit les vins et élabore une carte variée et originale pour accompagner la cuisine de l'établissement ;\n\n▪ Il est également en charge des liqueurs et des alcools. Il gère la cave en veillant aux stocks et à la bonne conservation des bouteilles, il se tient au courant des derniers crus et recherche en permanence des vins de qualité.\n\n▪ En salle, le sommelier est présent lors du service pour conseiller la clientèle et effectuer le service des vins à table, en respectant les règles très précises de la profession : ouverture, décantage, présentation du vin et commentaires, dégustation, puis service au verre.\n\n▪ Il connaît la carte des mets et il travaille en étroite collaboration avec le Chef de cuisine.\n\n\\*\\*\\*\\* Votre Profil \\*\\*\\*\\*\n\n\\- Expérimenté\n\n\\- Vous êtes discipliné, ponctuel(le).\n\n\\- Sens de la discipline et respect de la hiérarchie.\n\n\\- Connaissances approfondies des règles d'hygiène.\n\n\\- Aptitudes à travailler en équipe.\n\n\\- Vous ne voyez aucun inconvénient aux horaires en coupure et de week\\-end.\n\nRejoignez\\- nous ! Le Château de Chapeau Cornu, une multitudes de métiers et une passion commune: Le plaisir de faire plaisir.\n\nType d'emploi : Temps plein, CDI, CDD\n\nRémunération : Jusqu'à 3 000,00€ par mois\n\nAvantages :\n\n* Restaurant d'entreprise\n\nExpérience:\n\n* Sommelier: 1 an (Requis)\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=85131a570321094b",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 0,
-      "first_seen": "2026-05-25"
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -4609,7 +4677,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 0,
+      "jours_anciennete": 1,
       "first_seen": "2026-05-25"
     },
     {
@@ -4626,7 +4694,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 0,
+      "jours_anciennete": 1,
       "first_seen": "2026-05-25"
     },
     {
@@ -4643,7 +4711,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 1,
+      "jours_anciennete": 2,
       "first_seen": "2026-05-24"
     },
     {
@@ -4660,8 +4728,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4677,8 +4745,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4694,8 +4762,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4711,8 +4779,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 3,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 4,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "Indeed",
@@ -4728,7 +4796,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 3,
+      "jours_anciennete": 4,
       "first_seen": "2026-05-22"
     },
     {
@@ -4745,7 +4813,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 3,
+      "jours_anciennete": 4,
       "first_seen": "2026-05-22"
     },
     {
@@ -4762,8 +4830,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4779,8 +4847,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4796,8 +4864,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4813,8 +4881,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -4830,8 +4898,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 5,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "JobSpy",
@@ -4847,7 +4915,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -4864,7 +4932,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -4881,7 +4949,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -4898,7 +4966,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -4915,7 +4983,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -4932,7 +5000,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -4949,7 +5017,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -4966,7 +5034,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -4983,7 +5051,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -5000,7 +5068,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -5017,7 +5085,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -5034,7 +5102,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 4,
+      "jours_anciennete": 5,
       "first_seen": "2026-05-21"
     },
     {
@@ -5051,8 +5119,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5068,8 +5136,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5085,8 +5153,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5102,8 +5170,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5119,8 +5187,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5136,8 +5204,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5153,8 +5221,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 6,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "JobSpy",
@@ -5170,7 +5238,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5187,7 +5255,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5204,7 +5272,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5221,7 +5289,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5238,7 +5306,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5255,7 +5323,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5272,7 +5340,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5289,7 +5357,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5306,7 +5374,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5323,7 +5391,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5340,7 +5408,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
     },
     {
@@ -5357,8 +5425,25 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 5,
+      "jours_anciennete": 6,
       "first_seen": "2026-05-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "208LBWQ",
+      "titre": "Chef / Cheffe de site production de chaleur (H/F)",
+      "entreprise": "LE KALY DIRECTION REGIONALE CENTRE-EST",
+      "ville": "69 - Lyon 7e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "Annuel de 34000.0 Euros à 37000.0 Euros sur 12 mois",
+      "description": "DESCRIPTIF DU POSTE : \n\nRejoignez l'équipe et le projet le plus ambitieux de Dalkia auprès de la métropole lyonnaise !\n\nNous recherchons un Chef de site (H/F) sur la chaufferie de Surville.\n\nVous intervenez en tant que soutien dans le pilotage de l'activité de maintenance, travaux et dépannage CVC (chauffage, ventilation, climatisation).\n\nVous réalisez les interventions de conduite, de maintenance et de dépannage sur une panoplie d'équipements (chaudières biomasse y compris installations de dépotage, criblage et convoyage, chaudières mixte gaz/fuel domestique, ensembles de distributions, pompes réseaux, maintien de pression, production d'Air comprimé, production d'eau adoucie et traitée, installation électrique HT/BT). \n\n\nVos principales missions seront :\n- Diagnostiquer les installations et être force de proposition de solutions d'amélioration (devoir de conseil client, évolution de contrat, prise en charge, etc.) ;\n- Assister le Manager Opérationnel dans l'activité du quotidien\n- Accompagner les techniciens dans la mise en œuvre et l'utilisation des méthodes et outils d'exploitation ;\n- Participer au suivi des travaux et assurer la gestion des approvisionnements (Chiffrage, devis et saisie des commandes) ;\n- S'assurer du bon respect des règles de sécurité par les équipes et les sous-traitants ;\n- Rédiger des comptes rendu d'interventions et des procédures simples ;\n- Collecter, analyser les résultats et données d'exploitation et assurer le reporting auprès du client. \n- Le poste se décompose de 50% de missions œuvrantes et 50% de missions de suivi d'activité.\n\n\nPROFIL : \n\n\nDe formation Bac ou BTS génie climatique, vous justifiez d'une expérience minimum de 5 ans acquise en maintenance d'équipements énergétiques. \n\nDe bonnes aptitudes relationnelles, une bonne connaissance des outils informatiques et une grande rigueur vous permettront de réussir à ce poste.\n\nVous êtes à l'aise avec les outils bureautiques, digitaux et numériques \n\nEn intégrant une entreprise innovante et en développement, vous bénéficierez sur ce poste des avantages suivants :\n- Rémunération attractive avec le choix de votre temps de travail parmi 3 formules proposées !\n- Véhicule de service\n- Statut d'un grand groupe : Intéressement + Participation Mutuelle/Prévoyance + Comité d'Entreprise.\n \n\n« Dans le groupe EDF, accueillir des personnes en situation de handicap fait partie de notre ADN. Notre objectif est d'ouvrir nos portes à toutes les compétences, toutes les énergies et toutes les personnalités sans exclusion. Le poste proposé est donc ouvert à toutes et à tous ».",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/208LBWQ",
+      "date": "2026-05-19",
+      "domaine": "BIM",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5374,8 +5459,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5391,8 +5476,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5408,8 +5493,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5425,8 +5510,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 7,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "JobSpy",
@@ -5442,7 +5527,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5459,7 +5544,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5476,7 +5561,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5493,7 +5578,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5510,7 +5595,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5527,7 +5612,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5544,7 +5629,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5561,7 +5646,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5578,7 +5663,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5595,7 +5680,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5612,7 +5697,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5629,7 +5714,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5646,7 +5731,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5663,7 +5748,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5680,7 +5765,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5697,7 +5782,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5714,7 +5799,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 6,
+      "jours_anciennete": 7,
       "first_seen": "2026-05-19"
     },
     {
@@ -5731,7 +5816,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 7,
+      "jours_anciennete": 8,
       "first_seen": "2026-05-21"
     },
     {
@@ -5748,8 +5833,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 11,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 12,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5765,8 +5850,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 11,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 12,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5782,8 +5867,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 11,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 12,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5799,8 +5884,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 12,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 13,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5816,8 +5901,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 12,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 13,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5833,8 +5918,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 13,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 14,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5850,7 +5935,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 13,
+      "jours_anciennete": 14,
       "first_seen": "2026-05-21"
     },
     {
@@ -5867,7 +5952,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 13,
+      "jours_anciennete": 14,
       "first_seen": "2026-05-21"
     },
     {
@@ -5884,7 +5969,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 13,
+      "jours_anciennete": 14,
       "first_seen": "2026-05-19"
     },
     {
@@ -5901,8 +5986,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 16,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 17,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5918,7 +6003,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 16,
+      "jours_anciennete": 17,
       "first_seen": "2026-05-20"
     },
     {
@@ -5935,8 +6020,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 17,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 18,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5952,8 +6037,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5969,8 +6054,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 18,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 19,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -5986,8 +6071,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 21,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 22,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6003,7 +6088,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 23,
+      "jours_anciennete": 24,
       "first_seen": "2026-05-22"
     },
     {
@@ -6020,8 +6105,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 24,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 25,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6037,7 +6122,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 24,
+      "jours_anciennete": 25,
       "first_seen": "2026-05-22"
     },
     {
@@ -6054,8 +6139,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6071,8 +6156,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6088,8 +6173,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6105,8 +6190,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6122,8 +6207,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 25,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 26,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6139,7 +6224,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 25,
+      "jours_anciennete": 26,
       "first_seen": "2026-05-22"
     },
     {
@@ -6156,8 +6241,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 26,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 27,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6173,7 +6258,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 26,
+      "jours_anciennete": 27,
       "first_seen": "2026-05-19"
     },
     {
@@ -6190,8 +6275,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 31,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 32,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6207,8 +6292,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 32,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 33,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6224,7 +6309,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 32,
+      "jours_anciennete": 33,
       "first_seen": "2026-05-20"
     },
     {
@@ -6241,8 +6326,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 33,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 34,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6258,7 +6343,7 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 33,
+      "jours_anciennete": 34,
       "first_seen": "2026-05-21"
     },
     {
@@ -6275,8 +6360,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 34,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 35,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6292,8 +6377,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 40,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 41,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6309,8 +6394,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 47,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 48,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6326,8 +6411,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 55,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 56,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6343,8 +6428,8 @@
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 55,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 56,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6360,7 +6445,7 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 61,
+      "jours_anciennete": 62,
       "first_seen": "2026-05-21"
     },
     {
@@ -6377,8 +6462,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 89,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 90,
+      "first_seen": "2026-05-26"
     },
     {
       "source": "France Travail",
@@ -6394,8 +6479,8 @@
       "domaine": "BIM",
       "niveau": 3,
       "raison": "Profil transferable",
-      "jours_anciennete": 91,
-      "first_seen": "2026-05-25"
+      "jours_anciennete": 92,
+      "first_seen": "2026-05-26"
     }
   ]
 }
