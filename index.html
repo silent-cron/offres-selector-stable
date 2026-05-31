@@ -728,30 +728,16 @@ let genereesData  = [];
 let genereesByUrl = {};
 
 function genererEml(g) {
-  // Genere le .eml avec sujet + corps + destinataire et le telechargement
-  // Windows ouvre automatiquement les .eml dans Outlook — cliquez "Ouvrir" dans la barre de telechargement
-  const from    = "guilaine.atangana@outlook.fr";
+  // mailto: ouvre Outlook directement sans aucun dialog de sauvegarde
   const to      = g.email_rh || "";
   const subject = g.objet    || ("Candidature - " + (g.titre || "") + " - Guilaine ATANGANA");
-  const body    = g.corps    || "";
-  const eml = "MIME-Version: 1.0\r\n"
-    + "X-Unsent: 1\r\n"
-    + "X-MS-Draft: True\r\n"
-    + "Content-Type: text/plain; charset=utf-8\r\n"
-    + "Content-Transfer-Encoding: 8bit\r\n"
-    + "From: " + from + "\r\n"
-    + "To: " + to + "\r\n"
-    + "Subject: " + subject + "\r\n"
-    + "\r\n"
-    + body;
-  const blob = new Blob([eml], { type: "message/rfc822" });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement("a");
-  a.href     = url;
-  a.download = (g.eml_file || ("Email_" + (g.entreprise||"").replace(/[^a-zA-Z0-9]/g,"_") + ".eml"));
-  document.body.appendChild(a);
-  a.click();
-  setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 2000);
+  let   body    = g.corps    || "";
+  // Tronquer si necessaire pour rester dans les limites URL (2000 chars max)
+  if (body.length > 1800) body = body.substring(0, 1800) + "...";
+  const mailto = "mailto:" + encodeURIComponent(to)
+    + "?subject=" + encodeURIComponent(subject)
+    + "&body="    + encodeURIComponent(body);
+  window.location.href = mailto;
 }
 
 function loadGenerees() {

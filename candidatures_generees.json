@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=67cc112af18fd3db",
+    "entreprise": "Gruppo Peppe",
+    "titre": "Chef de Rang Lyon pizzeria H/F/X",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "eml_file": "Email_Gruppo_Peppe_Chef_de_Rang_Lyon_pizzeria_HFX_05.2026.eml",
+    "statut": "GENERE",
+    "date": "31/05/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3233556",
+    "entreprise": "Anonyme",
+    "titre": "Chargé d'affaires CVC maintenance (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "eml_file": "Email_Anonyme_Chargé_daffaires_CVC_maintenance_HF_05.2026.eml",
+    "statut": "GENERE",
+    "date": "31/05/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=ab5e5d16a07dab25",
+    "entreprise": "AVNIR IMT",
+    "titre": "Spécialiste Design / Routage de Câbles Électriques – Nucléaire (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "eml_file": "Email_AVNIR_IMT_Spécialiste_Design_Routage_de_Câbles_Électriques_Nucléaire_HF_05.2026.eml",
+    "statut": "GENERE",
+    "date": "31/05/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=113db1a9eabefd46",
+    "entreprise": "chez grand mere",
+    "titre": "Chef de rang H/F",
+    "domaine": "RESTO",
+    "score": 6,
+    "email_rh": "",
+    "eml_file": "Email_chez_grand_mere_Chef_de_rang_HF_05.2026.eml",
+    "statut": "GENERE",
+    "date": "31/05/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=269a8361992c0679",
+    "entreprise": "Hôtel de l' Abbaye et Restaurant l'artichaut",
+    "titre": "Chef de rang, Assistant maitre d'hôtel H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "eml_file": "Email_Hôtel_de_l_Abbaye_et_Restaurant_lartichaut_Chef_de_rang_Assistant_maitre_dhôtel_HF_05.2026.eml",
+    "statut": "GENERE",
+    "date": "31/05/2026"
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=b419aee7812e2831",
     "entreprise": "restaurant le zito lyon",
     "titre": "Serveur/Serveuse/Runneuse H/F",
