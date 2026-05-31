@@ -727,9 +727,32 @@ fetch(RAW_JSON + "?t=" + Date.now())
 let genereesData  = [];
 let genereesByUrl = {};
 
-function getEmlUrl(emlFile) {
-  // offres-selector est public → raw.githubusercontent.com accessible sans auth
-  return `https://raw.githubusercontent.com/silent-cron/offres-selector/main/drafts/${encodeURIComponent(emlFile)}`;
+function genererEml(g) {
+  // Genere le .eml a la volee depuis les donnees JSON - plus besoin de stocker les fichiers
+  const from    = "guilaine.atangana@outlook.fr";
+  const to      = g.email_rh || "";
+  const subject = g.objet    || ("Candidature - " + (g.titre || "") + " - Guilaine ATANGANA");
+  const body    = g.corps    || "";
+  const eml = [
+    "MIME-Version: 1.0",
+    "X-Unsent: 1",
+    "X-MS-Draft: True",
+    "Content-Type: text/plain; charset=utf-8",
+    "Content-Transfer-Encoding: 8bit",
+    "From: " + from,
+    "To: " + to,
+    "Subject: " + subject,
+    "",
+    body
+  ].join("\r\n");
+  const blob = new Blob([eml], { type: "message/rfc822" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = (g.eml_file || ("Email_" + (g.entreprise||"").replace(/\s+/g,"_") + ".eml"));
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 1000);
 }
 
 function loadGenerees() {
@@ -779,7 +802,7 @@ function renderDashboard() {
       ? `<br><a href="${esc(g.url)}" target="_blank" style="color:#6366f1;font-size:0.71rem;text-decoration:none;">Voir l'offre ↗</a>`
       : "";
     const action = g.eml_file
-      ? `<a href="${getEmlUrl(g.eml_file)}" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;text-decoration:none;white-space:nowrap;">📧 Ouvrir brouillon</a>`
+      ? `<button onclick="genererEml(genereesData[${i}])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
       : `<span style="color:#9ca3af;font-size:0.75rem;">Pas d'email RH</span>`;
 
     h += `<tr style="border-bottom:1px solid #f0f0f0;">
@@ -797,6 +820,10 @@ function renderDashboard() {
   table.innerHTML = h;
 }
 
+function genererEmlByUrl(lien) {
+  const g = genereesByUrl[lien];
+  if (g) genererEml(g);
+}
 setTimeout(loadGenerees, 600);
 
 // ── Rendu ────────────────────────────────────────────────────────────────────
@@ -882,7 +909,7 @@ function renderCards() {
       <span class="card-raison ${raisonCls}">${niveauLabel}${raison ? " · " + esc(raison) : ""}</span>
       ${lien ? `<a class="card-link" href="${esc(lien)}" target="_blank" onclick="event.stopPropagation()">Voir l'offre ↗</a>` : ""}
       ${(lien && genereesByUrl[lien] && genereesByUrl[lien].eml_file)
-        ? `<a href="${getEmlUrl(genereesByUrl[lien].eml_file)}" onclick="event.stopPropagation()" style="display:inline-block;margin-top:4px;background:#3b82f6;color:#fff;border-radius:6px;padding:3px 9px;font-size:0.73rem;text-decoration:none;font-weight:600;">📧 Ouvrir brouillon</a>`
+        ? `<button onclick="event.stopPropagation();genererEml(genereesByUrl['${lien}'])" style="display:inline-block;margin-top:4px;background:#3b82f6;color:#fff;border-radius:6px;padding:3px 9px;font-size:0.73rem;border:none;cursor:pointer;font-weight:600;">📧 Ouvrir brouillon</button>`
         : ""}
     `;
     grid.appendChild(card);
