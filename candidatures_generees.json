@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=66248410593d793f",
+    "entreprise": "La Mère Cottivet",
+    "titre": "Responsable restaurant",
+    "domaine": "RESTO",
+    "score": 4,
+    "email_rh": "",
+    "eml_file": "Email_La_Mère_Cottivet_Responsable_restaurant_06.2026.eml",
+    "statut": "GENERE",
+    "date": "01/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=45923dc1e907bdf8",
+    "entreprise": "La Mère Cottivet",
+    "titre": "Chef de rang autonome et motivé",
+    "domaine": "RESTO",
+    "score": 6,
+    "email_rh": "",
+    "eml_file": "Email_La_Mère_Cottivet_Chef_de_rang_autonome_et_motivé_06.2026.eml",
+    "statut": "GENERE",
+    "date": "01/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=987ff80fe3ee73e0",
+    "entreprise": "Information non disponible",
+    "titre": "Information non disponible",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "eml_file": "Email_Information_non_disponible_Information_non_disponible_06.2026.eml",
+    "statut": "GENERE",
+    "date": "01/06/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208ZFHM",
+    "entreprise": "Brasserie",
+    "titre": "Serveur / Serveuse de restaurant- brasserie (H/F)",
+    "domaine": "RESTO",
+    "score": 9,
+    "email_rh": "",
+    "eml_file": "Email_Brasserie_Serveur_Serveuse_de_restaurant_brasserie_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "01/06/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208ZCCP",
+    "entreprise": "L'AUTHENTIK",
+    "titre": "Chef de rang (H/F)",
+    "domaine": "BIM",
+    "score": 7,
+    "email_rh": "",
+    "eml_file": "Email_LAUTHENTIK_Chef_de_rang_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "01/06/2026"
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=6f5c54ecbc1b2b24",
     "entreprise": "lyon8@la-fabryk.fr",
     "titre": "Serveur H/F",
