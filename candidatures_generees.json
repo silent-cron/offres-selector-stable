@@ -1,5 +1,49 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=e6c6bff6ca051459",
+    "entreprise": "GL EVENTS",
+    "titre": "Agent d'accueil - CDI temps partiel (27h30 / semaine) - Lyon 3ème",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "eml_file": "Email_GL_EVENTS_Agent_daccueil_CDI_temps_partiel_27h30_semaine_Lyon_3ème_06.2026.eml",
+    "statut": "GENERE",
+    "date": "03/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=abbe77387d0ffb1e",
+    "entreprise": "Wine You Want",
+    "titre": "Runner/Serveur H/F",
+    "domaine": "RESTO",
+    "score": 9,
+    "email_rh": "vincent@wineyouwant.com",
+    "eml_file": "Email_Wine_You_Want_RunnerServeur_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "03/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=ad6aa1cb5a4f8158",
+    "entreprise": "INSTALLUX",
+    "titre": "Projeteur F/H",
+    "domaine": "BIM",
+    "score": 6,
+    "email_rh": "",
+    "eml_file": "Email_INSTALLUX_Projeteur_FH_06.2026.eml",
+    "statut": "GENERE",
+    "date": "03/06/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209DLRX",
+    "entreprise": "Villa Florentine",
+    "titre": "Chef de rang H/F",
+    "domaine": "BIM",
+    "score": 8,
+    "email_rh": "",
+    "eml_file": "Email_Villa_Florentine_Chef_de_rang_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "03/06/2026"
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=9d8e81a8d474e2fd",
     "entreprise": "CROISSANT SHOW BISTROT",
     "titre": "Barman",
