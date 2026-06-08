@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=81e4ea82233ad1c1",
+    "entreprise": "Information non disponible",
+    "titre": "Information non disponible",
+    "domaine": "RESTO",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_Information_non_disponible_Information_non_disponible_06.2026.eml",
+    "statut": "GENERE",
+    "date": "08/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=756cd7bef474fccb",
+    "entreprise": "Beauvallon Collection",
+    "titre": "Serveur - Limonadier H/F",
+    "domaine": "RESTO",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_Beauvallon_Collection_Serveur_Limonadier_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "08/06/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209KRMJ",
+    "entreprise": "Restaurant brasserie traditionnelle",
+    "titre": "Serveur / Serveuse en restauration service du midi (H/F)",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "eml_file": "Email_Restaurant_brasserie_traditionnelle_Serveur_Serveuse_en_restauration_service_du_midi_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "08/06/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209KQWV",
+    "entreprise": "RESTAURANT PIZZERIA LE RIALTO",
+    "titre": "Serveur/Serveuse (H/F)",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "eml_file": "Email_RESTAURANT_PIZZERIA_LE_RIALTO_ServeurServeuse_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "08/06/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209KXLF",
+    "entreprise": "L'ALEXANDRIN",
+    "titre": "Serveur / Serveuse de restaurant (H/F)",
+    "domaine": "RESTO",
+    "score": 9,
+    "email_rh": "",
+    "eml_file": "Email_LALEXANDRIN_Serveur_Serveuse_de_restaurant_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "08/06/2026"
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209HQNH",
     "entreprise": "Non identifiée",
     "titre": "Alternance - Equipier polyvalent (CAP) - H/F",
