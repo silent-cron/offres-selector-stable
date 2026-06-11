@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=88906fa2ab2be550",
+    "entreprise": "Casa Nobile",
+    "titre": "Serveur H/F",
+    "domaine": "RESTO",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_Casa_Nobile_Serveur_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "11/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=80356c9752fabec6",
+    "entreprise": "Métropole de Lyon",
+    "titre": "Technicien exploitation travaux CVC (H/F)",
+    "domaine": "BIM",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_Métropole_de_Lyon_Technicien_exploitation_travaux_CVC_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "11/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=64c3ae1c25a4217e",
+    "entreprise": "CYCLIFE DIGITAL SOLUTIONS",
+    "titre": "Alternant Projeteur BIM F/H",
+    "domaine": "BIM",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_CYCLIFE_DIGITAL_SOLUTIONS_Alternant_Projeteur_BIM_FH_06.2026.eml",
+    "statut": "GENERE",
+    "date": "11/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=86e8e2c87a8d5df9",
+    "entreprise": "CYCLIFE DIGITAL SOLUTIONS",
+    "titre": "Alternant Technicien/ingénieur simulation numérique F/H",
+    "domaine": "BIM",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_CYCLIFE_DIGITAL_SOLUTIONS_Alternant_Technicieningénieur_simulation_numérique_FH_06.2026.eml",
+    "statut": "GENERE",
+    "date": "11/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=dc2239dd1b1f8738",
+    "entreprise": "CYCLIFE DIGITAL SOLUTIONS",
+    "titre": "Projeteur BIM sénior",
+    "domaine": "BIM",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_CYCLIFE_DIGITAL_SOLUTIONS_Projeteur_BIM_sénior_06.2026.eml",
+    "statut": "GENERE",
+    "date": "11/06/2026"
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=3fafc35669b86c10",
     "entreprise": "Groupe EPIKUR",
     "titre": "Chef de rang (H/F)",
