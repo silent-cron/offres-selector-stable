@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209SSNX",
-    "entreprise": "Hanuri Korean Grill",
-    "titre": "Serveur/Serveuse à temps partiel (H/F)",
-    "domaine": "RESTO",
-    "score": 5,
-    "email_rh": "",
-    "eml_file": "Email_Hanuri_Korean_Grill_ServeurServeuse_à_temps_partiel_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "17/06/2026"
-  },
-  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209VWFB",
     "entreprise": "BOUILLON BARATTE",
     "titre": "Serveur / serveuse (H/F)",
@@ -40,6 +29,17 @@
     "score": 5,
     "email_rh": "",
     "eml_file": "Email_Recruteur_Chef_de_rang_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "17/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=6b2230e2f0e581d6",
+    "entreprise": "Hopper Le grand café du commerce",
+    "titre": "Serveur polyvalent Soirée H/F",
+    "domaine": "RESTO",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_Hopper_Le_grand_café_du_commerce_Serveur_polyvalent_Soirée_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "17/06/2026"
   },
