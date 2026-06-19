@@ -1,12 +1,23 @@
 [
   {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3955027",
-    "entreprise": "Recruteur",
-    "titre": "BIM MANAGER (H/F)",
-    "domaine": "BIM",
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209ZWYW",
+    "entreprise": "BEER KING PUB",
+    "titre": "Barman / Barmaid (H/F)",
+    "domaine": "RESTO",
     "score": 5,
     "email_rh": "",
-    "eml_file": "Email_Recruteur_BIM_MANAGER_HF_06.2026.eml",
+    "eml_file": "Email_BEER_KING_PUB_Barman_Barmaid_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "19/06/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209ZRVW",
+    "entreprise": "BRASSERIE DE VAISE",
+    "titre": "Serveur H/F AUTONOME",
+    "domaine": "RESTO",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_BRASSERIE_DE_VAISE_Serveur_HF_AUTONOME_06.2026.eml",
     "statut": "GENERE",
     "date": "19/06/2026"
   },
