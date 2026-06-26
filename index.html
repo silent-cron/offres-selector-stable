@@ -415,6 +415,7 @@
 <div class="toolbar" style="background:#fafafa;border-top:1px solid #eee;padding-top:8px;padding-bottom:10px;gap:8px;">
   <span style="font-size:0.78rem;color:#888;font-weight:600;margin-right:4px;">📅 Fraîcheur :</span>
   <button class="zone-btn active" onclick="setFraicheur('all',this)">Toutes</button>
+  <button class="zone-btn" onclick="setFraicheur('0j',this)">Aujourd'hui</button>
   <button class="zone-btn" onclick="setFraicheur('3j',this)">1 – 3j</button>
   <button class="zone-btn" onclick="setFraicheur('4_7j',this)">4 – 7j</button>
   <button class="zone-btn" onclick="setFraicheur('8_15j',this)">8 – 15j</button>
@@ -728,7 +729,14 @@ let genereesData  = [];
 let genereesByUrl = {};
 
 function genererEml(g) {
-  // mailto: ouvre Outlook directement sans aucun dialog de sauvegarde
+  // 1. Si le fichier .eml existe -> lien direct (corps + pieces jointes)
+  if (g.eml_file) {
+    const url = "https://raw.githubusercontent.com/silent-cron/offres-selector/main/drafts/"
+      + encodeURIComponent(g.eml_file);
+    window.location.href = url;
+    return;
+  }
+  // 2. Fallback mailto: si pas de fichier .eml
   const to      = g.email_rh || "";
   const subject = g.objet    || ("Candidature - " + (g.titre || "") + " - Guilaine ATANGANA");
   let   body    = g.corps    || "";
@@ -853,6 +861,7 @@ function renderCards() {
     if (currentTeletravail === "oui" && !detectTeletravail(o)) show = false;
     // filtre fraîcheur
     const jours = parseInt(o.jours_anciennete ?? 99);
+    if (currentFraicheur === "0j"    && jours !== 0) show = false;
     if (currentFraicheur === "3j"    && !(jours >= 1  && jours <= 3))  show = false;
     if (currentFraicheur === "4_7j"  && !(jours >= 4  && jours <= 7))  show = false;
     if (currentFraicheur === "8_15j" && !(jours >= 8  && jours <= 15)) show = false;
