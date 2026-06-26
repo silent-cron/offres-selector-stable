@@ -790,6 +790,7 @@ function renderDashboard() {
     <th style="padding:9px 8px;text-align:center;">Email RH</th>
     <th style="padding:9px 8px;text-align:center;">Statut</th>
     <th style="padding:9px 8px;text-align:center;">Action</th>
+    <th style="padding:9px 8px;text-align:center;width:60px;">📋 Postulé</th>
   </tr></thead><tbody>`;
 
   genereesData.forEach((g, i) => {
@@ -809,7 +810,9 @@ function renderDashboard() {
       ? `<button onclick="genererEml(genereesData[${i}])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
       : `<span style="color:#9ca3af;font-size:0.75rem;">Pas d'email RH</span>`;
 
-    h += `<tr style="border-bottom:1px solid #f0f0f0;">
+    const postule = g.postule_manuel === true;
+    const rowBg = postule ? ' style="background:#f0fdf4;"' : '';
+    h += `<tr${rowBg} style="border-bottom:1px solid #f0f0f0;">
       <td style="padding:8px;color:#9ca3af;font-weight:700;">${i+1}</td>
       <td style="padding:8px;"><strong>${esc(g.entreprise)}</strong><br><span style="color:#555;">${esc(g.titre)}</span>${lien}</td>
       <td style="padding:8px;text-align:center;">${badge}</td>
@@ -817,6 +820,10 @@ function renderDashboard() {
       <td style="padding:8px;text-align:center;">${emailCell}</td>
       <td style="padding:8px;text-align:center;"><span style="background:#fef9c3;color:#854d0e;border-radius:4px;padding:2px 7px;font-size:0.72rem;font-weight:600;">📄 ${esc(g.statut||"GENERE")}</span></td>
       <td style="padding:8px;text-align:center;">${action}</td>
+      <td style="padding:8px;text-align:center;">
+        <input type="checkbox" onchange="togglePostule('${esc(g.url)}', this)" ${postule ? 'checked' : ''} style="width:18px;height:18px;cursor:pointer;accent-color:#16a34a;">
+        ${postule ? '<span style="font-size:0.75rem;color:#16a34a;font-weight:600;">✅</span>' : ''}
+      </td>
     </tr>`;
   });
 
@@ -828,6 +835,62 @@ function genererEmlByUrl(lien) {
   const g = genereesByUrl[lien];
   if (g) genererEml(g);
 }
+
+async function togglePostule(url, cb) {
+  const c = getCfg();
+  if (!c.pat) { alert("Configurez votre PAT GitHub via ⚙️ d'abord."); cb.checked = !cb.checked; return; }
+  const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/candidatures_generees.json`;
+  const headers = { "Authorization": `Bearer ${c.pat}`, "Accept": "application/vnd.github+json" };
+
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      // 1. GET current file + SHA
+      const get = await fetch(api, { headers });
+      if (!get.ok) throw new Error("GET " + get.status);
+      const meta = await get.json();
+      const sha = meta.sha;
+      let data = JSON.parse(atob(meta.content));
+
+      // 2. Toggle postule_manuel for the matching entry
+      let found = false;
+      (Array.isArray(data) ? data : []).forEach(entry => {
+        if (entry.url === url) {
+          entry.postule_manuel = !entry.postule_manuel;
+          found = true;
+        }
+      });
+      if (!found) throw new Error("Offre non trouvee dans le JSON");
+
+      // 3. PUT updated file
+      const putBody = {
+        message: "toggle postule_manuel",
+        content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
+        sha: sha
+      };
+      const put = await fetch(api, { method: "PUT", headers: { ...headers, "Content-Type": "application/json" }, body: JSON.stringify(putBody) });
+
+      if (put.status === 409 && attempt === 0) {
+        // Conflit SHA : retry avec GET frais
+        continue;
+      }
+      if (!put.ok) throw new Error("PUT " + put.status);
+
+      // Succes
+      return;
+    } catch (e) {
+      if (attempt === 0 && e.message && e.message.startsWith("PUT")) continue;
+      const msg = attempt > 0 ? "Conflit d'écriture, réessayez dans quelques secondes" : "Erreur : " + e.message;
+      // Revenir a l'etat precedent visuel
+      setTimeout(() => { cb.checked = !cb.checked; }, 100);
+      alert(msg);
+      return;
+    }
+  }
+  // Echec apres 2 tentatives
+  setTimeout(() => { cb.checked = !cb.checked; }, 100);
+  alert("Conflit d'écriture persistants. Réessayez dans quelques instants.");
+}
+
 setTimeout(loadGenerees, 600);
 
 // ── Rendu ────────────────────────────────────────────────────────────────────
