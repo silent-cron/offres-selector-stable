@@ -728,26 +728,20 @@ let genereesData  = [];
 let genereesByUrl = {};
 
 function genererEml(g) {
-  // Si le fichier .eml existe dans offres-selector/drafts → lien direct
-  // Brave/Chrome telechargent ET ouvrent automatiquement le .eml dans Outlook
-  if (g.eml_file) {
-    const url = "https://raw.githubusercontent.com/silent-cron/offres-selector-stable/main/drafts/"
-      + encodeURIComponent(g.eml_file);
-    window.location.href = url;
-    return;
-  }
-  // Fallback mailto: si pas de fichier .eml
+  // mailto: ouvre Outlook directement sans aucun dialog de sauvegarde
   const to      = g.email_rh || "";
   const subject = g.objet    || ("Candidature - " + (g.titre || "") + " - Guilaine ATANGANA");
   let   body    = g.corps    || "";
+  // Tronquer si necessaire pour rester dans les limites URL (2000 chars max)
   if (body.length > 1800) body = body.substring(0, 1800) + "...";
-  window.location.href = "mailto:" + encodeURIComponent(to)
+  const mailto = "mailto:" + encodeURIComponent(to)
     + "?subject=" + encodeURIComponent(subject)
     + "&body="    + encodeURIComponent(body);
+  window.location.href = mailto;
 }
 
 function loadGenerees() {
-  const url = `https://raw.githubusercontent.com/silent-cron/offres-selector-stable/main/candidatures_generees.json?t=${Date.now()}`;
+  const url = `https://raw.githubusercontent.com/silent-cron/offres-selector/main/candidatures_generees.json?t=${Date.now()}`;
   fetch(url)
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(data => {
@@ -959,7 +953,7 @@ function downloadCSV() {
   const cols = ["N offre","Nom entreprise","VILLE","Numero et Rue","Code Postal",
                 "POSTE","CONTRAT","EMAIL","STATUT","Date de soumission","Dates Relances",
                 "Date de reponse","Notes sur la candidature","LINK","SCORE_PERTINENCE",
-                "POINTS_FORTS","POINTS_FAIBLES","TYPE_CANDIDATURE","DOMAINE","REPONSE"];
+                "POINTS_FORTS","POINTS_FAIBLES","TYPE_ENVOI","DOMAINE","REPONSE"];
   const rows = [cols.map(c => `"${c}"`).join(",")];
   let i = 1;
   allOffers.forEach(o => {
@@ -997,7 +991,7 @@ function getCfg() {
   return {
     pat:    localStorage.getItem("gh_pat")    || "",
     owner:  localStorage.getItem("gh_owner")  || "silent-cron",
-    repo:   localStorage.getItem("gh_repo")   || "candidatures-auto-main",
+    repo:   localStorage.getItem("gh_repo")   || "candidatures-auto",
     branch: localStorage.getItem("gh_branch") || "main",
   };
 }
