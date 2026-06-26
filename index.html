@@ -853,46 +853,20 @@ function genererEmlByUrl(lien) {
 async function togglePostule(url, cb) {
   const c = getCfg();
   if (!c.pat) { alert("Configurez votre PAT GitHub via ⚙️ d'abord."); cb.checked = !cb.checked; return; }
-  const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/candidatures_generees.json`;
-  const headers = { "Authorization": `Bearer ${c.pat}`, "Accept": "application/vnd.github+json" };
-
-  for (let attempt = 0; attempt < 2; attempt++) {
-    try {
-      const get = await fetch(api, { headers });
-      if (!get.ok) throw new Error("GET " + get.status);
-      const meta = await get.json();
-      const sha = meta.sha;
-      let data = JSON.parse(atob(meta.content));
-
-      let found = false;
-      (Array.isArray(data) ? data : []).forEach(entry => {
-        if (entry.url === url) {
-          entry.postule_manuel = !entry.postule_manuel;
-          found = true;
-        }
-      });
-      if (!found) throw new Error("Offre non trouvee dans le JSON");
-
-      const putBody = {
-        message: "toggle postule_manuel",
-        content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
-        sha: sha
-      };
-      const put = await fetch(api, { method: "PUT", headers: { ...headers, "Content-Type": "application/json" }, body: JSON.stringify(putBody) });
-
-      if (put.status === 409 && attempt === 0) { continue; }
-      if (!put.ok) throw new Error("PUT " + put.status);
-      return;
-    } catch (e) {
-      if (attempt === 0 && e.message && e.message.startsWith("PUT")) continue;
-      const msg = attempt > 0 ? "Conflit d'écriture, réessayez dans quelques secondes" : "Erreur : " + e.message;
-      setTimeout(() => { cb.checked = !cb.checked; }, 100);
-      alert(msg);
-      return;
-    }
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${c.owner}/${c.repo}/actions/workflows/update_status.yml/dispatches`,
+      {
+        method: "POST",
+        headers: { "Authorization": `Bearer ${c.pat}`, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+        body: JSON.stringify({ ref: c.branch, inputs: { url, field: "postule_manuel", value: cb.checked ? "true" : "false" } })
+      }
+    );
+    if (resp.status !== 204) throw new Error("HTTP " + resp.status);
+  } catch (e) {
+    cb.checked = !cb.checked;
+    alert("Erreur : " + e.message);
   }
-  setTimeout(() => { cb.checked = !cb.checked; }, 100);
-  alert("Conflit d'écriture persistants. Réessayez dans quelques instants.");
 }
 
 function renderArchived(container, actives, count) {
@@ -926,63 +900,41 @@ async function archiverOffre(url, btn) {
   if (!confirm("Retirer cette offre du suivi ? (elle restera récupérable)")) return;
   const c = getCfg();
   if (!c.pat) { alert("Configurez votre PAT GitHub via ⚙️ d'abord."); return; }
-  const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/candidatures_generees.json`;
-  const headers = { "Authorization": `Bearer ${c.pat}`, "Accept": "application/vnd.github+json" };
-  for (let attempt = 0; attempt < 2; attempt++) {
-    try {
-      const get = await fetch(api, { headers });
-      if (!get.ok) throw new Error("GET " + get.status);
-      const meta = await get.json();
-      const sha = meta.sha;
-      let data = JSON.parse(atob(meta.content));
-      let found = false;
-      (Array.isArray(data) ? data : []).forEach(entry => { if (entry.url === url) { entry.archive = true; found = true; } });
-      if (!found) throw new Error("Offre non trouvee");
-      const putBody = { message: "archive offre", content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))), sha: sha };
-      const put = await fetch(api, { method: "PUT", headers: { ...headers, "Content-Type": "application/json" }, body: JSON.stringify(putBody) });
-      if (put.status === 409 && attempt === 0) continue;
-      if (!put.ok) throw new Error("PUT " + put.status);
-      let row = btn; while (row && row.tagName !== "TR") row = row.parentElement;
-      if (row) row.remove();
-      return;
-    } catch (e) {
-      if (attempt === 0 && e.message && e.message.startsWith("PUT")) continue;
-      alert("Erreur : " + (attempt > 0 ? "Conflit d'écriture, réessayez" : e.message));
-      return;
-    }
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${c.owner}/${c.repo}/actions/workflows/update_status.yml/dispatches`,
+      {
+        method: "POST",
+        headers: { "Authorization": `Bearer ${c.pat}`, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+        body: JSON.stringify({ ref: c.branch, inputs: { url, field: "archive", value: "true" } })
+      }
+    );
+    if (resp.status !== 204) throw new Error("HTTP " + resp.status);
+    let row = btn; while (row && row.tagName !== "TR") row = row.parentElement;
+    if (row) row.remove();
+  } catch (e) {
+    alert("Erreur : " + e.message);
   }
-  alert("Conflit d'écriture persistants.");
 }
 
 async function restaurerOffre(url, btn) {
   const c = getCfg();
   if (!c.pat) { alert("Configurez votre PAT GitHub via ⚙️ d'abord."); return; }
-  const api = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/candidatures_generees.json`;
-  const headers = { "Authorization": `Bearer ${c.pat}`, "Accept": "application/vnd.github+json" };
-  for (let attempt = 0; attempt < 2; attempt++) {
-    try {
-      const get = await fetch(api, { headers });
-      if (!get.ok) throw new Error("GET " + get.status);
-      const meta = await get.json();
-      const sha = meta.sha;
-      let data = JSON.parse(atob(meta.content));
-      let found = false;
-      (Array.isArray(data) ? data : []).forEach(entry => { if (entry.url === url) { entry.archive = false; found = true; } });
-      if (!found) throw new Error("Offre non trouvee");
-      const putBody = { message: "restaurer offre", content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))), sha: sha };
-      const put = await fetch(api, { method: "PUT", headers: { ...headers, "Content-Type": "application/json" }, body: JSON.stringify(putBody) });
-      if (put.status === 409 && attempt === 0) continue;
-      if (!put.ok) throw new Error("PUT " + put.status);
-      window._showArchived = false;
-      renderDashboard();
-      return;
-    } catch (e) {
-      if (attempt === 0 && e.message && e.message.startsWith("PUT")) continue;
-      alert("Erreur : " + (attempt > 0 ? "Conflit d'écriture" : e.message));
-      return;
-    }
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${c.owner}/${c.repo}/actions/workflows/update_status.yml/dispatches`,
+      {
+        method: "POST",
+        headers: { "Authorization": `Bearer ${c.pat}`, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+        body: JSON.stringify({ ref: c.branch, inputs: { url, field: "archive", value: "false" } })
+      }
+    );
+    if (resp.status !== 204) throw new Error("HTTP " + resp.status);
+    window._showArchived = false;
+    renderDashboard();
+  } catch (e) {
+    alert("Erreur : " + e.message);
   }
-  alert("Conflit d'écriture persistants.");
 }
 
 setTimeout(loadGenerees, 600);
