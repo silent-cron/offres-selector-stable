@@ -729,11 +729,22 @@ let genereesData  = [];
 let genereesByUrl = {};
 
 function genererEml(g) {
-  // 1. Si le fichier .eml existe -> lien direct (corps + pieces jointes)
+  // 1. Si le fichier .eml existe -> telechargement vers Outlook
   if (g.eml_file) {
-    const url = "https://raw.githubusercontent.com/silent-cron/offres-selector/main/drafts/"
+    const url = "https://raw.githubusercontent.com/silent-cron/offres-selector-stable/main/drafts/"
       + encodeURIComponent(g.eml_file);
-    window.location.href = url;
+    fetch(url)
+      .then(r => r.blob())
+      .then(blob => {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = g.eml_file;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(a.href);
+      })
+      .catch(() => {});
     return;
   }
   // 2. Fallback mailto: si pas de fichier .eml
@@ -749,7 +760,7 @@ function genererEml(g) {
 }
 
 function loadGenerees() {
-  const url = `https://raw.githubusercontent.com/silent-cron/offres-selector/main/candidatures_generees.json?t=${Date.now()}`;
+  const url = `https://raw.githubusercontent.com/silent-cron/offres-selector-stable/main/candidatures_generees.json?t=${Date.now()}`;
   fetch(url)
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(data => {
@@ -1000,7 +1011,7 @@ function getCfg() {
   return {
     pat:    localStorage.getItem("gh_pat")    || "",
     owner:  localStorage.getItem("gh_owner")  || "silent-cron",
-    repo:   localStorage.getItem("gh_repo")   || "candidatures-auto",
+    repo:   localStorage.getItem("gh_repo")   || "candidatures-auto-main",
     branch: localStorage.getItem("gh_branch") || "main",
   };
 }
@@ -1126,7 +1137,7 @@ async function cleanupFolder() {
     </label>
     <label style="display:block;margin-bottom:8px;font-size:0.85rem;color:#555;">
       Repo
-      <input id="cfg-repo" type="text" placeholder="candidatures-auto" style="display:block;width:100%;margin-top:4px;padding:8px;border:1px solid #ddd;border-radius:8px;font-size:0.9rem;box-sizing:border-box;">
+      <input id="cfg-repo" type="text" placeholder="candidatures-auto-main" style="display:block;width:100%;margin-top:4px;padding:8px;border:1px solid #ddd;border-radius:8px;font-size:0.9rem;box-sizing:border-box;">
     </label>
     <label style="display:block;margin-bottom:16px;font-size:0.85rem;color:#555;">
       Branche
