@@ -731,7 +731,7 @@ function genererEml(g) {
   // Si le fichier .eml existe dans offres-selector/drafts → lien direct
   // Brave/Chrome telechargent ET ouvrent automatiquement le .eml dans Outlook
   if (g.eml_file) {
-    const url = "https://raw.githubusercontent.com/silent-cron/offres-selector/main/drafts/"
+    const url = "https://raw.githubusercontent.com/silent-cron/offres-selector-stable/main/drafts/"
       + encodeURIComponent(g.eml_file);
     window.location.href = url;
     return;
@@ -747,7 +747,7 @@ function genererEml(g) {
 }
 
 function loadGenerees() {
-  const url = `https://raw.githubusercontent.com/silent-cron/offres-selector/main/candidatures_generees.json?t=${Date.now()}`;
+  const url = `https://raw.githubusercontent.com/silent-cron/offres-selector-stable/main/candidatures_generees.json?t=${Date.now()}`;
   fetch(url)
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(data => {
@@ -997,7 +997,7 @@ function getCfg() {
   return {
     pat:    localStorage.getItem("gh_pat")    || "",
     owner:  localStorage.getItem("gh_owner")  || "silent-cron",
-    repo:   localStorage.getItem("gh_repo")   || "candidatures-auto",
+    repo:   localStorage.getItem("gh_repo")   || "candidatures-auto-main",
     branch: localStorage.getItem("gh_branch") || "main",
   };
 }
