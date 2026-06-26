@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4213163",
+    "entreprise": "Talents Immo Construction",
+    "titre": "Technicien d'Études Électricité H/F",
+    "domaine": "BIM",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_Talents_Immo_Construction_Technicien_dÉtudes_Électricité_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "26/06/2026"
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3993099",
     "entreprise": "Lynx RH",
     "titre": "Technicien BE H/F",
@@ -7,6 +18,17 @@
     "score": 6,
     "email_rh": "",
     "eml_file": "Email_Lynx_RH_Technicien_BE_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "26/06/2026"
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4073675",
+    "entreprise": "EDF",
+    "titre": "ALTERNANCE - Projeteuse/Projeteur BIM F/H",
+    "domaine": "BIM",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_EDF_ALTERNANCE_ProjeteuseProjeteur_BIM_FH_06.2026.eml",
     "statut": "GENERE",
     "date": "26/06/2026"
   },
@@ -26,7 +48,7 @@
     "entreprise": "LTd",
     "titre": "Projeteur Électricité Revit - Intérim (H/F)",
     "domaine": "BIM",
-    "score": 7,
+    "score": 8,
     "email_rh": "",
     "eml_file": "Email_LTd_Projeteur_Électricité_Revit_Intérim_HF_06.2026.eml",
     "statut": "GENERE",
@@ -59,7 +81,7 @@
     "entreprise": "Bureau d'études pluridisciplinaire",
     "titre": "Projeteur / Modeleur CVC PB Revit à Lyon H/F",
     "domaine": "BIM",
-    "score": 9,
+    "score": 8,
     "email_rh": "",
     "eml_file": "Email_Bureau_détudes_pluridisciplinaire_Projeteur_Modeleur_CVC_PB_Revit_à_Lyon_HF_06.2026.eml",
     "statut": "GENERE",
@@ -77,13 +99,57 @@
     "date": "26/06/2026"
   },
   {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4073675",
-    "entreprise": "EDF",
-    "titre": "ALTERNANCE - Projeteuse/Projeteur BIM F/H",
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209RWKW",
+    "entreprise": "CRESCENDO LYON",
+    "titre": "Technicien Bureau d'Etudes (H/F)",
+    "domaine": "BIM",
+    "score": 7,
+    "email_rh": "",
+    "eml_file": "Email_CRESCENDO_LYON_Technicien_Bureau_dEtudes_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "26/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=64c3ae1c25a4217e",
+    "entreprise": "CYCLIFE DIGITAL SOLUTIONS",
+    "titre": "Alternant Projeteur BIM F/H",
+    "domaine": "BIM",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_CYCLIFE_DIGITAL_SOLUTIONS_Alternant_Projeteur_BIM_FH_06.2026.eml",
+    "statut": "GENERE",
+    "date": "26/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=63efd41cf996e98d",
+    "entreprise": "Vulcain Engineering Group",
+    "titre": "Dessinateur projeteur F/H",
     "domaine": "BIM",
     "score": 8,
     "email_rh": "",
-    "eml_file": "Email_EDF_ALTERNANCE_ProjeteuseProjeteur_BIM_FH_06.2026.eml",
+    "eml_file": "Email_Vulcain_Engineering_Group_Dessinateur_projeteur_FH_06.2026.eml",
+    "statut": "GENERE",
+    "date": "26/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=77fc411a8b0326c6",
+    "entreprise": "Emenda",
+    "titre": "Dessinateur/Projeteur (H/F)",
+    "domaine": "BIM",
+    "score": 5,
+    "email_rh": "",
+    "eml_file": "Email_Emenda_DessinateurProjeteur_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "26/06/2026"
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=f36b2e34ad3c34de",
+    "entreprise": "Vulcain Engineering Group",
+    "titre": "Dessinateur Projeteur HVAC - CVC H/F",
+    "domaine": "BIM",
+    "score": 7,
+    "email_rh": "",
+    "eml_file": "Email_Vulcain_Engineering_Group_Dessinateur_Projeteur_HVAC_CVC_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "26/06/2026"
   },
@@ -308,17 +374,6 @@
     "date": "13/06/2026"
   },
   {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209RWKW",
-    "entreprise": "CRESCENDO LYON",
-    "titre": "Technicien Bureau d'Etudes (H/F)",
-    "domaine": "BIM",
-    "score": 5,
-    "email_rh": "",
-    "eml_file": "Email_CRESCENDO_LYON_Technicien_Bureau_dEtudes_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "13/06/2026"
-  },
-  {
     "url": "https://fr.indeed.com/viewjob?jk=868dc32ed1127ece",
     "entreprise": "IBIS LYON MEYZIEU",
     "titre": "IBIS LYON MEYZIEU – Serveur/Serveuse petit déjeuner week-end",
@@ -517,17 +572,6 @@
     "date": "11/06/2026"
   },
   {
-    "url": "https://fr.indeed.com/viewjob?jk=64c3ae1c25a4217e",
-    "entreprise": "CYCLIFE DIGITAL SOLUTIONS",
-    "titre": "Alternant Projeteur BIM F/H",
-    "domaine": "BIM",
-    "score": 5,
-    "email_rh": "",
-    "eml_file": "Email_CYCLIFE_DIGITAL_SOLUTIONS_Alternant_Projeteur_BIM_FH_06.2026.eml",
-    "statut": "GENERE",
-    "date": "11/06/2026"
-  },
-  {
     "url": "https://fr.indeed.com/viewjob?jk=86e8e2c87a8d5df9",
     "entreprise": "CYCLIFE DIGITAL SOLUTIONS",
     "titre": "Alternant Technicien/ingénieur simulation numérique F/H",
@@ -656,39 +700,6 @@
     "score": 5,
     "email_rh": "",
     "eml_file": "Email_Recruteur_BIM_Modeleur_Traitement_de_lEau_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "10/06/2026"
-  },
-  {
-    "url": "https://fr.indeed.com/viewjob?jk=63efd41cf996e98d",
-    "entreprise": "Vulcain Engineering Group",
-    "titre": "Dessinateur projeteur F/H",
-    "domaine": "BIM",
-    "score": 5,
-    "email_rh": "",
-    "eml_file": "Email_Vulcain_Engineering_Group_Dessinateur_projeteur_FH_06.2026.eml",
-    "statut": "GENERE",
-    "date": "10/06/2026"
-  },
-  {
-    "url": "https://fr.indeed.com/viewjob?jk=77fc411a8b0326c6",
-    "entreprise": "Emenda",
-    "titre": "Dessinateur/Projeteur (H/F)",
-    "domaine": "BIM",
-    "score": 5,
-    "email_rh": "",
-    "eml_file": "Email_Emenda_DessinateurProjeteur_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "10/06/2026"
-  },
-  {
-    "url": "https://fr.indeed.com/viewjob?jk=f36b2e34ad3c34de",
-    "entreprise": "Vulcain Engineering Group",
-    "titre": "Dessinateur Projeteur HVAC - CVC H/F",
-    "domaine": "BIM",
-    "score": 5,
-    "email_rh": "",
-    "eml_file": "Email_Vulcain_Engineering_Group_Dessinateur_Projeteur_HVAC_CVC_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "10/06/2026"
   },
