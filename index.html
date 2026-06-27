@@ -894,6 +894,7 @@ function renderArchived(container, actives, count) {
     h += '<td style="padding:8px;text-align:center;"><span style="background:' + bg + ';color:' + fg + ';border-radius:4px;padding:1px 7px;font-size:0.72rem;font-weight:600;">' + d + '</span></td>';
     h += '<td style="padding:8px;text-align:center;">';
     h += '<button onclick="restaurerOffre(\'' + esc(g.url) + '\', this)" style="background:#16a34a;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;">\u21a9 Restaurer</button>';
+    h += '<button onclick="deleteOffre(\'" + esc(g.url) + "\')" style="background:#dc2626;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;margin-left:4px;">\u2716 Supprimer</button>';
     h += '</td></tr>';
   });
   h += "</tbody></table>";
@@ -940,6 +941,28 @@ async function restaurerOffre(url, btn) {
     alert("Erreur : " + e.message);
   }
 }
+
+async function deleteOffre(url) {
+  if (!confirm("⚠️ SUPPRESSION DÉFINITIVE — cette action est irréversible et supprimera aussi le CV/LM/email associés. Continuer ?")) return;
+  const c = getCfg();
+  if (!c.pat) { alert("Configurez votre PAT GitHub via ⚙️ d'abord."); return; }
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${c.owner}/${c.repo}/actions/workflows/delete_offer.yml/dispatches`,
+      {
+        method: "POST",
+        headers: { "Authorization": `Bearer ${c.pat}`, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+        body: JSON.stringify({ ref: c.branch, inputs: { url } })
+      }
+    );
+    if (resp.status !== 204) throw new Error("HTTP " + resp.status);
+    window._showArchived = false;
+    renderDashboard();
+  } catch (e) {
+    alert("Erreur : " + e.message);
+  }
+}
+
 
 setTimeout(loadGenerees, 600);
 
