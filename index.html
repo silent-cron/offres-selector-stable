@@ -796,7 +796,15 @@ function renderDashboard() {
     <th style="padding:9px 8px;text-align:center;width:60px;">📋 Postulé</th>
   </tr></thead><tbody>`;
 
-  genereesData.forEach((g, i) => {
+  // Filtrer les offres archivees
+  const actives = genereesData.filter(g => g.archive !== true);
+  const archiveCount = genereesData.filter(g => g.archive === true).length;
+  if (window._showArchived) {
+    renderArchived(table, actives, archiveCount);
+    return;
+  }
+
+  actives.forEach((g, i) => {
     const score = g.score || 0;
     const clr   = sc(score);
     const dom   = (g.domaine || "").toUpperCase();
@@ -810,7 +818,7 @@ function renderDashboard() {
       ? `<br><a href="${esc(g.url)}" target="_blank" style="color:#6366f1;font-size:0.71rem;text-decoration:none;">Voir l'offre ↗</a>`
       : "";
     const action = (g.eml_file
-      ? `<button onclick="genererEml(genereesData[${i}])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
+      ? `<button onclick="genererEml(actives[${i}])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
       : `<span style="color:#9ca3af;font-size:0.75rem;">Pas d'email RH</span>`)
       + `<button onclick="archiverOffre('${esc(g.url)}', this)" title="Retirer du suivi" style="background:none;border:none;cursor:pointer;color:#9ca3af;font-size:0.85rem;padding:2px 4px;margin-left:4px;">✕</button>`;
 
@@ -831,13 +839,6 @@ function renderDashboard() {
     </tr>`;
   });
 
-  // Filtrer les offres archivees
-  const actives = genereesData.filter(g => g.archive !== true);
-  const archiveCount = genereesData.filter(g => g.archive === true).length;
-  if (window._showArchived) {
-    renderArchived(table, actives, archiveCount);
-    return;
-  }
   h += "</tbody></table>";
   if (archiveCount > 0) {
     h += '<div style="text-align:center;margin-top:12px;font-size:0.82rem;">'
