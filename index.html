@@ -760,7 +760,8 @@ function genererEml(g) {
 }
 
 function loadGenerees() {
-  const url = `https://raw.githubusercontent.com/silent-cron/offres-selector-stable/main/candidatures_generees.json?t=${Date.now()}`;
+  const c = getCfg();
+  const url = `https://raw.githubusercontent.com/${c.owner}/${c.repo}/${c.branch}/candidatures_generees.json?t=${Date.now()}`;
   fetch(url)
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(data => {
