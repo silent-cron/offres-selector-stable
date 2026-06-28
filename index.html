@@ -811,9 +811,12 @@ function renderDashboard() {
     const badge = dom === "BIM"
       ? `<span style="background:#dbeafe;color:#1d4ed8;border-radius:4px;padding:1px 7px;font-size:0.72rem;font-weight:600;">BIM</span>`
       : `<span style="background:#fce7f3;color:#9d174d;border-radius:4px;padding:1px 7px;font-size:0.72rem;font-weight:600;">RESTO</span>`;
+    const snovEmails = g.emails_snov_io && g.emails_snov_io.length > 0
+      ? '<br><span style="font-size:0.65rem;color:#6b7280;">📧 ' + g.emails_snov_io.map(e => esc(e)).join(' • ') + '</span>'
+      : '';
     const emailCell = g.email_rh
-      ? `<span style="color:#16a34a;font-size:0.72rem;">${esc(g.email_rh)}</span>`
-      : `<span style="color:#9ca3af;">—</span>`;
+      ? `<span style="color:#16a34a;font-size:0.72rem;">${esc(g.email_rh)}</span>${snovEmails}`
+      : `<span style="color:#9ca3af;">—</span>${snovEmails}`;
     const lien = g.url
       ? `<br><a href="${esc(g.url)}" target="_blank" style="color:#6366f1;font-size:0.71rem;text-decoration:none;">Voir l'offre ↗</a>`
       : "";
