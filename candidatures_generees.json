@@ -4,9 +4,12 @@
     "entreprise": "LTd",
     "titre": "Projeteur Électricité Revit - Intérim (H/F)",
     "domaine": "BIM",
-    "score": 8,
-    "email_rh": "",
-    "emails_snov_io": [],
+    "score": 7,
+    "email_rh": "l.dupouy@ltd-international.com",
+    "emails_snov_io": [
+      "n.leciak@ltd-international.com",
+      "r.zerbib@ltd-international.com"
+    ],
     "eml_file": "Email_LTd_Projeteur_Électricité_Revit_Intérim_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "28/06/2026"
