@@ -10,6 +10,7 @@ function updateDate(url,val){
   if(g&&val&&g.retour){
     if(!g.historique)g.historique=[];
     g.historique.push({type:g.retour,date:val,notes:''});
+    try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
   }
   if(c.pat){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/update_status.yml/dispatches',
@@ -26,6 +27,7 @@ function updateRetour(url,val){
   if(g&&val&&g.date_candidature){
     if(!g.historique)g.historique=[];
     g.historique.push({type:val,date:g.date_candidature,notes:''});
+    try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
       }
   if(c.pat){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/update_status.yml/dispatches',
