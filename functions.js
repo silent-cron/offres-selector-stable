@@ -71,10 +71,10 @@ function addEvent(url, type, val) {
   if(!g&&typeof genereesData!=='undefined')g=genereesData.find(function(x){return x.url===url});
   if(!g)g={url:url,historique:[]};
   if(!g.historique)g.historique=[];
-  g.historique.push({type:type,date:dt,notes:''});
+  var notes=prompt('Notes pour cet evenement (optionnel) :','');
+  g.historique.push({type:type,date:dt,notes:notes||''});
   try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
   if(genereesByUrl&&url)genereesByUrl[url]=g;
-  var notes=prompt('Notes pour cet evenement (optionnel) :','');
   if(c.pat){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/add_event.yml/dispatches',
       {method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
