@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNJT",
-    "entreprise": "GIRL'S BAR",
-    "titre": "Barmaid de bar à champagne (H/F)",
-    "domaine": "RESTO",
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209YFJG",
+    "entreprise": "SAMSIC EMPLOI AUVERGNE RHONE ALPES GRENO",
+    "titre": "Technicien bureau d'études (H/F)",
+    "domaine": "BIM",
     "score": 1,
     "email_rh": "",
     "emails_snov_io": [],
-    "eml_file": "Email_GIRLS_BAR_Barmaid_de_bar_à_champagne_HF_06.2026.eml",
+    "eml_file": "Email_SAMSIC_EMPLOI_AUVERGNE_RHONE_ALPES_GRENO_Technicien_bureau_détudes_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
@@ -21,14 +21,14 @@
     ]
   },
   {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210DQXJ",
-    "entreprise": "BRASSERIE ROSEAUX",
-    "titre": "Chef de Rang / Cheffe de Rang (H/F)",
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4238706",
+    "entreprise": "COHESIS INTERIM",
+    "titre": "Technicien de maintenance CVC (H/F)",
     "domaine": "BIM",
     "score": 1,
-    "email_rh": "",
+    "email_rh": "contact@cohesis-interim.com",
     "emails_snov_io": [],
-    "eml_file": "Email_BRASSERIE_ROSEAUX_Chef_de_Rang_Cheffe_de_Rang_HF_06.2026.eml",
+    "eml_file": "Email_COHESIS_INTERIM_Technicien_de_maintenance_CVC_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
@@ -110,7 +110,7 @@
     "titre": "Projeteur / Modeleur CVC PB Revit à Lyon H/F",
     "domaine": "BIM",
     "score": 1,
-    "email_rh": "",
+    "email_rh": "contact@ingebime.fr",
     "emails_snov_io": [],
     "eml_file": "Email_Bureau_détudes_pluridisciplinaire_Projeteur_Modeleur_CVC_PB_Revit_à_Lyon_HF_06.2026.eml",
     "statut": "GENERE",
@@ -155,6 +155,48 @@
     "email_rh": "",
     "emails_snov_io": [],
     "eml_file": "Email_CRESCENDO_LYON_Technicien_Bureau_dEtudes_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNJT",
+    "entreprise": "GIRL'S BAR",
+    "titre": "Barmaid de bar à champagne (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_GIRLS_BAR_Barmaid_de_bar_à_champagne_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210DQXJ",
+    "entreprise": "BRASSERIE ROSEAUX",
+    "titre": "Chef de Rang / Cheffe de Rang (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_BRASSERIE_ROSEAUX_Chef_de_Rang_Cheffe_de_Rang_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
@@ -218,27 +260,6 @@
     "email_rh": "",
     "emails_snov_io": [],
     "eml_file": "Email_MÉTIGA_Dessinateur_Dessinatrice_du_bâtiment_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "30/06/2026",
-    "historique": [
-      {
-        "type": "candidature",
-        "date": "30/06/2026",
-        "notes": ""
-      }
-    ]
-  },
-  {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209YFJG",
-    "entreprise": "SAMSIC EMPLOI AUVERGNE RHONE ALPES GRENO",
-    "titre": "Technicien bureau d'études (H/F)",
-    "domaine": "BIM",
-    "score": 6,
-    "email_rh": "",
-    "emails_snov_io": [],
-    "eml_file": "Email_SAMSIC_EMPLOI_AUVERGNE_RHONE_ALPES_GRENO_Technicien_bureau_détudes_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
@@ -344,27 +365,6 @@
     "email_rh": "",
     "emails_snov_io": [],
     "eml_file": "Email_SLASH_Intérim_Technicien_détudes_CVC_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "30/06/2026",
-    "historique": [
-      {
-        "type": "candidature",
-        "date": "30/06/2026",
-        "notes": ""
-      }
-    ]
-  },
-  {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4238706",
-    "entreprise": "COHESIS INTERIM",
-    "titre": "Technicien de maintenance CVC (H/F)",
-    "domaine": "BIM",
-    "score": 5,
-    "email_rh": "contact@cohesis-interim.com",
-    "emails_snov_io": [],
-    "eml_file": "Email_COHESIS_INTERIM_Technicien_de_maintenance_CVC_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
