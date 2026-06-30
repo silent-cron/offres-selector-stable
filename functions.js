@@ -65,10 +65,17 @@ function showHistorique(u){
   modal.style.display='flex';
 }
 function addEvent(url, type, val) {
-  var c=getCfg();if(!c.pat)return;
-  var notes=prompt('Notes pour cet evenement (optionnel) :','');
-  fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/add_event.yml/dispatches',
-    {method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
-    body:JSON.stringify({ref:c.branch,inputs:{url:url,type:type,valeur:val||notes||''}})}).catch(function(){});
-  setTimeout(function(){location.reload()},3000);
+  var c=getCfg();
+  var g=genereesByUrl&&genereesByUrl[url];
+  var dt=new Date().toISOString().split('T')[0];
+  if(g&&val){
+    if(!g.historique)g.historique=[];
+    g.historique.push({type:type,date:dt,notes:val||''});
+    try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
+  }
+  if(c.pat){
+    fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/add_event.yml/dispatches',
+      {method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
+      body:JSON.stringify({ref:c.branch,inputs:{url:url,type:type,valeur:val||notes||''}})}).catch(function(){});
+  }
 }
