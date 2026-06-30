@@ -68,9 +68,9 @@ function addEvent(url, type, val) {
   var c=getCfg();
   var g=genereesByUrl&&genereesByUrl[url];
   var dt=new Date().toISOString().split('T')[0];
-  if(g&&val){
+  if(g){
     if(!g.historique)g.historique=[];
-    g.historique.push({type:type,date:dt,notes:val||''});
+    g.historique.push({type:type,date:dt,notes:''});
     try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
   }
   var notes=prompt('Notes pour cet evenement (optionnel) :','');
