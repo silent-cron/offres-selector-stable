@@ -1,6 +1,5 @@
 // Columnes Date/Retour/Historique - fichier autonome
 (function() {
-  // Attendre que le DOM et les fonctions de base soient prets
   var checkExist = setInterval(function() {
     if (typeof renderDashboard !== 'undefined' && typeof genereesData !== 'undefined') {
       clearInterval(checkExist);
@@ -9,11 +8,10 @@
   }, 200);
 
   function setupColumns() {
-    // Surclasse renderDashboard pour ajouter les colonnes
     var origRender = renderDashboard;
     renderDashboard = function() {
       origRender();
-      addDateRetourHistColumns();
+      setTimeout(addDateRetourHistColumns, 50);
     };
 
     function addDateRetourHistColumns() {
@@ -22,11 +20,8 @@
       var thead = table.querySelector('thead tr');
       var tbody = table.querySelector('tbody');
       if (!thead || !tbody) return;
-
-      // Vérifie si les colonnes sont déjà ajoutées
       if (thead.querySelector('th[data-col="date"]')) return;
 
-      // Ajoute les en-têtes
       var hDate = document.createElement('th');
       hDate.setAttribute('data-col','date');
       hDate.style.cssText = 'padding:9px 8px;text-align:center;width:100px;';
@@ -45,18 +40,18 @@
       hHist.textContent = '📋 Hist.';
       thead.appendChild(hHist);
 
-      // Parcours chaque ligne du tableau
       var rows = tbody.querySelectorAll('tr');
       rows.forEach(function(row) {
         var url = getRowUrl(row);
         if (!url) return;
         var g = genereesByUrl && genereesByUrl[url];
+        var safeUrl = url.replace(/[^a-zA-Z0-9]/g,'');
 
-        // Cellule Date
         var tdDate = document.createElement('td');
         tdDate.style.cssText = 'padding:8px;text-align:center;';
         var inpDate = document.createElement('input');
         inpDate.type = 'date';
+        inpDate.className = 'dch-'+safeUrl;
         inpDate.style.cssText = 'font-size:0.72rem;padding:2px;border:1px solid #ddd;border-radius:4px;width:100px;';
         var dateVal = g && (g.date_candidature || '');
         if (dateVal) {
@@ -67,7 +62,6 @@
         tdDate.appendChild(inpDate);
         row.appendChild(tdDate);
 
-        // Cellule Retour (select)
         var tdRetour = document.createElement('td');
         tdRetour.style.cssText = 'padding:8px;text-align:center;';
         var sel = document.createElement('select');
@@ -89,14 +83,15 @@
         tdRetour.appendChild(sel);
         row.appendChild(tdRetour);
 
-        // Cellule Historique (bouton)
         var tdHist = document.createElement('td');
         tdHist.style.cssText = 'padding:8px;text-align:center;';
         var btn = document.createElement('button');
         btn.textContent = '📋';
         btn.title = 'Historique';
         btn.style.cssText = 'background:#8b5cf6;color:#fff;border:none;border-radius:6px;padding:4px 8px;font-size:0.72rem;cursor:pointer;';
-        btn.onclick = function() { showHistorique(url); };
+        btn.onclick = function() {
+          if (typeof showHistorique === 'function') showHistorique(url);
+        };
         tdHist.appendChild(btn);
         row.appendChild(tdHist);
       });
