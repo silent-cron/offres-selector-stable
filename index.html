@@ -843,11 +843,12 @@ function renderDashboard() {
         ${postule ? '<span style="font-size:0.75rem;color:#16a34a;font-weight:600;">✅</span>' : ''}
       </td>
       <td style="padding:8px;text-align:center;">
-        <input type="date" value="${(function(d){if(!d)return'';var m=d.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);return m?m[3]+'-'+m[2]+'-'+m[1]:d})(g.date_candidature||g.date||'')}" onchange="updateDate('${esc(g.url)}', this.value)" style="font-size:0.72rem;padding:2px;border:1px solid #ddd;border-radius:4px;width:100px;">
+        <input type="date" value="" onchange="updateDate('${esc(g.url)}', this.value)" style="font-size:0.72rem;padding:2px;border:1px solid #ddd;border-radius:4px;width:100px;">
       </td>
       <td style="padding:8px;text-align:center;">
         <select onchange="updateRetour('${esc(g.url)}', this.value)" style="font-size:0.72rem;padding:2px 4px;border:1px solid #ddd;border-radius:4px;">
           <option value="">—</option>
+          <option value="postule" ${g.retour==='postule'?'selected':''}>📋 Postulé</option>
           <option value="positif" ${g.retour==='positif'?'selected':''}>✅ Positif</option>
           <option value="negatif" ${g.retour==='negatif'?'selected':''}>❌ Négatif</option>
           <option value="entretien" ${g.retour==='entretien'?'selected':''}>📞 Entretien</option>
