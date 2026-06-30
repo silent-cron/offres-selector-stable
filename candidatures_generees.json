@@ -1,5 +1,177 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4073400",
+    "entreprise": "Recruteur",
+    "titre": "Alternance Employé(e) polyvalent en restauration (commerce et communication)",
+    "domaine": "RESTO",
+    "score": 6,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Alternance_Employée_polyvalent_en_restauration_commerce_et_communication_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNLB",
+    "entreprise": "bar à champagne",
+    "titre": "Serveur.se de bar à champagne (H/F)",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_bar_à_champagne_Serveurse_de_bar_à_champagne_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210DGHG",
+    "entreprise": "Bar à salades",
+    "titre": "Employé polyvalent (H/F)",
+    "domaine": "BIM",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Bar_à_salades_Employé_polyvalent_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210DGRR",
+    "entreprise": "MANPOWER FRANCE",
+    "titre": "Agent de restauration collective (H/F)",
+    "domaine": "RESTO",
+    "score": 9,
+    "email_rh": "marie.legrand@manpower.fr",
+    "emails_snov_io": [
+      "agence.livron@manpower.fr",
+      "agence.privas@manpower.fr",
+      "fontainebleau@manpower.fr",
+      "recrutement.clermont@manpower.fr",
+      "recrutement.toulon@manpower.fr",
+      "secteur.public@manpower.fr",
+      "sedan@manpower.fr",
+      "droitdacces-cnil@manpower.fr",
+      "presse@manpower.fr",
+      "webmaster@manpower.fr",
+      "agence.annecy@manpower.fr",
+      "marlene.achache@manpower.fr",
+      "agence.chatillon@manpower.fr",
+      "agence.altkirch@manpower.fr",
+      "agence.cernay@manpower.fr",
+      "christine.dietrich@manpower.fr",
+      "marylene.ulm@manpower.fr",
+      "agnes.ouaki@manpower.fr",
+      "bordeaux-cadres@manpower.fr"
+    ],
+    "eml_file": "Email_MANPOWER_FRANCE_Agent_de_restauration_collective_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210JCDF",
+    "entreprise": "Crescendo Lyon Brotteaux",
+    "titre": "Serveur Polyvalent (H/F)",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Crescendo_Lyon_Brotteaux_Serveur_Polyvalent_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4254273",
+    "entreprise": "Recruteur",
+    "titre": "Agent de service polyvalent Cantine (H/F)",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Agent_de_service_polyvalent_Cantine_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4254278",
+    "entreprise": "SKY",
+    "titre": "Serveur (H/F)",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "benjamin@skypeworklife.com",
+    "emails_snov_io": [
+      "james.blamey@skypeworklife.com",
+      "jason@skypeworklife.com",
+      "anne_mirtschin@skypeworklife.com",
+      "anne-julie_andre-duchateau@skypeworklife.com"
+    ],
+    "eml_file": "Email_SKY_Serveur_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "30/06/2026",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4233417",
     "entreprise": "LTd",
     "titre": "Projeteur Électricité Revit - Intérim (H/F)",
