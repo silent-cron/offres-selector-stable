@@ -796,6 +796,8 @@ function renderDashboard() {
     <th style="padding:9px 8px;text-align:center;width:60px;">📋 Postulé</th>
     <th style="padding:9px 8px;text-align:center;width:100px;">📅 Date</th>
     <th style="padding:9px 8px;text-align:center;width:120px;">✅ Retour</th>
+    <th style="padding:9px 8px;text-align:center;width:70px;">📋 Hist.</th>
+    <th style="padding:9px 8px;text-align:center;width:70px;">📋 Hist.</th>
   </tr></thead><tbody>`;
 
   // Filtrer les offres archivees
@@ -853,6 +855,9 @@ function renderDashboard() {
           <option value="relance" ${g.retour==='relance'?'selected':''}>📬 Relancé</option>
           <option value="pas_de_reponse" ${g.retour==='pas_de_reponse'?'selected':''}>🤷 Pas de réponse</option>
         </select>
+      </td>
+      <td style="padding:8px;text-align:center;">
+        <button onclick="showHistorique(actives[${i}])" title="Historique" style="background:#8b5cf6;color:#fff;border:none;border-radius:6px;padding:4px 8px;font-size:0.72rem;cursor:pointer;">📋</button>
       </td>
     </tr>`;
   });
