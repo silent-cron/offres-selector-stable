@@ -1,1 +1,42 @@
-...
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sélecteur d'offres — Guilaine</title>
+</head>
+<body>
+<script>
+let genereesData = [];
+function renderDashboard() {
+  const actives = genereesData.filter(g => g.archive !== true);
+  let h = "<table><thead><tr><th>#</th><th>Entreprise</th><th>Date</th><th>Retour</th></tr></thead><tbody>";
+  actives.forEach((g, i) => {
+    h += "<tr><td>" + (i+1) + "</td><td>" + (g.entreprise||"") + "</td>";
+    h += "<td><input type='date' value='" + (g.date_candidature || g.date || "") + "' onchange=\"updateDate('" + (g.url||"") + "', this.value)\"></td>";
+    h += "<td><select onchange=\"updateRetour('" + (g.url||"") + "', this.value)\"><option value=''>—</option><option value='positif' " + (g.retour==='positif'?'selected':'') + ">✅ Positif</option><option value='negatif' " + (g.retour==='negatif'?'selected':'') + ">❌ Négatif</option><option value='entretien' " + (g.retour==='entretien'?'selected':'') + ">📞 Entretien</option><option value='relance' " + (g.retour==='relance'?'selected':'') + ">📬 Relancé</option><option value='pas_de_reponse' " + (g.retour==='pas_de_reponse'?'selected':'') + ">🤷 Pas de réponse</option></select></td></tr>";
+  });
+  h += "</tbody></table>";
+  document.getElementById("gen-table").innerHTML = h;
+}
+
+function updateDate(url, val) {
+  const c = getCfg();
+  if (!c.pat) return;
+  fetch("https://api.github.com/repos/" + c.owner + "/" + c.repo + "/actions/workflows/update_status.yml/dispatches", {
+    method: "POST", headers: { "Authorization": "Bearer " + c.pat, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+    body: JSON.stringify({ ref: c.branch, inputs: { url, field: "date_candidature", value: val } })
+  });
+}
+
+function updateRetour(url, val) {
+  const c = getCfg();
+  if (!c.pat) return;
+  fetch("https://api.github.com/repos/" + c.owner + "/" + c.repo + "/actions/workflows/update_status.yml/dispatches", {
+    method: "POST", headers: { "Authorization": "Bearer " + c.pat, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+    body: JSON.stringify({ ref: c.branch, inputs: { url, field: "retour", value: val } })
+  });
+}
+</script>
+</body>
+</html>
