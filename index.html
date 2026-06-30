@@ -708,7 +708,7 @@ function setSource(v, btn)      { currentSource     = v; _resetGroup("setSource"
 fetch(RAW_JSON + "?t=" + Date.now())
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
-    allOffers = Array.isArray(data) ? data : (data.offres || data.offers || []);
+    allOffers = Array.isArray(data) ? data : (data.offres || data.offers || data.vertes || []);
     // Pré-calcul zone sur chaque offre
     allOffers.forEach(o => { o._zone = getZone(o.ville || o.location || o.city || ""); });
     sortOffers();
