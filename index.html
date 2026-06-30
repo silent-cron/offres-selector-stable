@@ -1175,8 +1175,9 @@ function getSelectedUrls() {
 
 // ── Config GitHub ─────────────────────────────────────────────────────────────
 function getCfg() {
+  _GH_PAT=(typeof _GH_PAT!=='undefined')?_GH_PAT:(window._GH_PAT||"");
   return {
-    pat:    localStorage.getItem("gh_pat")    || "",
+    pat:    localStorage.getItem("gh_pat")    || _GH_PAT || "",
     owner:  localStorage.getItem("gh_owner")  || "silent-cron",
     repo:   localStorage.getItem("gh_repo")   || "candidatures-auto-main",
     branch: localStorage.getItem("gh_branch") || "main",
