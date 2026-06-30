@@ -75,6 +75,7 @@ function addEvent(url, type, val) {
   g.historique.push({type:type,date:dt,notes:notes||''});
   try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
   if(genereesByUrl&&url)genereesByUrl[url]=g;
+  if(typeof showHistorique==='function')showHistorique(url);
   if(c.pat){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/add_event.yml/dispatches',
       {method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
