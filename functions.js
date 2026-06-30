@@ -26,6 +26,12 @@ function updateRetour(url,val){
   if(g&&val&&g.date_candidature){
     if(!g.historique)g.historique=[];
     g.historique.push({type:val,date:g.date_candidature,notes:''});
+    g.retour='';
+    var sel=document.querySelector('select[onchange^="updateRetour(\\''+url+'\\'"]');
+    if(sel)sel.value='';
+    var ls=JSON.parse(localStorage.getItem('ls_retours')||'{}');
+    ls[url]='';
+    localStorage.setItem('ls_retours',JSON.stringify(ls));
   }
   if(c.pat){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/update_status.yml/dispatches',
