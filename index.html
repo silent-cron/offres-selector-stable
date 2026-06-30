@@ -771,7 +771,7 @@ function loadGenerees() {
       genereesByUrl = {};
       genereesData.forEach(g => { if (g.url) genereesByUrl[g.url] = g; });
       // Merge localStorage historique (persiste meme apres refresh)
-      try{var _lsd=JSON.parse(localStorage.getItem('ls_dates')||'{}'),_lsr=JSON.parse(localStorage.getItem('ls_retours')||'{}');genereesData.forEach(function(_g){if(!_g.url)return;var _saved=localStorage.getItem('ls_hist_'+_g.url);if(_saved){try{var _p=JSON.parse(_saved);if(Array.isArray(_p)&&_p.length>0)_g.historique=_p;}catch(e){}};if(_g.url&&_lsd[_g.url])_g.date_candidature=_lsd[_g.url];if(_g.url&&_lsr[_g.url])_g.retour=_lsr[_g.url];});}catch(e){}
+      try{var _lsd=JSON.parse(localStorage.getItem('ls_dates')||'{}'),_lsr=JSON.parse(localStorage.getItem('ls_retours')||'{}');genereesData.forEach(function(_g){if(!_g.url)return;var _saved=localStorage.getItem('ls_hist_'+_g.url);if(_saved){try{var _p=JSON.parse(_saved);if(Array.isArray(_p)&&_p.length>0)_g.historique=_p;}catch(e){}};if(_g.url&&_lsd[_g.url])_g.date_candidature=_lsd[_g.url];if(_g.url&&_lsr[_g.url])_g.retour=_lsr[_g.url];try{var _lsp=JSON.parse(localStorage.getItem('ls_postule')||'{}');if(_g.url&&_lsp[_g.url]!==undefined)_g.postule_manuel=_lsp[_g.url];}catch(e){}});}catch(e){}
       renderDashboard();
       renderCards();
     })
@@ -872,6 +872,8 @@ async function togglePostule(url, cb) {
       }
     );
     if (resp.status !== 204) throw new Error("HTTP " + resp.status);
+    try{var _ls=JSON.parse(localStorage.getItem('ls_postule')||'{}');_ls[url]=cb.checked;localStorage.setItem('ls_postule',JSON.stringify(_ls));}catch(e){}
+    var g=genereesData.find(function(x){return x.url===url});if(g)g.postule_manuel=cb.checked;
   } catch (e) {
     cb.checked = !cb.checked;
     alert("Erreur : " + e.message);
