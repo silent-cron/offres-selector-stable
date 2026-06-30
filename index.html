@@ -454,7 +454,9 @@
   <div id="gen-table"></div>
 </div>
 
+<script src="config_pat.js"></script>
 <script>
+var _GH_PAT=window._GH_PAT||"";
 const RAW_JSON = "./offres_vertes.json";
 
 let allOffers = [];
@@ -761,7 +763,8 @@ function genererEml(g) {
 
 function loadGenerees() {
   const c = getCfg();
-  if (!c.pat) { document.getElementById('gen-section').style.display = 'none'; return; }
+  if (!c.pat) { document.getElementById('gen-section').style.display = 'none'; }
+   if (!c.pat) { return; }
   fetch(`https://api.github.com/repos/${c.owner}/${c.repo}/contents/candidatures_generees.json?ref=${c.branch}&t=${Date.now()}`, {
     headers: { 'Authorization': `Bearer ${c.pat}`, 'Accept': 'application/vnd.github.v3.raw' }
   })
@@ -769,7 +772,9 @@ function loadGenerees() {
     .then(data => {
       genereesData = Array.isArray(data) ? data : [];
       genereesByUrl = {};
+      try{var ld=JSON.parse(localStorage.getItem('ls_dates')||'{}'),lr=JSON.parse(localStorage.getItem('ls_retours')||'{}');genereesData.forEach(function(g){if(g.url&&ld[g.url])g.date_candidature=ld[g.url];if(g.url&&lr[g.url])g.retour=lr[g.url];});}catch(e){}
       genereesData.forEach(g => { if (g.url) genereesByUrl[g.url] = g; });
+      genereesData.forEach(function(g){if(g.url&&g.date_candidature&&g.retour){var evts=g.historique||[];var dt=g.date_candidature;var rt=g.retour;var match=evts.some(function(e){return e.date===dt&&e.type===rt});if(!match&&dt){if(!g.historique)g.historique=[];var has=evts.some(function(e){return e.date===dt&&e.type===rt});if(!has){g.historique.push({type:rt,date:dt,notes:'(synchro)'});}}};if(g.url&&g.retour&&!g.date_candidature){var evts=g.historique||[];var rt=g.retour;var match=evts.some(function(e){return e.type===rt});if(!match){if(!g.historique)g.historique=[];;}}});
       renderDashboard();
       renderCards();
     })
@@ -794,6 +799,9 @@ function renderDashboard() {
     <th style="padding:9px 8px;text-align:center;">Statut</th>
     <th style="padding:9px 8px;text-align:center;">Action</th>
     <th style="padding:9px 8px;text-align:center;width:60px;">📋 Postulé</th>
+    <th style="padding:9px 8px;text-align:center;width:100px;">📅 Date</th>
+    <th style="padding:9px 8px;text-align:center;width:120px;">✅ Retour</th>
+    <th style="padding:9px 8px;text-align:center;width:70px;">📋 Hist.</th>
   </tr></thead><tbody>`;
 
   // Filtrer les offres archivees
@@ -821,7 +829,7 @@ function renderDashboard() {
       ? `<br><a href="${esc(g.url)}" target="_blank" style="color:#6366f1;font-size:0.71rem;text-decoration:none;">Voir l'offre ↗</a>`
       : "";
     const action = (g.eml_file
-      ? `<button onclick="genererEml(actives[${i}])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
+      ? `<button onclick="genererEml(genereesByUrl['${esc(g.url)}'])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
       : `<span style="color:#9ca3af;font-size:0.75rem;">Pas d'email RH</span>`)
       + `<button onclick="archiverOffre('${esc(g.url)}', this)" title="Retirer du suivi" style="background:none;border:none;cursor:pointer;color:#9ca3af;font-size:0.85rem;padding:2px 4px;margin-left:4px;">✕</button>`;
 
@@ -838,6 +846,23 @@ function renderDashboard() {
       <td style="padding:8px;text-align:center;">
         <input type="checkbox" onchange="togglePostule('${esc(g.url)}', this)" ${postule ? 'checked' : ''} style="width:18px;height:18px;cursor:pointer;accent-color:#16a34a;">
         ${postule ? '<span style="font-size:0.75rem;color:#16a34a;font-weight:600;">✅</span>' : ''}
+      </td>
+      <td style="padding:8px;text-align:center;">
+        <input type="date" value="${(function(d){if(!d)return'';var m=d.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);return m?m[3]+'-'+m[2]+'-'+m[1]:d})(g.date_candidature||'')}" onchange="updateDate('${esc(g.url)}', this.value)" style="font-size:0.72rem;padding:2px;border:1px solid #ddd;border-radius:4px;width:100px;">
+      </td>
+      <td style="padding:8px;text-align:center;">
+        <select onchange="updateRetour('${esc(g.url)}', this.value)" style="font-size:0.72rem;padding:2px 4px;border:1px solid #ddd;border-radius:4px;">
+          <option value="">—</option>
+          <option value="postule" ${g.retour==='postule'?'selected':''}>📋 Postulé</option>
+          <option value="positif" ${g.retour==='positif'?'selected':''}>✅ Positif</option>
+          <option value="negatif" ${g.retour==='negatif'?'selected':''}>❌ Négatif</option>
+          <option value="entretien" ${g.retour==='entretien'?'selected':''}>📞 Entretien</option>
+          <option value="relance" ${g.retour==='relance'?'selected':''}>📬 Relancé</option>
+          <option value="pas_de_reponse" ${g.retour==='pas_de_reponse'?'selected':''}>🤷 Pas de réponse</option>
+        </select>
+      </td>
+      <td style="padding:8px;text-align:center;">
+        <button onclick="showHistorique('${esc(g.url)}')" title="Historique" style="background:#8b5cf6;color:#fff;border:none;border-radius:6px;padding:4px 8px;font-size:0.72rem;cursor:pointer;">📋</button>
       </td>
     </tr>`;
   });
@@ -857,7 +882,12 @@ function genererEmlByUrl(lien) {
   if (g) genererEml(g);
 }
 
-async function togglePostule(url, cb) {
+function updateDate(url,val){var c=getCfg();var g=genereesData.find(function(x){return x.url===url});if(g&&val)g.date_candidature=val;var inp=document.querySelector('input[type=date][onchange^=\"updateDate(\\''+url+'\\'\"]');if(inp)inp.value=val;var ls=JSON.parse(localStorage.getItem('ls_dates')||'{}');ls[url]=val;localStorage.setItem('ls_dates',JSON.stringify(ls));if(g&&val&&g.retour){if(!g.historique)g.historique=[];g.historique.push({type:g.retour,date:val,notes:''});}if(c.pat){fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/update_status.yml/dispatches',{method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify({ref:c.branch,inputs:{url:url,field:'date_candidature',value:val}})}).catch(function(){});}
+function updateRetour(url,val){var c=getCfg();var g=genereesData.find(function(x){return x.url===url});if(g)g.retour=val;var ls=JSON.parse(localStorage.getItem('ls_retours')||'{}');ls[url]=val;localStorage.setItem('ls_retours',JSON.stringify(ls));if(g&&val&&g.date_candidature){if(!g.historique)g.historique=[];g.historique.push({type:val,date:g.date_candidature,notes:''});}if(c.pat){fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/update_status.yml/dispatches',{method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify({ref:c.branch,inputs:{url:url,field:'retour',value:val}})}).catch(function(){});}}}
+
+function addEvent(url, type, val) { var c=getCfg();if(!c.pat)return; var notes=prompt('Notes pour cet evenement (optionnel) :',''); fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/add_event.yml/dispatches',{method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify({ref:c.branch,inputs:{url:url,type:type,valeur:val||notes||''}})}).catch(function(){}); setTimeout(function(){location.reload()},3000); }
+
+function showHistorique(u){var g=genereesByUrl[u];if(!g)return;var h='<div style="max-width:500px;margin:auto;background:#fff;border-radius:12px;padding:24px;box-shadow:0 4px 24px rgba(0,0,0,0.15);">';h+='<h3 style="margin:0 0 4px;font-size:1rem;">📋 '+(g.entreprise||'')+'</h3>';h+='<p style="margin:0 0 16px;color:#666;font-size:0.82rem;">'+(g.titre||'')+'</p>';var evts=g.historique||[];h+='<div style="border-left:3px solid #667eea;padding-left:16px;">';for(var j=0;j<evts.length;j++){var e=evts[j];var icon=e.type==='relance'?'📬':e.type==='entretien'?'📞':e.type==='resultat'?(e.notes==='positif'?'✅':'❌'):e.type==='postule'?'📋':e.type==='positif'?'✅':e.type==='negatif'?'❌':e.type==='pas_de_reponse'?'🤷':'📌';h+='<div style="margin-bottom:12px;"><span style="font-weight:700;font-size:0.85rem;">'+icon+' '+e.date+'</span><br><span style="color:#555;font-size:0.8rem;">'+e.type+(e.notes?' - '+e.notes:'')+'</span></div>';}h+='</div><div style="margin-top:16px;display:flex;gap:6px;flex-wrap:wrap;">';h+='<button onclick="addEvent(\''+u+'\',\'relance\',\'\')" style="background:#f59e0b;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">📬 Relancer</button>';h+='<button onclick="addEvent(\''+u+'\',\'entretien\',\'\')" style="background:#8b5cf6;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">📞 Entretien</button>';h+='<button onclick="addEvent(\''+u+'\',\'resultat\',\'positif\')" style="background:#16a34a;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">✅ Positif</button>';h+='<button onclick="addEvent(\''+u+'\',\'resultat\',\'negatif\')" style="background:#dc2626;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">❌ Negatif</button>';h+='</div><div style="margin-top:16px;text-align:right;"><button onclick="document.getElementById(\'hist-modal\').style.display=\'none\'" style="background:#f3f4f6;color:#555;border:none;border-radius:6px;padding:5px 14px;font-size:0.8rem;cursor:pointer;">Fermer</button></div></div>';var modal=document.getElementById('hist-modal');if(!modal){modal=document.createElement('div');modal.id='hist-modal';modal.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px;';document.body.appendChild(modal);}modal.innerHTML=h;modal.style.display='flex';}async function togglePostule(url, cb) {
   const c = getCfg();
   if (!c.pat) { alert("Configurez votre PAT GitHub via ⚙️ d'abord."); cb.checked = !cb.checked; return; }
   try {
@@ -1147,8 +1177,9 @@ function getSelectedUrls() {
 
 // ── Config GitHub ─────────────────────────────────────────────────────────────
 function getCfg() {
+  _GH_PAT=(typeof _GH_PAT!=='undefined')?_GH_PAT:(window._GH_PAT||"");
   return {
-    pat:    localStorage.getItem("gh_pat")    || "",
+    pat:    localStorage.getItem("gh_pat")    || _GH_PAT || "",
     owner:  localStorage.getItem("gh_owner")  || "silent-cron",
     repo:   localStorage.getItem("gh_repo")   || "candidatures-auto-main",
     branch: localStorage.getItem("gh_branch") || "main",
