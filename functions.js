@@ -73,6 +73,7 @@ function addEvent(url, type, val) {
     g.historique.push({type:type,date:dt,notes:val||''});
     try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
   }
+  var notes=prompt('Notes pour cet evenement (optionnel) :','');
   if(c.pat){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/add_event.yml/dispatches',
       {method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
