@@ -79,7 +79,15 @@
           opt.textContent = o.txt;
           sel.appendChild(opt);
         });
-        sel.onchange = function() { updateRetour(url, this.value); };
+        sel.onchange = function() { 
+          if(this.value && g && g.date_candidature) {
+            updateRetour(url, this.value);
+            this.value = '';
+            g.retour = '';
+          } else {
+            updateRetour(url, this.value);
+          }
+        };
         tdRetour.appendChild(sel);
         row.appendChild(tdRetour);
 
