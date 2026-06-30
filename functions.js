@@ -66,13 +66,14 @@ function showHistorique(u){
 }
 function addEvent(url, type, val) {
   var c=getCfg();
-  var g=genereesByUrl&&genereesByUrl[url];
   var dt=new Date().toISOString().split('T')[0];
-  if(g){
-    if(!g.historique)g.historique=[];
-    g.historique.push({type:type,date:dt,notes:''});
-    try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
-  }
+  var g=genereesByUrl&&genereesByUrl[url];
+  if(!g&&typeof genereesData!=='undefined')g=genereesData.find(function(x){return x.url===url});
+  if(!g)g={url:url,historique:[]};
+  if(!g.historique)g.historique=[];
+  g.historique.push({type:type,date:dt,notes:''});
+  try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
+  if(genereesByUrl&&url)genereesByUrl[url]=g;
   var notes=prompt('Notes pour cet evenement (optionnel) :','');
   if(c.pat){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/add_event.yml/dispatches',
