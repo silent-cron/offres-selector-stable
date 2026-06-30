@@ -1,5 +1,68 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4309883",
+    "entreprise": "EDF",
+    "titre": "Technicien génie civil (H/F)",
+    "domaine": "BIM",
+    "score": 6,
+    "email_rh": "recrutement-edf-master@edf.fr",
+    "emails_snov_io": [],
+    "eml_file": "Email_EDF_Technicien_génie_civil_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4326200",
+    "entreprise": "Hays",
+    "titre": "Assistant chargé d'affaires CVC H/F",
+    "domaine": "BIM",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Hays_Assistant_chargé_daffaires_CVC_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4399305",
+    "entreprise": "Recruteur",
+    "titre": "Technicien bureau d'étude CVC (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Technicien_bureau_détude_CVC_HF_06.2026.eml",
+    "statut": "GENERE",
+    "date": "30/06/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "30/06/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209YFJG",
     "entreprise": "SAMSIC EMPLOI AUVERGNE RHONE ALPES GRENO",
     "titre": "Technicien bureau d'études (H/F)",
@@ -10,9 +73,10 @@
     "eml_file": "Email_SAMSIC_EMPLOI_AUVERGNE_RHONE_ALPES_GRENO_Technicien_bureau_détudes_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "retour": "postule",
+    "date_candidature": "2026-06-30",
+    "historique": [],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4238706",
@@ -27,7 +91,8 @@
     "date": "30/06/2026",
     "retour": "",
     "date_candidature": "",
-    "historique": []
+    "historique": [],
+    "archive": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4235346",
@@ -42,7 +107,8 @@
     "date": "30/06/2026",
     "retour": "",
     "date_candidature": "",
-    "historique": []
+    "historique": [],
+    "archive": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4051656",
@@ -55,9 +121,10 @@
     "eml_file": "Email_B_HIVE_Projeteur_Electricité_REVIT_Autocad_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "retour": "postule",
+    "date_candidature": "2026-06-30",
+    "historique": [],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4233270",
@@ -70,9 +137,10 @@
     "eml_file": "Email_Non_spécifié_dans_le_texte_Projeteur_Électricité_Revit_CDI_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "retour": "postule",
+    "date_candidature": "2026-06-30",
+    "historique": [],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4238156",
@@ -85,9 +153,16 @@
     "eml_file": "Email_Bureau_détudes_pluridisciplinaire_Projeteur_Modeleur_CVC_PB_Revit_à_Lyon_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "retour": "postule",
+    "date_candidature": "2026-06-30",
+    "historique": [
+      {
+        "type": "relance",
+        "date": "30/06/2026",
+        "notes": "par email"
+      }
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4255347",
@@ -100,9 +175,16 @@
     "eml_file": "Email_Cyclife_Digital_Solutions_Alternant_Projeteur_BIM_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "retour": "postule",
+    "date_candidature": "2026-06-30",
+    "historique": [
+      {
+        "type": "relance",
+        "date": "30/06/2026",
+        "notes": "email"
+      }
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209RWKW",
@@ -115,24 +197,46 @@
     "eml_file": "Email_CRESCENDO_LYON_Technicien_Bureau_dEtudes_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "",
-    "historique": []
-  },
-  {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNJT",
-    "entreprise": "GIRL'S BAR",
-    "titre": "Barmaid de bar à champagne (H/F)",
-    "domaine": "RESTO",
-    "score": 1,
-    "email_rh": "",
-    "emails_snov_io": [],
-    "eml_file": "Email_GIRLS_BAR_Barmaid_de_bar_à_champagne_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "retour": "postule",
+    "date_candidature": "2026-06-30",
+    "historique": [
+      {
+        "type": "postule",
+        "date": "30/06/2026",
+        "notes": "par email"
+      },
+      {
+        "type": "relance",
+        "date": "30/06/2026",
+        "notes": ""
+      },
+      {
+        "type": "postule",
+        "date": "30/06/2026",
+        "notes": "par email"
+      },
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      },
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": ""
+      },
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      },
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      }
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/210DQXJ",
@@ -147,7 +251,8 @@
     "date": "30/06/2026",
     "retour": "",
     "date_candidature": "",
-    "historique": []
+    "historique": [],
+    "archive": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4052029",
@@ -161,8 +266,9 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "date_candidature": "2026-06-30",
+    "historique": [],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3829449",
@@ -176,8 +282,14 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "date_candidature": "2026-06-01",
+    "historique": [
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      }
+    ]
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3842046",
@@ -191,8 +303,14 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "date_candidature": "2026-06-01",
+    "historique": [
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      }
+    ]
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4095075",
@@ -205,9 +323,15 @@
     "eml_file": "Email_KALIXENS_Technicienne_Études_Chiffrage_HVAC_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
+    "retour": "postule",
     "date_candidature": "",
-    "historique": []
+    "historique": [
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      }
+    ]
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4213163",
