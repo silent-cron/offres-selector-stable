@@ -6,7 +6,10 @@
     "domaine": "BIM",
     "score": 7,
     "email_rh": "c.rostaing@ltd-international.com",
-    "emails_snov_io": [],
+    "emails_snov_io": [
+      "q.delane@ltd-international.com",
+      "y.bicken@ltd-international.com"
+    ],
     "eml_file": "Email_LTd_Projeteur_Électricité_Revit_Intérim_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026"
