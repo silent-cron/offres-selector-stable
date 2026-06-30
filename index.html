@@ -454,7 +454,9 @@
   <div id="gen-table"></div>
 </div>
 
+<script src="config_pat.js"></script>
 <script>
+var _GH_PAT=window._GH_PAT||"";
 const RAW_JSON = "./offres_vertes.json";
 
 let allOffers = [];
@@ -824,7 +826,7 @@ function renderDashboard() {
       ? `<br><a href="${esc(g.url)}" target="_blank" style="color:#6366f1;font-size:0.71rem;text-decoration:none;">Voir l'offre ↗</a>`
       : "";
     const action = (g.eml_file
-      ? `<button onclick="genererEml(actives[${i}])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
+      ? `<button onclick="genererEml(genereesByUrl['${esc(g.url)}'])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
       : `<span style="color:#9ca3af;font-size:0.75rem;">Pas d'email RH</span>`)
       + `<button onclick="archiverOffre('${esc(g.url)}', this)" title="Retirer du suivi" style="background:none;border:none;cursor:pointer;color:#9ca3af;font-size:0.85rem;padding:2px 4px;margin-left:4px;">✕</button>`;
 
@@ -892,25 +894,7 @@ function renderArchived(container, actives, count) {
   h += '<th style="padding:9px 8px;text-align:center;">Action</th></tr></thead><tbody>';
   archived.forEach((g, i) => {
     h += '<tr style="border-bottom:1px solid #f0f0f0;opacity:0.7;">';
-    h += '<td style="padding:8px;color:#9ca3af;font-weight:700;">' + (i+1</td>
-      <td style="padding:8px;text-align:center;">
-        <input type="date" value="${(function(d){if(!d)return'';var m=d.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);return m?m[3]+'-'+m[2]+'-'+m[1]:d})(g.date_candidature||'')}" onchange="updateDate('${esc(g.url)}', this.value)" style="font-size:0.72rem;padding:2px;border:1px solid #ddd;border-radius:4px;width:100px;">
-      </td>
-      <td style="padding:8px;text-align:center;">
-        <select onchange="updateRetour('${esc(g.url)}', this.value)" style="font-size:0.72rem;padding:2px 4px;border:1px solid #ddd;border-radius:4px;">
-          <option value="">—</option>
-          <option value="postule" ${g.retour==='postule'?'selected':''}>📋 Postulé</option>
-          <option value="positif" ${g.retour==='positif'?'selected':''}>✅ Positif</option>
-          <option value="negatif" ${g.retour==='negatif'?'selected':''}>❌ Négatif</option>
-          <option value="entretien" ${g.retour==='entretien'?'selected':''}>📞 Entretien</option>
-          <option value="relance" ${g.retour==='relance'?'selected':''}>📬 Relancé</option>
-          <option value="pas_de_reponse" ${g.retour==='pas_de_reponse'?'selected':''}>🤷 Pas de réponse</option>
-        </select>
-      </td>
-      <td style="padding:8px;text-align:center;">
-        <button onclick="showHistorique('${esc(g.url)}')" title="Historique" style="background:#8b5cf6;color:#fff;border:none;border-radius:6px;padding:4px 8px;font-size:0.72rem;cursor:pointer;">📋</button>
-      </td>
-      <td style="padding:8px;text-align:center;">) + '</td>';
+    h += '<td style="padding:8px;color:#9ca3af;font-weight:700;">' + (i+1) + '</td>';
     h += '<td style="padding:8px;"><strong>' + esc(g.entreprise) + '</strong><br><span style="color:#555;">' + esc(g.titre) + '</span></td>';
     const d = (g.domaine || "").toUpperCase();
     const bg = d === "BIM" ? "#dbeafe" : "#fce7f3";
@@ -1168,8 +1152,9 @@ function getSelectedUrls() {
 
 // ── Config GitHub ─────────────────────────────────────────────────────────────
 function getCfg() {
+  _GH_PAT=(typeof _GH_PAT!=='undefined')?_GH_PAT:(window._GH_PAT||"");
   return {
-    pat:    localStorage.getItem("gh_pat")    || "",
+    pat:    localStorage.getItem("gh_pat")    || _GH_PAT || "",
     owner:  localStorage.getItem("gh_owner")  || "silent-cron",
     repo:   localStorage.getItem("gh_repo")   || "candidatures-auto-main",
     branch: localStorage.getItem("gh_branch") || "main",
