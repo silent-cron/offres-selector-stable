@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4051686",
+    "entreprise": "B-HIVE",
+    "titre": "Ingénieur BIM traitement des eaux (H/F)",
+    "domaine": "BIM",
+    "score": 6,
+    "email_rh": "joao.nogueira-alves@b-hive.fr",
+    "emails_snov_io": [],
+    "eml_file": "Email_B_HIVE_Ingénieur_BIM_traitement_des_eaux_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=6b2230e2f0e581d6",
+    "entreprise": "Hopper Le grand café du commerce",
+    "titre": "Serveur polyvalent Soirée H/F",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Hopper_Le_grand_café_du_commerce_Serveur_polyvalent_Soirée_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4087899",
+    "entreprise": "Oceania Lyon",
+    "titre": "Serveur H/F",
+    "domaine": "RESTO",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Oceania_Lyon_Serveur_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=73957b232580542c",
+    "entreprise": "YAOZ",
+    "titre": "Serveur polyvalent H/F",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_YAOZ_Serveur_polyvalent_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210DCHZ",
+    "entreprise": "Hanoi Ca Phe",
+    "titre": "Serveuse/Serveur H/F 35H CDI",
+    "domaine": "RESTO",
+    "score": 9,
+    "email_rh": "info@hanoicaphe.com",
+    "emails_snov_io": [],
+    "eml_file": "Email_Hanoi_Ca_Phe_ServeuseServeur_HF_35H_CDI_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4264055",
     "entreprise": "Recruteur",
     "titre": "Dessinateur Projeteur Photovoltaïque H/F",
