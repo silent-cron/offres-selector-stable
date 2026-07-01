@@ -97,3 +97,6 @@ function addEvent(url, type, val) {
     }).catch(function(){});
   }
 }
+
+
+function genererEmlByUrl(lien){var g=genereesByUrl[lien]||(typeof genereesData!=='undefined'&&genereesData.find(function(x){return x.url===lien}));if(!g)return;if(g.eml_file){var gi=genereesData.indexOf(g);window.open('drafts/'+g.eml_file)}else{if(window.confirm&&confirm('Pas de fichier .eml. Ouvrir le brouillon dans un nouvel onglet ?'))window.open(lien,'_blank')}}
