@@ -1,5 +1,104 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4264055",
+    "entreprise": "Recruteur",
+    "titre": "Dessinateur Projeteur Photovoltaïque H/F",
+    "domaine": "BIM",
+    "score": 8,
+    "email_rh": "info@cadremploi.fr",
+    "emails_snov_io": [
+      "buzaud@cadremploi.fr",
+      "recruteur@cadremploi.fr",
+      "relinger@cadremploi.fr",
+      "dubois@cadremploi.fr",
+      "colard@cadremploi.fr",
+      "huray@cadremploi.fr",
+      "martin@cadremploi.fr",
+      "veron@cadremploi.fr",
+      "paulmier@cadremploi.fr",
+      "faucher@cadremploi.fr",
+      "ak@cadremploi.fr",
+      "heimburger@cadremploi.fr",
+      "maindron@cadremploi.fr",
+      "abadie@cadremploi.fr",
+      "jereussismonentretiendembauche@cadremploi.fr",
+      "moncontratdetravail@cadremploi.fr",
+      "jemefaisaugmenter@cadremploi.fr",
+      "jechercheunmeilleurjob@cadremploi.fr",
+      "jemereconvertis@cadremploi.fr"
+    ],
+    "eml_file": "Email_Recruteur_Dessinateur_Projeteur_Photovoltaïque_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4394728",
+    "entreprise": "Suptertiaire",
+    "titre": "Expert / Experte en digitalisation des bâtiments (H/F)",
+    "domaine": "BIM",
+    "score": 4,
+    "email_rh": "shilderick.a@suptertiaire-immobilier.fr",
+    "emails_snov_io": [
+      "shilderick-accrombessi@suptertiaire-immobilier.fr",
+      "shilderick.accrombessi@suptertiaire-immobilier.fr",
+      "shilderick@suptertiaire-immobilier.fr",
+      "shildericka@suptertiaire-immobilier.fr",
+      "s.accrombessi@suptertiaire-immobilier.fr",
+      "accrombessi@suptertiaire-immobilier.fr",
+      "saccrombessi@suptertiaire-immobilier.fr",
+      "accrombessis@suptertiaire-immobilier.fr",
+      "shilderickaccrombessi@suptertiaire-immobilier.fr",
+      "accrombessi.shilderick@suptertiaire-immobilier.fr",
+      "shilderick_accrombessi@suptertiaire-immobilier.fr",
+      "accrombessishilderick@suptertiaire-immobilier.fr"
+    ],
+    "eml_file": "Email_Suptertiaire_Expert_Experte_en_digitalisation_des_bâtiments_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4233417",
+    "entreprise": "LTd",
+    "titre": "Projeteur Électricité Revit - Intérim (H/F)",
+    "domaine": "BIM",
+    "score": 8,
+    "email_rh": "c.rostaing@ltd-international.com",
+    "emails_snov_io": [
+      "q.delane@ltd-international.com",
+      "y.bicken@ltd-international.com"
+    ],
+    "eml_file": "Email_LTd_Projeteur_Électricité_Revit_Intérim_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4309883",
     "entreprise": "EDF",
     "titre": "Technicien génie civil (H/F)",
@@ -344,9 +443,15 @@
     "eml_file": "Email_Talents_Immo_Construction_Technicien_dÉtudes_Électricité_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
+    "retour": "postule",
     "date_candidature": "",
-    "historique": []
+    "historique": [
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      }
+    ]
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3993099",
@@ -361,7 +466,8 @@
     "date": "30/06/2026",
     "retour": "",
     "date_candidature": "",
-    "historique": []
+    "historique": [],
+    "archive": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4073675",
@@ -375,8 +481,9 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "date_candidature": "2026-07-01",
+    "historique": [],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4130531",
@@ -389,9 +496,15 @@
     "eml_file": "Email_SLASH_Intérim_Technicien_détudes_CVC_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "",
+    "retour": "postule",
     "date_candidature": "",
-    "historique": []
+    "historique": [
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      }
+    ]
   },
   {
     "url": "https://fr.indeed.com/viewjob?jk=8e1c04ddf432b289",
@@ -406,7 +519,8 @@
     "date": "30/06/2026",
     "retour": "",
     "date_candidature": "",
-    "historique": []
+    "historique": [],
+    "archive": true
   },
   {
     "url": "https://fr.indeed.com/viewjob?jk=64c3ae1c25a4217e",
@@ -421,7 +535,8 @@
     "date": "30/06/2026",
     "retour": "",
     "date_candidature": "",
-    "historique": []
+    "historique": [],
+    "archive": true
   },
   {
     "url": "https://fr.indeed.com/viewjob?jk=86e8e2c87a8d5df9",
@@ -435,8 +550,14 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "date_candidature": "2026-07-01",
+    "historique": [
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      }
+    ]
   },
   {
     "url": "https://fr.indeed.com/viewjob?jk=63efd41cf996e98d",
@@ -450,8 +571,15 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "date_candidature": "2026-07-01",
+    "historique": [
+      {
+        "type": "postule",
+        "date": "01/07/2026",
+        "notes": "par email"
+      }
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://fr.indeed.com/viewjob?jk=77fc411a8b0326c6",
@@ -465,8 +593,9 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "",
-    "historique": []
+    "date_candidature": "2026-07-01",
+    "historique": [],
+    "postule_manuel": true
   },
   {
     "url": "https://fr.indeed.com/viewjob?jk=f36b2e34ad3c34de",
