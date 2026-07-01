@@ -1,5 +1,26 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4399305",
+    "entreprise": "Recruteur",
+    "titre": "Technicien bureau d'étude CVC (H/F)",
+    "domaine": "BIM",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Technicien_bureau_détude_CVC_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4051686",
     "entreprise": "B-HIVE",
     "titre": "Ingénieur BIM traitement des eaux (H/F)",
@@ -233,27 +254,6 @@
     "email_rh": "",
     "emails_snov_io": [],
     "eml_file": "Email_Hays_Assistant_chargé_daffaires_CVC_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "30/06/2026",
-    "retour": "",
-    "date_candidature": "",
-    "historique": [
-      {
-        "type": "candidature",
-        "date": "30/06/2026",
-        "notes": ""
-      }
-    ]
-  },
-  {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4399305",
-    "entreprise": "Recruteur",
-    "titre": "Technicien bureau d'étude CVC (H/F)",
-    "domaine": "BIM",
-    "score": 1,
-    "email_rh": "",
-    "emails_snov_io": [],
-    "eml_file": "Email_Recruteur_Technicien_bureau_détude_CVC_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
