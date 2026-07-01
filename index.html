@@ -770,7 +770,6 @@ function loadGenerees() {
       genereesData = Array.isArray(data) ? data : [];
       genereesByUrl = {};
       genereesData.forEach(g => { if (g.url) genereesByUrl[g.url] = g; });
-      try{var _lsd=JSON.parse(localStorage.getItem('ls_dates')||'{}'),_lsr=JSON.parse(localStorage.getItem('ls_retours')||'{}');genereesData.forEach(function(_g){if(!_g.url)return;var _saved=localStorage.getItem('ls_hist_'+_g.url);if(_saved){try{var _p=JSON.parse(_saved);if(Array.isArray(_p)&&_p.length>0)_g.historique=_p;}catch(e){}};if(_g.url&&_lsd[_g.url])_g.date_candidature=_lsd[_g.url];if(_g.url&&_lsr[_g.url])_g.retour=_lsr[_g.url];});}catch(e){}
       renderDashboard();
       renderCards();
     })
@@ -822,7 +821,7 @@ function renderDashboard() {
       ? `<br><a href="${esc(g.url)}" target="_blank" style="color:#6366f1;font-size:0.71rem;text-decoration:none;">Voir l'offre ↗</a>`
       : "";
     const action = (g.eml_file
-      ? `<button onclick="genererEmlByUrl('${esc(g.url)}')" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
+      ? `<button onclick="genererEml(actives[${i}])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
       : `<span style="color:#9ca3af;font-size:0.75rem;">Pas d'email RH</span>`)
       + `<button onclick="archiverOffre('${esc(g.url)}', this)" title="Retirer du suivi" style="background:none;border:none;cursor:pointer;color:#9ca3af;font-size:0.85rem;padding:2px 4px;margin-left:4px;">✕</button>`;
 
@@ -1290,7 +1289,5 @@ async function cleanupFolder() {
   </div>
 </div>
 
-<script src="custom_columns.js"></script>
-<script src="functions.js"></script>
 </body>
 </html>
