@@ -76,9 +76,24 @@ function addEvent(url, type, val) {
   try{localStorage.setItem('ls_hist_'+url,JSON.stringify(g.historique));}catch(e){}
   if(genereesByUrl&&url)genereesByUrl[url]=g;
   if(typeof showHistorique==='function')showHistorique(url);
-  if(c.pat){
-    fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/add_event.yml/dispatches',
-      {method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
-      body:JSON.stringify({ref:c.branch,inputs:{url:url,type:type,valeur:val||notes||''}})}).catch(function(){});
+  if(c.pat&&c.owner&&c.repo){
+    fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/contents/candidatures_generees.json',{
+      headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github.v3+json'}
+    }).then(function(r){return r.json();}).then(function(d){
+      if(!d||!d.sha||!d.content)return;
+      var arr=JSON.parse(atob(d.content));
+      for(var k=0;k<arr.length;k++){if(arr[k].url===url){
+        if(!arr[k].historique)arr[k].historique=[];
+        arr[k].historique.push({type:type,date:dt,notes:notes||''});
+        if(type==='postule'||type==='relance'||type==='entretien')arr[k].retour=type;
+        if(type==='resultat')arr[k].retour=val||'';
+        break;
+      }}
+      var upd=btoa(JSON.stringify(arr,null,2));
+      fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/contents/candidatures_generees.json',{
+        method:'PUT',headers:{'Authorization':'Bearer '+c.pat,'Content-Type':'application/json'},
+        body:JSON.stringify({message:'Event '+type+' - '+url.substring(0,40),content:upd,sha:d.sha,branch:c.branch})
+      }).catch(function(){});
+    }).catch(function(){});
   }
 }
