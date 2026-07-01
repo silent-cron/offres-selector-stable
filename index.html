@@ -822,7 +822,7 @@ function renderDashboard() {
       ? `<br><a href="${esc(g.url)}" target="_blank" style="color:#6366f1;font-size:0.71rem;text-decoration:none;">Voir l'offre ↗</a>`
       : "";
     const action = (g.eml_file
-      ? `<button onclick="genererEml(actives[${i}])" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
+      ? `<button onclick="genererEmlByUrl('${esc(g.url)}')" style="background:#3b82f6;color:#fff;border-radius:6px;padding:4px 10px;font-size:0.75rem;border:none;cursor:pointer;white-space:nowrap;">📧 Ouvrir brouillon</button>`
       : `<span style="color:#9ca3af;font-size:0.75rem;">Pas d'email RH</span>`)
       + `<button onclick="archiverOffre('${esc(g.url)}', this)" title="Retirer du suivi" style="background:none;border:none;cursor:pointer;color:#9ca3af;font-size:0.85rem;padding:2px 4px;margin-left:4px;">✕</button>`;
 
