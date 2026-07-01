@@ -1,5 +1,89 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3955027",
+    "entreprise": "LTD",
+    "titre": "BIM MANAGER (H/F)",
+    "domaine": "BIM",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_LTD_BIM_MANAGER_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3957116",
+    "entreprise": "LTD",
+    "titre": "BIM process manager (H/F)",
+    "domaine": "BIM",
+    "score": 6,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_LTD_BIM_process_manager_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209ZWYW",
+    "entreprise": "BEER KING PUB",
+    "titre": "Barman / Barmaid (H/F)",
+    "domaine": "RESTO",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_BEER_KING_PUB_Barman_Barmaid_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209ZRVW",
+    "entreprise": "La Brasserie de Vaise",
+    "titre": "Serveur H/F AUTONOME",
+    "domaine": "RESTO",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_La_Brasserie_de_Vaise_Serveur_HF_AUTONOME_07.2026.eml",
+    "statut": "GENERE",
+    "date": "01/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "01/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4399305",
     "entreprise": "Recruteur",
     "titre": "Technicien bureau d'étude CVC (H/F)",
@@ -39,7 +123,8 @@
         "date": "01/07/2026",
         "notes": ""
       }
-    ]
+    ],
+    "archive": true
   },
   {
     "url": "https://fr.indeed.com/viewjob?jk=6b2230e2f0e581d6",
@@ -325,8 +410,8 @@
     "eml_file": "Email_B_HIVE_Projeteur_Electricité_REVIT_Autocad_HF_06.2026.eml",
     "statut": "GENERE",
     "date": "30/06/2026",
-    "retour": "postule",
-    "date_candidature": "2026-06-30",
+    "retour": "entretien",
+    "date_candidature": "2026-07-01",
     "historique": [],
     "postule_manuel": true
   },
@@ -698,7 +783,7 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "2026-07-01",
+    "date_candidature": "2026-07-07",
     "historique": [],
     "postule_manuel": true
   },
