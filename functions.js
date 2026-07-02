@@ -36,7 +36,7 @@ function updateRetour(url,val){
   }
 }
 function showHistorique(u){
-  var g=genereesByUrl[u];if(!g)return;
+  var g=genereesByUrl&&genereesByUrl[u];if(!g&&typeof genereesData!=='undefined')g=genereesData.find(function(x){return x.url===u});if(!g)return;
   var h='<div style="max-width:500px;margin:auto;background:#fff;border-radius:12px;padding:24px;box-shadow:0 4px 24px rgba(0,0,0,0.15);">';
   h+='<h3 style="margin:0 0 4px;font-size:1rem;">📋 '+(g.entreprise||'')+'</h3>';
   h+='<p style="margin:0 0 16px;color:#666;font-size:0.82rem;">'+(g.titre||'')+'</p>';
