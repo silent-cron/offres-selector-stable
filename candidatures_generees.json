@@ -1,5 +1,28 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=b2d3f3d3c572ebfd",
+    "entreprise": "Recruteur",
+    "titre": "Poste inconnu",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "mohamed@pappers.fr",
+    "emails_snov_io": [
+      "sami@pappers.fr"
+    ],
+    "eml_file": "Email_Recruteur_Poste_inconnu_07.2026.eml",
+    "statut": "GENERE",
+    "date": "02/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "02/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209VWFB",
     "entreprise": "BOUILLON BARATTE",
     "titre": "Serveur / serveuse (H/F)",
@@ -81,7 +104,8 @@
         "date": "01/07/2026",
         "notes": ""
       }
-    ]
+    ],
+    "archive": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3957116",
@@ -102,7 +126,8 @@
         "date": "01/07/2026",
         "notes": ""
       }
-    ]
+    ],
+    "archive": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209ZWYW",
@@ -123,7 +148,8 @@
         "date": "01/07/2026",
         "notes": ""
       }
-    ]
+    ],
+    "archive": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209ZRVW",
@@ -370,7 +396,8 @@
         "date": "01/07/2026",
         "notes": ""
       }
-    ]
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4309883",
@@ -641,7 +668,8 @@
         "date": "01/07/2026",
         "notes": "par email"
       }
-    ]
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3842046",
@@ -662,7 +690,8 @@
         "date": "01/07/2026",
         "notes": "par email"
       }
-    ]
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4095075",
@@ -683,7 +712,8 @@
         "date": "01/07/2026",
         "notes": "par email"
       }
-    ]
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4213163",
@@ -704,7 +734,8 @@
         "date": "01/07/2026",
         "notes": "par email"
       }
-    ]
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3993099",
@@ -757,7 +788,8 @@
         "date": "01/07/2026",
         "notes": "par email"
       }
-    ]
+    ],
+    "postule_manuel": true
   },
   {
     "url": "https://fr.indeed.com/viewjob?jk=8e1c04ddf432b289",
