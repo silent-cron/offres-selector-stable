@@ -1,5 +1,68 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209VWFB",
+    "entreprise": "BOUILLON BARATTE",
+    "titre": "Serveur / serveuse (H/F)",
+    "domaine": "RESTO",
+    "score": 9,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_BOUILLON_BARATTE_Serveur_serveuse_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "02/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "02/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209WFHC",
+    "entreprise": "le Bistrot d'Abel",
+    "titre": "Commis de salle (H/F)",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_le_Bistrot_dAbel_Commis_de_salle_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "02/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "02/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209YDPW",
+    "entreprise": "Le Planb",
+    "titre": "Barman / Barmaid (H/F)",
+    "domaine": "RESTO",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Le_Planb_Barman_Barmaid_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "02/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "candidature",
+        "date": "02/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3955027",
     "entreprise": "LTD",
     "titre": "BIM MANAGER (H/F)",
