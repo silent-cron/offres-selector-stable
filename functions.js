@@ -49,11 +49,11 @@ function showHistorique(u){
   }
   h+='</div><div style="margin-top:16px;display:flex;gap:6px;flex-wrap:wrap;">';
   var su=encodeURIComponent(u);
-  h+='<button onclick="addEvent(\''+u+'\',\'postule\',\'\')" style="background:#16a34a;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">📋 Postulé</button>';h+='<button onclick="addEvent(\''+u+'\',\'relance\',\'\')" style="background:#f59e0b;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">📬 Relancer</button>';
-  h+='<button onclick="addEvent(\''+u+'\',\'entretien\',\'\')" style="background:#8b5cf6;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">📞 Entretien</button>';
-  h+='<button onclick="addEvent(\''+u+'\',\'resultat\',\'positif\')" style="background:#16a34a;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">✅ Positif</button>';
-  h+='<button onclick="addEvent(\''+u+'\',\'resultat\',\'negatif\')" style="background:#dc2626;color:#fff;border:none;border-radius:6px;padding:5px 12px;font-size:0.75rem;cursor:pointer;">❌ Negatif</button>';
-  h+='</div><div style="margin-top:16px;text-align:right;"><button onclick="document.getElementById(\'hist-modal\').style.display=\'none\'" style="background:#f3f4f6;color:#555;border:none;border-radius:6px;padding:5px 14px;font-size:0.8rem;cursor:pointer;">Fermer</button></div></div>';
+  h+='<button onclick="addEvent(\''+u+'\',\'postule\',\'\')" style="background:#16a34a;color:#fff;border:none;border-radius:6px;padding:8px 14px;font-size:0.8rem;cursor:pointer;">📋 Postulé</button>';h+='<button onclick="addEvent(\''+u+'\',\'relance\',\'\')" style="background:#f59e0b;color:#fff;border:none;border-radius:6px;padding:8px 14px;font-size:0.8rem;cursor:pointer;">📬 Relancer</button>';
+  h+='<button onclick="addEvent(\''+u+'\',\'entretien\',\'\')" style="background:#8b5cf6;color:#fff;border:none;border-radius:6px;padding:8px 14px;font-size:0.8rem;cursor:pointer;">📞 Entretien</button>';
+  h+='<button onclick="addEvent(\''+u+'\',\'resultat\',\'positif\')" style="background:#16a34a;color:#fff;border:none;border-radius:6px;padding:8px 14px;font-size:0.8rem;cursor:pointer;">✅ Positif</button>';
+  h+='<button onclick="addEvent(\''+u+'\',\'resultat\',\'negatif\')" style="background:#dc2626;color:#fff;border:none;border-radius:6px;padding:8px 14px;font-size:0.8rem;cursor:pointer;">❌ Negatif</button>';
+  h+='</div><div style="margin-top:16px;text-align:right;"><button onclick="document.getElementById(\'hist-modal\').style.display=\'none\'" style="background:#f3f4f6;color:#555;border:none;border-radius:6px;padding:8px 20px;font-size:0.9rem;cursor:pointer;">Fermer</button></div></div>';
   var modal=document.getElementById('hist-modal');
   if(!modal){
     modal=document.createElement('div');
