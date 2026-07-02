@@ -365,7 +365,7 @@
     "statut": "GENERE",
     "date": "01/07/2026",
     "retour": "",
-    "date_candidature": "",
+    "date_candidature": "2026-07-02",
     "historique": [
       {
         "type": "Offres générés",
@@ -683,7 +683,7 @@
     "statut": "GENERE",
     "date": "30/06/2026",
     "retour": "",
-    "date_candidature": "2026-06-01",
+    "date_candidature": "2026-06-10",
     "historique": [
       {
         "type": "postule",
