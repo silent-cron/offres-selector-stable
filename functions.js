@@ -16,6 +16,26 @@ function updateDate(url,val){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/update_status.yml/dispatches',
       {method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
       body:JSON.stringify({ref:c.branch,inputs:{url:url,field:'date_candidature',value:val}})}).catch(function(){});
+    // Save directly to JSON for mobile sync
+    var sx=function(x){return JSON.stringify(x,null,2)};
+    fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/contents/candidatures_generees.json',{
+      headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github.v3+json'}
+    }).then(function(r){return r.json();}).then(function(d){
+      if(!d||!d.sha||!d.content)return;
+      var arr=JSON.parse(atob(d.content));
+      for(var k=0;k<arr.length;k++){if(arr[k].url===url){
+        arr[k].date_candidature=val||'';
+        if(val&&g&&g.retour){
+          if(!arr[k].historique)arr[k].historique=[];
+          arr[k].historique.push({type:g.retour,date:val,notes:''});
+        }
+        break;
+      }}
+      fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/contents/candidatures_generees.json',{
+        method:'PUT',headers:{'Authorization':'Bearer '+c.pat,'Content-Type':'application/json'},
+        body:JSON.stringify({message:'Date '+url.substring(0,30),content:btoa(sx(arr)),sha:d.sha,branch:c.branch})
+      }).catch(function(){});
+    }).catch(function(){});
   }
 }
 function updateRetour(url,val){
@@ -33,6 +53,26 @@ function updateRetour(url,val){
     fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/actions/workflows/update_status.yml/dispatches',
       {method:'POST',headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
       body:JSON.stringify({ref:c.branch,inputs:{url:url,field:'retour',value:val}})}).catch(function(){});
+    // Save directly to JSON for mobile sync
+    var sx2=function(x){return JSON.stringify(x,null,2)};
+    fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/contents/candidatures_generees.json',{
+      headers:{'Authorization':'Bearer '+c.pat,'Accept':'application/vnd.github.v3+json'}
+    }).then(function(r){return r.json();}).then(function(d){
+      if(!d||!d.sha||!d.content)return;
+      var arr=JSON.parse(atob(d.content));
+      for(var k=0;k<arr.length;k++){if(arr[k].url===url){
+        arr[k].retour=val;
+        if(val&&g&&g.date_candidature){
+          if(!arr[k].historique)arr[k].historique=[];
+          arr[k].historique.push({type:val,date:g.date_candidature,notes:''});
+        }
+        break;
+      }}
+      fetch('https://api.github.com/repos/'+c.owner+'/'+c.repo+'/contents/candidatures_generees.json',{
+        method:'PUT',headers:{'Authorization':'Bearer '+c.pat,'Content-Type':'application/json'},
+        body:JSON.stringify({message:'Retour '+url.substring(0,30),content:btoa(sx2(arr)),sha:d.sha,branch:c.branch})
+      }).catch(function(){});
+    }).catch(function(){});
   }
 }
 function showHistorique(u){
