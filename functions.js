@@ -44,7 +44,7 @@ function showHistorique(u){
   h+='<div style="border-left:3px solid #667eea;padding-left:16px;">';
   for(var j=0;j<evts.length;j++){
     var e=evts[j];
-    var icon=e.type==='relance'?'📬':e.type==='entretien'?'📞':e.type==='resultat'?(e.notes==='positif'?'✅':'❌'):e.type==='postule'?'📋':e.type==='positif'?'✅':e.type==='negatif'?'❌':e.type==='pas_de_reponse'?'🤷':'📌';
+    var icon=e.type==='Offres générés'?'🎯':e.type==='relance'?'📬':e.type==='entretien'?'📞':e.type==='resultat'?(e.notes==='positif'?'✅':'❌'):e.type==='postule'?'📋':e.type==='positif'?'✅':e.type==='negatif'?'❌':e.type==='pas_de_reponse'?'🤷':'📌';
     h+='<div style="margin-bottom:12px;"><span style="font-weight:700;font-size:0.85rem;">'+icon+' '+e.date+'</span><br><span style="color:#555;font-size:0.8rem;">'+e.type+(e.notes?' - '+e.notes:'')+'</span></div>';
   }
   h+='</div><div style="margin-top:16px;display:flex;gap:6px;flex-wrap:wrap;">';
