@@ -1,5 +1,91 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=c8a57f22acf5b8b6",
+    "entreprise": "STEPPE BAR",
+    "titre": "Serveur & Barman H/F",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_STEPPE_BAR_Serveur_Barman_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "03/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "03/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=cf9dbc0bcabd86be",
+    "entreprise": "kiwee la saladerie",
+    "titre": "Serveur polyvalent H/F",
+    "domaine": "RESTO",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_kiwee_la_saladerie_Serveur_polyvalent_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "03/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "03/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=89f1029dc2508d93",
+    "entreprise": "Infolegale",
+    "titre": "Gestionnaire d’infrastructures H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "bertrand.fauvet@infolegale.fr",
+    "emails_snov_io": [],
+    "eml_file": "Email_Infolegale_Gestionnaire_dinfrastructures_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "03/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "03/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=cf2e3a7d50c4e71c",
+    "entreprise": "nan",
+    "titre": "Patient Service Representative",
+    "domaine": "BIM",
+    "score": 7,
+    "email_rh": "thomaswiddershoven@nju.edu.cn",
+    "emails_snov_io": [
+      "zhi-huazhou@nju.edu.cn"
+    ],
+    "eml_file": "Email_nan_Patient_Service_Representative_07.2026.eml",
+    "statut": "GENERE",
+    "date": "03/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "03/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=eea932fa81484cf9",
     "entreprise": "Groupe Atlantic",
     "titre": "Technicien SAV & Support Technique CVC H/F",
