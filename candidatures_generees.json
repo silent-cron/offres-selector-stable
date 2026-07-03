@@ -1,5 +1,71 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=eea932fa81484cf9",
+    "entreprise": "Groupe Atlantic",
+    "titre": "Technicien SAV & Support Technique CVC H/F",
+    "domaine": "BIM",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Groupe_Atlantic_Technicien_SAV_Support_Technique_CVC_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "03/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "03/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=8972c77aa8017e82",
+    "entreprise": "ENGIE",
+    "titre": "Technicienne / Technicien de maintenance CVC - BOURGOIN-JALLIEU (F/H)",
+    "domaine": "BIM",
+    "score": 6,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_ENGIE_Technicienne_Technicien_de_maintenance_CVC_BOURGOIN_JALLIEU_FH_07.2026.eml",
+    "statut": "GENERE",
+    "date": "03/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "03/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=5752bb11d41871d4",
+    "entreprise": "PEPITe",
+    "titre": "Technicien de Maintenance CVC",
+    "domaine": "BIM",
+    "score": 6,
+    "email_rh": "theo.genette@pepitebretagne.fr",
+    "emails_snov_io": [
+      "laura.nguon@pepitebretagne.fr",
+      "sandie.lanoe@pepitebretagne.fr"
+    ],
+    "eml_file": "Email_PEPITe_Technicien_de_Maintenance_CVC_07.2026.eml",
+    "statut": "GENERE",
+    "date": "03/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "03/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=d6e5b4510e29eca2",
     "entreprise": "AVNIR IMT",
     "titre": "Spécialiste Design / Routage de Câbles Électriques – Nucléaire (H/F)",
