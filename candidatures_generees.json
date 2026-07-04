@@ -1,5 +1,68 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=b08e70ad5fdd3148",
+    "entreprise": "Bulle, Restaurant de Fourvière / SAS LAMA",
+    "titre": "Chef de rang H/F",
+    "domaine": "RESTO",
+    "score": 6,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Bulle_Restaurant_de_Fourvière_SAS_LAMA_Chef_de_rang_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "04/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=75bf715968e8859e",
+    "entreprise": "Hôtel Restaurant Beau Rivage",
+    "titre": "Barman, chef de rang H/F",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Hôtel_Restaurant_Beau_Rivage_Barman_chef_de_rang_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "04/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=66044613f449d1e3",
+    "entreprise": "The Ruck Hôtel",
+    "titre": "Chef de rang (F/H) - Semaine à 4 jours",
+    "domaine": "RESTO",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_The_Ruck_Hôtel_Chef_de_rang_FH_Semaine_à_4_jours_07.2026.eml",
+    "statut": "GENERE",
+    "date": "04/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=0e745acf108df285",
     "entreprise": "Kin Khao",
     "titre": "Serveur H/F",
