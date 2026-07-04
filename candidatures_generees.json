@@ -1,5 +1,68 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=0e745acf108df285",
+    "entreprise": "Kin Khao",
+    "titre": "Serveur H/F",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Kin_Khao_Serveur_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "04/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=bb31ff3ae7d5ea77",
+    "entreprise": "Château de Chapeau Cornu",
+    "titre": "Barman polyvalent H/F",
+    "domaine": "RESTO",
+    "score": 6,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Château_de_Chapeau_Cornu_Barman_polyvalent_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "04/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=070cf3ec18edb5a5",
+    "entreprise": "Ibis Lyon La Part Dieu",
+    "titre": "SERVEUR(SE) POLYVALENT(E)",
+    "domaine": "RESTO",
+    "score": 9,
+    "email_rh": "-FB@ACCOR.COM",
+    "emails_snov_io": [],
+    "eml_file": "Email_Ibis_Lyon_La_Part_Dieu_SERVEURSE_POLYVALENTE_07.2026.eml",
+    "statut": "GENERE",
+    "date": "04/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=c8a57f22acf5b8b6",
     "entreprise": "STEPPE BAR",
     "titre": "Serveur & Barman H/F",
