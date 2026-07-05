@@ -1,5 +1,47 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=77759ee0b657b053",
+    "entreprise": "LE TALLUY",
+    "titre": "Chef de rang H/F jusqu'à fin septembre",
+    "domaine": "RESTO",
+    "score": 6,
+    "email_rh": "contact@letalluy.com",
+    "emails_snov_io": [],
+    "eml_file": "Email_LE_TALLUY_Chef_de_rang_HF_jusquà_fin_septembre_07.2026.eml",
+    "statut": "GENERE",
+    "date": "05/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=e90f3a7d8f7ae3c5",
+    "entreprise": "Information non disponible",
+    "titre": "Information non disponible",
+    "domaine": "RESTO",
+    "score": 7,
+    "email_rh": "contact@trefle-restaurant",
+    "emails_snov_io": [],
+    "eml_file": "Email_Information_non_disponible_Information_non_disponible_07.2026.eml",
+    "statut": "GENERE",
+    "date": "05/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=07161a9d1ead65de",
     "entreprise": "MAJOTEL",
     "titre": "Chef de rang - Responsable petit déjeuner - Employé polyvalent",
