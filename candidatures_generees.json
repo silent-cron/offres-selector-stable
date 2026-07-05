@@ -1,5 +1,67 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=07161a9d1ead65de",
+    "entreprise": "MAJOTEL",
+    "titre": "Chef de rang - Responsable petit déjeuner - Employé polyvalent",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_MAJOTEL_Chef_de_rang_Responsable_petit_déjeuner_Employé_polyvalent_07.2026.eml",
+    "statut": "GENERE",
+    "date": "05/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=876b2e9ffad62016",
+    "entreprise": "Relais & Châteaux",
+    "titre": "Commis de Salle (H/F) Restaurant Gastronomique La Pyramide",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "donalfonso@relaischateaux.com",
+    "emails_snov_io": [
+      "pescatore@relaischateaux.com",
+      "b.homick@relaischateaux.com",
+      "i.durighello@relaischateaux.com",
+      "webmaster@relaischateaux.com",
+      "commercial@relaischateaux.com",
+      "davittorio@relaischateaux.com",
+      "hermitage@relaischateaux.com",
+      "borgofelice@relaischateaux.com",
+      "bottaccio@relaischateaux.com",
+      "albereta@relaischateaux.com",
+      "jagdhof@relaischateaux.com",
+      "falconiere@relaischateaux.com",
+      "abbazia@relaischateaux.com",
+      "florentine@relaischateaux.com",
+      "antoine@relaischateaux.com",
+      "molino@relaischateaux.com",
+      "adrien@relaischateaux.com",
+      "t.grandcolas@relaischateaux.com",
+      "candidature@relaischateaux.com"
+    ],
+    "eml_file": "Email_Relais_Châteaux_Commis_de_Salle_HF_Restaurant_Gastronomique_La_Pyramide_07.2026.eml",
+    "statut": "GENERE",
+    "date": "05/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=b08e70ad5fdd3148",
     "entreprise": "Bulle, Restaurant de Fourvière / SAS LAMA",
     "titre": "Chef de rang H/F",
