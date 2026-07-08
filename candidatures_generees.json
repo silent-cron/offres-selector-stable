@@ -1,5 +1,89 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210JCDF",
+    "entreprise": "Crescendo Lyon Brotteaux",
+    "titre": "Serveur Polyvalent (H/F)",
+    "domaine": "RESTO",
+    "score": 9,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Crescendo_Lyon_Brotteaux_Serveur_Polyvalent_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "08/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "08/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4204391",
+    "entreprise": "Hôtel LYON METROPOLE",
+    "titre": "Barman / Barmaid (H/F)",
+    "domaine": "RESTO",
+    "score": 7,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Hôtel_LYON_METROPOLE_Barman_Barmaid_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "08/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "08/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210JFCP",
+    "entreprise": "MRS RHONE-ALPES",
+    "titre": "Employé polyvalent / Employée polyvalente de restauration",
+    "domaine": "RESTO",
+    "score": 8,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_MRS_RHONE_ALPES_Employé_polyvalent_Employée_polyvalente_de_restauration_07.2026.eml",
+    "statut": "GENERE",
+    "date": "08/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "08/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=b9e8777b56c8bcec",
+    "entreprise": "Département du Rhône",
+    "titre": "Chef de service infrastructures et systèmes H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Département_du_Rhône_Chef_de_service_infrastructures_et_systèmes_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "08/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "08/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=a3577f2c24cc20d0",
     "entreprise": "Mercure Lyon Centre Charpennes",
     "titre": "Serveur / Serveuse Petit-Déjeuner (H/F)",
