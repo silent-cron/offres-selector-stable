@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CHKZ",
+    "entreprise": "O'TACOS",
+    "titre": "Equipier Polyvalent H/F (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_OTACOS_Equipier_Polyvalent_HF_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "10/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "10/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNLB",
+    "entreprise": "GIRL'S BAR",
+    "titre": "Serveur.se de bar à champagne (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_GIRLS_BAR_Serveurse_de_bar_à_champagne_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "10/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "10/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210DGHG",
+    "entreprise": "Recruteur",
+    "titre": "Employé polyvalent (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Employé_polyvalent_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "10/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "10/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210DGRR",
+    "entreprise": "MANPOWER FRANCE",
+    "titre": "Agent de restauration collective (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_MANPOWER_FRANCE_Agent_de_restauration_collective_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "10/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "10/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3955731",
+    "entreprise": "Lùkla",
+    "titre": "DBA SQL Server H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Lùkla_DBA_SQL_Server_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "10/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "10/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4137409",
     "entreprise": "Anonyme",
     "titre": "Barman / Barmaid (H/F)",
