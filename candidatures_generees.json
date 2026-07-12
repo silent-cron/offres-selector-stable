@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=76b3056c60348c7a",
+    "entreprise": "Tigermilk",
+    "titre": "Barman/Barmaid - LYON",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "Hibou@2x.jpg",
+    "emails_snov_io": [],
+    "eml_file": "Email_Tigermilk_BarmanBarmaid_LYON_07.2026.eml",
+    "statut": "GENERE",
+    "date": "12/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "12/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=76ad2d4b196cda8e",
+    "entreprise": "Château de Chapeau Cornu",
+    "titre": "Serveur / Serveuse Extras H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Château_de_Chapeau_Cornu_Serveur_Serveuse_Extras_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "12/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "12/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4051592",
+    "entreprise": "Recruteur",
+    "titre": "Responsable Expediting (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Responsable_Expediting_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "12/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "12/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4047211",
+    "entreprise": "Recruteur",
+    "titre": "Adjoint / Adjointe du directeur / de la directrice en hôtellerie-restauration (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Adjoint_Adjointe_du_directeur_de_la_directrice_en_hôtellerie_restauration_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "12/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "12/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4038631",
+    "entreprise": "Crous de Lyon",
+    "titre": "Serveur(euse) - Caissier(ère) Temps Plein Journée F/H",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Crous_de_Lyon_Serveureuse_Caissierère_Temps_Plein_Journée_FH_07.2026.eml",
+    "statut": "GENERE",
+    "date": "12/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "12/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/4051792",
     "entreprise": "Recruteur",
     "titre": "Projeteur Électricité/Electrotechnique (H/F)",
