@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209YRHL",
+    "entreprise": "MADEMOISELLE REVE",
+    "titre": "Employé polyvalent bar salle petite restauration (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_MADEMOISELLE_REVE_Employé_polyvalent_bar_salle_petite_restauration_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "13/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "13/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3933936",
+    "entreprise": "VITACLIM",
+    "titre": "Chargé d'Affaires CVC H/F/X",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_VITACLIM_Chargé_dAffaires_CVC_HFX_07.2026.eml",
+    "statut": "GENERE",
+    "date": "13/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "13/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=52fe3f86d85ea5d7",
+    "entreprise": "SARL nakata part dieu",
+    "titre": "Serveur en salle H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_SARL_nakata_part_dieu_Serveur_en_salle_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "13/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "13/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=e41ad5b346345d96",
+    "entreprise": "Sambahia",
+    "titre": "Alternant(e) bar+ Salle",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "reservation.sambahia@gmail.com",
+    "emails_snov_io": [],
+    "eml_file": "Email_Sambahia_Alternante_bar_Salle_07.2026.eml",
+    "statut": "GENERE",
+    "date": "13/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "13/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=e6c3b2b7fd86c175",
+    "entreprise": "Sodexo",
+    "titre": "EMPOYE DE RESTAURATION H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Sodexo_EMPOYE_DE_RESTAURATION_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "13/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "13/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209ZSBB",
     "entreprise": "QUICK",
     "titre": "Equipier(ère) polyvalent(e) de restauration rapide (H/F)",
