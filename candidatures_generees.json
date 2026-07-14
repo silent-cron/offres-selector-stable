@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3843999",
+    "entreprise": "Recruteur",
+    "titre": "Employé de restauration H/F/X",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Employé_de_restauration_HFX_07.2026.eml",
+    "statut": "GENERE",
+    "date": "14/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "14/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3832616",
+    "entreprise": "Recruteur",
+    "titre": "Ingénieur électricité CFO-CFA (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Ingénieur_électricité_CFO_CFA_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "14/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "14/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3840183",
+    "entreprise": "Recruteur",
+    "titre": "Chargé d'affaires CVC maintenance (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Chargé_daffaires_CVC_maintenance_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "14/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "14/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3840184",
+    "entreprise": "Recruteur",
+    "titre": "Chargé d'affaires travaux CVC (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Chargé_daffaires_travaux_CVC_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "14/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "14/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209XYDF",
+    "entreprise": "MJC DU VIEUX LYON",
+    "titre": "Agent d'entretien et de restauration collective (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_MJC_DU_VIEUX_LYON_Agent_dentretien_et_de_restauration_collective_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "14/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "14/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209WZLH",
     "entreprise": "SODEXO SANTE MEDICO SOCIAL",
     "titre": "Employé de restauration H/F",
