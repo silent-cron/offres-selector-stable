@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4800391",
+    "entreprise": "Recruteur",
+    "titre": "Poste inconnu",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Poste_inconnu_07.2026.eml",
+    "statut": "GENERE",
+    "date": "15/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "15/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4745119",
+    "entreprise": "Recruteur",
+    "titre": "Poste inconnu",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Poste_inconnu_07.2026.eml",
+    "statut": "GENERE",
+    "date": "15/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "15/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4754461",
+    "entreprise": "Recruteur",
+    "titre": "Poste inconnu",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Poste_inconnu_07.2026.eml",
+    "statut": "GENERE",
+    "date": "15/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "15/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4238156",
+    "entreprise": "Bureau d'études pluridisciplinaire",
+    "titre": "Projeteur / Modeleur CVC PB Revit à Lyon H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "contact@ingebime.fr",
+    "emails_snov_io": [],
+    "eml_file": "Email_Bureau_détudes_pluridisciplinaire_Projeteur_Modeleur_CVC_PB_Revit_à_Lyon_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "15/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "15/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4255347",
+    "entreprise": "Cyclife Digital Solutions",
+    "titre": "Alternant Projeteur BIM (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "sales-ds@cyclife.com",
+    "emails_snov_io": [],
+    "eml_file": "Email_Cyclife_Digital_Solutions_Alternant_Projeteur_BIM_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "15/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "15/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/209LYBQ",
     "entreprise": "BOUILHOL RAMEL ET BERNARD",
     "titre": "DESSINATEUR PROJETEUR H/F-ENERGIES RENOUVELABLES (PHOTOVOLTAIQUE) (H/F)",
@@ -2695,50 +2800,6 @@
     "retour": "postule",
     "date_candidature": "2026-06-30",
     "historique": [],
-    "postule_manuel": true
-  },
-  {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4238156",
-    "entreprise": "Bureau d'études pluridisciplinaire",
-    "titre": "Projeteur / Modeleur CVC PB Revit à Lyon H/F",
-    "domaine": "BIM",
-    "score": 9,
-    "email_rh": "contact@ingebime.fr",
-    "emails_snov_io": [],
-    "eml_file": "Email_Bureau_détudes_pluridisciplinaire_Projeteur_Modeleur_CVC_PB_Revit_à_Lyon_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "30/06/2026",
-    "retour": "postule",
-    "date_candidature": "2026-06-30",
-    "historique": [
-      {
-        "type": "relance",
-        "date": "30/06/2026",
-        "notes": "par email"
-      }
-    ],
-    "postule_manuel": true
-  },
-  {
-    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4255347",
-    "entreprise": "Cyclife Digital Solutions",
-    "titre": "Alternant Projeteur BIM (H/F)",
-    "domaine": "BIM",
-    "score": 8,
-    "email_rh": "sales-ds@cyclife.com",
-    "emails_snov_io": [],
-    "eml_file": "Email_Cyclife_Digital_Solutions_Alternant_Projeteur_BIM_HF_06.2026.eml",
-    "statut": "GENERE",
-    "date": "30/06/2026",
-    "retour": "postule",
-    "date_candidature": "2026-06-30",
-    "historique": [
-      {
-        "type": "relance",
-        "date": "30/06/2026",
-        "notes": "email"
-      }
-    ],
     "postule_manuel": true
   },
   {
