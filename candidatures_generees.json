@@ -1,5 +1,131 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=b09d463de0c29b04",
+    "entreprise": "Chef Kimbap",
+    "titre": "Serveur H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Chef_Kimbap_Serveur_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "17/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "17/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3209187",
+    "entreprise": "Recruteur",
+    "titre": "Chef de réception en hôtellerie (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Chef_de_réception_en_hôtellerie_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "17/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "17/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208ZSXC",
+    "entreprise": "INSTITUT LYFE",
+    "titre": "Maître d'Hôtel - Barista F/H",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_INSTITUT_LYFE_Maître_dHôtel_Barista_FH_07.2026.eml",
+    "statut": "GENERE",
+    "date": "17/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "17/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208ZNPP",
+    "entreprise": "MUTUALITE FRANCAISE RHONE-PAYS DE SAVOIE",
+    "titre": "Agent de restauration et d'entretien (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_MUTUALITE_FRANCAISE_RHONE_PAYS_DE_SAVOIE_Agent_de_restauration_et_dentretien_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "17/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "17/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208ZLJX",
+    "entreprise": "SODEXO SANTE MEDICO SOCIAL",
+    "titre": "Employé / Employée de restauration collective",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_SODEXO_SANTE_MEDICO_SOCIAL_Employé_Employée_de_restauration_collective_07.2026.eml",
+    "statut": "GENERE",
+    "date": "17/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "17/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=102d0458d0489dc9",
+    "entreprise": "Lippert",
+    "titre": "Maintenance Technician",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Lippert_Maintenance_Technician_07.2026.eml",
+    "statut": "GENERE",
+    "date": "17/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "17/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/208ZTPV",
     "entreprise": "INSTITUT LYFE",
     "titre": "Chef-fe de Rang - Barista F/H",
