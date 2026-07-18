@@ -1,5 +1,89 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3126216",
+    "entreprise": "Recruteur",
+    "titre": "Employé de brasserie (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Employé_de_brasserie_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "18/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "18/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3131034",
+    "entreprise": "Recruteur",
+    "titre": "Projeteur Électricité Revit - Intérim (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Projeteur_Électricité_Revit_Intérim_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "18/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "18/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3147512",
+    "entreprise": "Recruteur",
+    "titre": "Hippopotamus - Serveur / Serveuse (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Hippopotamus_Serveur_Serveuse_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "18/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "18/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3147322",
+    "entreprise": "Recruteur",
+    "titre": "assistante, assistant elus H/F - EC21692",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_assistante_assistant_elus_HF_EC21692_07.2026.eml",
+    "statut": "GENERE",
+    "date": "18/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "18/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/208WCWZ",
     "entreprise": "VILLE DE LYON",
     "titre": "Adjoint au responsable de restauration scolaire F/H (H/F)",
