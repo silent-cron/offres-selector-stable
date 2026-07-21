@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/2880794",
+    "entreprise": "Recruteur",
+    "titre": "Assistant Chargé d'affaires CVC (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Assistant_Chargé_daffaires_CVC_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "21/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "21/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208PMMY",
+    "entreprise": "RESIDENCE GAMBETTA",
+    "titre": "Serveur (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_RESIDENCE_GAMBETTA_Serveur_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "21/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "21/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208PTQT",
+    "entreprise": "Recruteur",
+    "titre": "Employé polyvalent - Salle (H/F) - 10 postes à pourvoir",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Employé_polyvalent_Salle_HF_10_postes_à_pourvoir_07.2026.eml",
+    "statut": "GENERE",
+    "date": "21/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "21/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/2887247",
+    "entreprise": "Recruteur",
+    "titre": "Au Bureau - Commis / Commise de salle (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Au_Bureau_Commis_Commise_de_salle_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "21/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "21/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208NYXW",
+    "entreprise": "OPUS FORMATION",
+    "titre": "Equipier polyvalent de restauration rapide en alternance  (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_OPUS_FORMATION_Equipier_polyvalent_de_restauration_rapide_en_alternance_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "21/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "21/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/208PKXK",
     "entreprise": "PIZZA COSY LYON 7",
     "titre": "EMPLOYÉ POLYVALENT EN RESTAURATION H/F (H/F)",
