@@ -1,5 +1,89 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208NKMN",
+    "entreprise": "MONNA LISA",
+    "titre": "Employé polyvalent / Employée polyvalente de restauration",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_MONNA_LISA_Employé_polyvalent_Employée_polyvalente_de_restauration_07.2026.eml",
+    "statut": "GENERE",
+    "date": "22/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "22/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/2822566",
+    "entreprise": "Recruteur",
+    "titre": "Serveur - Lyon 05 (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Serveur_Lyon_05_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "22/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "22/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/2821764",
+    "entreprise": "Recruteur",
+    "titre": "Responsable restauration - Lyon 02 Confluence (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Responsable_restauration_Lyon_02_Confluence_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "22/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "22/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208PTTX",
+    "entreprise": "Recruteur",
+    "titre": "Employé polyvalent - cuisine (H/F) - 10 postes à pourvoir",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Employé_polyvalent_cuisine_HF_10_postes_à_pourvoir_07.2026.eml",
+    "statut": "GENERE",
+    "date": "22/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "22/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/2880794",
     "entreprise": "Recruteur",
     "titre": "Assistant Chargé d'affaires CVC (H/F)",
