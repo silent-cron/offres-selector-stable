@@ -1,5 +1,131 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/2291455",
+    "entreprise": "Recruteur",
+    "titre": "Chef gérant (F/H) - Lyon 7ème (69) (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Chef_gérant_FH_Lyon_7ème_69_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "25/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "25/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/2288669",
+    "entreprise": "Recruteur",
+    "titre": "ALTERNANCE SERVEUR(EUSE) RESTAURANT TRADITIONNEL (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_ALTERNANCE_SERVEUREUSE_RESTAURANT_TRADITIONNEL_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "25/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "25/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/207VZQT",
+    "entreprise": "MUTUALITE FRANCAISE RHONE-PAYS DE SAVOIE",
+    "titre": "Agent de restauration (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_MUTUALITE_FRANCAISE_RHONE_PAYS_DE_SAVOIE_Agent_de_restauration_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "25/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "25/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/207YQBK",
+    "entreprise": "NEWREST RESTAURATION",
+    "titre": "Chef gérant en restauration collective (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_NEWREST_RESTAURATION_Chef_gérant_en_restauration_collective_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "25/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "25/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/207YMPZ",
+    "entreprise": "DOMELS",
+    "titre": "Apprenti serveur/ Apprentie serveuse (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "contact@domels.online",
+    "emails_snov_io": [],
+    "eml_file": "Email_DOMELS_Apprenti_serveur_Apprentie_serveuse_HF_07.2026.eml",
+    "statut": "GENERE",
+    "date": "25/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "25/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=25a9eac32d8c9c7c",
+    "entreprise": "Lippert",
+    "titre": "Maintenance Technician",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Lippert_Maintenance_Technician_07.2026.eml",
+    "statut": "GENERE",
+    "date": "25/07/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "25/07/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/2319130",
     "entreprise": "Recruteur",
     "titre": "Manager restauration rapide - LYON CROIX-ROUSSE - H/F",
