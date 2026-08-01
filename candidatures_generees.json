@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=07d4e1effb9040c6",
+    "entreprise": "Randstad",
+    "titre": "chef de projet / product owner (h/f)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Randstad_chef_de_projet_product_owner_hf_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=a8f8646fa4726272",
+    "entreprise": "Crédit Agricole",
+    "titre": "Gestionnaire Administratif H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Crédit_Agricole_Gestionnaire_Administratif_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=41835e43a54c463f",
+    "entreprise": "VINCI",
+    "titre": "Ingénieur calcul structure et méthode en déconstruction (LYON) F/H",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_VINCI_Ingénieur_calcul_structure_et_méthode_en_déconstruction_LYON_FH_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=0982e75679c29215",
+    "entreprise": "TechTeam",
+    "titre": "Ingénieur Études HTB (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_TechTeam_Ingénieur_Études_HTB_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNQX",
+    "entreprise": "TRATTINO",
+    "titre": "COMMIS-E DE BAR (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "contact@trattino.fr",
+    "emails_snov_io": [],
+    "eml_file": "Email_TRATTINO_COMMIS_E_DE_BAR_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNND",
     "entreprise": "TRATTINO",
     "titre": "CHEF-E DE RANG (H/F)",
