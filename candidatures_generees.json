@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4066782",
+    "entreprise": "Recruteur",
+    "titre": "Tech Lead BI H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Tech_Lead_BI_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/4069464",
+    "entreprise": "Recruteur",
+    "titre": "VALSERVE - Ingénieur d'affaires - Projets EPR F/H (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_VALSERVE_Ingénieur_daffaires_Projets_EPR_FH_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=b94172578bbfec0b",
+    "entreprise": "Fiducial",
+    "titre": "Technicien Support Système & Réseau - H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "Universalis@4x.jpg",
+    "emails_snov_io": [],
+    "eml_file": "Email_Fiducial_Technicien_Support_Système_Réseau_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=8590ddc5a2e414cb",
+    "entreprise": "AVISTO",
+    "titre": "Ingénieur DevOps/Cloud – H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_AVISTO_Ingénieur_DevOpsCloud_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=ba99e9983ddcd792",
+    "entreprise": "HELPLINE",
+    "titre": "Administrateur réseaux & TOIP H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_HELPLINE_Administrateur_réseaux_TOIP_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "01/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "01/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=07d4e1effb9040c6",
     "entreprise": "Randstad",
     "titre": "chef de projet / product owner (h/f)",
