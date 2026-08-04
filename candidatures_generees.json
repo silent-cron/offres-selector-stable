@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=3969de53b2b72dcc",
+    "entreprise": "CYCLIFE DIGITAL SOLUTIONS",
+    "titre": "Ingénieur simulation numérique F/H",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_CYCLIFE_DIGITAL_SOLUTIONS_Ingénieur_simulation_numérique_FH_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209SQZP",
+    "entreprise": "HANOI CA PHE",
+    "titre": "Assistant Manager H/F (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "info@hanoicaphe.com",
+    "emails_snov_io": [],
+    "eml_file": "Email_HANOI_CA_PHE_Assistant_Manager_HF_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3835198",
+    "entreprise": "Recruteur",
+    "titre": "Chargé d'affaires électricité (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Chargé_daffaires_électricité_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3816814",
+    "entreprise": "Fed Construction",
+    "titre": "Chef de projet bâtiment F/H - Cadres de chantier (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Fed_Construction_Chef_de_projet_bâtiment_FH_Cadres_de_chantier_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3832540",
+    "entreprise": "Recruteur",
+    "titre": "Référent Technique Paie et Logiciel - (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Référent_Technique_Paie_et_Logiciel_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3844648",
     "entreprise": "Recruteur",
     "titre": "Chef de cuisine (F/H) - Lyon 3ème (69) (H/F)",
