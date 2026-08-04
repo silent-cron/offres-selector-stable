@@ -1,5 +1,89 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209RTWK",
+    "entreprise": "ROMANTICO DA ANTONIOEMARCO",
+    "titre": "Chef / Cheffe de rang (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_ROMANTICO_DA_ANTONIOEMARCO_Chef_Cheffe_de_rang_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3740013",
+    "entreprise": "Recruteur",
+    "titre": "chef projet développement social H/F - EC21692",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_chef_projet_développement_social_HF_EC21692_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=ce1b4607939ee3ae",
+    "entreprise": "Groupe Ortec",
+    "titre": "Chef d'Équipe Métallurgie H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Groupe_Ortec_Chef_dÉquipe_Métallurgie_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3743862",
+    "entreprise": "Recruteur",
+    "titre": "Chef de Projet SI (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Chef_de_Projet_SI_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "04/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "04/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=3969de53b2b72dcc",
     "entreprise": "CYCLIFE DIGITAL SOLUTIONS",
     "titre": "Ingénieur simulation numérique F/H",
