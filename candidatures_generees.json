@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3621186",
+    "entreprise": "Crous de Lyon",
+    "titre": "Responsable d’approvisionnement principal F/H",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Crous_de_Lyon_Responsable_dapprovisionnement_principal_FH_08.2026.eml",
+    "statut": "GENERE",
+    "date": "05/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3621029",
+    "entreprise": "Crous de Lyon",
+    "titre": "Aide Cuisine / Légumerie / Autres Préparations  Temps plein _Crous (H/F)",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Crous_de_Lyon_Aide_Cuisine_Légumerie_Autres_Préparations_Temps_plein__Crous_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "05/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3648517",
+    "entreprise": "Recruteur",
+    "titre": "Chef de projet usinage (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Chef_de_projet_usinage_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "05/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3662476",
+    "entreprise": "Naos",
+    "titre": "Stage Assistant (e) Chef de projet Evénements & Congrès H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Naos_Stage_Assistant_e_Chef_de_projet_Evénements_Congrès_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "05/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3648204",
+    "entreprise": "Recruteur",
+    "titre": "Chef de projet automatisme (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Chef_de_projet_automatisme_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "05/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "05/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3710956",
     "entreprise": "Fed Construction",
     "titre": "Chargé d'affaires TCE aménagement F/H - Direction d'unité industrielle (H/F)",
