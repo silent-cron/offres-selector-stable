@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209DVBN",
+    "entreprise": "TIMTARGETT",
+    "titre": "Chargé d'affaires éléctricité (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_TIMTARGETT_Chargé_daffaires_éléctricité_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "07/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "07/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=c0a0e76ae7d9e8fd",
+    "entreprise": "Izi Event",
+    "titre": "Hôte tractage événementiel H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Izi_Event_Hôte_tractage_événementiel_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "07/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "07/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=1bc0d1ff568cf50e",
+    "entreprise": "collectivework",
+    "titre": "Administrateur Systèmes & Réseaux I Téléphonie – secteur bancaire (F/H) - Freelance",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "info@collectiveworks.net",
+    "emails_snov_io": [],
+    "eml_file": "Email_collectivework_Administrateur_Systèmes_Réseaux_I_Téléphonie_secteur_bancaire_FH_Freelance_08.2026.eml",
+    "statut": "GENERE",
+    "date": "07/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "07/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/3471101",
+    "entreprise": "Recruteur",
+    "titre": "Directeur commercial BTP H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Recruteur_Directeur_commercial_BTP_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "07/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "07/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/209JQQB",
+    "entreprise": "ALERYS",
+    "titre": "Ingénieur Commercial - bâtiment (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_ALERYS_Ingénieur_Commercial_bâtiment_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "07/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "07/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://candidat.francetravail.fr/offres/recherche/detail/3490772",
     "entreprise": "Recruteur",
     "titre": "Référent Technique Infrastructure Microsoft (H/F)",
