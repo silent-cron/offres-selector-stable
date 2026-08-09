@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://fr.indeed.com/viewjob?jk=85131a570321094b",
+    "entreprise": "Château de Chapeau Cornu",
+    "titre": "Sommelier H/F",
+    "domaine": "RESTO",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Château_de_Chapeau_Cornu_Sommelier_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "09/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "09/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208YLVK",
+    "entreprise": "TALENTSKILLS",
+    "titre": "Chargé d'affaires construction bois (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_TALENTSKILLS_Chargé_daffaires_construction_bois_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "09/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "09/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://candidat.francetravail.fr/offres/recherche/detail/208YQCN",
+    "entreprise": "AK RECRUTEMENT",
+    "titre": "Chef de secteur - Auvergne / Limousin (secteur BTP) (H/F)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_AK_RECRUTEMENT_Chef_de_secteur_Auvergne_Limousin_secteur_BTP_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "09/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "09/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=defd6b97a4be029e",
+    "entreprise": "Grape Hospitality",
+    "titre": "Chef de Partie H/F",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_Grape_Hospitality_Chef_de_Partie_HF_08.2026.eml",
+    "statut": "GENERE",
+    "date": "09/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "09/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "url": "https://fr.indeed.com/viewjob?jk=4d977977a2bca2d2",
+    "entreprise": "nan",
+    "titre": "Alternance / Stage - Assistant Design Architecte (F/H)",
+    "domaine": "BIM",
+    "score": 1,
+    "email_rh": "",
+    "emails_snov_io": [],
+    "eml_file": "Email_nan_Alternance_Stage_Assistant_Design_Architecte_FH_08.2026.eml",
+    "statut": "GENERE",
+    "date": "09/08/2026",
+    "retour": "",
+    "date_candidature": "",
+    "historique": [
+      {
+        "type": "Offres générés",
+        "date": "09/08/2026",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "url": "https://fr.indeed.com/viewjob?jk=bdd2d30e5facde97",
     "entreprise": "GSE Group",
     "titre": "Responsable technique Qualité, Sécurité & Méthodes F/H",
