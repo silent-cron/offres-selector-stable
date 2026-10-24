@@ -1,10 +1,28 @@
 {
-  "generated_at": "24/10/2026 06:02",
-  "total": 616,
-  "vertes": 490,
-  "bleues": 126,
+  "generated_at": "24/10/2026 17:02",
+  "total": 619,
+  "vertes": 492,
+  "bleues": 127,
   "retention_days": 30,
   "offres": [
+    {
+      "source": "France Travail",
+      "id": "8230824",
+      "titre": "Projeteur / Projeteuse BIM (H/F)",
+      "entreprise": "Forums Talents Handicap",
+      "ville": "69 - Lyon 1er Arrondissement",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Cyclife Digital Solutions, filiale du groupe Cyclife (groupe EDF), est spécialisé dans la 3D et la Transformation Digitale pour le domaine nucléaire. Dans le cadre du développement de nos activités autour de la création et l'exploitation des Jumeaux Numériques, nous renforçons notre équipe dédiée à la réalisation de maquettes 3D BIM et recherchons un projeteur BIM sénior.  Vos tâches principales seront les suivantes :   tâches principales, responsabilités et spécificitésModélisation 3D dans un environnement close BIM (REVIT) (existant)Implantation d'équipement TQCExtraction des ISOAppliquer les procédures définies afin de répondre aux attentes du cahier des chargesAppui auprès des projeteurs juniorsÊtre force de proposition pour l'amélioration du workflow Nous travaillons sur des projets TQC (Tel Que Construit) à partir de scans 3D qui doivent être croisés avec des informations 1D et 2D. La rigueur et la maitrise de la lecture de plans papier sont indispensables. Situation dans l'organisation et relations de travailEn interne, en lien direct avec :Le responsable du plateau numérique ;L'équipe du plateau numérique.En externe, des liens forts avec plusieurs exploitants nucléaires.Diplôme/Formation : BAC +2/+3 de type dessinateur projeteur (BIM).Des compétences en informatique (code, méthodologie, base de données.) et en MEP sont un plus.  Idéalement : expérience du travail en équipe pluridisciplinaire, connaissance de l'industrie nucléaire (ou du bâtiment), et de la re-modélisation à partir de nuages de points. Expérience : 3 à 5 ans Compétences :Connaissance des logiciels métiers REVIT, RECAP, DYNAMO ;Gestion de projets et relation client ;Maîtrise des outils bureautiques (Suite office) ;Capacités relationnelles, organisationnelles et rédactionnelles (un très bon français est requis) ;démarquez-vous : vous connaissez Asbuild, Realworks, Dynamo avez des notions en Python. Aptitudes/Qualités : aptitude au travail en autonomie et en équipe/bon relationnel, rigueur et méthode, analyse et capacité de synthèse, sens des responsabilités, curiosité d'esprit et force de proposition. Mobilité : Lyon principalement ; déplacements en France sur des tâches épisodiques.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8230824",
+      "date": "2026-10-24",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 1,
+      "raison": "BIM/Revit dans titre · CDI",
+      "jours_anciennete": 0,
+      "first_seen": "2026-10-24"
+    },
     {
       "source": "France Travail",
       "id": "8226287",
@@ -39,7 +57,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
       "jours_anciennete": 1,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -309,6 +327,24 @@
     },
     {
       "source": "France Travail",
+      "id": "7864374",
+      "titre": "Ingénieur BIM F/H",
+      "entreprise": "Vulcain Ingenierie",
+      "ville": "69 - Lyon 2e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "Annuel de 48000.0 Euros à 55000.0 Euros",
+      "description": "Dans le cadre du développement de nos activités dans le secteur nucléaire, nous recherchons un.e Ingénieur.e BIM pour intervenir sur des projets stratégiques liés à la conception, la modernisation et l'exploitation d'installations nucléaires.\n\n \n\nVos missions :\n\n * Piloter et accompagner le déploiement des démarches BIM auprès des équipes projets et des différentes parties prenantes.\n * Participer à la définition des exigences BIM ainsi qu'à la rédaction et au suivi des documents de gouvernance associés.\n * Assurer la structuration, la coordination et l'exploitation des maquettes numériques tout au long du cycle de vie des projets.\n * Développer des cas d'usage BIM innovants visant à améliorer la qualité, la performance et la coordination des opérations.\n * Contribuer à la montée en compétence des équipes et à la diffusion des bonnes pratiques BIM au sein de l'organisation.\n\nIssu.e d'une formation Ingénieur ou équivalent, vous justifiez d'une expérience significative en BIM dans un environnement industriel complexe. Une expérience dans les secteurs du nucléaire, de l'énergie ou des infrastructures est particulièrement appréciée.\n\n * Maîtrise des processus BIM et des standards associés (IFC, conventions BIM, niveaux de détail).\n * Connaissance des outils de modélisation et de coordination (Revit, Navisworks, BIM Collaborate ou équivalent).\n * Capacité à évoluer dans des environnements multi-intervenants et fortement réglementés.\n * Esprit d'analyse, sens de la communication et goût pour l'innovation.\n\nPourquoi nous rejoindre ?\n\nChez Vulcain, vous contribuez à des projets nucléaires d'envergure au cœur des enjeux énergétiques de demain. Vous évoluez au sein d'équipes expertes et bénéficiez d'un accompagnement favorisant votre développement professionnel et vos perspectives d'évolution.\n\n \n\nEn + :\n\nLieu : Lyon\n\nContrat : CDI\n\nRémunération : 47000 à 55000 bruts par an, en fonction de votre niveau d'expérience.\n\nAvantages : télétravail, formation continue, mobilité interne, participation à des projets stratégiques du secteur nucléaire.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7864374",
+      "date": "2026-10-13",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 1,
+      "raison": "BIM/Revit dans titre · CDI",
+      "jours_anciennete": 11,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "France Travail",
       "id": "215DJPK",
       "titre": "CHEF DE RANG (H/F)",
       "entreprise": "AU BUREAU",
@@ -342,24 +378,6 @@
       "raison": "CDI restauration",
       "jours_anciennete": 11,
       "first_seen": "2026-10-24"
-    },
-    {
-      "source": "France Travail",
-      "id": "7864374",
-      "titre": "Ingénieur BIM F/H",
-      "entreprise": "Vulcain Ingenierie",
-      "ville": "69 - Lyon 2e Arrondissement",
-      "contrat": "CDI",
-      "salaire": "Annuel de 48000.0 Euros à 55000.0 Euros",
-      "description": "Dans le cadre du développement de nos activités dans le secteur nucléaire, nous recherchons un.e Ingénieur.e BIM pour intervenir sur des projets stratégiques liés à la conception, la modernisation et l'exploitation d'installations nucléaires.\n\n \n\nVos missions :\n\n * Piloter et accompagner le déploiement des démarches BIM auprès des équipes projets et des différentes parties prenantes.\n * Participer à la définition des exigences BIM ainsi qu'à la rédaction et au suivi des documents de gouvernance associés.\n * Assurer la structuration, la coordination et l'exploitation des maquettes numériques tout au long du cycle de vie des projets.\n * Développer des cas d'usage BIM innovants visant à améliorer la qualité, la performance et la coordination des opérations.\n * Contribuer à la montée en compétence des équipes et à la diffusion des bonnes pratiques BIM au sein de l'organisation.\n\nIssu.e d'une formation Ingénieur ou équivalent, vous justifiez d'une expérience significative en BIM dans un environnement industriel complexe. Une expérience dans les secteurs du nucléaire, de l'énergie ou des infrastructures est particulièrement appréciée.\n\n * Maîtrise des processus BIM et des standards associés (IFC, conventions BIM, niveaux de détail).\n * Connaissance des outils de modélisation et de coordination (Revit, Navisworks, BIM Collaborate ou équivalent).\n * Capacité à évoluer dans des environnements multi-intervenants et fortement réglementés.\n * Esprit d'analyse, sens de la communication et goût pour l'innovation.\n\nPourquoi nous rejoindre ?\n\nChez Vulcain, vous contribuez à des projets nucléaires d'envergure au cœur des enjeux énergétiques de demain. Vous évoluez au sein d'équipes expertes et bénéficiez d'un accompagnement favorisant votre développement professionnel et vos perspectives d'évolution.\n\n \n\nEn + :\n\nLieu : Lyon\n\nContrat : CDI\n\nRémunération : 47000 à 55000 bruts par an, en fonction de votre niveau d'expérience.\n\nAvantages : télétravail, formation continue, mobilité interne, participation à des projets stratégiques du secteur nucléaire.",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7864374",
-      "date": "2026-10-13",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 1,
-      "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 11,
-      "first_seen": "2026-10-23"
     },
     {
       "source": "France Travail",
@@ -610,6 +628,24 @@
     },
     {
       "source": "France Travail",
+      "id": "214YLRN",
+      "titre": "PROJETEUR BIM FERROVIAIRE - CHARGE D'ETUDES F/H (H/F)",
+      "entreprise": "INGEROP CONSEIL ET INGENIERIE (ICI)",
+      "ville": "69 - Lyon 3e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Description de l'entreprise\n\nRejoindre Ingérop, c'est contribuer à façonner le monde de demain.\nGroupe d'ingénierie et de conseil indépendant, nous menons des projets ambitieux dans les domaines du bâtiment, de l'énergie, de l'industrie, de l'eau, des infrastructures, des transports et de la ville.\nAvec plus de 40 sites en France, 98 implantations dans le monde et plus de 3 500 collaborateurs, nous offrons de nombreuses opportunités, en conception comme en réalisation, en local comme à l'international.\nChez Ingérop, vous évoluerez dans un environnement innovant, humain et solidaire, où l'expertise, l'esprit d'équipe et la convivialité sont au cœur de notre culture. Rejoignez une communauté de passionnés !\n\n\nDescription du poste\n\nDans le cadre de son développement, la Direction Déléguée Ferroviaire & Systèmes de Transport France d'Ingerop structure ses activités et recherche son futur Projeteur Ferroviaire/Chargé d'études\nGrâce à une implantation régionale forte, Ingérop vous offrira la possibilité de travailler sur des projets passionnants et structurants à l'échelle régionale ou locale avec les principaux acteurs du transport ferroviaire.\nVous interviendrez sur des sujets variés comme :\n- Nouvelles lignes ;\n- Régénération de voie ferrée ;\n- Aménagements de gares ;\n- Aménagement de dépôts, d'ateliers de maintenance ;\n- De bases travaux.\nAu sein du service Etudes Générale, vous serez en charge de :\n- Réaliser les plans de tracé et de géométrie ferroviaire\n- Produire les plans d'exécution (PRO / DCE / EXE)\n- Participer aux études de renouvellement et modernisation de voies\n- Modéliser les projets sous Géorail / Civil 3D\n- Assurer la mise à jour des plans selon les évolutions projet\n- Travailler en interface avec les ingénieurs études et chefs de projet\n- Contribuer à la qualité et à la cohérence des livrables\n\n\nQualifications\n\nDe formation Bac+2/+3 vous disposez de 3 ans d'expérience minimum dans le secteur ferroviaire.\nVous êtes rigoureux et doté d'agilité dans la communication tant orale qu'écrite.\n\nVous disposez d'une bonne connaissance de l'organisation de SNCF Réseau, des référentiels applicables et des processus associés. ayant une expérience plus importante. Vous disposez de 3 ans d'expérience minimum dans le secteur ferroviaire.\n\nVous êtes rigoureux et doté d'agilité dans la communication tant orale qu'écrite.\n\nVous disposez d'une bonne connaissance de l'organisation de SNCF Réseau, des référentiels applicables et des processus associés.\n\nL'ensemble de nos postes est ouvert aux personnes en situation de handicap.\n\n\nInformations complémentaires\n\nLe poste est situé à Lyon (Part Dieu) ou Rueil-Malmaison.  \nVotre package :\n- Votre rémunération fixe mensuelle\n- Une charte télétravail\n- L'acquisition de jours de RTT\n- Un Compte Épargne Temps (CET)\n- Le droit à des CESU\n- L'accès à l'épargne salariale / l'intéressement / la participation/ prime\n- L'affiliation à une mutuelle et une prévoyance de qualité\n- Une politique de formation individualisée et des parcours métiers\n- L'accompagnement de votre évolution professionnelle et de vos souhaits de mobilité géographique\n- Un CSE dynamique\nIngérop attache de l'importance à la diversité de ses équipes et agit pour l'insertion des personnes en situation de handicap. Nous étudions chaque candidature à compétences égales.\nVotre engagement, notre ambition, ensemble inventons demain !\n#LI-Hybrid #EngineeringJobs #NowHiring #JoinOurTeam",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214YLRN",
+      "date": "2026-10-08",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 1,
+      "raison": "BIM/Revit dans titre · entreprise cible",
+      "jours_anciennete": 16,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "France Travail",
       "id": "214YGYL",
       "titre": "Commis de salle Restaurant Epona (H/F)",
       "entreprise": "INTERCONTINENTAL MANAGEMENT FRANCE SAS",
@@ -625,24 +661,6 @@
       "raison": "CDI restauration",
       "jours_anciennete": 16,
       "first_seen": "2026-10-24"
-    },
-    {
-      "source": "France Travail",
-      "id": "214YLRN",
-      "titre": "PROJETEUR BIM FERROVIAIRE - CHARGE D'ETUDES F/H (H/F)",
-      "entreprise": "INGEROP CONSEIL ET INGENIERIE (ICI)",
-      "ville": "69 - Lyon 3e Arrondissement",
-      "contrat": "CDI",
-      "salaire": "",
-      "description": "Description de l'entreprise\n\nRejoindre Ingérop, c'est contribuer à façonner le monde de demain.\nGroupe d'ingénierie et de conseil indépendant, nous menons des projets ambitieux dans les domaines du bâtiment, de l'énergie, de l'industrie, de l'eau, des infrastructures, des transports et de la ville.\nAvec plus de 40 sites en France, 98 implantations dans le monde et plus de 3 500 collaborateurs, nous offrons de nombreuses opportunités, en conception comme en réalisation, en local comme à l'international.\nChez Ingérop, vous évoluerez dans un environnement innovant, humain et solidaire, où l'expertise, l'esprit d'équipe et la convivialité sont au cœur de notre culture. Rejoignez une communauté de passionnés !\n\n\nDescription du poste\n\nDans le cadre de son développement, la Direction Déléguée Ferroviaire & Systèmes de Transport France d'Ingerop structure ses activités et recherche son futur Projeteur Ferroviaire/Chargé d'études\nGrâce à une implantation régionale forte, Ingérop vous offrira la possibilité de travailler sur des projets passionnants et structurants à l'échelle régionale ou locale avec les principaux acteurs du transport ferroviaire.\nVous interviendrez sur des sujets variés comme :\n- Nouvelles lignes ;\n- Régénération de voie ferrée ;\n- Aménagements de gares ;\n- Aménagement de dépôts, d'ateliers de maintenance ;\n- De bases travaux.\nAu sein du service Etudes Générale, vous serez en charge de :\n- Réaliser les plans de tracé et de géométrie ferroviaire\n- Produire les plans d'exécution (PRO / DCE / EXE)\n- Participer aux études de renouvellement et modernisation de voies\n- Modéliser les projets sous Géorail / Civil 3D\n- Assurer la mise à jour des plans selon les évolutions projet\n- Travailler en interface avec les ingénieurs études et chefs de projet\n- Contribuer à la qualité et à la cohérence des livrables\n\n\nQualifications\n\nDe formation Bac+2/+3 vous disposez de 3 ans d'expérience minimum dans le secteur ferroviaire.\nVous êtes rigoureux et doté d'agilité dans la communication tant orale qu'écrite.\n\nVous disposez d'une bonne connaissance de l'organisation de SNCF Réseau, des référentiels applicables et des processus associés. ayant une expérience plus importante. Vous disposez de 3 ans d'expérience minimum dans le secteur ferroviaire.\n\nVous êtes rigoureux et doté d'agilité dans la communication tant orale qu'écrite.\n\nVous disposez d'une bonne connaissance de l'organisation de SNCF Réseau, des référentiels applicables et des processus associés.\n\nL'ensemble de nos postes est ouvert aux personnes en situation de handicap.\n\n\nInformations complémentaires\n\nLe poste est situé à Lyon (Part Dieu) ou Rueil-Malmaison.  \nVotre package :\n- Votre rémunération fixe mensuelle\n- Une charte télétravail\n- L'acquisition de jours de RTT\n- Un Compte Épargne Temps (CET)\n- Le droit à des CESU\n- L'accès à l'épargne salariale / l'intéressement / la participation/ prime\n- L'affiliation à une mutuelle et une prévoyance de qualité\n- Une politique de formation individualisée et des parcours métiers\n- L'accompagnement de votre évolution professionnelle et de vos souhaits de mobilité géographique\n- Un CSE dynamique\nIngérop attache de l'importance à la diversité de ses équipes et agit pour l'insertion des personnes en situation de handicap. Nous étudions chaque candidature à compétences égales.\nVotre engagement, notre ambition, ensemble inventons demain !\n#LI-Hybrid #EngineeringJobs #NowHiring #JoinOurTeam",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214YLRN",
-      "date": "2026-10-08",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 1,
-      "raison": "BIM/Revit dans titre · entreprise cible",
-      "jours_anciennete": 16,
-      "first_seen": "2026-10-23"
     },
     {
       "source": "France Travail",
@@ -1628,6 +1646,23 @@
     },
     {
       "source": "Indeed",
+      "id": "2fca6eabce42",
+      "titre": "Gérant(e) de restaurant H/F – Le 17.45 Lyon Carnot",
+      "entreprise": "17.45 Carnot",
+      "ville": "Lyon 2e, ARA, France",
+      "contrat": "fulltime",
+      "salaire": "35400.0",
+      "description": "LE 17.45, C'EST QUOI ?\n\nLe 17.45 est un concept de bar à planches convivial (charcuterie, fromage, vin, afterwork), présent partout en France. Nous relançons le 17.45 Lyon Carnot (Lyon 2e) et cherchons la personne qui en fera l'adresse incontournable du quartier. Un poste à fort potentiel : pour la bonne personne, une association au capital de l'établissement est envisageable à terme.\n\nVous rejoignez un groupe qui exploite déjà plusieurs restaurants à Lyon et à Paris, dont le 17.45 Lyon Brotteaux.\n\nVOS MISSIONS\n\nDévelopper le chiffre d'affaires :\n\n- Fidéliser la clientèle : accueil, animation, événements, programme de fidélité\n\n- Développer les privatisations et les groupes : afterworks d'entreprises, anniversaires, séminaires\n\n- Démarcher les entreprises, commerces et associations du quartier\n\n- Animer la présence locale de l'établissement (réseaux sociaux, partenariats, avis clients)\n\nPiloter la rentabilité :\n\n- Suivre et optimiser la marge (food cost, boissons, gaspillage, commandes)\n\n- Maîtriser la masse salariale : plannings ajustés à l'activité, suivi des heures\n\n- Analyser les ventes et prendre des actions correctives\n\nManager l'équipe :\n\n- Recruter, former et fidéliser une équipe de serveurs\n\n- Organiser les plannings et garantir la qualité de service\n\n- Faire respecter les standards du concept, l'hygiène (HACCP) et la sécurité\n\nVOTRE PROFIL\n\n- 3 ans minimum d'expérience en gestion ou en management de bar ou de restaurant\n\n- Vous avez déjà piloté un compte d'exploitation (CA, marge, masse salariale)\n\n- Vous êtes commercial(e) dans l'âme : aller chercher des clients et des privatisations vous motive\n\n- Vous êtes un leader de terrain, présent(e) en salle, exigeant(e) et bienveillant(e)\n\n- La maîtrise des logiciels de caisse et des outils de planning est un plus\n\nCE QUE NOUS PROPOSONS\n\n- CDI à temps plein, activité principalement en fin de journée et en soirée\n\n- Rémunération : 2 300 € net mensuel (environ 35 400 € brut annuel) + prime sur objectifs\n\n- Une vraie autonomie dans la gestion de l'établissement\n\n- Le soutien d'un groupe multi-sites et d'une franchise reconnue\n\n- Une perspective d'association au capital de l'établissement, selon les résultats et l'implication\n\n- Prise de poste : novembre ou décembre 2026\n\nPOUR POSTULER\n\nEnvoyez-nous votre CV et quelques lignes sur un établissement que vous avez fait progresser, et comment vous l'avez fait.\n\nRémunération : à partir de 35 400,00€ par an\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=25d6a9b08d8a1fd9",
+      "date": "2026-10-24",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 0,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "Indeed",
       "id": "21b0d268cc62",
       "titre": "Serveur/Serveuse",
       "entreprise": "Accor",
@@ -1696,31 +1731,14 @@
     },
     {
       "source": "Indeed",
-      "id": "5eaf8c4b89e8",
-      "titre": "19/10 Serveur/se - LYON",
-      "entreprise": "Ds café",
-      "ville": "Lyon, ARA, France",
+      "id": "b866f74712fa",
+      "titre": "Chef de rang H/F",
+      "entreprise": "FAMOSA",
+      "ville": "Lyon 3e, ARA, France",
       "contrat": "fulltime",
-      "salaire": "1867.02",
-      "description": "Fondé en 2002 par David et Sandra, DS Café est aujourd’hui une référence de la cuisine healthy à Paris.  \n  \nNé d’une vision simple, proposer une cuisine à la fois saine, gourmande et contemporaine, DS Café s’est imposé au fil des années comme un véritable lieu de vie, alliant exigence produit, créativité et convivialité.  \n  \nToujours à la recherche de nouveaux super aliments et de produits de saison, le groupe fait évoluer sa carte au fil des inspirations, en accord avec son exigence de qualité et d’innovation.  \n  \nAvec plusieurs adresses à Paris et en région, un réseau de franchisés et un développement à l’international, DS Café poursuit son expansion tout en restant fidèle à son ADN.  \n  \nSur place, à emporter ou en livraison, DS Café propose une expérience complète : brunch, déjeuner, dîner, privatisations et service traiteur pour les particuliers et les entreprises.  \n  \nAujourd’hui, DS Café continue d’évoluer avec une ambition forte : proposer une cuisine moderne et inspirée, dans des lieux pensés pour créer du lien et de véritables moments de partage.\n\nAvantages :\n\n* Mutuelle\n* Remboursement des transports à 50%\n\n### **Accueil et installation du client**\n\n* Accueillir le client de manière courtoise.\n* Accompagner le client à sa table.\n* Présenter la carte des plats.\n* Proposer les suggestions du jour.\n* Prendre congé du client à son départ.\n\n**Prise de commande et service**\n\n* Conseiller le client dans ses choix et répondre à ses questions.\n* Établir une commande via notre système de caisse Zelty.\n* Annoncer ou transmettre les commandes en cuisine.\n* S'assurer de la qualité de présentation des plats.\n* Servir à table en fonction des normes de l'établissement.\n* Présenter l'addition à la demande du client et encaisser.\n\n**Mise en place et entretien de la salle**\n\n* Dresser les tables.\n* Mettre en place les consoles de service.\n* Vérifier la vaisselle et les couverts.\n* Débarrasser et redresser les tables.\n* Nettoyer les tables après le départ de chaque client.\n* Nettoyer et entretenir les toilettes destinées aux clients.\n* Participer à la bonne tenue générale du restaurant (salle, vitrines, etc.).\n\n* Sens du service et sourire permanent : le client est la priorité.\n* Esprit d'équipe et réactivité.\n* Honnêteté et fiabilité (manipulation d'espèces et d'encaissements).\n* Présentation impeccable : barbe taillée et cheveux attachés, tenue propre et repassée (T-shirt DS Café)",
-      "url": "https://fr.indeed.com/viewjob?jk=8781d69e6438037b",
-      "date": "2026-10-24",
-      "domaine": "RESTO",
-      "niveau": 2,
-      "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 0,
-      "first_seen": "2026-10-24"
-    },
-    {
-      "source": "Indeed",
-      "id": "b8018bff2dfd",
-      "titre": "Recherche serveur auto entrepreneur",
-      "entreprise": "AMORE E GUSTO",
-      "ville": "Brignais, ARA, France",
-      "contrat": "parttime",
-      "salaire": "20.0",
-      "description": "Pizzeria restaurant italien Amore e gusto à brignais recherche pour renforcer son équipe, un auto entrepreneur pour service en salle\n\nProfil:\n\n- une première expérience en tant que serveur dans un restaurant traditionnel est un plus\n\n- dynamique, bonne présentation\n\n- être véhiculé obligatoirement car pas de transport en commun\n\n- aime le travail en équipe\n\n- tout profil accepte: tatoué, percé….\n\nHoraires:\n\nDisponible pour des extras les vendredi et samedi soir et certains midis.\n\nÉquipe jeune et dynamique\n\nDispos de suite pour rejoindre une équipe jeune et dynamique qui aime le travail en équipe.\n\nenvoyer votre Cv, votre attestation d'auto entrepreneur avec Siret , ou Se présenter directement au restaurant Amore e Gusto , 3 route de lyon, 69530 brignais avec son CV.\n\nType d'emploi : Temps partiel, Indépendant / freelance\n\nRémunération : 20,00€ à 23,00€ par heure\n\nCapacité à faire le trajet ou à déménager:\n\n* 69530 Brignais: Faire le trajet sans problème ou prévoir un déménagement avant de prendre son poste (Requis)\n\nQuestion(s) de présélection:\n\n* Êtes vous auto entrepreneur ?\n\nLieu du poste : En présentiel",
-      "url": "https://fr.indeed.com/viewjob?jk=d692d805809bc781",
+      "salaire": "2400.0",
+      "description": "Pour notre nouveau restaurant, nous sommes à la recherche d'un chef de rang H/F ayant des bases solides avec au moins 3/4 ans d'expériences. Le poste est à pourvoir ***fin octobre .***\n\n**EVOLUTION au poste ASSISTANT MANAGER !!**\n\nTu es chargé(e) de :  \n- l'accueil des clients  \n- de la prise de commandes  \n- de la réalisation du service au bar  \n- La connaissance des vins serait un plus\n\nNous souhaitons surtout nous entourer de personnes passionnées par leur métier.\n\nHoraire : **39h par semaine, avec coupures. 2 jours et demi de repos. ( 1900€ nets + pourboires )**\n\nProfil souhaité: Nous recherchons une personne motivée et ambitieuse, sachant travailler en équipe, et qui présente bien.\n\nVous devrez être bien organiser, et indépendant dans vos tâches.\n\nNous te demanderons de la rigueur, l'organisation et de l'écoute !\n\nSi tu remplis tous ses critères alors POSTULE et rejoins notre équipe !\n\nType d'emploi : Temps plein\n\nRémunération : à partir de 2 400,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n* Réductions tarifaires\n* Restaurant d'entreprise\n\nCapacité à faire le trajet ou à déménager:\n\n* 69003 Lyon 3e: Faire le trajet sans problème ou prévoir un déménagement avant de prendre son poste (Optionnel)\n\nExpérience:\n\n* chef de rang: 3 ans (Requis)\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=82e6bf4862f8b9ee",
       "date": "2026-10-24",
       "domaine": "RESTO",
       "niveau": 2,
@@ -1738,23 +1756,6 @@
       "salaire": "12.31",
       "description": "**TRATTINO, C'EST QUOI ?**\n\nTrattino est le premier tiers-lieu éco-responsable dédié à l’éco-alimentation (100% bio, locale, équitable, en circuits courts, de saison et faite maison) et à la Culture.\n\nInstallé dans un ancien hangar industriel totalement réhabilité, Trattino associe une épicerie fine, un restaurant, un bar-café et des animations culturelles sous le même toit, au sein d’un super espace de 730 m2 : 380 m2 intérieur et une terrasse de 350 m2 !\n\nL’univers Trattino tient dans trois valeurs : transparence et traçabilité, créatrice de lien et entrepreneuriat. Pour assurer notre croissance et proposer la meilleure expérience possible à nos nombreux clients, nous recherchons **un·e chef·fe de rang** à temps partiel qui intégrera notre équipe dès que possible.\n\n**DESCRIPTION DU POSTE**\n\n* Mise en place de la salle\n* Assurer la satisfaction des clients\n* Aider à la structuration de l’équipe salle\n* Prise des commandes au sein de son carré (environ 50 couverts)\n* Conseiller les clients dans leur expérience culinaire 100% bio et faite maison\n\n**LES PLUS**\n\nRattaché directement au COO, ce poste vous offre la possibilité :\n\n* De travailler 3 soirs par semaine (mardi au samedi)\n* De bénéficier de nombreux avantages : repas du personnel, mutuelle, 30% sur l’épicerie, pourboires...\n* D'intégrer une aventure entrepreneuriale avec de fortes perspectives d'évolution\n* D’acquérir rapidement des compétences avec l’accroissement de Trattino... Au sein d’une équipe jeune, dynamique, engagée et parfois drôle !\n\n**PROFIL RECHERCHÉ**\n\n* Expérience d’au moins 1 an en service\n* Ponctuel·le, ambitieux·se et rigoureux·se\n* Envie de se surpasser dans ce lieu ambitieux\n* Ayant l’esprit entrepreneurial et le sens du défi\n* Dynamique, enthousiaste et force de proposition\n* Partageant les valeurs du bio, de la valorisation paysanne, du local...\n\n*Trattino est engagé dans une politique en faveur de l’intégration et du maintien dans l’emploi des personnes en situation de handicap*\n\nRémunération : à partir de 12,31€ par heure\n\nAvantages :\n\n* Prise en charge du transport quotidien\n\nCapacité à faire le trajet ou à déménager:\n\n* 69007 Lyon 7e: Faire le trajet sans problème ou prévoir un déménagement avant de prendre son poste (Requis)\n\nQuestion(s) de présélection:\n\n* Avez-vous un titre de séjour en cours de validité ? Si oui, jusqu'à quand est-il valide ?\n\nExpérience:\n\n* restauration: 1 an (Requis)\n\nLieu du poste : En présentiel",
       "url": "https://fr.indeed.com/viewjob?jk=337a5662de819264",
-      "date": "2026-10-24",
-      "domaine": "RESTO",
-      "niveau": 2,
-      "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 0,
-      "first_seen": "2026-10-24"
-    },
-    {
-      "source": "Indeed",
-      "id": "55313ba9fa32",
-      "titre": "Barman/Barmaid (H/F)",
-      "entreprise": "Kaïa restaurant",
-      "ville": "Lyon 2e, ARA, France",
-      "contrat": "fulltime",
-      "salaire": "2000.0",
-      "description": "**KAÏA RECRUTE LA PEPITE DE DEMAIN**\n\n**BARMAN / BARMAID (H/F)**\n\nTu es passionné(e) par l’univers du bar, tu aimes le rythme, les belles soirées et les établissements qui bougent ?\n\n**Alors bienvenue chez Kaïa !**\n\nSitué au cœur de Lyon, Kaïa est un restaurant festif où se mêlent restauration, cocktails, musique et DJ sets dans une ambiance unique.\n\nPour accompagner notre développement et notre nouveau concept , nous recherchons un(e) Barman / Barmaid motivé(e), dynamique et expérimenté(e) pour renforcer notre équipe.\n\nCE QU’ON TE PROPOSE\n\n* CDI – 39 heures par semaine\n* Travail exclusivement en soirée\n* Une équipe jeune, dynamique et soudée\n* Un environnement de travail stimulant et festif\n* De réelles perspectives d’évolution selon ton implication\n\n**Chez Kaïa, on recherche avant tout une personnalité : quelqu’un de fiable, engagé, avec une bonne énergie et l’envie de s’investir dans un établissement ambitieux.**\n\nENVIE DE NOUS REJOINDRE ?\n\nSi tu aimes les services qui envoient, les équipes soudées et les soirées qui ne se ressemblent pas, on a sûrement quelque chose à construire ensemble.\n\nEnvoie-nous ton CV et viens rejoindre l’aventure Kaïa !\n\nType d'emploi : CDI, Temps plein\n\nRémunération : 2 000,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n\nExpérience:\n\n* Restauration: 1 an (Requis)\n\nLangue:\n\n* Anglais (Optionnel)\n\nLieu du poste : En présentiel",
-      "url": "https://fr.indeed.com/viewjob?jk=6335658743e2a95a",
       "date": "2026-10-24",
       "domaine": "RESTO",
       "niveau": 2,
@@ -1817,6 +1818,57 @@
       "first_seen": "2026-10-24"
     },
     {
+      "source": "Indeed",
+      "id": "5eaf8c4b89e8",
+      "titre": "19/10 Serveur/se - LYON",
+      "entreprise": "Ds café",
+      "ville": "Lyon, ARA, France",
+      "contrat": "fulltime",
+      "salaire": "1867.02",
+      "description": "Fondé en 2002 par David et Sandra, DS Café est aujourd’hui une référence de la cuisine healthy à Paris.  \n  \nNé d’une vision simple, proposer une cuisine à la fois saine, gourmande et contemporaine, DS Café s’est imposé au fil des années comme un véritable lieu de vie, alliant exigence produit, créativité et convivialité.  \n  \nToujours à la recherche de nouveaux super aliments et de produits de saison, le groupe fait évoluer sa carte au fil des inspirations, en accord avec son exigence de qualité et d’innovation.  \n  \nAvec plusieurs adresses à Paris et en région, un réseau de franchisés et un développement à l’international, DS Café poursuit son expansion tout en restant fidèle à son ADN.  \n  \nSur place, à emporter ou en livraison, DS Café propose une expérience complète : brunch, déjeuner, dîner, privatisations et service traiteur pour les particuliers et les entreprises.  \n  \nAujourd’hui, DS Café continue d’évoluer avec une ambition forte : proposer une cuisine moderne et inspirée, dans des lieux pensés pour créer du lien et de véritables moments de partage.\n\nAvantages :\n\n* Mutuelle\n* Remboursement des transports à 50%\n\n### **Accueil et installation du client**\n\n* Accueillir le client de manière courtoise.\n* Accompagner le client à sa table.\n* Présenter la carte des plats.\n* Proposer les suggestions du jour.\n* Prendre congé du client à son départ.\n\n**Prise de commande et service**\n\n* Conseiller le client dans ses choix et répondre à ses questions.\n* Établir une commande via notre système de caisse Zelty.\n* Annoncer ou transmettre les commandes en cuisine.\n* S'assurer de la qualité de présentation des plats.\n* Servir à table en fonction des normes de l'établissement.\n* Présenter l'addition à la demande du client et encaisser.\n\n**Mise en place et entretien de la salle**\n\n* Dresser les tables.\n* Mettre en place les consoles de service.\n* Vérifier la vaisselle et les couverts.\n* Débarrasser et redresser les tables.\n* Nettoyer les tables après le départ de chaque client.\n* Nettoyer et entretenir les toilettes destinées aux clients.\n* Participer à la bonne tenue générale du restaurant (salle, vitrines, etc.).\n\n* Sens du service et sourire permanent : le client est la priorité.\n* Esprit d'équipe et réactivité.\n* Honnêteté et fiabilité (manipulation d'espèces et d'encaissements).\n* Présentation impeccable : barbe taillée et cheveux attachés, tenue propre et repassée (T-shirt DS Café)",
+      "url": "https://fr.indeed.com/viewjob?jk=8781d69e6438037b",
+      "date": "2026-10-24",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "Indeed",
+      "id": "b8018bff2dfd",
+      "titre": "Recherche serveur auto entrepreneur",
+      "entreprise": "AMORE E GUSTO",
+      "ville": "Brignais, ARA, France",
+      "contrat": "parttime",
+      "salaire": "20.0",
+      "description": "Pizzeria restaurant italien Amore e gusto à brignais recherche pour renforcer son équipe, un auto entrepreneur pour service en salle\n\nProfil:\n\n- une première expérience en tant que serveur dans un restaurant traditionnel est un plus\n\n- dynamique, bonne présentation\n\n- être véhiculé obligatoirement car pas de transport en commun\n\n- aime le travail en équipe\n\n- tout profil accepte: tatoué, percé….\n\nHoraires:\n\nDisponible pour des extras les vendredi et samedi soir et certains midis.\n\nÉquipe jeune et dynamique\n\nDispos de suite pour rejoindre une équipe jeune et dynamique qui aime le travail en équipe.\n\nenvoyer votre Cv, votre attestation d'auto entrepreneur avec Siret , ou Se présenter directement au restaurant Amore e Gusto , 3 route de lyon, 69530 brignais avec son CV.\n\nType d'emploi : Temps partiel, Indépendant / freelance\n\nRémunération : 20,00€ à 23,00€ par heure\n\nCapacité à faire le trajet ou à déménager:\n\n* 69530 Brignais: Faire le trajet sans problème ou prévoir un déménagement avant de prendre son poste (Requis)\n\nQuestion(s) de présélection:\n\n* Êtes vous auto entrepreneur ?\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=d692d805809bc781",
+      "date": "2026-10-24",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "Indeed",
+      "id": "55313ba9fa32",
+      "titre": "Barman/Barmaid (H/F)",
+      "entreprise": "Kaïa restaurant",
+      "ville": "Lyon 2e, ARA, France",
+      "contrat": "fulltime",
+      "salaire": "2000.0",
+      "description": "**KAÏA RECRUTE LA PEPITE DE DEMAIN**\n\n**BARMAN / BARMAID (H/F)**\n\nTu es passionné(e) par l’univers du bar, tu aimes le rythme, les belles soirées et les établissements qui bougent ?\n\n**Alors bienvenue chez Kaïa !**\n\nSitué au cœur de Lyon, Kaïa est un restaurant festif où se mêlent restauration, cocktails, musique et DJ sets dans une ambiance unique.\n\nPour accompagner notre développement et notre nouveau concept , nous recherchons un(e) Barman / Barmaid motivé(e), dynamique et expérimenté(e) pour renforcer notre équipe.\n\nCE QU’ON TE PROPOSE\n\n* CDI – 39 heures par semaine\n* Travail exclusivement en soirée\n* Une équipe jeune, dynamique et soudée\n* Un environnement de travail stimulant et festif\n* De réelles perspectives d’évolution selon ton implication\n\n**Chez Kaïa, on recherche avant tout une personnalité : quelqu’un de fiable, engagé, avec une bonne énergie et l’envie de s’investir dans un établissement ambitieux.**\n\nENVIE DE NOUS REJOINDRE ?\n\nSi tu aimes les services qui envoient, les équipes soudées et les soirées qui ne se ressemblent pas, on a sûrement quelque chose à construire ensemble.\n\nEnvoie-nous ton CV et viens rejoindre l’aventure Kaïa !\n\nType d'emploi : CDI, Temps plein\n\nRémunération : 2 000,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n\nExpérience:\n\n* Restauration: 1 an (Requis)\n\nLangue:\n\n* Anglais (Optionnel)\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=6335658743e2a95a",
+      "date": "2026-10-24",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-10-24"
+    },
+    {
       "source": "France Travail",
       "id": "8197811",
       "titre": "Modeleur(euse) BIM- 3D confirmé(e) TCE - H/F",
@@ -1849,6 +1901,24 @@
       "email_contact": "",
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
+      "jours_anciennete": 1,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "France Travail",
+      "id": "8193942",
+      "titre": "Ingénieur électricité CFO-CFA (H/F)",
+      "entreprise": "METIGA",
+      "ville": "69 - Lyon 1er Arrondissement",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Choisir MÉTIGA, c'est rejoindre une équipe passionnée par le défi de la transition écologique, qui agit pour sa carrière et pour le monde de demain.\n\nMÉTIGA est une société à mission, spécialisée dans la transition énergétique, environnementale et sociale. \n\nNous travaillons auprès de bureaux d'études, maîtres d'ouvrages, industriels et acteurs publics pour leur apporter les compétences nécessaires au bon accomplissement de leurs projets.\n\nUne expérience enrichissante : \n\nChez MÉTIGA, nous nous fixons pour ambition de faire vivre à chaque collaborateur une expérience qui le fera grandir. Ensemble, nous élaborons un plan de développement professionnel aligné avec vos ambitions et vous donnons les moyens de le mettre en oeuvre.\n\nAgir concrètement, agir quotidiennement : \n\nDiversité des missions, formations, montée en compétences techniques, développement des compétences humaines, challenges, rencontres : nous mettons à votre disposition un terrain de jeu professionnel enrichissant pour atteindre vos objectifs de carrière et garantir votre épanouissement au travail.\n\nLe poste : \n\nEn tant que chargé(e) d'études en électricité, vous aurez la charge de la conception, de la réalisation et du suivi des plans et schémas électriques pour des bâtiments tertiaires, de logements collectifs ou industriels. \nVous collaborerez étroitement avec les chargés de projet pour garantir la bonne réalisation des études et des documents techniques. \n\nVos missions : \n\nConcevoir et élaborer les plans et schémas électriques à l'aide des logiciels CAO/DAO (AutoCAD/Caneco).\nDimensionner les différents équipements.\nRéaliser les études techniques (bilans de puissance, notes de calculs) et assurer le suivi des dossiers en respectant les normes en vigueur.\nParticiper aux réunions de projets et échanger avec les différents intervenants pour optimiser les solutions techniques.\nRéaliser occasionnellement des modifications ou ajustements.\n\n\n\nProfil recherché : \n\nDiplôme d'ingénieur en électricité, électrotechnique ou équivalent (Bac+5). \n3 ans d'expérience minimum dans une fonction similaire. \nMaîtrise des logiciels AutoCAD et Caneco (indispensable). \nConnaissances de See Electrical et Revit appréciées. \nRigueur, sens de l'organisation et autonomie.\n\n\nEnvie de contribuer à la transition énergétique partout en France - Nous recrutons également dans d'autres régions ! Contactez-nous pour trouver l'opportunité qui vous correspond près de chez vous.\n",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8193942",
+      "date": "2026-10-23",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 1,
       "first_seen": "2026-10-24"
     },
@@ -1979,6 +2049,24 @@
       "first_seen": "2026-10-24"
     },
     {
+      "source": "France Travail",
+      "id": "215PNDC",
+      "titre": "Equipier polyvalent / Equipière polyvalente de restauration rapid (H/F)",
+      "entreprise": "LE MOULIN",
+      "ville": "69 - LYON",
+      "contrat": "CDI",
+      "salaire": "Mensuel de 1867.02 Euros - Repas offert, prise en charge de 50% du forfait téléphonique à hauteur de 10€",
+      "description": "- REJOIGNEZ L'ÉQUIPE DU MOULIN -\n\nUn poste d'employé.e. polyvalent.e. en CDI, du lundi au vendredi sur l'amplitude horaire 6h-15h30 (modulation selon les besoins), est à pourvoir sur notre site de Lyon 8.\n\nDémarrage rapide sous 1 semaine.\n\nCe poste combine des tâches de production dans notre cuisine, de préparation de commandes, de livraison en vélo triporteur (ou voiture) / service en boutique, et de nettoyage.\n\nIl s'agit d'un poste très varié avec beaucoup d'interactions qui demande du dynamisme et un fort sens du collectif.\n\nVous êtes dynamique, rigoureux et aimez travailler en équipe ? Vous aimez le contact client et avez le sens du service ? Vous avez envie de rejoindre un projet ambitieux et riche de sens\n\nRencontrons-nous !\n\nLe Moulin\n\nDepuis 2006, le Moulin propose à Lyon des repas faits-maison, équilibrés et gourmands. Les déjeuners sont servis dans les 2 boutiques lyonnaises, ou livrés au pied des bureaux en transport doux, grâce aux Charrettes (triporteurs à assistance électrique). Le Moulin propose également des prestations traiteur en entreprise : petits-déjeuners, plateaux-repas et cocktails.\n\nAu-delà d'une entreprise de restauration, le Moulin est une aventure entrepreneuriale avec des valeurs fortes.\n\nLe projet du Moulin dépasse le bien-manger et l'écologie. L'ambition est de construire un modèle d'entreprise qui place l'humain au cœur.\n\nEn chiffres :\n- 70 collaborateurs\n- 3 établissements et 15 tournées de livraison\n- plus de 8 000 repas servis chaque semaine\n\nStatut employé - taux horaire 12,31€\nType d'emploi : Temps plein, CDI\n\nAvantages :\nPrise en charge du transport quotidien\nRepas offerts\nPourboires\nPrise en charge d'une partie du forfait téléphonique\n\nLieu du poste : En présentiel",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/215PNDC",
+      "date": "2026-10-23",
+      "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 1,
+      "first_seen": "2026-10-24"
+    },
+    {
       "source": "Indeed",
       "id": "1081b054b6b2",
       "titre": "Serveur petit-déjeuner (H/F)",
@@ -2007,42 +2095,6 @@
       "url": "https://fr.indeed.com/viewjob?jk=c0296a542cfe86fb",
       "date": "2026-10-23",
       "domaine": "RESTO",
-      "niveau": 2,
-      "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 1,
-      "first_seen": "2026-10-23"
-    },
-    {
-      "source": "France Travail",
-      "id": "8193942",
-      "titre": "Ingénieur électricité CFO-CFA (H/F)",
-      "entreprise": "METIGA",
-      "ville": "69 - Lyon 1er Arrondissement",
-      "contrat": "CDI",
-      "salaire": "",
-      "description": "Choisir MÉTIGA, c'est rejoindre une équipe passionnée par le défi de la transition écologique, qui agit pour sa carrière et pour le monde de demain.\n\nMÉTIGA est une société à mission, spécialisée dans la transition énergétique, environnementale et sociale. \n\nNous travaillons auprès de bureaux d'études, maîtres d'ouvrages, industriels et acteurs publics pour leur apporter les compétences nécessaires au bon accomplissement de leurs projets.\n\nUne expérience enrichissante : \n\nChez MÉTIGA, nous nous fixons pour ambition de faire vivre à chaque collaborateur une expérience qui le fera grandir. Ensemble, nous élaborons un plan de développement professionnel aligné avec vos ambitions et vous donnons les moyens de le mettre en oeuvre.\n\nAgir concrètement, agir quotidiennement : \n\nDiversité des missions, formations, montée en compétences techniques, développement des compétences humaines, challenges, rencontres : nous mettons à votre disposition un terrain de jeu professionnel enrichissant pour atteindre vos objectifs de carrière et garantir votre épanouissement au travail.\n\nLe poste : \n\nEn tant que chargé(e) d'études en électricité, vous aurez la charge de la conception, de la réalisation et du suivi des plans et schémas électriques pour des bâtiments tertiaires, de logements collectifs ou industriels. \nVous collaborerez étroitement avec les chargés de projet pour garantir la bonne réalisation des études et des documents techniques. \n\nVos missions : \n\nConcevoir et élaborer les plans et schémas électriques à l'aide des logiciels CAO/DAO (AutoCAD/Caneco).\nDimensionner les différents équipements.\nRéaliser les études techniques (bilans de puissance, notes de calculs) et assurer le suivi des dossiers en respectant les normes en vigueur.\nParticiper aux réunions de projets et échanger avec les différents intervenants pour optimiser les solutions techniques.\nRéaliser occasionnellement des modifications ou ajustements.\n\n\n\nProfil recherché : \n\nDiplôme d'ingénieur en électricité, électrotechnique ou équivalent (Bac+5). \n3 ans d'expérience minimum dans une fonction similaire. \nMaîtrise des logiciels AutoCAD et Caneco (indispensable). \nConnaissances de See Electrical et Revit appréciées. \nRigueur, sens de l'organisation et autonomie.\n\n\nEnvie de contribuer à la transition énergétique partout en France - Nous recrutons également dans d'autres régions ! Contactez-nous pour trouver l'opportunité qui vous correspond près de chez vous.\n",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8193942",
-      "date": "2026-10-23",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 2,
-      "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 1,
-      "first_seen": "2026-10-23"
-    },
-    {
-      "source": "France Travail",
-      "id": "215PNDC",
-      "titre": "Equipier polyvalent / Equipière polyvalente de restauration rapid (H/F)",
-      "entreprise": "LE MOULIN",
-      "ville": "69 - LYON",
-      "contrat": "CDI",
-      "salaire": "Mensuel de 1867.02 Euros - Repas offert, prise en charge de 50% du forfait téléphonique à hauteur de 10€",
-      "description": "- REJOIGNEZ L'ÉQUIPE DU MOULIN -\n\nUn poste d'employé.e. polyvalent.e. en CDI, du lundi au vendredi sur l'amplitude horaire 6h-15h30 (modulation selon les besoins), est à pourvoir sur notre site de Lyon 8.\n\nDémarrage rapide sous 1 semaine.\n\nCe poste combine des tâches de production dans notre cuisine, de préparation de commandes, de livraison en vélo triporteur (ou voiture) / service en boutique, et de nettoyage.\n\nIl s'agit d'un poste très varié avec beaucoup d'interactions qui demande du dynamisme et un fort sens du collectif.\n\nVous êtes dynamique, rigoureux et aimez travailler en équipe ? Vous aimez le contact client et avez le sens du service ? Vous avez envie de rejoindre un projet ambitieux et riche de sens\n\nRencontrons-nous !\n\nLe Moulin\n\nDepuis 2006, le Moulin propose à Lyon des repas faits-maison, équilibrés et gourmands. Les déjeuners sont servis dans les 2 boutiques lyonnaises, ou livrés au pied des bureaux en transport doux, grâce aux Charrettes (triporteurs à assistance électrique). Le Moulin propose également des prestations traiteur en entreprise : petits-déjeuners, plateaux-repas et cocktails.\n\nAu-delà d'une entreprise de restauration, le Moulin est une aventure entrepreneuriale avec des valeurs fortes.\n\nLe projet du Moulin dépasse le bien-manger et l'écologie. L'ambition est de construire un modèle d'entreprise qui place l'humain au cœur.\n\nEn chiffres :\n- 70 collaborateurs\n- 3 établissements et 15 tournées de livraison\n- plus de 8 000 repas servis chaque semaine\n\nStatut employé - taux horaire 12,31€\nType d'emploi : Temps plein, CDI\n\nAvantages :\nPrise en charge du transport quotidien\nRepas offerts\nPourboires\nPrise en charge d'une partie du forfait téléphonique\n\nLieu du poste : En présentiel",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/215PNDC",
-      "date": "2026-10-23",
-      "domaine": "RESTO",
-      "email_contact": "",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 1,
@@ -2240,7 +2292,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 2,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -2259,23 +2311,6 @@
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 2,
       "first_seen": "2026-10-23"
-    },
-    {
-      "source": "Indeed",
-      "id": "692dc83af507",
-      "titre": "Chef de rang H/F",
-      "entreprise": "FAMOSA",
-      "ville": "Lyon 3e, ARA, France",
-      "contrat": "fulltime",
-      "salaire": "2400.0",
-      "description": "Pour notre nouveau restaurant, nous sommes à la recherche d'un chef de rang H/F ayant des bases solides avec au moins 3/4 ans d'expériences. Le poste est à pourvoir ***fin novembre.***\n\n**EVOLUTION au poste ASSISTANT MANAGER !!**\n\nTu es chargé(e) de :  \n- l'accueil des clients  \n- de la prise de commandes  \n- de la réalisation du service au bar  \n- La connaissance des vins serait un plus\n\nNous souhaitons surtout nous entourer de personnes passionnées par leur métier.\n\nHoraire : **39h par semaine, avec coupures. 2 jours et demi de repos. ( 1900€ nets + pourboires )**\n\nProfil souhaité: Nous recherchons une personne motivée et ambitieuse, sachant travailler en équipe, et qui présente bien.\n\nVous devrez être bien organiser, et indépendant dans vos tâches.\n\nNous te demanderons de la rigueur, l'organisation et de l'écoute !\n\nSi tu remplis tous ses critères alors POSTULE et rejoins notre équipe !\n\nType d'emploi : Temps plein\n\nRémunération : à partir de 2 400,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n* Réductions tarifaires\n* Restaurant d'entreprise\n\nCapacité à faire le trajet ou à déménager:\n\n* 69003 Lyon 3e: Faire le trajet sans problème ou prévoir un déménagement avant de prendre son poste (Optionnel)\n\nExpérience:\n\n* chef de rang: 3 ans (Requis)\n\nLieu du poste : En présentiel",
-      "url": "https://fr.indeed.com/viewjob?jk=f26b0ec72d9695b6",
-      "date": "2026-10-22",
-      "domaine": "RESTO",
-      "niveau": 2,
-      "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 2,
-      "first_seen": "2026-10-22"
     },
     {
       "source": "France Travail",
@@ -3167,7 +3202,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 8,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -3523,7 +3558,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 11,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -4222,7 +4257,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 15,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -5293,6 +5328,24 @@
     },
     {
       "source": "France Travail",
+      "id": "7624877",
+      "titre": "Projeteur électricité (H/F)",
+      "entreprise": "Automatique et Industrie",
+      "ville": "69 - Lyon 1er Arrondissement",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Automatique & Industrie est une entreprise dynamique, leader régional dans son domaine : l'intégration de solutions d'automatisation et de gestion d'énergie pour l'industrie, les infrastructures, et les Énergies Nouvelles.\n \nAujourd'hui nous sommes plus de 250 AItiens et nous cherchons à nous agrandir et nous renforcer ! En 2019, nous remportons les Victoires des leaders du Capital Humain qui sont venues reconnaitre notre performance dans notre gestion des talents et du management.\n Auditée par EcoVadis en 2025, nous avons obtenu la médaille d'argent ! Ce résultat nous place dans le top 15 % des entreprises les mieux notées parmi plus de 130 000 compagnies évaluées dans plus de 180 pays !\n\nNous sommes également choisis par nos clients pour notre originalité, la qualité de nos prestations et de nos relations humaines et les salariés apprécient AI pour son ambiance et l'esprit d'équipe qui y règne.\n\nRejoindre Automatique & Industrie c'est donc faire partie d'une belle aventure humaine, faire fructifier ses talents et acquérir de nouvelles compétences. Alors, venez renforcer notre équipe avec vos idées et votre personnalité !\n\n\nLe poste : \n\nNous recherchons un(e) Projeteur Électrique spécialisé(e) dans le domaine des machines spéciales pour l'un de nos clients situé sur Lyon.\n\nVous participerez à la conception et à la réalisation de schémas électriques pour des systèmes de contrôle commande, en lien direct avec nos équipes techniques et nos clients industriels.\n\nVos missions : \n- Concevoir et réaliser des schémas de contrôle-commande\n- Utiliser le logiciel See Electrical pour la conception électrique\n- Participer à l'étude et au dimensionnement des installations électriques\n- Assurer le suivi technique des projets (machines spéciales, équipements industriels)\n- Collaborer avec les équipes mécaniques, automatisme et mise en service\n- Veiller à la conformité des documents avec les normes et standards en vigueur\n\nProfil recherché : \n\n- Formation en électrotechnique / électricité industrielle (Bac +2 à Bac +5 ou équivalent)\n- Expérience réussie en machines spéciales ou dans un environnement industriel similaire\n- Maîtrise de See Electrical \n- Connaissances en contrôle-commande et automatisme\n- Rigueur, autonomie et esprit d'équipe\n\nLes + du poste :\n- la possibilité de progresser et de vous épanouir dans votre travail grâce à l'échange de pratiques et le soutien de l'ensemble des salariés d'AI aux parcours et compétences diversifiés.\n- une proximité managériale.\n- un accompagnement dans la gestion de votre carrière.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7624877",
+      "date": "2026-10-03",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
+      "jours_anciennete": 21,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "France Travail",
       "id": "7632961",
       "titre": "ALTERNANCE SERVEUR(EUSE) RESTAURANT AK LYON (H/F)",
       "entreprise": "TKL FORMA",
@@ -5308,24 +5361,6 @@
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 21,
       "first_seen": "2026-10-24"
-    },
-    {
-      "source": "France Travail",
-      "id": "7624877",
-      "titre": "Projeteur électricité (H/F)",
-      "entreprise": "Automatique et Industrie",
-      "ville": "69 - Lyon 1er Arrondissement",
-      "contrat": "CDI",
-      "salaire": "",
-      "description": "Automatique & Industrie est une entreprise dynamique, leader régional dans son domaine : l'intégration de solutions d'automatisation et de gestion d'énergie pour l'industrie, les infrastructures, et les Énergies Nouvelles.\n \nAujourd'hui nous sommes plus de 250 AItiens et nous cherchons à nous agrandir et nous renforcer ! En 2019, nous remportons les Victoires des leaders du Capital Humain qui sont venues reconnaitre notre performance dans notre gestion des talents et du management.\n Auditée par EcoVadis en 2025, nous avons obtenu la médaille d'argent ! Ce résultat nous place dans le top 15 % des entreprises les mieux notées parmi plus de 130 000 compagnies évaluées dans plus de 180 pays !\n\nNous sommes également choisis par nos clients pour notre originalité, la qualité de nos prestations et de nos relations humaines et les salariés apprécient AI pour son ambiance et l'esprit d'équipe qui y règne.\n\nRejoindre Automatique & Industrie c'est donc faire partie d'une belle aventure humaine, faire fructifier ses talents et acquérir de nouvelles compétences. Alors, venez renforcer notre équipe avec vos idées et votre personnalité !\n\n\nLe poste : \n\nNous recherchons un(e) Projeteur Électrique spécialisé(e) dans le domaine des machines spéciales pour l'un de nos clients situé sur Lyon.\n\nVous participerez à la conception et à la réalisation de schémas électriques pour des systèmes de contrôle commande, en lien direct avec nos équipes techniques et nos clients industriels.\n\nVos missions : \n- Concevoir et réaliser des schémas de contrôle-commande\n- Utiliser le logiciel See Electrical pour la conception électrique\n- Participer à l'étude et au dimensionnement des installations électriques\n- Assurer le suivi technique des projets (machines spéciales, équipements industriels)\n- Collaborer avec les équipes mécaniques, automatisme et mise en service\n- Veiller à la conformité des documents avec les normes et standards en vigueur\n\nProfil recherché : \n\n- Formation en électrotechnique / électricité industrielle (Bac +2 à Bac +5 ou équivalent)\n- Expérience réussie en machines spéciales ou dans un environnement industriel similaire\n- Maîtrise de See Electrical \n- Connaissances en contrôle-commande et automatisme\n- Rigueur, autonomie et esprit d'équipe\n\nLes + du poste :\n- la possibilité de progresser et de vous épanouir dans votre travail grâce à l'échange de pratiques et le soutien de l'ensemble des salariés d'AI aux parcours et compétences diversifiés.\n- une proximité managériale.\n- un accompagnement dans la gestion de votre carrière.",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7624877",
-      "date": "2026-10-03",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 2,
-      "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 21,
-      "first_seen": "2026-10-23"
     },
     {
       "source": "France Travail",
@@ -5605,24 +5640,6 @@
     },
     {
       "source": "France Travail",
-      "id": "214RHBR",
-      "titre": "Assistant chargé / Assistante chargée d'affaires BTP en génie cli (H/F)",
-      "entreprise": "CEDEO - CLIM+",
-      "ville": "69 - Lyon 5e Arrondissement",
-      "contrat": "CDI",
-      "salaire": "Annuel de 30000.0 Euros à 50000.0 Euros",
-      "description": "\nDans le cadre de l'accompagnement de nos clients sur les enjeux du génie climatique et de la réglementation F-Gaz, nous recherchons un Formateur Technique H/F.\n\nRattaché.e au Marketing Clients, vous assurez la conception, l'animation et l'amélioration continue des formations techniques destinées à nos clients, en Campus ou en agence.\n\nVos principales missions\n\nAnimation des formations\n\n * Animer des sessions initiales (A1), des remises à niveau et des formations techniques spécifiques\n * Dispenser les modules théoriques : réglementation, thermodynamique, sécurité, environnement\n * Encadrer les séquences pratiques : manipulation, maintenance, récupération des fluides\n * Adapter les contenus pédagogiques aux profils des apprenants : techniciens, débutants, experts\n * Accueillir et accompagner les stagiaires tout au long de la formation\n * Intervenir sur des formations spécifiques : CO2, nouveaux fluides, transition énergétique\n\nÉvaluation et suivi des stagiaires\n\n * Identifier les difficultés et proposer un accompagnement adapté\n * Évaluer les connaissances théoriques et les savoir-faire pratiques\n * Analyser les retours d'évaluation à chaud et suivre les plans d'actions\n * Préparer les candidats à l'attestation d'aptitude\n * Réaliser les examens blancs et/ou officiels selon l'habilitation du centre\n\nPréparation et gestion des formations\n\n * Concevoir et mettre à jour les supports de formation\n * Préparer les documents nécessaires et les plateaux techniques\n * Assurer la maintenance de premier niveau du matériel pédagogique\n * Gérer les consommables liés aux formations\n * Participer à l'évolution des programmes pédagogiques\n * Anticiper les déplacements et l'organisation des sessions\n\nConformité, réglementation & communication\n\n * Veiller au respect des normes : F-Gaz, Code de l'environnement\n * Mettre à jour les contenus en fonction des évolutions réglementaires\n * Garantir le respect des procédures qualité et certification (Qualiopi, etc.)\n * Contribuer aux audits et démarches qualité\n * Assurer une veille technique et réglementaire\n * Contribuer à la communication interne et externe de l'offre de formation\n * Analyser et communiquer les KPI sur son périmètre d'intervention\n\nProfil recherché :\nIssu.e d'une formation Bac Pro, BTS ou DUT en Froid, Génie Climatique ou équivalent, vous disposez d'une expérience significative d'au moins 8 à 10 ans dans les métiers du génie climatique, du froid, de la climatisation ou des pompes à chaleur.\n\nVous possédez une excellente maîtrise des systèmes frigorifiques et climatiques, de la manipulation des fluides frigorigènes ainsi que des exigences réglementaires associées.\n\nPédagogue reconnu.e, vous aimez transmettre vos connaissances et accompagner les autres dans leur développement professionnel. Une première expérience de formation, d'accompagnement de stagiaires, d'alternants ou de management sera particulièrement appréciée\n\nLe poste est basé au sein de la Direction Régionale. Il implique une forte mobilité, pouvant aller jusqu'à 4 jours de déplacements par semaine, principalement pour assurer les formations en Campus et en agence.\n\nDSC (Distribution Sanitaire et Chauffage) est constitué de plusieurs enseignes spécialistes : CEDEO, CLIM+, DISPART, Envie de salle de Bain.\n\nNotre vaste réseau de 450 agences nous permet d'être proches de nos clients et faire de nous le 1er réseau spécialiste français multicanal. Autant vous dire qu'avec un si grand réseau nous sommes constamment à la recherche de nouveaux talents. Du génie climatique, à la plomberie en passant par la commercialisation de salles de bain ; vous trouverez votre place !\n\nDSC fait partie de Saint-Gobain Distribution Bâtiment France, premier distributeur de matériaux de construction en France, au service des professionnels et de ceux qui s'investissent dans l'amélioration de leur habitat.\n",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214RHBR",
-      "date": "2026-10-01",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 2,
-      "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 23,
-      "first_seen": "2026-10-23"
-    },
-    {
-      "source": "France Travail",
       "id": "214QVYL",
       "titre": "Equipier polyvalent / Equipière polyvalente de restauration rapid (H/F)",
       "entreprise": "JOJO'S DOUGH",
@@ -5637,7 +5654,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 23,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -5654,6 +5671,24 @@
       "email_contact": "",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 23,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "France Travail",
+      "id": "214RHBR",
+      "titre": "Assistant chargé / Assistante chargée d'affaires BTP en génie cli (H/F)",
+      "entreprise": "CEDEO - CLIM+",
+      "ville": "69 - Lyon 5e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "Annuel de 30000.0 Euros à 50000.0 Euros",
+      "description": "\nDans le cadre de l'accompagnement de nos clients sur les enjeux du génie climatique et de la réglementation F-Gaz, nous recherchons un Formateur Technique H/F.\n\nRattaché.e au Marketing Clients, vous assurez la conception, l'animation et l'amélioration continue des formations techniques destinées à nos clients, en Campus ou en agence.\n\nVos principales missions\n\nAnimation des formations\n\n * Animer des sessions initiales (A1), des remises à niveau et des formations techniques spécifiques\n * Dispenser les modules théoriques : réglementation, thermodynamique, sécurité, environnement\n * Encadrer les séquences pratiques : manipulation, maintenance, récupération des fluides\n * Adapter les contenus pédagogiques aux profils des apprenants : techniciens, débutants, experts\n * Accueillir et accompagner les stagiaires tout au long de la formation\n * Intervenir sur des formations spécifiques : CO2, nouveaux fluides, transition énergétique\n\nÉvaluation et suivi des stagiaires\n\n * Identifier les difficultés et proposer un accompagnement adapté\n * Évaluer les connaissances théoriques et les savoir-faire pratiques\n * Analyser les retours d'évaluation à chaud et suivre les plans d'actions\n * Préparer les candidats à l'attestation d'aptitude\n * Réaliser les examens blancs et/ou officiels selon l'habilitation du centre\n\nPréparation et gestion des formations\n\n * Concevoir et mettre à jour les supports de formation\n * Préparer les documents nécessaires et les plateaux techniques\n * Assurer la maintenance de premier niveau du matériel pédagogique\n * Gérer les consommables liés aux formations\n * Participer à l'évolution des programmes pédagogiques\n * Anticiper les déplacements et l'organisation des sessions\n\nConformité, réglementation & communication\n\n * Veiller au respect des normes : F-Gaz, Code de l'environnement\n * Mettre à jour les contenus en fonction des évolutions réglementaires\n * Garantir le respect des procédures qualité et certification (Qualiopi, etc.)\n * Contribuer aux audits et démarches qualité\n * Assurer une veille technique et réglementaire\n * Contribuer à la communication interne et externe de l'offre de formation\n * Analyser et communiquer les KPI sur son périmètre d'intervention\n\nProfil recherché :\nIssu.e d'une formation Bac Pro, BTS ou DUT en Froid, Génie Climatique ou équivalent, vous disposez d'une expérience significative d'au moins 8 à 10 ans dans les métiers du génie climatique, du froid, de la climatisation ou des pompes à chaleur.\n\nVous possédez une excellente maîtrise des systèmes frigorifiques et climatiques, de la manipulation des fluides frigorigènes ainsi que des exigences réglementaires associées.\n\nPédagogue reconnu.e, vous aimez transmettre vos connaissances et accompagner les autres dans leur développement professionnel. Une première expérience de formation, d'accompagnement de stagiaires, d'alternants ou de management sera particulièrement appréciée\n\nLe poste est basé au sein de la Direction Régionale. Il implique une forte mobilité, pouvant aller jusqu'à 4 jours de déplacements par semaine, principalement pour assurer les formations en Campus et en agence.\n\nDSC (Distribution Sanitaire et Chauffage) est constitué de plusieurs enseignes spécialistes : CEDEO, CLIM+, DISPART, Envie de salle de Bain.\n\nNotre vaste réseau de 450 agences nous permet d'être proches de nos clients et faire de nous le 1er réseau spécialiste français multicanal. Autant vous dire qu'avec un si grand réseau nous sommes constamment à la recherche de nouveaux talents. Du génie climatique, à la plomberie en passant par la commercialisation de salles de bain ; vous trouverez votre place !\n\nDSC fait partie de Saint-Gobain Distribution Bâtiment France, premier distributeur de matériaux de construction en France, au service des professionnels et de ceux qui s'investissent dans l'amélioration de leur habitat.\n",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214RHBR",
+      "date": "2026-10-01",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 23,
       "first_seen": "2026-10-23"
     },
@@ -5695,6 +5730,24 @@
     },
     {
       "source": "France Travail",
+      "id": "214QHSY",
+      "titre": "Projeteur synthèse (ouvert profil structures ou CVC) (H/F)",
+      "entreprise": "APPROACH PEOPLE RECRUITMENT SARL",
+      "ville": "69 - Lyon 3e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "Annuel de 35000.0 Euros à 47000.0 Euros",
+      "description": "Aujourd'hui, nous recherchons pour notre client, reconnu dans son domaine du bâtiment, un(e) Projeteur - chargé d'études synthèse H/F pour travailler sur de beaux projets.\n\nVos missions :\n\n- Vous menez à bien la coordination entre les différents lots (notamment CET : CVC, Electricité CFO CFA, Structures)\n- Vous êtes impliqué sur vos projets de A à Z (phases études et travaux)\n- Vous réalisez le planning de synthèse\n- Vous réalisez la synthèse des différents lots (maquettes, coupes, plans de synthèse), et vous rapprochez des spécialises afin qu'ils modifient leurs rendus en cas de problématiques\n- Vous assistez aux réunions de synthèse\n- Vous proposez des solutions techniques et solutions alternatives\n\nVous allez travailler sur des projets variés : Bâtiments de types Santé / Hospitaliers, Sportifs, Scolaires, Bureaux, Commerciaux...\n\nVotre profil ?\n- 3 types d'expérience sont intéressantes et envisagées pour ce poste:\nUne expérience en synthèse (minimum 2 ans), que ce soit en BE MOE ou en Entreprise (conception ou EXE)\nUne expérience en structures béton, bois et/ou métal (minimum 5 ans), que ce soit en BE MOE ou en Entreprise (conception ou EXE)\nUne expérience en fluides CVC ( minimum 5 ans), que ce soit en BE MOE ou en Entreprise (conception ou EXE)\n- Idéalement vous maitrisez Revit (autres logiciels acceptés)\n- Vous êtes habitué(e) a travailler en 2D/3D\n- Vous êtes passionné(e) par la technique des projets sur lesquels vous travaillez\n\nLes plus?\n- L'état d'esprit sera dynamique et agréable\n- Les projets seront qualitatifs et variés\n- Mon client est orienté vers l'humain et fonctionne en confiance, l'environnement de travail sera souple (ex : possibilité télétravail, souplesse de fonctionnement, etc)\n- Vous pourrez évoluer en interne!\n\nPoste basé sur Lyon, accessible en transports en commun.\nSalaire fixe + primes + TR + RTT.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214QHSY",
+      "date": "2026-09-30",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
+      "jours_anciennete": 24,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "France Travail",
       "id": "214PSTB",
       "titre": "Serveur / Serveuse (H/F)",
       "entreprise": "L'ACCESS NIGHT CLUB",
@@ -5710,24 +5763,6 @@
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 24,
       "first_seen": "2026-10-24"
-    },
-    {
-      "source": "France Travail",
-      "id": "214QHSY",
-      "titre": "Projeteur synthèse (ouvert profil structures ou CVC) (H/F)",
-      "entreprise": "APPROACH PEOPLE RECRUITMENT SARL",
-      "ville": "69 - Lyon 3e Arrondissement",
-      "contrat": "CDI",
-      "salaire": "Annuel de 35000.0 Euros à 47000.0 Euros",
-      "description": "Aujourd'hui, nous recherchons pour notre client, reconnu dans son domaine du bâtiment, un(e) Projeteur - chargé d'études synthèse H/F pour travailler sur de beaux projets.\n\nVos missions :\n\n- Vous menez à bien la coordination entre les différents lots (notamment CET : CVC, Electricité CFO CFA, Structures)\n- Vous êtes impliqué sur vos projets de A à Z (phases études et travaux)\n- Vous réalisez le planning de synthèse\n- Vous réalisez la synthèse des différents lots (maquettes, coupes, plans de synthèse), et vous rapprochez des spécialises afin qu'ils modifient leurs rendus en cas de problématiques\n- Vous assistez aux réunions de synthèse\n- Vous proposez des solutions techniques et solutions alternatives\n\nVous allez travailler sur des projets variés : Bâtiments de types Santé / Hospitaliers, Sportifs, Scolaires, Bureaux, Commerciaux...\n\nVotre profil ?\n- 3 types d'expérience sont intéressantes et envisagées pour ce poste:\nUne expérience en synthèse (minimum 2 ans), que ce soit en BE MOE ou en Entreprise (conception ou EXE)\nUne expérience en structures béton, bois et/ou métal (minimum 5 ans), que ce soit en BE MOE ou en Entreprise (conception ou EXE)\nUne expérience en fluides CVC ( minimum 5 ans), que ce soit en BE MOE ou en Entreprise (conception ou EXE)\n- Idéalement vous maitrisez Revit (autres logiciels acceptés)\n- Vous êtes habitué(e) a travailler en 2D/3D\n- Vous êtes passionné(e) par la technique des projets sur lesquels vous travaillez\n\nLes plus?\n- L'état d'esprit sera dynamique et agréable\n- Les projets seront qualitatifs et variés\n- Mon client est orienté vers l'humain et fonctionne en confiance, l'environnement de travail sera souple (ex : possibilité télétravail, souplesse de fonctionnement, etc)\n- Vous pourrez évoluer en interne!\n\nPoste basé sur Lyon, accessible en transports en commun.\nSalaire fixe + primes + TR + RTT.",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214QHSY",
-      "date": "2026-09-30",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 2,
-      "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 24,
-      "first_seen": "2026-10-23"
     },
     {
       "source": "France Travail",
@@ -5990,7 +6025,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 26,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -7406,7 +7441,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 39,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -7586,7 +7621,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 44,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -7964,7 +7999,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 52,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -8687,23 +8722,6 @@
     },
     {
       "source": "Indeed",
-      "id": "1df88cb31ee7",
-      "titre": "Team Leader Supervision & Hypervision - F/H",
-      "entreprise": "Groupe BPCE",
-      "ville": "Villeurbanne, ARA, France",
-      "contrat": "nan",
-      "salaire": "nan",
-      "description": "**Description de l'entreprise**\n-------------------------------\n\n**Intégrer BPCE Infogérance & Technologies, c’est évoluer au cœur des enjeux IT du 2****ᵉ groupe bancaire français**\n\nVous voulez participer à des projets informatiques challengeants, au cœur des nouvelles technologies ?\n\nEmbarquez avec **BPCE Infogérance et Technologies** et ses 1 750 collaboratrices et collaborateurs passionné·e·s et engagé·e·s, réparti·e·s sur 14 sites en France.\n\nNotre ambition ? Être garant de la production, de la sécurité et de la qualité de service pour l’ensemble des utilisatrices et utilisateurs du Groupe BPCE (*Banques Populaires, Caisses d'Epargne, NATIXIS, Crédit coopératif…*), piloter l’innovation technologique et imaginer les solutions IT de demain.\n\nNotre raison d’être est claire : **Construire ensemble la technologie la plus performante, innovante, sûre et utile !**\n\n**Poste et missions**\n---------------------\n\nVous pilotez et animez l'équipe en charge de l'ingénierie et du maintien en condition opérationnelle des infrastructures d’Hypervision et d’outil de Supervision. Votre périmètre technique offre la visibilité et disponibilité des services critiques (techniques, infra et applicatifs). L'équipe a pour mission de mettre à disposition des outils de Supervision pour monitorer l'ensemble des couches du SI et d’Hypervision pour la vue unifiée, aggrégée et corrélée des alertes.\n\nVous êtes le garant de la performance, de la disponibilité et de la sécurité de ces plateformes critiques pour l'entreprise, tout en assurant la cohésion et la montée en compétences de votre équipe distribuée entre Paris et Lyon.\n\nVous jouerez un rôle clé dans l'optimisation des performances des applications et garantirez leur disponibilité pour l'ensemble de nos clients pour une meilleure qualité de service.\n\n**PRINCIPALES MISSIONS :**\n\nLe Team leader déploie la stratégie de BPCE Infogérance & Technologies au niveau de son service. Il anime son équipe sur le plan humain et technique.\n\nManagement & Pilotage d'équipe :\n\n* Encadrer et animer une équipe hybride répartie sur les sites de Lyon et Paris.\n* Définir les objectifs individuels et collectifs, et réaliser les évaluations annuelles.\n* Organiser le plan de charge de l'équipe, gérer les priorités et assurer la répartition des tâches. Pilotage Agile au travers de sprint et suivi mise en œuvre dans JIRA.\n* Faciliter la collaboration et la communication entre les membres de l'équipe sur les deux sites.\n* Assurer la montée en compétences techniques et méthodologiques des collaborateurs (formation, coaching, mentoring).\n* Garantir un climat de travail positif et une forte cohésion d'équipe malgré la distance.\n* Organiser et assurer les astreintes du service, en définissant les rotations et en s'assurant que l'expertise nécessaire soit disponible pour résoudre les incidents hors des horaires classiques.\n\nExpertise Technique & Opérations :\n\n* Garantir la stabilité, la performance et la sécurité des socles techniques et solutions : Hyperviseur BMC Truesight, IBM Cloud Pak 4 AIOps, Newtest et Ekara d’IP-Label.\n* Définir les standards d'architecture, les bonnes pratiques d'installation, de configuration et d'exploitation.\n* Piloter les projets techniques d'évolution des plateformes (montées de version, migration, etc.) , y compris la migration vers des solutions conteneurisés.\n* Superviser le traitement des incidents et des problèmes (Niveau 3) et être le point d'escalade technique pour l'équipe.\n* Promouvoir et piloter l'automatisation des tâches récurrentes (déploiement, configuration, patching) via des outils de scripting et d'infra-as-code.\n* Piloter le suivi de la capacité (capacity planning) et du tuning de performance.\n* Implémenter et gérer des APIqui facilitent l'accès et l'exploitabilité des services par les clients, garantissant ainsi une meilleure intégration et un temps de réponse optimisé.\n\nGestion & Stratégie :\n\n* Collaborer étroitement avec les équipes de Développement, de Production et de Sécurité pour garantir la cohérence des solutions et leur déploiement dans le cadre de la stratégie vers les conteneurs.\n* Assurer un reporting régulier de l'activité de l'équipe et des indicateurs de performance (KPIs, Dashboarding, ..)\n* Participer à la définition de la roadmap technique des plateformes de Supervision et d’Hypervision, en intégrant les évolutions vers des services conteneurisés.\n* Mener une veille technologique active sur les technologies de conteneurs et d’infrastructure cloud pour proposer des innovations pertinentes.\n\n**Profil et compétences requises**\n----------------------------------\n\n**PROFIL, EXPERIENCE ET CONNAISSANCES TECHNIQUES :**\n\n**Formation :** Diplôme supérieur en informatique, en ingénierie ou dans un domaine connexe.\n\n**Expérience :**\n\n* Minimum 5 à 7 ans d'expérience sur un périmètre technique Monitoring & Event Management similaire.\n* Expérience confirmée en management d'équipe (2+ ans), avec une expérience réussie dans un contexte distribué ou multi-sites ",
-      "url": "https://fr.indeed.com/viewjob?jk=7ff89ce4824de705",
-      "date": "2026-10-24",
-      "domaine": "RESTO",
-      "niveau": 3,
-      "raison": "Profil transferable",
-      "jours_anciennete": 0,
-      "first_seen": "2026-10-24"
-    },
-    {
-      "source": "Indeed",
       "id": "9ea6c29f22ad",
       "titre": "Manager Évaluation - Modélisation Financière H/F",
       "entreprise": "Hellowork",
@@ -8737,6 +8755,23 @@
       "first_seen": "2026-10-24"
     },
     {
+      "source": "Indeed",
+      "id": "1df88cb31ee7",
+      "titre": "Team Leader Supervision & Hypervision - F/H",
+      "entreprise": "Groupe BPCE",
+      "ville": "Villeurbanne, ARA, France",
+      "contrat": "nan",
+      "salaire": "nan",
+      "description": "**Description de l'entreprise**\n-------------------------------\n\n**Intégrer BPCE Infogérance & Technologies, c’est évoluer au cœur des enjeux IT du 2****ᵉ groupe bancaire français**\n\nVous voulez participer à des projets informatiques challengeants, au cœur des nouvelles technologies ?\n\nEmbarquez avec **BPCE Infogérance et Technologies** et ses 1 750 collaboratrices et collaborateurs passionné·e·s et engagé·e·s, réparti·e·s sur 14 sites en France.\n\nNotre ambition ? Être garant de la production, de la sécurité et de la qualité de service pour l’ensemble des utilisatrices et utilisateurs du Groupe BPCE (*Banques Populaires, Caisses d'Epargne, NATIXIS, Crédit coopératif…*), piloter l’innovation technologique et imaginer les solutions IT de demain.\n\nNotre raison d’être est claire : **Construire ensemble la technologie la plus performante, innovante, sûre et utile !**\n\n**Poste et missions**\n---------------------\n\nVous pilotez et animez l'équipe en charge de l'ingénierie et du maintien en condition opérationnelle des infrastructures d’Hypervision et d’outil de Supervision. Votre périmètre technique offre la visibilité et disponibilité des services critiques (techniques, infra et applicatifs). L'équipe a pour mission de mettre à disposition des outils de Supervision pour monitorer l'ensemble des couches du SI et d’Hypervision pour la vue unifiée, aggrégée et corrélée des alertes.\n\nVous êtes le garant de la performance, de la disponibilité et de la sécurité de ces plateformes critiques pour l'entreprise, tout en assurant la cohésion et la montée en compétences de votre équipe distribuée entre Paris et Lyon.\n\nVous jouerez un rôle clé dans l'optimisation des performances des applications et garantirez leur disponibilité pour l'ensemble de nos clients pour une meilleure qualité de service.\n\n**PRINCIPALES MISSIONS :**\n\nLe Team leader déploie la stratégie de BPCE Infogérance & Technologies au niveau de son service. Il anime son équipe sur le plan humain et technique.\n\nManagement & Pilotage d'équipe :\n\n* Encadrer et animer une équipe hybride répartie sur les sites de Lyon et Paris.\n* Définir les objectifs individuels et collectifs, et réaliser les évaluations annuelles.\n* Organiser le plan de charge de l'équipe, gérer les priorités et assurer la répartition des tâches. Pilotage Agile au travers de sprint et suivi mise en œuvre dans JIRA.\n* Faciliter la collaboration et la communication entre les membres de l'équipe sur les deux sites.\n* Assurer la montée en compétences techniques et méthodologiques des collaborateurs (formation, coaching, mentoring).\n* Garantir un climat de travail positif et une forte cohésion d'équipe malgré la distance.\n* Organiser et assurer les astreintes du service, en définissant les rotations et en s'assurant que l'expertise nécessaire soit disponible pour résoudre les incidents hors des horaires classiques.\n\nExpertise Technique & Opérations :\n\n* Garantir la stabilité, la performance et la sécurité des socles techniques et solutions : Hyperviseur BMC Truesight, IBM Cloud Pak 4 AIOps, Newtest et Ekara d’IP-Label.\n* Définir les standards d'architecture, les bonnes pratiques d'installation, de configuration et d'exploitation.\n* Piloter les projets techniques d'évolution des plateformes (montées de version, migration, etc.) , y compris la migration vers des solutions conteneurisés.\n* Superviser le traitement des incidents et des problèmes (Niveau 3) et être le point d'escalade technique pour l'équipe.\n* Promouvoir et piloter l'automatisation des tâches récurrentes (déploiement, configuration, patching) via des outils de scripting et d'infra-as-code.\n* Piloter le suivi de la capacité (capacity planning) et du tuning de performance.\n* Implémenter et gérer des APIqui facilitent l'accès et l'exploitabilité des services par les clients, garantissant ainsi une meilleure intégration et un temps de réponse optimisé.\n\nGestion & Stratégie :\n\n* Collaborer étroitement avec les équipes de Développement, de Production et de Sécurité pour garantir la cohérence des solutions et leur déploiement dans le cadre de la stratégie vers les conteneurs.\n* Assurer un reporting régulier de l'activité de l'équipe et des indicateurs de performance (KPIs, Dashboarding, ..)\n* Participer à la définition de la roadmap technique des plateformes de Supervision et d’Hypervision, en intégrant les évolutions vers des services conteneurisés.\n* Mener une veille technologique active sur les technologies de conteneurs et d’infrastructure cloud pour proposer des innovations pertinentes.\n\n**Profil et compétences requises**\n----------------------------------\n\n**PROFIL, EXPERIENCE ET CONNAISSANCES TECHNIQUES :**\n\n**Formation :** Diplôme supérieur en informatique, en ingénierie ou dans un domaine connexe.\n\n**Expérience :**\n\n* Minimum 5 à 7 ans d'expérience sur un périmètre technique Monitoring & Event Management similaire.\n* Expérience confirmée en management d'équipe (2+ ans), avec une expérience réussie dans un contexte distribué ou multi-sites ",
+      "url": "https://fr.indeed.com/viewjob?jk=7ff89ce4824de705",
+      "date": "2026-10-24",
+      "domaine": "RESTO",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 0,
+      "first_seen": "2026-10-24"
+    },
+    {
       "source": "France Travail",
       "id": "8171473",
       "titre": "Chargé d'affaires en électricité (H/F)",
@@ -8746,6 +8781,24 @@
       "salaire": "",
       "description": "Description du poste :\n\nSociété incontournable sur le marché du recrutement français, LTd est un Cabinet de Recrutement et une Agence de Travail Temporaire spécialisé dans les métiers de l'Ingénierie et des Entreprises.\n\nLe poste :\nChargé(e) d'Affaires Principal(e) - Marchés de Branchement Enedis\nPrésentation du Poste\nIntitulé du poste : Chargé(e) d'Affaires Principal(e) - Marchés de Branchement & Colonnes Montantes Enedis\nSecteur d'activité : Travaux Électriques / Réseaux Électriques BT-HTA / Énergie\nRattachement hiérarchique : Directeur d'Agence / Responsable d'Activité Réseaux\nStatut : Cadre / ETAM (selon profil)\nMission Principale\nSous la responsabilité du Directeur d'Agence, le/la Chargé(e) d'Affaires Principal(e) pilote la réalisation des marchés de branchements électriques (individuels, collectifs, réseaux BT, colonnes montantes) confiés par le donneur d'ordre Enedis.\nGarant(e) du respect des engagements contractuels, de la rentabilité financière des affaires, de la sécurité des intervenants et des délais de livraison, il/elle supervise l'activité des chargés d'affaires juniors, des conducteurs de travaux et des équipes terrain.\nActivités et Responsabilités Principales\n1. Pilotage Opérationnel et Technique\nStructurer, planifier et suivre l'exécution des ordres de service (OS) émis par Enedis (branchements neufs, modifications, renouvellements, colonnes montantes).\nS'assurer de la conformité technique des interventions vis-à-vis des normes et référentiels Enedis (C14-100, C15-100, SDC, etc.).\nVeiller à la bonne gestion des demandes d'intervention (DICT, arrêtés de circulation, autorisations administratives).\nRésoudre les aléas techniques du terrain et valider les modifications de tracé ou d'aménagement avec le Chargé d'Exploitation ou l'Interlocuteur Enedis.\n2. Gestion Commerciale, Financière et Contractuelle\nSuivre le budget et la rentabilité financière des marchés (suivi de la marge brute, analyse des écarts temps/fournitures).\nAssurer la facturation au fil de l'eau, le suivi du reste à produire (RAP) et la validation des attachements travaux auprès des acheteurs/interlocuteurs Enedis.\nDétecter et valoriser les travaux supplémentaires ou hors bordereau (avenants).\nÊtre l'interlocuteur(trice) privilégié(e) des représentants Enedis (Chargés d'Affaires Enedis, Chefs de Projets, Responsables de Marchés).\n3. Management et Encadrement\nSuperviser et coordonner l'équipe dédiée au marché (conducteurs de travaux, chefs de chantier, monteurs réseaux, sous-traitants).\nOptimiser les plannings de charge et l'affectation des ressources humaines et matérielles.\nAccompagner le développement des compétences des équipes (formation habilitations électriques, sensibilisation).\n4. Qualité, Sécurité et Environnement (QSE)\nVeiller au strict respect des règles de sécurité Enedis et internes (port des EPI, procédures d'accès, habilitations H1V/B1V/BR/HC/BC, travaux sous tension TST BT).\n\nDescription du profil :\n\nChargé(e) d'Affaires Principal(e) - Marchés de Branchement Enedis\n\n\nPrésentation du Poste\n\n\nIntitulé du poste : Chargé(e) d'Affaires Principal(e) - Marchés de Branchement & Colonnes Montantes Enedis\n\n\nSecteur d'activité : Travaux Électriques / Réseaux Électriques BT-HTA / Énergie\n\n\nRattachement hiérarchique : Directeur d'Agence / Responsable d'Activité Réseaux\n\n\nStatut : Cadre / ETAM (selon profil)\n\n\nMission Principale\n\n\nSous la responsabilité du Directeur d'Agence, le/la Chargé(e) d'Affaires Principal(e) pilote la réalisation des marchés de branchements électriques (individuels, collectifs, réseaux BT, colonnes montantes) confiés par le donneur d'ordre Enedis.\n\n\nGarant(e) du respect des engagements contractuels, de la rentabilité financière des affaires, de la sécurité des intervenants et des délais de livraison, il/elle supervise l'activité des chargés d'affaires juniors, des conducteurs de travaux et des équipes terrain.\n\n\nActivités et Responsabilités Principales\n\n\n1. Pilotage Opérationnel et Technique\n\n\nStructurer, planifier et suivre l'exécution des ordres de service (OS) émis par Enedis (branchements neufs, modifications, renouvellements, colonnes montantes S'assurer de la conformité technique des interventions vis-à-vis des normes et référentiels Enedis (C14-100, C15-100, SDC, etc Veiller à la bonne gestion des demandes d'intervention (DICT, arrêtés de circulation, autorisations administratives Résoudre les aléas techniques du terrain et valider les modifications de tracé ou d'aménagement avec le Chargé d'Exploitation ou l'Interlocuteur Enedis.\n\n\n2. Gestion Commerciale, Financière et Contractuelle\n\n\nSuivre le budget et la rentabilité financière des marchés (suivi de la marge brute, analyse des écarts temps/fournitures Assurer la facturation au fil de l'eau, le suivi du reste à produire (RAP) et la validation des attachements travaux auprès des acheteurs/interlocuteurs Enedis.\n\n\nDétecter et valoriser les travaux supplémentaires ou hors bordereau (avenants Être l'i",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/8171473",
+      "date": "2026-10-23",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 1,
+      "first_seen": "2026-10-24"
+    },
+    {
+      "source": "France Travail",
+      "id": "8224447",
+      "titre": "Chef.fe de réservation - Operations Manager F/H - Quartier Libre",
+      "entreprise": "Quartier Libre",
+      "ville": "69 - Villeurbanne",
+      "contrat": "CDI",
+      "salaire": "Mensuel de 2600.0 Euros à 2600.0 Euros",
+      "description": "Rattaché.e à la Direction, vous pilotez l'activité du service réservation et veillez à son bon fonctionnement au quotidien.\n \nÀ la fois manager de proximité et référent.e opérationnel.le, vous organisez l'activité, accompagnez votre équipe et contribuez à l'amélioration continue des process, avec un objectif : garantir une expérience client de qualité, tout en assurant l'efficacité et la fiabilité des opérations.\n \n \n \nVos principales responsabilités seront les suivantes : \n \n- \nPiloter l'activité réservation :\n \n-  \n- \nOrganiser et superviser l'activité quotidienne du service\n \n- \nVeiller au bon traitement des dossiers\n \n- \nAssurer le suivi des demandes clients et des agences de voyages\n \n- \nAnticiper les périodes de forte activité et adapter l'organisation\n \n- \nGarantir la fiabilité des informations et le respect des procédures internes.\n \n \n \n- \nManager et accompagner l'équipe :\n \n-  \n- \nEncadrer, animer et accompagner les collaborateurs du service (6 à 7 personnes)\n \n- \nRépartir les activités, prioriser les dossiers et veiller à une charge de travail équilibrée\n \n- \nAccompagner la montée en compétences et favoriser l'autonomie des collaborateurs\n \n- \nAssurer un suivi régulier de l'activité et apporter un soutien opérationnel lorsque nécessaire\n \n- \nFaire vivre une dynamique d'équipe constructive\n \n \n \n- \nOptimiser les opérations et les process :\n \n-  \n- \nIdentifier les dysfonctionnements, les points de friction et les axes d'amélioration\n \n- \nStructurer et faire évoluer les méthodes de travail, les procédures et les outils\n \n- \nSuivre les indicateurs de performance du service\n \n- \nMettre en place des actions correctives et mesurer leurs effets\n \n \n \n- \nCoordonner les échanges avec les autres services :\n \n-  \n- \nTravailler en étroite collaboration avec les différentes équipes de l'entreprise\n \n- \nFaciliter la circulation des informations nécessaires au bon déroulement des dossiers\n \n- \nAlerter sur les risques opérationnels et contribuer à la recherche de solutions\n \n- \nParticiper aux projets transverses visant à améliorer l'organisation et la qualité de serviceVous avez une expérience confirmée dans la réservation, les opérations touristiques ou la gestion d'un service opérationnel, idéalement dans l'univers du tour-opérateur.\n \nVous souhaitez aujourd'hui prendre davantage de responsabilités, ou vous occupez déjà une fonction d'encadrement et recherchez un environnement dans lequel vous pourrez avoir un impact concret sur l'organisation.\n \n \n \nVos compétences et votre savoir-faire :\n \n- \nVous maîtrisez les enjeux opérationnels liés à la gestion de réservations et au suivi de dossiers.\n \n- \nVous savez organiser une activité, gérer les priorités et faire face aux imprévus.\n \n- \nVous disposez de premières expériences réussies en management ou en coordination d'équipe.\n \n- \nVous êtes à l'aise avec les outils informatiques et le suivi d'indicateurs.\n \n- \nVous savez analyser une situation, identifier les causes d'un problème et mettre en œuvre des solutions pragmatiques.\n \n \nVotre façon de travailler :\n \n- \nOrganisé.e et rigoureux.se, vous aimez que les choses soient claires, fiables et bien faites.\n \n- \nVous savez prendre du recul sur l'activité tout en restant proche des réalités du terrain.\n \n- \nVous êtes à l'écoute, savez donner un cadre et accompagner les collaborateurs avec exigence et discernement.\n \n- \nVous êtes force de proposition et appréciez l'amélioration continue.\n \n- \nVous communiquez avec clarté et savez travailler en coopération avec des interlocuteurs variés.\n \n \nAu-delà du parcours, nous recherchons une personne capable de conjuguer sens du service, leadership de proximité et efficacité opérationnelle.\n \n \n Les conditions du poste \n- \nContrat : CDI\n \n- \nLocalisation : Villeurbanne (69), au sein de nos locaux Gate73.\n \n- \nTemps de travail hebdo : 35 heures\n \n- \nRémunération : 2600€ bruts mensuels\n \n- \nConvention collective : Opérateurs de voyage et des guides (IDCC 3245).\n \n- \nDate de prise de poste : Janvier 2027\n \n- Avantages :  \n-  \n- Ticket restaurant : carte de titre restaurant Up Déjeuner, ticket journalier à 7,50€ pris en charge à 60% par l'entreprise \n- Mutuelle & Prévoyance : ALAN, mutuelle prise en charge à 50% par l'entreprise \n- Sport : séance de renforcement musculaire avec un coach 1x / semaine, séance de basket 1x / semaine \n- Loisirs : réductions sur des voyages \n- Prime carburant et Forfait mobilité durable \n \n \n \n \n Envie de nous rejoindre ? \nVous aimez faire avancer les choses, accompagner une équipe et améliorer concrètement le fonctionnement d'une activité ?\n \nNous serons ravis de découvrir votre parcours et ce que vous pourriez apporter à SRV / Quartier Libre.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8224447",
       "date": "2026-10-23",
       "domaine": "BIM",
       "email_contact": "",
@@ -8895,7 +8948,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 3,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -8913,7 +8966,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 3,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -10823,7 +10876,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 87,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
@@ -10859,7 +10912,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 96,
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-24"
     },
     {
       "source": "France Travail",
