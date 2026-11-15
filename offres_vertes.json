@@ -1,7 +1,7 @@
 {
-  "generated_at": "15/11/2026 07:02",
-  "total": 509,
-  "vertes": 394,
+  "generated_at": "15/11/2026 18:02",
+  "total": 510,
+  "vertes": 395,
   "bleues": 115,
   "retention_days": 30,
   "offres": [
@@ -1391,6 +1391,23 @@
       "domaine": "BIM",
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-15"
+    },
+    {
+      "source": "Indeed",
+      "id": "494697d5e3e9",
+      "titre": "Happy équipier (service)",
+      "entreprise": "the sioou company",
+      "ville": "Lyon, ARA, France",
+      "contrat": "parttime",
+      "salaire": "800.0",
+      "description": "Pour compléter notre équipe de rêve, nous recrutons des serveur/euse DISPONIBLES LES MIDIS EN SEMAINE DE 11h à 14H (lérèrement flexible)\n\nTu en as marre de la malbouffe ? Tu voudrais rejoindre une équipe jeune et dynamique ?Bien n’attend plus, SIOOU recrute !\n\nSIOOU est l'enseigne la plus hot du moment à Lyon. Depuis 7 ans, nous proposons une restauration qui allie simplicité et produits de qualité (du champ à l’assiette). Les salades et les bowl que nous servons à nos clients sont généreux et réalisés avec des ingrédients frais et locaux que nous préparons nous-meme chaque matin.\n\nNotre équipe est jeune et ambitieuse, nous sommes entièrement tournés vers la satisfaction de nos clients et donc vers l’exigence.\n\nAujourd'hui, notre équipe s’agrandit et nous cherchons de nouveaux talents souhaitant renforcer notre équipe\n\nLes qualités que nous recherchons : capacité de travail, autonomie, rigueur et sourire (contact client)\n\nExpérience dans la restauration ou autre secteur et référence exigée\n\nRémunération : 800,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=7a4ac46870458b54",
+      "date": "2026-11-15",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 0,
       "first_seen": "2026-11-15"
     },
