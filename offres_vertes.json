@@ -1,10 +1,64 @@
 {
-  "generated_at": "20/11/2026 07:02",
-  "total": 487,
-  "vertes": 374,
-  "bleues": 113,
+  "generated_at": "20/11/2026 18:02",
+  "total": 503,
+  "vertes": 384,
+  "bleues": 119,
   "retention_days": 30,
   "offres": [
+    {
+      "source": "France Travail",
+      "id": "9029929",
+      "titre": "Ingénieur BIM H/F",
+      "entreprise": "VALIANCE",
+      "ville": "69 - Genas",
+      "contrat": "CDI",
+      "salaire": "Annuel de 35000.0 Euros à 35000.0 Euros - Tickets restaurants",
+      "description": "Rattaché.e au Directeur Etudes, vous avez en charge, sur le périmètre BIM, la conception des dossiers et de maquettes numériques pour les activités Nucléaire. \n\nAussi, vos principales missions seront :\n Garantir l'intégrité des données contenues dans les maquettes et leur bon usage dans le cadre de la démarche BIM mise en oeuvre.Rédiger ou contribuer à la rédaction des documents BIM nécessaires à la structuration des projets : conventions BIM, chartes BIM, protocoles d'échange, processus de validation, conformément aux standards internes et aux exigences des donneurs d'ordre nucléaires.Organiser et animer des réunions BIM (revues de maquette, coordination technique, gestion des clashs), en utilisant des outils de coordination comme Navisworks, BIM Track, Revizto ou équivalent.Mettre en oeuvre des méthodologies de coordination efficaces pour limiter les conflits, optimiser la planification, et assurer la fluidité de l'information sur le chantier.Contribuer à la mise en place d'outils digitaux de suivi de chantier, notamment via l'utilisation de plateformes CDE (Common Data Environment) comme Dalux, BIM 360, Aconex, etc.Contrôler la conformité des livrables BIM avec les exigences du secteur nucléaire, notamment en matière de sûreté, traçabilité, cybersécurité et exigences contractuelles.\n\n\n  \n Formation\n - Diplôme d'école d'ingenieur dans les domaines de l 'électrotechnique / génie industriel\n\nExpérience\n -  5 ans d'expérience au sein d'un bureau d'étude \n - Une expérience en environnement nucléaire ou fortement réglementé serait un plus.\n\nCompétences techniques\n Solide maîtrise des outils BIM : Revit, Navisworks, Civil 3D, Formats IFCCapacité à structurer des maquettes, des codfications\n\n\nSavoir être \n\n - Autonomie, rigueur et sens des responsabilités dans la conduite des projets.\n - Bon esprit d'analyse, capacité à résoudre des problèmes techniques et à travailler en équipe pluridisciplinaire.\n - Aisance dans la planification, le suivi technique et la communication des avancements.\n\n\nAvantages proposés :\n - Tickets restaurant / Carte titre-restaurant\n - Mutuelle groupe et prévoyance\n - Accès à des dispositifs de formation continue\n - Possibilités d'évolution au sein du groupe Fayat.\n - Rémunération annuelle fixe sur 13 mois : à partir de 35k\n\nEt surtout, chez Valiance, nous croyons en la diversité : nos postes sont ouverts aux personnes en situation de handicap.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/9029929",
+      "date": "2026-11-20",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 1,
+      "raison": "BIM/Revit dans titre · CDI",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "9029359",
+      "titre": "Projeteur / Modeleur CVC PB Revit à Lyon H/F",
+      "entreprise": "Profila",
+      "ville": "69 - Lyon 4e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "Annuel de 30000.0 Euros à 40000.0 Euros - -",
+      "description": "Nous recherchons pour notre client, un bureau d'études pluridisciplinaire, un(e) projeteur(se) CVC/ Plomberie/ fluides à Lyon. \nVos missions : \n\n -Collecte et consolide les informations nécessaires à l'élaboration d'un dossier technique complet, conforme aux normes en vigueur.   \n-Sous la responsabilité d'un ingénieur CVC/Fluides, assure la production graphique (plans, schémas) dans son domaine de compétence, en appliquant l'organisation projet définie et les exigences contractuelles.  Analyse les documents fournis par l'ingénieur (minutes, schémas, notes de calcul) et contribue à l'optimisation technique en proposant des solutions adaptées.   \n-Contribue au respect et à l'amélioration de la rentabilité des projets, en veillant à adapter la qualité et la quantité des livrables aux objectifs du contrat.   \n-Propose des solutions d'optimisation ou d'économies sur la base des pièces graphiques, à valider par l'ingénieur CVC/Fluides. \n-Participe à l'élaboration des budgets travaux pour les lots techniques concernés, à chaque phase de projet, pour validation par l'ingénieur CVC/Fluides.   \n-Identifie et remonte les risques ou difficultés rencontrés en études, en lien avec l'ingénieur CVC/Fluides.   \n-Intervient dans les revues de projet à chaque phase de conception, en coordination avec l'ingénieur CVC/Fluides et/ou le chef de projet TCE.\n-Contribue à la synthèse spatiale du projet dans son périmètre, en conception et en exécution, en lien avec les autres corps d'état.   \n-Rédige ou participe à la rédaction des notes de calcul selon ses compétences (bilan fluides, thermique, aéraulique, etc.).   \n-Participe à la rédaction des pièces techniques du lot CVC/Fluides (CCTP, DPGF...), selon ses compétences.   \n-En phase chantier, peut être amené à produire des visas techniques et à effectuer des visites de site pour garantir le bon déroulement des travaux.   -Dispose d'une bonne connaissance des équipements CVC/Fluides et sait utiliser la documentation technique des fournisseurs.\n  \n - Niveau d'études : Bac+2 minimum\n- Expérience : 2 à 3 ans minimum\n- Maîtrise des logiciels suivants :\n          -Autocad\n          - Revit\n          - Dialux\n- Connaissances techniques en CVC et Plomberie",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/9029359",
+      "date": "2026-11-20",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 1,
+      "raison": "BIM/Revit dans titre · CDI",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "216QXKY",
+      "titre": "Chef de Rang confirmé  H/F-",
+      "entreprise": "",
+      "ville": "69 - LYON 02",
+      "contrat": "CDI",
+      "salaire": "Mensuel de 2450.0 Euros - selon profil ",
+      "description": "Nous recherchons un. Chef de rang confirmé h/f  doté d'une excellente présentation et d'un véritable sens du service, pour rejoindre l'équipe de notre restaurant bistronomique L'Artichaut & boutique-hôtel 4 étoiles situé au cœur de la Presqu'île.\n\nÀ propos de l'établissement\n\nNotre maison abrite :\n\nL'Artichaut, restaurant bistronomique chic et raffiné, reconnu au Guide Michelin, proposant une cuisine française de saison, élaborée à partir de produits locaux et accompagnée d'une belle sélection de vins français. (45 couverts, ouvert 5 jours/semaine, midi et soir)\nLe Café Basilic, un lieu convivial ouvert à tous.\nLe service petit-déjeuner de l'hôtel (21 chambres).\nVos missions\n\nSous la responsabilité du Responsable de salle, vous :\n\nAssurez le service au restaurant L'Artichaut, au Café Basilic (et subsidiairement au Café Basilic), dans le respect des standards de qualité de l'établissement.\nParticipez à la mise en place, à l'accueil des clients et au suivi du service.\nContribuez à l'ambiance conviviale et élégante qui fait la réputation de la maison.\nProfil recherché\n\nExpérience confirmée en service en salle.\nBonne connaissance des vins, boissons et produits.\nAnglais obligatoire.\nSens du détail, sourire communicatif et envie d'évoluer dans un environnement raffiné,  dynamique.\nConditions & avantages\n\nPlanning prévisionnel 42H suivant l'activité :\n2 jours en continu\n3 jours en coupure\n2 jours de repos consécutifs\nÉquipe bienveillante, cadre de travail haut de gamme.\nPossibilités réelles d'évolution au sein de l'établissement.\nSi vous êtes passionné par l'art du service et souhaitez progresser dans un environnement chic et chaleureux, rejoignez-nous !\n\n\nType d'emploi : Temps plein, CDI\n\nRémunération : à partir de 2 450,00€ par mois\n\nAvantages :\n\nPrise en charge du transport quotidien",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/216QXKY",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 1,
+      "raison": "CDI restauration",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
     {
       "source": "Indeed",
       "id": "e005a86ea024",
@@ -38,7 +92,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -56,7 +110,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -74,7 +128,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -92,7 +146,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -110,24 +164,6 @@
       "raison": "CDI restauration",
       "jours_anciennete": 4,
       "first_seen": "2026-11-16"
-    },
-    {
-      "source": "France Travail",
-      "id": "8860479",
-      "titre": "Ingénieur BIM H/F",
-      "entreprise": "VALIANCE",
-      "ville": "69 - Genas",
-      "contrat": "CDI",
-      "salaire": "Annuel de 35000.0 Euros à 35000.0 Euros - Tickets restaurants",
-      "description": "Rattaché.e au Directeur Etudes, vous avez en charge, sur le périmètre BIM, la conception des dossiers et de maquettes numériques pour les activités Nucléaire. \n\nAussi, vos principales missions seront :\n Garantir l'intégrité des données contenues dans les maquettes et leur bon usage dans le cadre de la démarche BIM mise en oeuvre.Rédiger ou contribuer à la rédaction des documents BIM nécessaires à la structuration des projets : conventions BIM, chartes BIM, protocoles d'échange, processus de validation, conformément aux standards internes et aux exigences des donneurs d'ordre nucléaires.Organiser et animer des réunions BIM (revues de maquette, coordination technique, gestion des clashs), en utilisant des outils de coordination comme Navisworks, BIM Track, Revizto ou équivalent.Mettre en oeuvre des méthodologies de coordination efficaces pour limiter les conflits, optimiser la planification, et assurer la fluidité de l'information sur le chantier.Contribuer à la mise en place d'outils digitaux de suivi de chantier, notamment via l'utilisation de plateformes CDE (Common Data Environment) comme Dalux, BIM 360, Aconex, etc.Contrôler la conformité des livrables BIM avec les exigences du secteur nucléaire, notamment en matière de sûreté, traçabilité, cybersécurité et exigences contractuelles.\n\n\n  \n Formation\n - Diplôme d'école d'ingenieur dans les domaines de l 'électrotechnique / génie industriel\n\nExpérience\n -  5 ans d'expérience au sein d'un bureau d'étude \n - Une expérience en environnement nucléaire ou fortement réglementé serait un plus.\n\nCompétences techniques\n Solide maîtrise des outils BIM : Revit, Navisworks, Civil 3D, Formats IFCCapacité à structurer des maquettes, des codfications\n\n\nSavoir être \n\n - Autonomie, rigueur et sens des responsabilités dans la conduite des projets.\n - Bon esprit d'analyse, capacité à résoudre des problèmes techniques et à travailler en équipe pluridisciplinaire.\n - Aisance dans la planification, le suivi technique et la communication des avancements.\n\n\nAvantages proposés :\n - Tickets restaurant / Carte titre-restaurant\n - Mutuelle groupe et prévoyance\n - Accès à des dispositifs de formation continue\n - Possibilités d'évolution au sein du groupe Fayat.\n - Rémunération annuelle fixe sur 13 mois : à partir de 35k\n\nEt surtout, chez Valiance, nous croyons en la diversité : nos postes sont ouverts aux personnes en situation de handicap.",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8860479",
-      "date": "2026-11-14",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 1,
-      "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
     },
     {
       "source": "France Travail",
@@ -180,7 +216,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · entreprise cible",
       "jours_anciennete": 10,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -232,25 +268,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
       "jours_anciennete": 11,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
-      "id": "8620853",
-      "titre": "Projeteur / Modeleur CVC PB Revit à Lyon H/F",
-      "entreprise": "Profila",
-      "ville": "69 - Lyon 4e Arrondissement",
-      "contrat": "CDI",
-      "salaire": "Annuel de 30000.0 Euros à 40000.0 Euros - -",
-      "description": "Nous recherchons pour notre client, un bureau d'études pluridisciplinaire, un(e) projeteur(se) CVC/ Plomberie/ fluides à Lyon. \nVos missions : \n\n -Collecte et consolide les informations nécessaires à l'élaboration d'un dossier technique complet, conforme aux normes en vigueur.   \n-Sous la responsabilité d'un ingénieur CVC/Fluides, assure la production graphique (plans, schémas) dans son domaine de compétence, en appliquant l'organisation projet définie et les exigences contractuelles.  Analyse les documents fournis par l'ingénieur (minutes, schémas, notes de calcul) et contribue à l'optimisation technique en proposant des solutions adaptées.   \n-Contribue au respect et à l'amélioration de la rentabilité des projets, en veillant à adapter la qualité et la quantité des livrables aux objectifs du contrat.   \n-Propose des solutions d'optimisation ou d'économies sur la base des pièces graphiques, à valider par l'ingénieur CVC/Fluides. \n-Participe à l'élaboration des budgets travaux pour les lots techniques concernés, à chaque phase de projet, pour validation par l'ingénieur CVC/Fluides.   \n-Identifie et remonte les risques ou difficultés rencontrés en études, en lien avec l'ingénieur CVC/Fluides.   \n-Intervient dans les revues de projet à chaque phase de conception, en coordination avec l'ingénieur CVC/Fluides et/ou le chef de projet TCE.\n-Contribue à la synthèse spatiale du projet dans son périmètre, en conception et en exécution, en lien avec les autres corps d'état.   \n-Rédige ou participe à la rédaction des notes de calcul selon ses compétences (bilan fluides, thermique, aéraulique, etc.).   \n-Participe à la rédaction des pièces techniques du lot CVC/Fluides (CCTP, DPGF...), selon ses compétences.   \n-En phase chantier, peut être amené à produire des visas techniques et à effectuer des visites de site pour garantir le bon déroulement des travaux.   -Dispose d'une bonne connaissance des équipements CVC/Fluides et sait utiliser la documentation technique des fournisseurs.\n  \n - Niveau d'études : Bac+2 minimum\n- Expérience : 2 à 3 ans minimum\n- Maîtrise des logiciels suivants :\n          -Autocad\n          - Revit\n          - Dialux\n- Connaissances techniques en CVC et Plomberie",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8620853",
-      "date": "2026-11-06",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 1,
-      "raison": "BIM/Revit dans titre · CDI",
-      "jours_anciennete": 14,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -268,7 +286,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 14,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -375,7 +393,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 16,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -393,7 +411,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 16,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -481,7 +499,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -499,7 +517,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -607,7 +625,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 25,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -625,7 +643,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
       "jours_anciennete": 26,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -643,7 +661,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
       "jours_anciennete": 27,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -661,7 +679,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 27,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -679,7 +697,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 29,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -912,7 +930,7 @@
       "niveau": 1,
       "raison": "BIM/Revit dans titre · CDI",
       "jours_anciennete": 42,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1182,7 +1200,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 59,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1254,7 +1272,7 @@
       "niveau": 1,
       "raison": "CDI restauration",
       "jours_anciennete": 79,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1328,18 +1346,69 @@
     },
     {
       "source": "Indeed",
-      "id": "fb13d3773688",
-      "titre": "Menuisier (H/F)",
-      "entreprise": "La Mairie de Sainte-Foy-lès-Lyon",
-      "ville": "Sainte-Foy-lès-Lyon, ARA, France",
-      "contrat": "contract",
-      "salaire": "",
-      "description": "Postuler avant le 18 décembre 2026\n\nCDI (Titulaires)\n  \nCDD ( Contractuel)\n  \nAdjoint technique\n  \nAdjoint technique principal de 2ème classe\n  \nAdjoint technique principal de 1ère classe\n\nCadre d'emploi : C Référence de l'offre : 069261001001148 Publié le 18/11/2026\n\nLe service du patrimoine bâti, de la Ville de Sainte-Foy-Les-Lyon est composée de 12 personnes, il est rattaché au pôle technique.\n\nSous l’autorité du responsable de l’unité bâtiment, le menuisier assure l’entretien et la réparation des installations des équipements municipaux et associatifs en bois et aluminium. Il participe à la création de mobiliers, d’huisseries, d’aménagements intérieurs…\n\nL’unité Ateliers Bâtiment, rattachée au service du Patrimoine Bâti du Pôle Technique, est constituée de 6 Ateliers (électricité, plomberie, menuiserie, serrurerie, peinture, maçonnerie). Elle réalise des opérations d’entretien et des travaux d’aménagement du Patrimoine Bâti de la Ville, et répond aux demandes des usagers sur ce domaine.\n\nLe Service Patrimoine Bâti comprend :\n  \n– Le responsable du service qui est notamment en charge de l’animation du service, des travaux et du suivi des fluides (électricité, eau, gaz) de la collectivité, y compris contrats de performance énergétiques en CVC,\n  \n– Un technicien bâtiment travaux et contrats,\n  \n– Un assistant à la gestion du patrimoine bâti.\n\nLa Ville dispose de marchés de fournitures pour les ateliers et de marchés de travaux à bons de commande sur différents lots (plâtrerie-peinture, électricité, plomberie-CVC, menuiserie…).\n\n**MISSIONS**\n------------\n\nEn tant que menuisier, vous êtes chargé des missions suivantes :\n\n– Entretenir, rénover et réparer les portes, fenêtres, huisseries, mobiliers dans les équipements municipaux et associatif\n  \n– Réparer les défectuosités et en informer son supérieur hiérarchique\n  \n– Apporter son aide aux autres corps d’état des ateliers bâtiment et ponctuellement des autres services du centre technique municipal\n  \n– Élaborer, à partir d’une commande générale, les plans, choisir et quantifier les matériaux adaptés à la réalisation\n  \n– Transformer des produits bruts en produits finis (mobiliers divers, charpentes, fenêtre, portes…)\n  \n– Réparer les éventuelles malfaçons des entreprises\n  \n– Rendre compte et suivre son travail sur l’outil MAINTI4 (GMAO)\n  \n– Apporter des conseils techniques à la hiérarchie\n  \n– Nettoyer les chantiers avant et après intervention\n  \n– Quantifier le matériel et l’outillage nécessaire aux différentes missions, faire le devis avec les fournisseurs en marché avec la collectivité\n  \n– Entretenir les machines-outils, le matériel et les différents équipements métiers\n  \n– Assurer l’entretien de son atelier\n  \n– Exécuter des travaux de mise en conformité (commissions de sécurité, accessibilité PMR…)\n\n**PROFIL RECHERCHÉ**\n--------------------\n\n* CAP de menuisier requis ou expérience significative équivalente\n* Maîtriser des règles de dessin, de calcul et de géométrie\n* Posséder la maîtrise de l’aménagement de l’espace\n* Connaître les différentes techniques d’assemblage, de fixation et de collage du bois, aluminium, verre…\n* Maîtriser le maniement des machines outils (scies, toupies, raboteuses, dégauchisseuses, mortaiseuses, ponceuses…) et du matériel électro-portatif\n* Connaître l’ensemble des essences de bois et les nouveaux matériaux pour en faire un usage pertinent\n* Savoir repérer les défaillances d’un ouvrage pour les réparer\n* Connaître et appliquer les normes de sécurité",
-      "url": "https://fr.indeed.com/viewjob?jk=b170620a777c9805",
+      "id": "d691bebb3574",
+      "titre": "Chef de rang (Sommelier) Confirmé H/F",
+      "entreprise": "Hôtel de l' Abbaye et Restaurant l'artichaut",
+      "ville": "Lyon, ARA, France",
+      "contrat": "fulltime",
+      "salaire": "2240.0",
+      "description": "**Chef de Rang confirmé - Sommelier**  \n*Lyon, Presqu’île*\n\nNous recherchons un **Chef de rang confirmé**, doté d’une **excellente présentation** et d’un **véritable sens du service**, Avec une connaissance des vins, pour rejoindre l’équipe de notre R**estaurant L'Artichaut & boutique-hôtel 4 étoiles** situé au cœur de la Presqu’île.\n\nÀ propos de l’établissement\n\nNotre maison abrite :\n\n* **Notre restaurant l'Artichaut**, restaurant bistronomique chic et raffiné, reconnu au *Guide Michelin*, proposant une cuisine française de saison, élaborée à partir de produits locaux et accompagnée d’une belle sélection de vins français. (45 couverts, ouvert 5 jours/semaine, midi et soir)\n* **Le Café Basilic**, un lieu convivial ouvert à tous. (7/7)\n* Le **service petit-déjeuner** de l’hôtel (21 chambres).\n\nVos missions\n\n* Assurez le **service au restaurant L’Artichaut**, et **Café Basilic**, dans le respect des standards de qualité de l’établissement.\n* Participez à la **mise en place**, à l’**accueil des clients** et au **suivi du service**.\n* Contribuez à l’ambiance conviviale et élégante qui fait la réputation de la maison.\n\nProfil recherché\n\n* Expérience confirmée en **service en salle**.\n* Bonne **connaissance des vins, boissons et produits**.\n* **Anglais obligatoire**.\n* Sens du détail, **sourire communicatif** et **envie d’évoluer** dans un environnement raffiné, jeune et dynamique.\n\nConditions & avantages\n\n* **Planning prévisionnel** 42H\n* repos 2 jours en continu\n* **de principe en coupure, continue en fonction du nombre de couvert.**\n* Horaire variable en fonction des jours/des semaines, voici quelques exemples :\n\nCoupure : 1030h-14h30 // 18h30 - 23h30\n\n* Équipe bienveillante**, cadre de travail haut de gamme.Si vous êtes passionné par l’art du service et souhaitez progresser dans un environnement chic et chaleureux, rejoignez-nous !**\n\nEnvoyez-nous votre candidature dès maintenant.\n\nType d'emploi : Temps plein, CDI\n\nRémunération : à partir de 2 240,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n\nExpérience:\n\n* serveur H/F: 1 an (Requis)\n\nLangue:\n\n* Anglais (Requis)\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=743b057a7e920af0",
       "date": "2026-11-20",
-      "domaine": "BIM",
+      "domaine": "RESTO",
       "niveau": 2,
-      "raison": "Metier proche (bureau etudes / CVC / DAO)",
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "Indeed",
+      "id": "493f03a35011",
+      "titre": "Serveur polyvalent H/F",
+      "entreprise": "Le 17.45",
+      "ville": "Lyon, ARA, France",
+      "contrat": "parttime, fulltime, contract",
+      "salaire": "1867.0",
+      "description": "**Serveur / Serveuse – Extra (H/F) – Le 17.45 Croix-Rousse**\n\nLe 17.45 Croix-Rousse recherche des extras en salle pour renforcer son équipe lors des services, principalement en soirée et le week-end.\n\n**(Ouverture prévue courant janvier 2027)**\n\nVos missions\n\n* Accueillir les clients et assurer un service de qualité.\n* Présenter la carte et conseiller les clients sur nos planches, vins et boissons.\n* Assurer la prise de commandes et le service en salle.\n* Participer à la mise en place et au rangement de la salle.\n* Veiller à la propreté et au bon fonctionnement du restaurant.\n* Participer à la clôture du service.\n\nProfil recherché\n\n* Vous êtes dynamique, souriant(e) et motivé(e).\n* Vous avez le sens du service et aimez travailler en équipe.\n* Vous êtes ponctuel(le), sérieux(se) et organisé(e).\n* Une première expérience en restauration est appréciée, mais votre motivation reste essentielle.\n\nConditions\n\n* **Type de contrat :** CDI, CDD et/ou Extra\n* **Lieu :** Lyon 4e – Croix-Rousse\n* **Horaires :** principalement en soirée, selon les besoins et les disponibilités\n* **Rémunération :** selon profil et expérience\n\nRejoignez l'équipe du 17.45 Croix-Rousse et participez à faire vivre une expérience conviviale à nos clients autour de belles planches et de bons moments !\n\n**Pour postuler, envoyez-nous votre candidature directement via Indeed.**\n\nRémunération : 1 867,00€ à 2 000,00€ par mois\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=c702aab9af815aab",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "Indeed",
+      "id": "275aacc6dbd2",
+      "titre": "Serveur F/H",
+      "entreprise": "Grape Hospitality",
+      "ville": "Bron, ARA, France",
+      "contrat": "nan",
+      "salaire": "1876.16",
+      "description": "### **À propos de nous**\n\n**Et si votre prochaine aventure professionnelle commençait au Novotel Lyon Bron Eurexpo ?**\n\nConnaissez-vous notre hôtel de 112 chambres et son restaurant chaleureux, Le Gourmet Bron ? Si ce n’est pas encore le cas, il est grand temps de venir découvrir bien plus qu’un simple lieu d’hébergement !\n\nChez nous, vous entrez dans un véritable lieu de vie, tendance et cosy, pensé aussi bien pour les familles que pour les voyageurs d’affaires. Une cuisine locale et savoureuse, des espaces de travailconfortables, des salles de réunion fraîchement rénovées et entièrement modulables... Tout est là pour répondre aux besoins de nos clients – et aux vôtres aussi !\n\nEn rejoignant notre équipe, vous bénéficiez d’un accompagnement quotidien, de formations enrichissantes et de tout le soutien nécessaire pour évoluer avec sérénité. Mais ce n’est pas tout ! Intégrer le Novotel Lyon Bron Eurexpo, c’est aussi faire partie du groupe Grape Hospitality, un acteur dynamique fort de plus de 80 hôtels et 60 restaurants à travers la France et l’Europe.\n\n### **Mission**\n\n**QU'ATTENDONS NOUS DE VOUS ?**\n\nLes tendances clients évoluent sans cesse tandis que notre mission première reste la même : leur faire vivre une expérience inoubliable !\n\nAfin de tenir cette promesse, nous avons besoin de STARS, nous avons besoin de vous.\n\nVous :\n\n* Chouchoutez nos clients pour leur faire vivre un moment de plaisir, d’émotion et de partage.\n* Conseillez nos clients dans leurs choix grâce à votre mémoire d’éléphant. La carte et ses produits n’ont aucun secret pour vous.\n* Réalisez un service fluide, sans fausse note et faites vivre, ainsi, à nos clients un moment de plaisir, d’émotion et de partage.\n* Collaborez avec l’ensemble de l’équipe de restaurant. L’entraide est plus qu’un mot pour vous, c’est un réel état d’esprit.\n* Réalisez des ventes additionnelles tout en étant à l’écoute des attentes de nos clients.\n* Portez les engagements de votre établissement en matière de RSE et les partagez avec nos clients.\n* Appliquez avec précision l’ensemble des procédures existantes ; pour ce faire, vous utilisez l’intégralité des outils mis à votre disposition.\n* Maitrisez les techniques de salle, de caisse et les mettez chaque jour en œuvre avec brio.\n\n### **Profil**\n\n**QUELS SONT VOS TALENTS ?**\n\nVous êtes …\n\n* Si souriant(e) et si positif(ve) que vous embarquez clients et collaborateurs avec naturel, dans le plaisir d’être ensemble.\n* Attentif(ve) aux détails et faites preuve d’initiatives pour offrir aux clients une expérience unique.\n* Doté(e) d’un esprit commerçant et vendeur.\n* Organisé(e) et vous avez un sens de l’anticipation sans faille.\n* Vous avez déjà exercé ces talents et compétences dans votre parcours professionnel.\n* Vous êtes capable d'entretenir une conversation en anglais.\n\n**NOS PETITS + RIEN QUE POUR VOUS**\n\n* Un week-end OFF par mois garanti, parce que le repos, c’est sacré.\n* Une super mutuelle qui protège toute la famille.\n* Un remboursement mensuel à hauteur de 50% de votre abonnement de transports en commun si vous les emprunter pour vous rendre chez nous.\n* Massage Amma Assis (approximativement une fois par mois).\n* Carte collaborateurs offrant des taux réduits chez Accor pour vous et vos proches.\n\nEt bien plus encore ...",
+      "url": "https://fr.indeed.com/viewjob?jk=bfbd63747742d9b2",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "Indeed",
+      "id": "7f01b9cfae0c",
+      "titre": "Serveur (use) - Employé(e) polyvalent(e) - H/F - rejoindre une équipe au top",
+      "entreprise": "Papaveri",
+      "ville": "Lyon, ARA, France",
+      "contrat": "parttime, fulltime",
+      "salaire": "1800.0",
+      "description": "Poste à pourvoir dès à présent.\n\nBienvenue chez l'Uccellino, un restaurant italien en plein cœur de Lyon 9 ! l'Uccellino propose des pizzas et plats artisanaux de qualité, faits exclusivement à partir de produits frais, notamment biologiques, le tout dans un cadre unique et haut en couleurs. l'Uccellino s’est imposé comme une adresse incontournable sur Lyon pour vivre un repas à l’italienne.\n\nVous êtes motivé(e), vous avez envie de rejoindre une véritable aventure, vous souhaitez travailler au sein d’une équipe dynamique et bienveillante, vous aimez le travail bien fait, vous aimez les produits de qualité => ce poste est fait pour vous !\n\n**Missions** :\n\n* Accueil des clients ;\n* Accompagnement des clients ;\n* Dresser les tables et effectuer les mises en place de la salle ;\n* Appliquer les consignes de l’entreprise pour respecter le concept et favoriser un service client de qualité\n* Apporter les plats et débarrasser les assiettes ;\n* Tenir le Bar\n* Encaissement\n\n**Avantages légaux et** **d'entreprise :**\n\n* Mutuelle d’entreprise\n* Prise en charge du transport en commun\n* Repas pris en charge\n* Primes diverses\n* Intéressement annuel selon atteinte d’objectifs\n* Pourboires\n\nLa langue italienne est un plus.\n\nType d'emploi : Temps plein\n\nLieu du poste : En présentiel\n\nType d'emploi : Temps plein\n\nRémunération : 1 800,00€ à 2 200,00€ par mois\n\nAvantages :\n\n* Prise en charge du transport quotidien\n* Restaurant d'entreprise\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=3796d7ea7714780a",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 0,
       "first_seen": "2026-11-20"
     },
@@ -1370,23 +1439,6 @@
       "salaire": "1700.0",
       "description": "**Tripletta, c’est une famiglia née à Belleville en 2016**, autour d’un four à bois qui ne s’est jamais éteint. Aujourd’hui, on compte 15 pizzerias napolitaines à Paris, Bordeaux, Marseille, Toulouse, Lille, Lyon, Rennes… et l’aventure est loin d’être finie.\n\nChez Tripletta, on aime les produits vrais, les équipes soudées, et les parcours qui bougent.  \n**Les talents, on les repère, on les accompagne, et surtout, on leur laisse de la place pour grandir.**\n\nTu veux du sérieux sans te prendre au sérieux ? Bienvenue chez Tripletta.\n\nEt justement ! Notre établissement Lyonnais recherche un SERVEUR pour rejoindre l’équipe.\n\n### **Vos missions principales :**\n\n* Vous veillez à la bonne préparation et au bon déroulement du service et vous animez toutes les étapes du parcours client de l’accueil à la prise de congé.\n* Vous êtes polyvalent et êtes à l’aise au bar et en salle.\n* Vous maitrisez notre carte et nos produits et êtes en capacité de conseiller au mieux nos clients.\n* Vous vous enquerrez de la satisfaction des clients tout au long du repas.\n* Vous rapportez au responsable tout incident afin que ce dernier puisse prendre la main sur une éventuelle insatisfaction client.\n* Dans le respect des standards de l’enseigne et des règles d’hygiène, vous assurez la propreté et le bon suivi des normes HACCP.\n* Vous suivrez les directives du Manager du restaurant.\n* Vous êtes partie prenante et force de proposition sur de nouvelles idées !\n\n### **Profil recherché :**\n\n* Vous avez une première expérience réussie en restauration.\n* Vous avez une fibre commerciale innée et un sens du service développé.\n* La maîtrise d’une seconde langue est appréciée.\n* La connaissance en œnologie et mixologie est un plus.\n* Chercher à faire carrière dans un groupe dynamique en plein de développement est un plus.\n\n### **Informations complémentaires :**\n\n* **Rémunération** : 1700 € net\n* **Contrat** : CDI - 39 heures par semaine\n* **Planning** : 2 journées en coupure/3 journées en continu\n* **Avantages** : Repas offerts chaque jour travaillé\n* **Rémunération variable** : Primes sur objectifs + partage des tips au pot commun\n* **Réduction** : -15% sur votre addition en dehors de vos heures de travail",
       "url": "https://fr.indeed.com/viewjob?jk=73329d68a9589c4e",
-      "date": "2026-11-20",
-      "domaine": "RESTO",
-      "niveau": 2,
-      "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 0,
-      "first_seen": "2026-11-20"
-    },
-    {
-      "source": "Indeed",
-      "id": "fb39296350f8",
-      "titre": "Serveur polyvalent H/F",
-      "entreprise": "Domaine lyon saint joseph",
-      "ville": "Sainte-Foy-lès-Lyon, ARA, France",
-      "contrat": "parttime",
-      "salaire": "1333.54",
-      "description": "**À propos du poste**\n\nNous recrutons un serveur polyvalent ou une serveuse polyvalente pour accueillir les client(e)s et contribuer au bon déroulement du service. Vous participez à différentes tâches en salle et, selon les besoins, à la préparation des aliments et des boissons. Votre contribution: un accueil attentif et un service soigné aident les client(e)s à profiter pleinement de leur visite et facilitent le travail de l’équipe.\n\n**Responsabilités**\n\n* Accueillez les client(e)s, présentez les choix disponibles et prenez leurs commandes avec attention.\n* Assurez le service des plats et des boissons, puis veillez à la satisfaction des client(e)s tout au long de leur visite.\n* Participez à la préparation des aliments et des boissons, notamment au travail de barista lorsque nécessaire.\n* Appliquez les règles de sécurité alimentaire et coordonnez vos tâches avec vos collègues.\n\n**Profil recherché**\n\nCompétences requises: vous savez servir avec soin, accueillir les client(e)s avec courtoisie et respecter les règles de sécurité alimentaire. Atouts appréciés: une expérience en restauration, en service à la clientèle ou comme barista, ainsi qu’une expérience en préparation des aliments et un intérêt pour l’hospitalité.\n\nRémunération : 1 333,54€ à 1 500,00€ par mois\n\nAvantages :\n\n* Horaires flexibles\n* Prise en charge du transport quotidien\n* Restaurant d'entreprise\n\nLieu du poste : En présentiel",
-      "url": "https://fr.indeed.com/viewjob?jk=daa74a71b64c6d7a",
       "date": "2026-11-20",
       "domaine": "RESTO",
       "niveau": 2,
@@ -1480,6 +1532,130 @@
       "first_seen": "2026-11-20"
     },
     {
+      "source": "France Travail",
+      "id": "216QZBC",
+      "titre": "Serveur / Serveuse de restaurant (H/F)",
+      "entreprise": "L'AUTHENTIK",
+      "ville": "69 - LYON 05",
+      "contrat": "CDD - 4 Mois",
+      "salaire": "",
+      "description": "Nous recherchons un(e) serveur(se) en salle pour compléter notre équipe. Réactivité et sens du contact sont des qualités essentielles pour mener à bien vos missions, débutante(e) accepté(e).\n\nMissions :\n- Accueillir les clients et les installer.\n- Présenter le menu et prendre la commande.\n- Aller chercher les plats en cuisine et les servir.\n- Offrir les boissons puis débarrasser.\n- Présenter l'addition et encaisser.\n\nProfil :\n- Créer une relation avec les clients\n- Habilité à travailler dans environnement au rythme dynamique\n- Travailler en équipe.\n- Contrôle des règles et techniques du service.\n- Maîtrise parfaite de l'art relationnel.\n\n",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/216QZBC",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "216QYRR",
+      "titre": "Chef de rang (H/F)",
+      "entreprise": "L'AUTHENTIK",
+      "ville": "69 - LYON 05",
+      "contrat": "CDD - 4 Mois",
+      "salaire": "",
+      "description": "Au sein de l'équipe de salle, vous aurez la responsabilité de votre rang.\n\nSous l'autorité du directeur d'établissement, vous assurerez la prise en charge du client: accueil, prise de commande, suivi du service, encaissement.\nVous ferez la mise en place de la salle et des offices.\n\nVos missions :\n- Assurer un service de qualité.\n- Encadrer et former des commis.\n- Veiller au bon déroulement du service.\n- Veiller sur l'ensemble d'un groupe de tables.\n- Maîtriser le flambage et le découpage.\n- Aider au service et au débarrassage.\n- Vérifier la satisfaction du client.\n\nProfil :\n- Sens inné de la relation client.\n- Amabilité et discrétion de bon aloi.\n- Adaptabilité aux cadences infernales.\n- Curiosité pour l'art culinaire.\n- Mémoire sans faille.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/216QYRR",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "216QZWR",
+      "titre": "Employé polyvalent (H/F)",
+      "entreprise": "GROUPE ELIOR",
+      "ville": "69 - LYON 05",
+      "contrat": "CDI",
+      "salaire": "Horaire de 12.31 Euros",
+      "description": "Nous recherchons une personne de 10h30 à 17h30 pour faire de la production de sandwichs, salades ,desserts et petits plats. Savoir également conseiller à la clientèle nos produits à la vente , gérer une caisse ,  La boutique gère la wifi et la télé du Centre de rééducation . \nÊtre autonome et polyvalent(e)  sur plusieurs postes. Formation sur place.\nVous travaillerez le samedi et dimanche et tous les jours fériés.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/216QZWR",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8989777",
+      "titre": "Employé Polyvalent (F/H) McDonald's",
+      "entreprise": "",
+      "ville": "69 - Lyon",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "L'employé(e) polyvalent(e) est capable de s'adapter à toutes les situations. Il/elle participe activement à la vie du restaurant et a pour mission principale de satisfaire les clients. Ses responsabilités peuvent être variables en fonction des moments de la journée. Il/elle peut toujours compter sur ses coéquipiers pour apprendre et mener à bien ses missions.\nMon rôle dans l'équipe\n- Polyvalent(e) et réactif(ve), je suis au cœur de l'action\n- Entre le comptoir, la salle et la cuisine, je prépare les commandes avec attention et distribue les sourires !\n- Je suis toujours là pour soutenir mes coéquipier(ère)s, qui m'aident également à prendre confiance, dans la meilleure des ambiances.\n- Je contribue à la qualité, l'hygiène alimentaire et la propreté dans le restaurant.\nCe que l'équipe m'apporte\n- Des valeurs et de l'engagement\n- De nombreuses opportunités d'évolution\n- La possibilité d'adapter mon contrat en fonction des changements dans ma vie personnelle (temps partiel, emploi étudiant, premier emploi)\n- Un environnement motivant avec un climat positif et une super ambiance !\nCe que j'apporte à l'équipe\n- J'ai un excellent relationnel\n- Je m'adapte à toutes les situations\n- J'ai du dynamisme et de la bonne humeur à revendre !\n\n\nMétier : Employé Polyvalent (F/H) McDonald's\nAdresse : McDonald's,160 Cours Albert Thomas 69008 Lyon Fran\nVille : LYON\nCP : 69008",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8989777",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "216QZBR",
+      "titre": "Responsable de salle (H/F)",
+      "entreprise": "L'AUTHENTIK",
+      "ville": "69 - LYON 05",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Au sein de l'équipe de salle, vous aurez la responsabilité de votre salle, et de votre équipe de service.\n\nSous l'autorité du directeur d'établissement, vous assurerez la prise en charge du client et sa satisfaction : accueil, prise de commande, suivi du service, encaissement.\n\nVos missions :\n- Assurer un service de qualité.\n- Encadrer et former des commis, serveurs et chef de rang\n- Veiller au bon déroulement du service.\n- Veiller sur l'ensemble d'un groupe de tables.\n- Aider au service et au débarrassage.\n- Vérifier la satisfaction du client.\n\nProfil :\n- Sens inné de la relation client.\n- Amabilité et discrétion de bon aloi.\n- Adaptabilité aux cadences infernales.\n- Curiosité pour l'art culinaire.\n- Mémoire sans faille.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/216QZBR",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "Indeed",
+      "id": "fb13d3773688",
+      "titre": "Menuisier (H/F)",
+      "entreprise": "La Mairie de Sainte-Foy-lès-Lyon",
+      "ville": "Sainte-Foy-lès-Lyon, ARA, France",
+      "contrat": "contract",
+      "salaire": "",
+      "description": "Postuler avant le 18 décembre 2026\n\nCDI (Titulaires)\n  \nCDD ( Contractuel)\n  \nAdjoint technique\n  \nAdjoint technique principal de 2ème classe\n  \nAdjoint technique principal de 1ère classe\n\nCadre d'emploi : C Référence de l'offre : 069261001001148 Publié le 18/11/2026\n\nLe service du patrimoine bâti, de la Ville de Sainte-Foy-Les-Lyon est composée de 12 personnes, il est rattaché au pôle technique.\n\nSous l’autorité du responsable de l’unité bâtiment, le menuisier assure l’entretien et la réparation des installations des équipements municipaux et associatifs en bois et aluminium. Il participe à la création de mobiliers, d’huisseries, d’aménagements intérieurs…\n\nL’unité Ateliers Bâtiment, rattachée au service du Patrimoine Bâti du Pôle Technique, est constituée de 6 Ateliers (électricité, plomberie, menuiserie, serrurerie, peinture, maçonnerie). Elle réalise des opérations d’entretien et des travaux d’aménagement du Patrimoine Bâti de la Ville, et répond aux demandes des usagers sur ce domaine.\n\nLe Service Patrimoine Bâti comprend :\n  \n– Le responsable du service qui est notamment en charge de l’animation du service, des travaux et du suivi des fluides (électricité, eau, gaz) de la collectivité, y compris contrats de performance énergétiques en CVC,\n  \n– Un technicien bâtiment travaux et contrats,\n  \n– Un assistant à la gestion du patrimoine bâti.\n\nLa Ville dispose de marchés de fournitures pour les ateliers et de marchés de travaux à bons de commande sur différents lots (plâtrerie-peinture, électricité, plomberie-CVC, menuiserie…).\n\n**MISSIONS**\n------------\n\nEn tant que menuisier, vous êtes chargé des missions suivantes :\n\n– Entretenir, rénover et réparer les portes, fenêtres, huisseries, mobiliers dans les équipements municipaux et associatif\n  \n– Réparer les défectuosités et en informer son supérieur hiérarchique\n  \n– Apporter son aide aux autres corps d’état des ateliers bâtiment et ponctuellement des autres services du centre technique municipal\n  \n– Élaborer, à partir d’une commande générale, les plans, choisir et quantifier les matériaux adaptés à la réalisation\n  \n– Transformer des produits bruts en produits finis (mobiliers divers, charpentes, fenêtre, portes…)\n  \n– Réparer les éventuelles malfaçons des entreprises\n  \n– Rendre compte et suivre son travail sur l’outil MAINTI4 (GMAO)\n  \n– Apporter des conseils techniques à la hiérarchie\n  \n– Nettoyer les chantiers avant et après intervention\n  \n– Quantifier le matériel et l’outillage nécessaire aux différentes missions, faire le devis avec les fournisseurs en marché avec la collectivité\n  \n– Entretenir les machines-outils, le matériel et les différents équipements métiers\n  \n– Assurer l’entretien de son atelier\n  \n– Exécuter des travaux de mise en conformité (commissions de sécurité, accessibilité PMR…)\n\n**PROFIL RECHERCHÉ**\n--------------------\n\n* CAP de menuisier requis ou expérience significative équivalente\n* Maîtriser des règles de dessin, de calcul et de géométrie\n* Posséder la maîtrise de l’aménagement de l’espace\n* Connaître les différentes techniques d’assemblage, de fixation et de collage du bois, aluminium, verre…\n* Maîtriser le maniement des machines outils (scies, toupies, raboteuses, dégauchisseuses, mortaiseuses, ponceuses…) et du matériel électro-portatif\n* Connaître l’ensemble des essences de bois et les nouveaux matériaux pour en faire un usage pertinent\n* Savoir repérer les défaillances d’un ouvrage pour les réparer\n* Connaître et appliquer les normes de sécurité",
+      "url": "https://fr.indeed.com/viewjob?jk=b170620a777c9805",
+      "date": "2026-11-20",
+      "domaine": "BIM",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "Indeed",
+      "id": "fb39296350f8",
+      "titre": "Serveur polyvalent H/F",
+      "entreprise": "Domaine lyon saint joseph",
+      "ville": "Sainte-Foy-lès-Lyon, ARA, France",
+      "contrat": "parttime",
+      "salaire": "1333.54",
+      "description": "**À propos du poste**\n\nNous recrutons un serveur polyvalent ou une serveuse polyvalente pour accueillir les client(e)s et contribuer au bon déroulement du service. Vous participez à différentes tâches en salle et, selon les besoins, à la préparation des aliments et des boissons. Votre contribution: un accueil attentif et un service soigné aident les client(e)s à profiter pleinement de leur visite et facilitent le travail de l’équipe.\n\n**Responsabilités**\n\n* Accueillez les client(e)s, présentez les choix disponibles et prenez leurs commandes avec attention.\n* Assurez le service des plats et des boissons, puis veillez à la satisfaction des client(e)s tout au long de leur visite.\n* Participez à la préparation des aliments et des boissons, notamment au travail de barista lorsque nécessaire.\n* Appliquez les règles de sécurité alimentaire et coordonnez vos tâches avec vos collègues.\n\n**Profil recherché**\n\nCompétences requises: vous savez servir avec soin, accueillir les client(e)s avec courtoisie et respecter les règles de sécurité alimentaire. Atouts appréciés: une expérience en restauration, en service à la clientèle ou comme barista, ainsi qu’une expérience en préparation des aliments et un intérêt pour l’hospitalité.\n\nRémunération : 1 333,54€ à 1 500,00€ par mois\n\nAvantages :\n\n* Horaires flexibles\n* Prise en charge du transport quotidien\n* Restaurant d'entreprise\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=daa74a71b64c6d7a",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
       "source": "Indeed",
       "id": "2071a77b70e4",
       "titre": "Employé polyvalent - h/f",
@@ -1514,23 +1690,6 @@
       "first_seen": "2026-11-20"
     },
     {
-      "source": "Indeed",
-      "id": "310b091b1605",
-      "titre": "Polyvalent Barmaid/Barman/Barista (Projet d'ouverture)",
-      "entreprise": "Jet 69",
-      "ville": "Lyon 2e, ARA, France",
-      "contrat": "parttime",
-      "salaire": "1795.21",
-      "description": "**Recrutement – Barman / Barmaid / Barista (H/F)**  \n**Nouveau bar – Presqu’île de Lyon**\n\nNous ouvrons prochainement, un bar situé sur la Presqu’île lyonnaise, facile d’accès en transports en commun. Pour démarrer cette aventure avec nous, nous recherchons un(e) barman / barmaid / barista.\n\n**Le poste**\n\n* Service au comptoir et en salle\n* Préparation des boissons (cafés, boissons chaudes et fraîches, cocktails…)\n* Préparation de Tapas\n* Accueil des clients et fidélisation de la clientèle\n* Participation à la bonne tenue du bar (mise en place, propreté, rangement)\n* Gestion de caisse\n\n**Les conditions**\n\n* 2 postes sont à pourvoir un uniquement de jour et le deuxième uniquement le soir\n* Minimum 20 h par semaine\n* Rémunération et type de contrat à définir ensemble selon votre profil\n* De vraies perspectives d’évolution : des missions de responsabilité et de direction pourront vous être confiées à terme\n\n**Votre profil**\n\n* 6 mois d’expérience minimum en HCR (hôtellerie-café-restauration)\n* Motivé(e), souriant(e) et avenant(e)\n* Vous aimez le contact client et travailler en équipe\n* Une expérience en barista est un plus\n\n**Pourquoi nous rejoindre ?**  \nVous intégrerez une équipe dès l’ouverture, au sein d’une structure à taille humaine où votre implication sera reconnue et pourra déboucher sur un poste à responsabilités.\n\n**Pour postuler :** envoyez votre CV et quelques mots sur vous à Berchtoldnco@outlook.fr.\n\nRémunération : 1 795,21€ à 2 200,00€ par mois\n\nLieu du poste : En présentiel",
-      "url": "https://fr.indeed.com/viewjob?jk=fed19eb9ba32012d",
-      "date": "2026-11-19",
-      "domaine": "RESTO",
-      "niveau": 2,
-      "raison": "Serveur/se / chef de rang",
-      "jours_anciennete": 1,
-      "first_seen": "2026-11-19"
-    },
-    {
       "source": "France Travail",
       "id": "8976119",
       "titre": "PROJETEUR CVC (H/F)",
@@ -1546,7 +1705,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 1,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1564,7 +1723,25 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 1,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8986673",
+      "titre": "Chargé d'Affaires Adjoint Maintenance CVC F/H - ENERGIS RH Lyon",
+      "entreprise": "ENERGIS RH Lyon",
+      "ville": "69 - Craponne",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "ENERGIS RH, agence indépendante et de proximité, vous accompagne, depuis 2014, dans vos recherches en intérim, CDD ou CDI.\n \nNous recrutons un Chargé d'Affaires Adjoint Maintenance CVC H/F pour notre client, entreprise spécialisée dans la maintenance technique des bâtiments professionnels.\n \n \n \nDans un environnement multisite, vous accompagnez les Chargés d'Affaires dans le suivi de contrats de maintenance en chauffage, ventilation, climatisation et froid.\n \nCe poste vous permet de valoriser vos connaissances techniques tout en développant vos compétences en chiffrage et gestion d'affaires.\n \n \n \nVos missions :\n \n-  \n-  \n- \nParticiper au suivi des contrats de maintenance CVC auprès de clients multisites.\n \n- \nAnalyser les besoins techniques sur des installations variées : splits, CTA, VRV/VRF et groupes froids.\n \n- \nRéaliser des études et chiffrages en génie climatique et froid.\n \n- \nEffectuer des déplacements sur site pour les relevés, réunions clients ou appuis techniques.\n \n- \nConsulter les partenaires et organiser les moyens nécessaires aux petits travaux.\n \n- \nSuivre l'exécution des interventions et leur avancement financier.\n \n- \nContribuer au respect des engagements contractuels, de la sécurité et de la satisfaction client.\n \n \n \n \nVous travaillez en collaboration avec les Chargés d'Affaires, techniciens, équipes de planification et services support.\n \n \n \nConditions proposées :\n \n-  \n-  \n- \nPoste basé à Saint-Genis-les-Ollières (69).\n \n- \n39 heures hebdomadaires, 2 800 à 3 300 € brut mensuel.\n \n- \nDéplacements nationaux ponctuels.\n \n- \nHoraires décalés un jour tous les 15 jours et astreinte une semaine tous les 4 mois.\n \n- \nVéhicule de service, tickets restaurant, primes et mutuelle familiale.\n \n- \nIntégration, formation et évolution possible vers un poste de Chargé d'Affaires CVC.Titulaire d'un Bac+2 minimum en CVC, génie climatique ou froid, ou équivalent, vous connaissez les équipements de chauffage, ventilation, climatisation et réfrigération.\n \nUne première expérience en maintenance CVC, travaux, bureau d'études ou coordination technique est appréciée.\n \nVous savez analyser une situation technique, établir un chiffrage et coordonner différents interlocuteurs.\n \nVotre rigueur, votre curiosité et votre sens du service client vous permettront de progresser vers davantage d'autonomie.\n \n \n \nVous souhaitez évoluer du domaine technique vers la gestion d'affaires CVC ? Transmettez-nous votre candidature !",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8986673",
+      "date": "2026-11-19",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
+      "jours_anciennete": 1,
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1581,6 +1758,23 @@
       "email_contact": "",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 1,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "Indeed",
+      "id": "310b091b1605",
+      "titre": "Polyvalent Barmaid/Barman/Barista (Projet d'ouverture)",
+      "entreprise": "Jet 69",
+      "ville": "Lyon 2e, ARA, France",
+      "contrat": "parttime",
+      "salaire": "1795.21",
+      "description": "**Recrutement – Barman / Barmaid / Barista (H/F)**  \n**Nouveau bar – Presqu’île de Lyon**\n\nNous ouvrons prochainement, un bar situé sur la Presqu’île lyonnaise, facile d’accès en transports en commun. Pour démarrer cette aventure avec nous, nous recherchons un(e) barman / barmaid / barista.\n\n**Le poste**\n\n* Service au comptoir et en salle\n* Préparation des boissons (cafés, boissons chaudes et fraîches, cocktails…)\n* Préparation de Tapas\n* Accueil des clients et fidélisation de la clientèle\n* Participation à la bonne tenue du bar (mise en place, propreté, rangement)\n* Gestion de caisse\n\n**Les conditions**\n\n* 2 postes sont à pourvoir un uniquement de jour et le deuxième uniquement le soir\n* Minimum 20 h par semaine\n* Rémunération et type de contrat à définir ensemble selon votre profil\n* De vraies perspectives d’évolution : des missions de responsabilité et de direction pourront vous être confiées à terme\n\n**Votre profil**\n\n* 6 mois d’expérience minimum en HCR (hôtellerie-café-restauration)\n* Motivé(e), souriant(e) et avenant(e)\n* Vous aimez le contact client et travailler en équipe\n* Une expérience en barista est un plus\n\n**Pourquoi nous rejoindre ?**  \nVous intégrerez une équipe dès l’ouverture, au sein d’une structure à taille humaine où votre implication sera reconnue et pourra déboucher sur un poste à responsabilités.\n\n**Pour postuler :** envoyez votre CV et quelques mots sur vous à Berchtoldnco@outlook.fr.\n\nRémunération : 1 795,21€ à 2 200,00€ par mois\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=fed19eb9ba32012d",
+      "date": "2026-11-19",
+      "domaine": "RESTO",
+      "niveau": 2,
+      "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 1,
       "first_seen": "2026-11-19"
     },
@@ -1617,7 +1811,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 2,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1635,7 +1829,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 2,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -1670,7 +1864,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1688,7 +1882,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1706,7 +1900,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1724,7 +1918,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1742,7 +1936,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1760,7 +1954,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1778,7 +1972,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1933,7 +2127,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1951,7 +2145,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1969,7 +2163,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -1987,7 +2181,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -2073,7 +2267,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2091,7 +2285,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2109,7 +2303,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2127,7 +2321,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2145,7 +2339,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2163,7 +2357,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2181,7 +2375,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2199,7 +2393,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2252,7 +2446,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 7,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2270,7 +2464,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 7,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2288,7 +2482,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 7,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2306,7 +2500,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 7,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2376,7 +2570,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 8,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2394,7 +2588,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 8,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2482,7 +2676,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 9,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2500,7 +2694,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 10,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2518,7 +2712,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 10,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2536,7 +2730,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 10,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2554,7 +2748,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 10,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -2777,7 +2971,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 14,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2795,7 +2989,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 14,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2813,7 +3007,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 14,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2952,25 +3146,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
-      "id": "8576109",
-      "titre": "Technicien Bureau d'études TCE F/H",
-      "entreprise": "ACTUAL TALENT",
-      "ville": "69 - Saint-Laurent-d'Agny",
-      "contrat": "CDI",
-      "salaire": "Annuel de 35000.0 Euros à 35000.0 Euros - Véhicule de service lors de déplacem",
-      "description": "Au sein d'un service en pleine croissance et en cours de réorganisation, vous concevez les solutions techniques nécessaires à la réalisation de projets d'agencement sur-mesure.\nVos missions :\nConception & Études techniques\n\nRéaliser les relevés techniques et les métrés précis sur site.\nTracer les plans techniques sur AutoCAD en intégrant les contraintes architecturales.\nTraduire les intentions esthétiques en solutions techniques et réalisables.\nÉlaborer le dossier technique complet de tous les lots (TCE) conforme au cahier des charges.\n\nGestion budgétaire & Consultation\n\nConstituer l'enveloppe budgétaire et réaliser les devis détaillés TCE (phases APS/APD).\nConsulter l'ingénierie et les experts : structure, éclairage, frigoriste, etc.\nLister et négocier les lots captifs du chantier (contrôle, sécurité, diagnostics).\nPréparer les commandes fournisseurs et sous-traitants.\n\nCoordination & Amélioration continue\n\nPréparer les plannings prévisionnels et la méthodologie de travaux.\nAnimer les réunions de passation interne entre les pôles (Créa, Commercial, Mobilier).\nAccompagner techniquement le pilote de chantier durant la phase de pose.\nDéployer les améliorations nécessaires des outils pour optimiser la performance du service\n\nDéplacements ponctuels à prévoir sur les sites clients. \n  \n Ce poste est fait pour vous si vous êtes :\n\nDiplômé(e) en agencement (BTS ERA ou DRB) Ou autres formations en lien avec l'agencement, le TCE ou le mobilier.\nExpert(e) AutoCAD, Sketchup\nTechnicien(ne) aguerri(e), passionné(e) par la menuiserie et les matériaux.\nRigoureux(se), avec un sens du détail tourné vers la qualité totale.\nCollaboratif(ve) et agile dans vos échanges inter-services.\n\nPourquoi nous rejoindre ?\n\nDes projets techniquement stimulants dans un secteur (l'officine) en pleine mutation.\nUne entreprise en pleine structuration valorisant la bienveillance et l'esprit d'équipe.\n\n \nVous êtes prêt(e) à relever ce défi technique et à contribuer au succès de nos projets ? Rejoignez l'aventure CUBIK Agenceur et faites décoller votre talent ! \n ",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8576109",
-      "date": "2026-11-05",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 2,
-      "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -2988,7 +3164,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3006,7 +3182,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3024,7 +3200,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3042,7 +3218,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3060,7 +3236,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3078,7 +3254,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3095,6 +3271,24 @@
       "email_contact": "",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 15,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8576109",
+      "titre": "Technicien Bureau d'études TCE F/H",
+      "entreprise": "ACTUAL TALENT",
+      "ville": "69 - Saint-Laurent-d'Agny",
+      "contrat": "CDI",
+      "salaire": "Annuel de 35000.0 Euros à 35000.0 Euros - Véhicule de service lors de déplacem",
+      "description": "Au sein d'un service en pleine croissance et en cours de réorganisation, vous concevez les solutions techniques nécessaires à la réalisation de projets d'agencement sur-mesure.\nVos missions :\nConception & Études techniques\n\nRéaliser les relevés techniques et les métrés précis sur site.\nTracer les plans techniques sur AutoCAD en intégrant les contraintes architecturales.\nTraduire les intentions esthétiques en solutions techniques et réalisables.\nÉlaborer le dossier technique complet de tous les lots (TCE) conforme au cahier des charges.\n\nGestion budgétaire & Consultation\n\nConstituer l'enveloppe budgétaire et réaliser les devis détaillés TCE (phases APS/APD).\nConsulter l'ingénierie et les experts : structure, éclairage, frigoriste, etc.\nLister et négocier les lots captifs du chantier (contrôle, sécurité, diagnostics).\nPréparer les commandes fournisseurs et sous-traitants.\n\nCoordination & Amélioration continue\n\nPréparer les plannings prévisionnels et la méthodologie de travaux.\nAnimer les réunions de passation interne entre les pôles (Créa, Commercial, Mobilier).\nAccompagner techniquement le pilote de chantier durant la phase de pose.\nDéployer les améliorations nécessaires des outils pour optimiser la performance du service\n\nDéplacements ponctuels à prévoir sur les sites clients. \n  \n Ce poste est fait pour vous si vous êtes :\n\nDiplômé(e) en agencement (BTS ERA ou DRB) Ou autres formations en lien avec l'agencement, le TCE ou le mobilier.\nExpert(e) AutoCAD, Sketchup\nTechnicien(ne) aguerri(e), passionné(e) par la menuiserie et les matériaux.\nRigoureux(se), avec un sens du détail tourné vers la qualité totale.\nCollaboratif(ve) et agile dans vos échanges inter-services.\n\nPourquoi nous rejoindre ?\n\nDes projets techniquement stimulants dans un secteur (l'officine) en pleine mutation.\nUne entreprise en pleine structuration valorisant la bienveillance et l'esprit d'équipe.\n\n \nVous êtes prêt(e) à relever ce défi technique et à contribuer au succès de nos projets ? Rejoignez l'aventure CUBIK Agenceur et faites décoller votre talent ! \n ",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8576109",
+      "date": "2026-11-05",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 15,
       "first_seen": "2026-11-19"
     },
@@ -3132,7 +3326,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 16,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3150,7 +3344,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 16,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3168,7 +3362,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 16,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3222,7 +3416,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 17,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3240,7 +3434,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 17,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3258,7 +3452,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 17,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3276,7 +3470,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 17,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3330,7 +3524,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 18,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -3433,7 +3627,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 20,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3451,7 +3645,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 20,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -3571,7 +3765,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 21,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3589,7 +3783,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 21,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3694,7 +3888,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 22,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3712,7 +3906,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 22,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3783,7 +3977,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3801,7 +3995,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3819,7 +4013,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3837,7 +4031,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3855,7 +4049,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -3873,7 +4067,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -4014,7 +4208,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 24,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -4312,7 +4506,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 27,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -4330,7 +4524,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 27,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -4451,7 +4645,7 @@
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
       "jours_anciennete": 28,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -4469,7 +4663,7 @@
       "niveau": 2,
       "raison": "BIM/Revit dans titre",
       "jours_anciennete": 28,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -4698,7 +4892,7 @@
       "niveau": 2,
       "raison": "Serveur/se / chef de rang",
       "jours_anciennete": 29,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -4716,7 +4910,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 29,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -4842,7 +5036,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 30,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5038,7 +5232,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 35,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5056,7 +5250,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 35,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5074,7 +5268,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 35,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5092,7 +5286,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 35,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5110,7 +5304,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 35,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5128,7 +5322,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 35,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5254,7 +5448,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 36,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5452,7 +5646,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 39,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5506,7 +5700,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 41,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5560,7 +5754,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 42,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5686,7 +5880,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 44,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -5758,7 +5952,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 45,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6086,21 +6280,21 @@
     },
     {
       "source": "France Travail",
-      "id": "7401329",
-      "titre": "Employé Polyvalent (F/H) McDonald's",
-      "entreprise": "",
-      "ville": "69 - Lyon",
-      "contrat": "CDI",
+      "id": "7348168",
+      "titre": "Maître d'hôtel évènementiel (H/F)",
+      "entreprise": "RAS Intérim",
+      "ville": "69 - Lyon 5e Arrondissement",
+      "contrat": "Intérim - 1 Mois",
       "salaire": "",
-      "description": "L'employé(e) polyvalent(e) est capable de s'adapter à toutes les situations. Il/elle participe activement à la vie du restaurant et a pour mission principale de satisfaire les clients. Ses responsabilités peuvent être variables en fonction des moments de la journée. Il/elle peut toujours compter sur ses coéquipiers pour apprendre et mener à bien ses missions.\nMon rôle dans l'équipe\n- Polyvalent(e) et réactif(ve), je suis au cœur de l'action\n- Entre le comptoir, la salle et la cuisine, je prépare les commandes avec attention et distribue les sourires !\n- Je suis toujours là pour soutenir mes coéquipier(ère)s, qui m'aident également à prendre confiance, dans la meilleure des ambiances.\n- Je contribue à la qualité, l'hygiène alimentaire et la propreté dans le restaurant.\nCe que l'équipe m'apporte\n- Des valeurs et de l'engagement\n- De nombreuses opportunités d'évolution\n- La possibilité d'adapter mon contrat en fonction des changements dans ma vie personnelle (temps partiel, emploi étudiant, premier emploi)\n- Un environnement motivant avec un climat positif et une super ambiance !\nCe que j'apporte à l'équipe\n- J'ai un excellent relationnel\n- Je m'adapte à toutes les situations\n- J'ai du dynamisme et de la bonne humeur à revendre !\n\n\nMétier : Employé Polyvalent (F/H) McDonald's\nAdresse : McDonald's,160 Cours Albert Thomas 69008 Lyon Fran\nVille : LYON\nCP : 69008",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7401329",
-      "date": "2026-09-26",
+      "description": "Description du poste :\n\nSous la responsabilité du responsable de site ou de l'organisateur de l'événement, vous aurez pour mission de Encadrer, animer et coordonner les équipes de salle (serveurs, chefs de rang, hôtes et hôtesses Organiser et répartir les postes de travail avant chaque prestation.***Effectuer les briefings et débriefings auprès des équipes.***Veiller à la bonne mise en place des espaces de réception, buffets, cocktails et salles de restauration.***Contrôler la conformité des installations avant l'arrivée des clients.***Accueillir les clients et assurer leur satisfaction tout au long de l'événement.***Superviser le déroulement du service et garantir le respect des standards de qualité.***Assurer la liaison entre les équipes de cuisine, de salle et les organisateurs.***Gérer les imprévus et apporter des solutions rapides et adaptées.***Veiller au respect des règles d'hygiène, de sécurité et des procédures internes.***Participer activement au service lorsque l'activité le nécessite.***Garantir une excellente expérience client et représenter l'image de l'établissement avec professionnalisme.\n\nDescription du profil Vous justifiez d'une expérience significative de 3 ans minimum en qualité de Maître d'Hôtel, Responsable de Salle ou sur un poste similaire.***Vous avez idéalement une expérience dans l'événementiel, le traiteur ou l'hôtellerie-restauration haut de gamme.***Vous maîtrisez les techniques de service à l'assiette, au plateau, en cocktail et en banquet.***Vous possédez de réelles qualités de management et savez fédérer une équipe.***Vous êtes capable de gérer plusieurs prestations simultanément dans un environnement dynamique.***La maîtrise de l'anglais est un plus.\n\nQualités et compétences requises\n\nSavoir-faire***Organisation et gestion des priorités.***Coordination et management d'équipes.***Excellente connaissance des techniques de service.***Gestion des imprévus et sens de l'anticipation.***Respect des normes HACCP et des règles de sécurité.\n\nSavoir-être***Leadership et exemplarité.***Excellent relationnel et sens du service.***Réactivité et capacité d'adaptation.***Rigueur et professionnalisme.***Présentation soignée.***Esprit d'équipe et sens des responsabilités.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7348168",
+      "date": "2026-09-25",
       "domaine": "RESTO",
       "email_contact": "",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 55,
-      "first_seen": "2026-11-19"
+      "jours_anciennete": 56,
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6112,24 +6306,6 @@
       "salaire": "",
       "description": "Notre boucherie, charcuterie, traiteur, située au cœur du village de Sainte-Foy-lès-Lyon, recherche un(e) employé(e) polyvalent(e) pour rejoindre une équipe à taille humaine, conviviale et passionnée par son métier.\n\nVos missions :\n- Réception des marchandises\n- Préparation des légumes\n- Plonge et entretien du matériel\n- Nettoyage des locaux dans le respect strict des normes d'hygiène\n- Aide au rangement des vitrines réfrigérées en fin de journée\n- Encaissement (selon profil)\n\nProfil recherché :\n- Personne motivée, curieuse et désireuse d'apprendre\n- Dynamique, autonome et impliquée\n- Une première expérience en caisse est appréciée, mais non indispensable (formation assurée)\n\nUne évolution vers un poste en cuisine est possible pour les candidats souhaitant progresser. Nous assurons votre formation et vous accompagnons dans votre montée en compétences.\n\nConditions de travail :\n- Poste à pourvoir dès que possible\n- Contrat de 28 heures par semaine\n- Horaires : Mardi au vendredi : 16h00 - 20h00 et mardi, jeudi et vendredi : 8h30 - 12h30\n\nPossibilité d'évolution vers un temps plein à terme.",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/214KLQD",
-      "date": "2026-09-25",
-      "domaine": "RESTO",
-      "email_contact": "",
-      "niveau": 2,
-      "raison": "Restauration / evenementiel / accueil",
-      "jours_anciennete": 56,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
-      "id": "7348168",
-      "titre": "Maître d'hôtel évènementiel (H/F)",
-      "entreprise": "RAS Intérim",
-      "ville": "69 - Lyon 5e Arrondissement",
-      "contrat": "Intérim - 1 Mois",
-      "salaire": "",
-      "description": "Description du poste :\n\nSous la responsabilité du responsable de site ou de l'organisateur de l'événement, vous aurez pour mission de Encadrer, animer et coordonner les équipes de salle (serveurs, chefs de rang, hôtes et hôtesses Organiser et répartir les postes de travail avant chaque prestation.***Effectuer les briefings et débriefings auprès des équipes.***Veiller à la bonne mise en place des espaces de réception, buffets, cocktails et salles de restauration.***Contrôler la conformité des installations avant l'arrivée des clients.***Accueillir les clients et assurer leur satisfaction tout au long de l'événement.***Superviser le déroulement du service et garantir le respect des standards de qualité.***Assurer la liaison entre les équipes de cuisine, de salle et les organisateurs.***Gérer les imprévus et apporter des solutions rapides et adaptées.***Veiller au respect des règles d'hygiène, de sécurité et des procédures internes.***Participer activement au service lorsque l'activité le nécessite.***Garantir une excellente expérience client et représenter l'image de l'établissement avec professionnalisme.\n\nDescription du profil Vous justifiez d'une expérience significative de 3 ans minimum en qualité de Maître d'Hôtel, Responsable de Salle ou sur un poste similaire.***Vous avez idéalement une expérience dans l'événementiel, le traiteur ou l'hôtellerie-restauration haut de gamme.***Vous maîtrisez les techniques de service à l'assiette, au plateau, en cocktail et en banquet.***Vous possédez de réelles qualités de management et savez fédérer une équipe.***Vous êtes capable de gérer plusieurs prestations simultanément dans un environnement dynamique.***La maîtrise de l'anglais est un plus.\n\nQualités et compétences requises\n\nSavoir-faire***Organisation et gestion des priorités.***Coordination et management d'équipes.***Excellente connaissance des techniques de service.***Gestion des imprévus et sens de l'anticipation.***Respect des normes HACCP et des règles de sécurité.\n\nSavoir-être***Leadership et exemplarité.***Excellent relationnel et sens du service.***Réactivité et capacité d'adaptation.***Rigueur et professionnalisme.***Présentation soignée.***Esprit d'équipe et sens des responsabilités.",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7348168",
       "date": "2026-09-25",
       "domaine": "RESTO",
       "email_contact": "",
@@ -6316,7 +6492,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 66,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6338,24 +6514,6 @@
     },
     {
       "source": "France Travail",
-      "id": "213SPSJ",
-      "titre": "Agent technicien / Agente technicienne en froid et climatisation (H/F)",
-      "entreprise": "PROLUMEO",
-      "ville": "69 - GLEIZE",
-      "contrat": "CDI",
-      "salaire": "Horaire de 12.5 Euros à 16.0 Euros - selon expérience",
-      "description": "Dans le cadre de notre développement, nous recherchons un Plombier Chauffagiste frigoriste bâtiment (H/F) polyvalent.\n\nVous assurerez des travaux de ventilation, climatisation en neuf et rénovation pour une clientèle de particuliers, industrielle ou tertiaire. Vous intervenez également sur des travaux de plomberie chauffage.\n\nSecteur d'intervention dans un rayon de 150 km autour de Gleizé (69). Grand déplacement ponctuel possible.\n\nCDI de 35h sur 4 jours. Poste à pourvoir immédiatement.\n\nProfil recherché :- Expérience exigée en climatisation/ ventilation. Une expérience complémentaire en plomberie chauffage serait un plus !\nTravail en totale autonomie,\nVous êtes organisé, autonome, rigoureux, ponctuel. \nVous avez un excellent relationnel, la satisfaction du client et l'exigence d'un travail de qualité.\n\nRejoignez-nous !",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/213SPSJ",
-      "date": "2026-09-11",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 2,
-      "raison": "Metier proche (bureau etudes / CVC / DAO)",
-      "jours_anciennete": 70,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
       "id": "6830659",
       "titre": "HappyCulture - Adjoint / Adjointe de direction en hôtellerie-restauration (H/F)",
       "entreprise": "HappyCulture",
@@ -6369,6 +6527,24 @@
       "email_contact": "",
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
+      "jours_anciennete": 70,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "213SPSJ",
+      "titre": "Agent technicien / Agente technicienne en froid et climatisation (H/F)",
+      "entreprise": "PROLUMEO",
+      "ville": "69 - GLEIZE",
+      "contrat": "CDI",
+      "salaire": "Horaire de 12.5 Euros à 16.0 Euros - selon expérience",
+      "description": "Dans le cadre de notre développement, nous recherchons un Plombier Chauffagiste frigoriste bâtiment (H/F) polyvalent.\n\nVous assurerez des travaux de ventilation, climatisation en neuf et rénovation pour une clientèle de particuliers, industrielle ou tertiaire. Vous intervenez également sur des travaux de plomberie chauffage.\n\nSecteur d'intervention dans un rayon de 150 km autour de Gleizé (69). Grand déplacement ponctuel possible.\n\nCDI de 35h sur 4 jours. Poste à pourvoir immédiatement.\n\nProfil recherché :- Expérience exigée en climatisation/ ventilation. Une expérience complémentaire en plomberie chauffage serait un plus !\nTravail en totale autonomie,\nVous êtes organisé, autonome, rigoureux, ponctuel. \nVous avez un excellent relationnel, la satisfaction du client et l'exigence d'un travail de qualité.\n\nRejoignez-nous !",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/213SPSJ",
+      "date": "2026-09-11",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 2,
+      "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 70,
       "first_seen": "2026-11-19"
     },
@@ -6388,7 +6564,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 71,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6424,7 +6600,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 77,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6442,7 +6618,7 @@
       "niveau": 2,
       "raison": "Metier proche (bureau etudes / CVC / DAO)",
       "jours_anciennete": 77,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6478,7 +6654,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 79,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6586,7 +6762,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 98,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6640,7 +6816,7 @@
       "niveau": 2,
       "raison": "Restauration / evenementiel / accueil",
       "jours_anciennete": 175,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -6695,19 +6871,126 @@
     },
     {
       "source": "Indeed",
-      "id": "9b590b0bc9bd",
+      "id": "7db78ccdec6b",
       "titre": "Hôte/Hôtesse en évènementiel H/F",
       "entreprise": "TAC-TIC MEDIA",
       "ville": "Lyon, ARA, France",
       "contrat": "contract",
       "salaire": "12.31",
-      "description": "Rejoignez la grande famille des hôte(sse)s de tac-tic media. Un métier où le sourire, l’accueil, la ponctualité, la fiabilité et la présentation sont rois !\n\nNous recrutons **1 chef.fe d'équipe et 1 hôte.sse** pour une mission de distribution de flyers ainsi qu'une circulation vélo publicitaire à **Lyon.**\n\n**Dates & horaires :**\n\n* **Dates : du 25 au 28 novembre 2026**\n* Pour le chef d'équipe : formation de montage vélo en amont\n* **IMPORTANT :** le chef d'équipe doit détenir le permis\n* Être à l'aise en vélo\n\n**Qualités requises** : dynamisme, autonomie, ponctualité, sérieux, fiabilité.\n\n**Rémunération**:\n\n* Auto entrepreneur : 15€/ heure + panier repas\n* Autre (CDD) : 12.31 € brut/ heure + 10% de congés payés + panier repas\n* Prime si respect des consignes pour le.a chef.fe d'équipe\n\nType d'emploi : Indépendant / freelance, CDD\n\nRémunération : 12,31€ à 15,00€ par heure\n\nLieu du poste : En présentiel",
-      "url": "https://fr.indeed.com/viewjob?jk=2103c4cff5f56814",
+      "description": "Rejoignez la grande famille des hôte(sse)s de tac-tic media. Un métier où le sourire, l’accueil, la ponctualité, la fiabilité et la présentation sont rois !\n\nNous recrutons **1 chef.fe d'équipe** pour une mission de distribution de flyers ainsi qu'une circulation vélo publicitaire à **Lyon.**\n\n**Dates & horaires :**\n\n* **Dates : du 25 au 28 novembre 2026**\n* **Horaire : 11h00-18h00**\n* **Contrat de 24h**\n* Pour le chef d'équipe : formation de montage vélo en amont\n* **IMPORTANT :** le chef d'équipe doit détenir le permis\n* Être à l'aise en vélo\n\n**Qualités requises** : dynamisme, autonomie, ponctualité, sérieux, fiabilité.\n\n**Rémunération**:\n\n* Auto entrepreneur : 15€/ heure + panier repas\n* Autre (CDD) : 12.31 € brut/ heure + 10% de congés payés + panier repas\n* Prime si respect des consignes pour le.a chef.fe d'équipe\n\nType d'emploi : Indépendant / freelance, CDD\n\nRémunération : 12,31€ à 15,00€ par heure\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=3b7b3212b389c08f",
       "date": "2026-11-20",
       "domaine": "RESTO",
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "Indeed",
+      "id": "c3613783902c",
+      "titre": "Régisseur évènementiel H/F",
+      "entreprise": "TAC-TIC MEDIA",
+      "ville": "Lyon, ARA, France",
+      "contrat": "contract",
+      "salaire": "15.0",
+      "description": "Rejoignez la grande famille des hôte(sse)s de tac-tic media. Un métier où le sourire, l’accueil, la ponctualité, la fiabilité et la présentation sont rois !\n\nTu es débrouillard(e), à l'aise sur un vélo et tu aimes les missions qui bougent ? Rejoins l'équipe pour piloter une opération de street marketing d'envergure au cœur de Lyon !\n\nEn tant que **Chef d'équipe / Régisseur**, tu seras le véritable pilier logistique et terrain de cette activation, en binôme avec un(e) hôte(sse) déjà recruté(e).\n\n**Tes missions au quotidien :**\n\n* **Préparation (la veille) :** Suivi d'une courte formation en visio avec notre chargé de logistique pour maîtriser le montage des vélos publicitaires.\n* **Logistique & Transport :** Prise en main d'un véhicule utilitaire (loué par nos soins) pour acheminer les vélos sur la zone d'activation chaque matin et les sécuriser chaque soir.\n* **Animation Terrain :** Participation active à l'opération aux côtés de ton binôme (circulation à vélo publicitaire dans les rues de Lyon et distribution de flyers en main à main).\n* **Clôture :** Démontage et re-palettisation des vélos à la fin de la mission.\n\n**Infos pratiques :**\n\n* **Lieu :** Lyon\n* **Dates :** Du mercredi 25 au samedi 28 novembre 2026\n* **Horaires :** 11h00 – 18h00\n\n**Le profil idéal :**\n\n* **Permis B obligatoire** (conduite d'un utilitaire).\n* **À l'aise à vélo** en milieu urbain.\n* **Savoir-être :** Autonome, ponctuel(le), dynamique et avec un vrai sens des responsabilités pour gérer le matériel confié.\n\n**Rémunération**:\n\n* Auto entrepreneur : 20€/ heure + panier repas\n* Autre (CDD) : 15€ brut/ heure + 10% de congés payés + panier repas\n* Prime si respect des consignes pour le.a chef.fe d'équipe\n\nType d'emploi : Indépendant / freelance, CDD\n\nRémunération : 15,00€ à 20,00€ par heure\n\nLieu du poste : En présentiel",
+      "url": "https://fr.indeed.com/viewjob?jk=ea410db74bbff914",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8996892",
+      "titre": "Chargé d'Affaires Matériaux de Construction (H/F)",
+      "entreprise": "Work&You",
+      "ville": "69 - Lyon 5e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "Annuel de 50000.0 Euros à 60000.0 Euros - CDI - contrat cadre\nRémunération : 4",
+      "description": "Description du poste çamatchentrenous\n\nUn poste alliant développement commercial et gestion d'affaires\n\nDes solutions techniques spécialisées en étanchéité et revêtements de sols en résine\n\nUne entreprise à taille humaine offrant autonomie et responsabilités\n\nNotre client, spécialisé dans les travaux d'étanchéité liquide et les revêtements de sols en résine , intervient auprès d'une clientèle industrielle et tertiaire.\n\nDans le cadre de son développement en région lyonnaise, il recherche un Chargé d'Affaires Étanchéité & Résines H/F pour développer son portefeuille clients et assurer la gestion commerciale, technique et financière de ses projets.\n\n\nVotre potentiel permettra de :\n\nDévelopper votre portefeuille clients par la prospection, la fidélisation et l'animation de votre réseau professionnel.\n\nIdentifier de nouvelles opportunités , rencontrer les clients, analyser leurs besoins et proposer des solutions techniques adaptées.\n\nRéaliser les études de prix et le chiffrage , répondre aux consultations et construire vos offres commerciales.\n\nNégocier et concrétiser vos affaires , en assurant le développement du chiffre d'affaires.\n\nAssurer le suivi commercial et financier de vos affaires , en restant l'interlocuteur privilégié du client jusqu'à la réception des travaux.\n\nDescription du profil :\n\nEt si on parlait de vous\n\nVous avez une expérience de Chargé d'Affaires ou Technico-Commercial , idéalement dans l'étanchéité, les résines ou les travaux spéciaux.\n\nDoté d'une forte fibre commerciale , vous maîtrisez la prospection, la négociation et le chiffrage, tout en comprenant les enjeux techniques de vos projets.\n\nAutonome et orienté résultats , vous souhaitez contribuer activement au développement de l'entreprise.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8996892",
+      "date": "2026-11-20",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "9029563",
+      "titre": "Business Developer Entreprises BTP F/H",
+      "entreprise": "Dynaren",
+      "ville": "69 - Lyon 3e Arrondissement",
+      "contrat": "CDD - 12 Mois",
+      "salaire": "Annuel de 22000.0 Euros à 30000.0 Euros - -",
+      "description": "PRESENTATION DU METIER\nAu sein du service Développement Entreprises, vous assurez la prospection et le référencement de nouveaux partenaires afin de consolider notre maillage national de partenaires. Vous travaillez en étroite collaboration avec les Responsables de Secteurs sur le terrain.\n\nACTIVITES\n- Assurer la prospection commerciale (téléphonique et mailing) en vue de référencement des partenaires du bâtiment.\n- Enrichir et qualifier la base de données d'entreprises pour nos différentes activités : Réparation de sinistre - Assistance/Diagnostic - Recherche de fuite.\n- Traiter les sollicitations directes des entreprises pour intégrer le réseau de partenaires.\n- Assurer le respect des process et le suivi contractuel des partenaires : contrôle des dossiers de référencement, rédaction et suivi de la signature des contrats, suivi de la conformité des documents administratifs.\n- Être en appui des services en charge de l'affectation des dossiers afin de trouver des entreprises pour intervenir chez les assurés en cas d'absence de solution dans le réseau\n- Gérer les appels entrants et sortants\n- Assurer un reporting hebdomadaire de l'activité et de l'avancement des missions\n  \n COMPETENCES\n- Maîtrise des techniques de vente\n- Négociation commerciale dans le bâtiment\n- Gestion d'un portefeuille d'entreprises partenaires\n- Suivi et reporting de l'activité\n- Atteinte des objectifs\n\nPROFILS TECHNIQUES\nType de formation : Formation de type Bac + 2  (MUC ou NRC)\nExpérience minimum souhaitée : expérience significative dans le domaine commercial et expérience impérative du secteur du bâtiment\n\nCONDITIONS :\nCDD 12 Mois - temps plein - 35h00 - ETAM\nLieu du travail : Lyon Part-Dieu\nSalaire mensuel brut : 2000\nPrimes trimestrielles selon critères de performance : 450*4 + 250*4.\nAvantages : Tickets Restaurant (10euros) + Primes de participation et intéressement + Prime vacances + Télétravail (2J/semaine)\nPrise en charge mutuelle/prévoyance + abonnement transport en commun à hauteur de 50%",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/9029563",
+      "date": "2026-11-20",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "216RKBX",
+      "titre": "ASSISTANT DE PRODUCTION CULINAIRE EN EHPAD (H/F)",
+      "entreprise": "CCAS",
+      "ville": "69 - LYON",
+      "contrat": "CDD - 3 Mois",
+      "salaire": "Mensuel de 2329.04 Euros",
+      "description": "Le Centre Communal d'Action Sociale met en oeuvre la politique sociale municipale et gère 4 EHPAD.\nVous interviendrez au sein de l'EHPAD Marius BERTRAND de 90 résidents au sein d'une équipe composée d'un chef de cuisine, d'un second et de 3 assistants de production.\n120 repas sont produits chaque jour selon un cahier des charges établi par la direction de l'EHPAD.\n\nVos missions seront les suivantes :\n- Remettre les plats en température\n- Assurer le rangement des livraisons en respectant les règles de stockage\n- Participer à la traçabilité de l'activité : plats témoins, prises de température ...\n- Faire la plonge et nettoyer la cuisine.\n\nProfil recherché\nVous avez une première expérience en restauration collective.\nVous maitrisez les normes d'hygiène.\nVous savez travailler en équipe.\nInformations complémentaires\n\nLe contrat est proposé pour une durée de 3 mois.\nVotre rémunération : 2329,04 euros bruts mensuels selon expérience\nHoraires: 37h30 par semaine, travail 1 WE sur 2, 6h30 à 14h30 ou 13h30 à 21h\nLieu : EHPAD Marius BERTRAND -14 rue Hermann Sabran 69004 Lyon\n\nVos avantages :\n- Participation transports en commun ou Velo'v à hauteur de 75%\n- Carte tickets restaurant : possibilité jusqu'à 153€ par mois dont 60% pris en charge par la ville\n- Forfait « mobilités durables » : jusqu'à 300€ par an en cas de déplacement en covoiturage ou vélo personnel",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/216RKBX",
+      "date": "2026-11-20",
+      "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 0,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8986763",
+      "titre": "Chargé d'Affaires Adjoint Maintenance Multitechnique F/H - ENERGIS RH Lyon",
+      "entreprise": "ENERGIS RH Lyon",
+      "ville": "69 - Craponne",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Chargé d'Affaires Adjoint Maintenance Multitechnique H/F\n \n Localisation : Craponne (69)\n Horaires : 39 heures par semaine\n Déplacements : Nationaux ponctuels\n \n \n \n Vous avez des compétences techniques et souhaitez donner une nouvelle dimension à votre carrière ?\n \nENERGIS RH recrute un Chargé d'Affaires Adjoint H/F pour une entreprise spécialisée dans la maintenance et les services techniques aux bâtiments professionnels.\n \nVous avez une expérience terrain, en bureau d'études ou en coordination technique et souhaitez évoluer vers davantage de responsabilités ?\n \nCette opportunité pourrait vous correspondre !\n \n \n \nEn collaboration avec des Chargés d'Affaires expérimentés, vous découvrez progressivement la gestion de dossiers techniques et commerciaux.\n \n \n \n Vos missions au quotidien\n \n Étudier les besoins des clients et identifier les solutions techniques adaptées à leurs installations.\n \n Contribuer à l'élaboration des propositions commerciales, des devis et des estimations budgétaires.\n \n Échanger avec les fournisseurs et sous-traitants pour préparer et organiser les travaux.\n \n Vous rendre ponctuellement sur les sites clients pour réaliser des relevés techniques ou participer aux réunions.\n \n Accompagner les Chargés d'Affaires dans la planification et le suivi des prestations.\n \n Participer au contrôle des coûts, à la gestion administrative des dossiers et au suivi des contrats.\n \n Veiller au respect des exigences de qualité, de sécurité et des engagements pris auprès des clients.\n \n \n \n Les conditions du poste\n \n Poste basé à Craponne (69).\n \n 39 heures hebdomadaires.\n \n Véhicule de service et déplacements nationaux ponctuels.\n \n Tickets restaurant, primes et mutuelle familiale.\n \n Formation, accompagnement et montée en compétences progressive.\n \n Horaires décalés un jour tous les 15 jours et astreinte une semaine tous les 4 mois.Le profil recherché\n \n Vous disposez idéalement d'une formation technique Bac+2 en maintenance, bâtiment ou génie électrique, ou d'une expérience équivalente dans le domaine de la maintenance multitechnique.\n \n Vous avez une première expérience en maintenance, travaux, bureau d'études ou coordination technique.\n \n Des connaissances en équipements de protection incendie (extincteurs, RIA, systèmes d'extinction) sont également appréciées.\n \n Vous savez analyser un besoin technique, participer à un chiffrage et organiser le suivi de plusieurs dossiers.\n \n Vous êtes rigoureux(se), curieux(se), organisé(e) et appréciez les échanges avec différents interlocuteurs.\n \n Votre motivation pour apprendre et évoluer vers la gestion d'affaires fera la différence !\n \n \n \n Vous souhaitez passer d'un poste technique à des missions de coordination et de gestion d'affaires ?\n \nRejoignez une entreprise qui vous accompagne dans votre évolution professionnelle !\n \nEnvoyez votre candidature à ENERGIS RH !",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8986763",
+      "date": "2026-11-19",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 1,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8986706",
+      "titre": "Chargé d'Affaires Maintenance Multitechnique F/H - ENERGIS RH Lyon",
+      "entreprise": "ENERGIS RH Lyon",
+      "ville": "69 - Craponne",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "ENERGIS RH, agence indépendante et de proximité, vous accompagne, depuis 2014, dans vos recherches en intérim, CDD ou CDI.\n \nNous recrutons un Chargé d'Affaires Maintenance Multitechnique H/F pour notre client, entreprise spécialisée dans la maintenance et les services techniques aux bâtiments professionnels.\n \n \n \nAu sein d'une structure en développement, vous prenez en charge un portefeuille de contrats multisites et assurez leur pilotage technique, opérationnel et financier.\n \n \n \nVos missions :\n \n-  \n-  \n- \nPiloter les contrats de maintenance préventive et les travaux curatifs de vos clients.\n \n- \nCoordonner les interventions des techniciens, sous-traitants et partenaires.\n \n- \nRéaliser les études techniques, chiffrages et devis.\n \n- \nPréparer et superviser les travaux complémentaires.\n \n- \nVeiller au respect des engagements contractuels, des délais et des règles de sécurité.\n \n- \nEntretenir la relation client et identifier de nouvelles opportunités commerciales.\n \n- \nSuivre les budgets, analyser la rentabilité et optimiser les résultats de votre activité.\n \n \n \n \nVous collaborez avec les équipes techniques, la planification, les chargés de clientèle et les services support.\n \n \n \nConditions proposées :\n \n-  \n-  \n- \nPoste basé à Saint-Genis-les-Ollières (69).\n \n- \nStatut cadre, 40 000 à 50 000 € brut annuel.\n \n- \nDéplacements nationaux ponctuels.\n \n- \nHoraires décalés un jour tous les 15 jours et astreinte une semaine tous les 4 mois.\n \n- \nVéhicule de fonction, tickets restaurant, primes et mutuelle familiale.\n \n- \nIntégration structurée et formation aux outils internes.Issu(e) d'une formation en génie électrique, maintenance ou bâtiment, ou disposant d'une expérience équivalente, vous avez déjà exercé dans la maintenance multitechnique, la gestion d'affaires ou le pilotage de contrats.\n \nVous maîtrisez les enjeux techniques des bâtiments, le chiffrage, le suivi budgétaire et l'analyse de rentabilité.\n \nAutonome et organisé(e), vous savez coordonner plusieurs intervenants, prendre des décisions et développer une relation client durable.\n \nUne expérience des environnements multisites, tertiaires ou retail constitue un atout.\n \n \n \nVous souhaitez piloter une activité technique avec de véritables responsabilités ? Transmettez-nous votre candidature !",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8986706",
+      "date": "2026-11-19",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 1,
       "first_seen": "2026-11-20"
     },
     {
@@ -6726,7 +7009,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 1,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6744,7 +7027,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 1,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6780,7 +7063,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 2,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6798,7 +7081,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 2,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6816,7 +7099,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 2,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6834,7 +7117,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6852,7 +7135,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 3,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6922,7 +7205,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6940,7 +7223,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6958,7 +7241,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 4,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -6994,7 +7277,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7012,7 +7295,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7030,7 +7313,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 6,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7048,7 +7331,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 7,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7057,7 +7340,7 @@
       "entreprise": "METIGA",
       "ville": "69 - Lyon 5e Arrondissement",
       "contrat": "CDI",
-      "salaire": "Annuel de 40000.0 Euros à 70000.0 Euros",
+      "salaire": "Annuel de 40000.0 Euros",
       "description": "Description du poste :\n\nChoisir MÉTIGA, c'est rejoindre une équipe passionnée par le défi de la transition écologique, qui agit pour sa carrière et pour le monde de demain.\n\nMÉTIGA est une société à mission, spécialisée dans la transition énergétique, environnementale et sociale.\n\nNous travaillons auprès de bureaux d'études, maîtres d'ouvrages, industriels et acteurs publics pour leur apporter les compétences nécessaires au bon accomplissement de leurs projets.\n\nUne expérience enrichissante :\n\nChez MÉTIGA, nous nous fixons pour ambition de faire vivre à chaque collaborateur une expérience qui le fera grandir. Ensemble, nous élaborons un plan de développement professionnel aligné avec vos ambitions et vous donnons les moyens de le mettre en oeuvre.\n\nAgir concrètement, agir quotidiennement :\n\nDiversité des missions, formations, montée en compétences techniques, développement des compétences humaines, challenges, rencontres : nous mettons à votre disposition un terrain de jeu professionnel enrichissant pour atteindre vos objectifs de carrière et garantir votre épanouissement au travail.\n\n\nLe poste :\nEn tant que Chargé d'affaires CFO/CFA (H/F), vous aurez la charge de la conception, de la réalisation et du suivi des plans et schémas électriques pour des bâtiments tertiaires et industriels.\n\nVous collaborerez étroitement avec les chargés de projet pour garantir la bonne réalisation des études et des documents techniques.\n\nVos missions Dimensionner les solutions techniques en électricité (CFO/CFA) en phase APS / APD / PRO pour différents projets tertiaires et industriels\n- Elaborer et/ou vérifier les documents techniques : notes de calcul, CCTP, schémas de principe, notices de fonctionnement, bilans de puissance.\n- Assister le Maître d'Ouvrage dans la consultation et le choix des entreprises de travaux et assurer le suivi de la bonne exécution.\n- Piloter techniquement le projet en lien avec les parties prenantes internes et externes.\n- Etre garant de la gestion financière et contractuelle des affaires.\n- Etre l'interlocuteur principal du client tout au long des projets.\n\nDescription du profil Diplôme d'ingénieur en électricité, électrotechnique ou équivalent (Bac+5 3 ans d'expérience minimum dans une fonction similaire.\n- Maîtrise des logiciels AutoCAD et Caneco (indispensable Connaissances de See Electrical et Revit appréciées.\n- Rigueur, sens de l'organisation et autonomie.\n\nEnvie de contribuer à la transition énergétique partout en France ? Nous recrutons également dans d'autres régions ! Contactez-nous pour trouver l'opportunité qui vous correspond près de chez vous.",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/8775860",
       "date": "2026-11-13",
@@ -7066,7 +7349,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 7,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7084,7 +7367,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 7,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -7119,7 +7402,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 8,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7137,7 +7420,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 8,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -7155,6 +7438,42 @@
       "raison": "Profil transferable",
       "jours_anciennete": 8,
       "first_seen": "2026-11-12"
+    },
+    {
+      "source": "France Travail",
+      "id": "8728203",
+      "titre": "Commercial Terrain B2B (H/F)",
+      "entreprise": "Rupella Consulting",
+      "ville": "69 - Lyon 1er Arrondissement",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Vous êtes commercial salarié, en portage salarial sous statut CDI, ou indépendant si vous le souhaitez, et souhaitez développer votre chiffre d'affaires sans consacrer l'essentiel de votre temps à la prospection ?\nRUPELLA vous donne les moyens de réussir.\nCOMMERCIAUX B2B :\nDÉVELOPPEZ VOTRE CHIFFRE D'AFFAIRES AVEC RUPELLA CONSULTING !\nEt si vous pouviez vous concentrer sur la vente plutôt que sur la prospection ?\nRUPELLA CONSULTING, renforce son réseau commercial national et recherche des commerciaux B2B expérimentés, indépendants ou en portage salarial.\n Notre mission : accompagner les dirigeants de TPE et PME dans l'identification de solutions concrètes pour réduire leurs charges, améliorer leur rentabilité et renforcer le pouvoir d'achat de leurs salariés.\nNous mettons à votre disposition une organisation commerciale structurée pour vous aider à développer votre activité :\n Des rendez-vous qualifiés avec des dirigeants d'entreprise, fournis par RUPELLA.\n Un CRM pour piloter vos prospects, vos rendez-vous et vos ventes.\n Des fichiers de prospection et des campagnes multicanales, notamment sur LinkedIn et par emailing.\n Des supports commerciaux, des simulateurs d'économies et une formation à nos solutions.\n Un accompagnement commercial pour vous aider à concrétiser vos opportunités.\nVotre priorité : conseiller les dirigeants, développer votre portefeuille clients et conclure des ventes.\n Une rémunération attractive, sans plafond de commissions\nVotre rémunération est directement liée à vos résultats, sans rémunération fixe.\n 25 % de commission sur les ventes issues des rendez-vous qualifiés fournis par RUPELLA.\n 35 % de commission sur les ventes issues de vos propres rendez-vous.\n Exemple de potentiel de commissions mensuelles :\nSur la base d'un montant moyen de vente de 5 000 € :\n- 5 ventes issues de rendez-vous RUPELLA : 25 000 € de CA, soit 6 250 € de commissions.\n- 3 ventes issues de vos propres rendez-vous : 15 000 € de CA, soit 5 250 € de commissions.\nSoit 11 500 € de commissions potentielles sur le mois, selon les hypothèses retenues.\nSimulation illustrative, non contractuelle et non garantie. Les revenus réels dépendent notamment du volume de rendez-vous, du taux de transformation et des ventes effectivement réalisées.\n Et pour construire dans la durée ?\nDéveloppez votre portefeuille clients et bénéficiez également de commissions sur les renouvellements, selon les modalités de notre collaboration.\nProfil recherché:\n Quel profil recherchons-nous ?\nVous êtes :\n - - Commercial salarié ou indépendant B2B expérimenté ;\n   - Commercial habitué à travailler avec des dirigeants de TPE et PME ;\n   - Consultant d'entreprise doté d'un véritable tempérament commercial ;\n   - Professionnel des services aux entreprises ou des groupements d'achats ;\n   - Commercial disposant déjà d'un réseau de décideurs et souhaitant développer son activité.\nVous savez écouter, identifier les besoins, convaincre et conclure ? Vous souhaitez gagner en efficacité commerciale tout en conservant votre autonomie ?\nAlors, parlons de votre projet !\n Participez à notre développement national\nRejoindre RUPELLA, c'est intégrer une entreprise ambitieuse, contribuer à la construction d'un réseau commercial national et saisir des opportunités de développement.\n Intéressé(e) ? Contactez-nous dès maintenant !\nMerci de nous transmettre votre CV ou une présentation de votre parcours commercial, en précisant votre expérience B2B et votre statut actuel.\n XXXXXXXXXX\n X\nContactez nous par téléphone ou par mail : RUPELLA CONSULTING - nous vous donnons les moyens de réussir.\n",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8728203",
+      "date": "2026-11-11",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 9,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8724688",
+      "titre": "Ingénieur commercial / Ingénieure commerciale BTP (H/F)",
+      "entreprise": "BRAWO",
+      "ville": "69 - Lyon 5e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "Description du poste :\n\nVéritable entrepreneur au sein de l'entreprise, vous serez responsable du développement de votre propre activité, de la prospection commerciale jusqu'au management de vos consultants.\n\nVos principales responsabilités :\n\nDéveloppement commercial***Prospecter activement de nouveaux clients dans les secteurs du nucléaire, de l'énergie, de l'industrie, du BTP et des infrastructures.\n* Identifier les opportunités commerciales et développer un portefeuille clients.\n* Construire des relations durables avec les décideurs et les partenaires industriels.\n* Négocier les prestations et assurer le suivi commercial de vos comptes.\n\nRecrutement***Identifier et recruter des ingénieurs consultants pour répondre aux besoins de vos clients.\n* Conduire les entretiens et sélectionner les profils techniques adaptés aux projets.\n* Participer activement à la constitution de votre propre équipe.\n\nManagement***Accompagner vos consultants tout au long de leurs missions.\n* Assurer leur suivi, leur motivation et leur développement professionnel.\n* Développer progressivement votre équipe et votre périmètre de responsabilités.\n\nPilotage de votre activité***Gérer votre activité comme un véritable centre de profit.\n* Suivre vos indicateurs de performance commerciale et financière.\n* Optimiser la rentabilité de vos projets et contribuer directement à la croissance de l'entreprise\n\nDescription du profil :\n\nCompétences techniques Vous êtes diplômé(e) d'une grande école d'ingénieurs ou de commerce, idéalement parmi les établissements les plus reconnus.***Vous êtes en stage de fin d'études, jeune diplômé(e) ou disposez d'une première expérience professionnelle de deux ans maximum.\n\nCompétences transverses Dynamique\n* Motivé\n* Organisé",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8724688",
+      "date": "2026-11-11",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 9,
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7176,48 +7495,12 @@
     },
     {
       "source": "France Travail",
-      "id": "8728203",
-      "titre": "Commercial Terrain B2B (H/F)",
-      "entreprise": "Rupella Consulting",
-      "ville": "69 - Lyon 1er Arrondissement",
-      "contrat": "CDI",
-      "salaire": "",
-      "description": "Vous êtes commercial salarié, en portage salarial sous statut CDI, ou indépendant si vous le souhaitez, et souhaitez développer votre chiffre d'affaires sans consacrer l'essentiel de votre temps à la prospection ?\nRUPELLA vous donne les moyens de réussir.\nCOMMERCIAUX B2B :\nDÉVELOPPEZ VOTRE CHIFFRE D'AFFAIRES AVEC RUPELLA CONSULTING !\nEt si vous pouviez vous concentrer sur la vente plutôt que sur la prospection ?\nRUPELLA CONSULTING, renforce son réseau commercial national et recherche des commerciaux B2B expérimentés, indépendants ou en portage salarial.\n Notre mission : accompagner les dirigeants de TPE et PME dans l'identification de solutions concrètes pour réduire leurs charges, améliorer leur rentabilité et renforcer le pouvoir d'achat de leurs salariés.\nNous mettons à votre disposition une organisation commerciale structurée pour vous aider à développer votre activité :\n Des rendez-vous qualifiés avec des dirigeants d'entreprise, fournis par RUPELLA.\n Un CRM pour piloter vos prospects, vos rendez-vous et vos ventes.\n Des fichiers de prospection et des campagnes multicanales, notamment sur LinkedIn et par emailing.\n Des supports commerciaux, des simulateurs d'économies et une formation à nos solutions.\n Un accompagnement commercial pour vous aider à concrétiser vos opportunités.\nVotre priorité : conseiller les dirigeants, développer votre portefeuille clients et conclure des ventes.\n Une rémunération attractive, sans plafond de commissions\nVotre rémunération est directement liée à vos résultats, sans rémunération fixe.\n 25 % de commission sur les ventes issues des rendez-vous qualifiés fournis par RUPELLA.\n 35 % de commission sur les ventes issues de vos propres rendez-vous.\n Exemple de potentiel de commissions mensuelles :\nSur la base d'un montant moyen de vente de 5 000 € :\n- 5 ventes issues de rendez-vous RUPELLA : 25 000 € de CA, soit 6 250 € de commissions.\n- 3 ventes issues de vos propres rendez-vous : 15 000 € de CA, soit 5 250 € de commissions.\nSoit 11 500 € de commissions potentielles sur le mois, selon les hypothèses retenues.\nSimulation illustrative, non contractuelle et non garantie. Les revenus réels dépendent notamment du volume de rendez-vous, du taux de transformation et des ventes effectivement réalisées.\n Et pour construire dans la durée ?\nDéveloppez votre portefeuille clients et bénéficiez également de commissions sur les renouvellements, selon les modalités de notre collaboration.\nProfil recherché:\n Quel profil recherchons-nous ?\nVous êtes :\n - - Commercial salarié ou indépendant B2B expérimenté ;\n   - Commercial habitué à travailler avec des dirigeants de TPE et PME ;\n   - Consultant d'entreprise doté d'un véritable tempérament commercial ;\n   - Professionnel des services aux entreprises ou des groupements d'achats ;\n   - Commercial disposant déjà d'un réseau de décideurs et souhaitant développer son activité.\nVous savez écouter, identifier les besoins, convaincre et conclure ? Vous souhaitez gagner en efficacité commerciale tout en conservant votre autonomie ?\nAlors, parlons de votre projet !\n Participez à notre développement national\nRejoindre RUPELLA, c'est intégrer une entreprise ambitieuse, contribuer à la construction d'un réseau commercial national et saisir des opportunités de développement.\n Intéressé(e) ? Contactez-nous dès maintenant !\nMerci de nous transmettre votre CV ou une présentation de votre parcours commercial, en précisant votre expérience B2B et votre statut actuel.\n XXXXXXXXXX\n X\nContactez nous par téléphone ou par mail : RUPELLA CONSULTING - nous vous donnons les moyens de réussir.\n",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8728203",
-      "date": "2026-11-11",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 3,
-      "raison": "Profil transferable",
-      "jours_anciennete": 9,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
-      "id": "8724688",
-      "titre": "Ingénieur commercial / Ingénieure commerciale BTP (H/F)",
-      "entreprise": "BRAWO",
-      "ville": "69 - Lyon 5e Arrondissement",
-      "contrat": "CDI",
-      "salaire": "",
-      "description": "Description du poste :\n\nVéritable entrepreneur au sein de l'entreprise, vous serez responsable du développement de votre propre activité, de la prospection commerciale jusqu'au management de vos consultants.\n\nVos principales responsabilités :\n\nDéveloppement commercial***Prospecter activement de nouveaux clients dans les secteurs du nucléaire, de l'énergie, de l'industrie, du BTP et des infrastructures.\n* Identifier les opportunités commerciales et développer un portefeuille clients.\n* Construire des relations durables avec les décideurs et les partenaires industriels.\n* Négocier les prestations et assurer le suivi commercial de vos comptes.\n\nRecrutement***Identifier et recruter des ingénieurs consultants pour répondre aux besoins de vos clients.\n* Conduire les entretiens et sélectionner les profils techniques adaptés aux projets.\n* Participer activement à la constitution de votre propre équipe.\n\nManagement***Accompagner vos consultants tout au long de leurs missions.\n* Assurer leur suivi, leur motivation et leur développement professionnel.\n* Développer progressivement votre équipe et votre périmètre de responsabilités.\n\nPilotage de votre activité***Gérer votre activité comme un véritable centre de profit.\n* Suivre vos indicateurs de performance commerciale et financière.\n* Optimiser la rentabilité de vos projets et contribuer directement à la croissance de l'entreprise\n\nDescription du profil :\n\nCompétences techniques Vous êtes diplômé(e) d'une grande école d'ingénieurs ou de commerce, idéalement parmi les établissements les plus reconnus.***Vous êtes en stage de fin d'études, jeune diplômé(e) ou disposez d'une première expérience professionnelle de deux ans maximum.\n\nCompétences transverses Dynamique\n* Motivé\n* Organisé",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8724688",
-      "date": "2026-11-11",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 3,
-      "raison": "Profil transferable",
-      "jours_anciennete": 9,
-      "first_seen": "2026-11-18"
-    },
-    {
-      "source": "France Travail",
       "id": "8685161",
       "titre": "Chargé d'affaires ingénierie électrique haute tension (H/F)",
       "entreprise": "METIGA",
       "ville": "69 - Lyon 5e Arrondissement",
       "contrat": "CDI",
-      "salaire": "Annuel de 50000.0 Euros à 70000.0 Euros",
+      "salaire": "Annuel de 50000.0 Euros",
       "description": "Description du poste :\n\nChoisir MÉTIGA, c'est rejoindre une équipe passionnée par le défi de la transition écologique, qui agit pour sa carrière et pour le monde de demain.\n\nMÉTIGA est une société à mission, spécialisée dans la transition énergétique, environnementale et sociale.\n\nNous travaillons auprès de bureaux d'études, maîtres d'ouvrages, industriels et acteurs publics pour leur apporter les compétences nécessaires au bon accomplissement de leurs projets.\n\nUne expérience enrichissante :\n\nChez MÉTIGA, nous nous fixons pour ambition de faire vivre à chaque collaborateur une expérience qui le fera grandir. Ensemble, nous élaborons un plan de développement professionnel aligné avec vos ambitions et vous donnons les moyens de le mettre en oeuvre.\n\nAgir concrètement, agir quotidiennement :\n\nDiversité des missions, formations, montée en compétences techniques, développement des compétences humaines, challenges, rencontres : nous mettons à votre disposition un terrain de jeu professionnel enrichissant pour atteindre vos objectifs de carrière et garantir votre épanouissement au travail.\n\n\nLe poste :\nEn tant que chef de projet HTB (H/F) vous êtes en charge du pilotage d'affaires HTB notamment pour le secteur industriel. Vous serez responsable de la gestion complète des projets liés à l'installation, la modernisation et/ou la maintenance de systèmes électriques à haute tension et coordonnerez toutes les étapes du projet depuis la conception jusqu'à la mise en service et la facturation.\n\nA ce titre, vous Êtes garant.e de la réalisation de vos projets en veillant à la sécurité, la partie technique, la rentabilité, la qualité et le respect des délais en respectant les process établis.\n- Coordonnez les équipes techniques (ingénieurs, techniciens et sous-traitants) sur l'ensemble des phases des projets : planification, conception, suivi d'exécution, mise en service\n- Identifiez, évaluez et gérez les risques techniques et réglementaires (qualité, normes HTB, sécurité) associés aux projets. Pour ce faire, vous organisez des visites afin de veiller à la bonne application des mesures de sécurité notamment.\n- Êtes en charge de la création et la mise en place des plans de prévention dans l'optique de toujours garantir la sécurité des interventions\n- Veillez à assurer une communication fluide avec l'ensemble des parties prenantes (client, fournisseurs, équipes internes - notamment l'équipe commerciale - et sous-traitants, et assurez un reporting régulier de l'avancement du projet afin de garantir la satisfaction du client\n- Apaisez les litiges et proposez des plans d'actions associés. Vous gérez également les effets de suite mais aussi les plus-values tout en proposant de nouvelles offres dans le cadre de l'amélioration continue des installations\n- Gérez le budget de vos projets, effectuez les prévisions, suivez les coûts et proposez des solutions en cas de dérives\n- Réaliser des plans de prévention et les déployer auprès des équipes intervenantes afin de garantir la sécurité des interventions.\n\nDescription du profil :\n\nCe qui vous mettra en réussite sur ce poste Vous êtes diplômé bac+3 à bac+5 en génie électrique ou électrotechnique, idéalement avec une spécialisation en Haute Tension\n- A minima 8 ans d'expérience dans la gestion de projets HTB, idéalement dans un environnement industriel ou dans le secteur de la production, de la distribution ou du génie électrique\n- Vous disposez de compétences prouvées en installations HTB, systèmes de gestion de l'énergie et connaissez les normes et réglementations en vigueur.\n- Vous faites état de compétences en management d'équipe, de capacités d'écoute et de gestion des priorités\n- Vous êtes force de proposition et êtres orienté.e client",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/8685161",
       "date": "2026-11-10",
@@ -7226,7 +7509,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 10,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7244,7 +7527,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 11,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7300,24 +7583,6 @@
     },
     {
       "source": "France Travail",
-      "id": "8638301",
-      "titre": "Chef de Projet IT - (H/F)",
-      "entreprise": "LTd",
-      "ville": "69 - Lyon 3e Arrondissement",
-      "contrat": "Intérim - 6 Mois",
-      "salaire": "",
-      "description": "Société incontournable sur le marché du recrutement français, LTd est un Cabinet de Recrutement et une Agence de Travail Temporaire spécialisé dans les métiers de l'Ingénierie et des Entreprises.\n\nLe poste : \n\n Infrastructure & Cloud (Poste chez un client grand compte)\nLocalisation de la mission : Lyon -  Intervention sur site chez notre client (grand groupe du secteur de l'énergie)\n\nLe contexte de la mission :\nPour accompagner la transformation numérique de notre client, un acteur majeur de l'énergie, vous êtes intégré(e directement au sein de leur DSI. Vous pilotez des projets d'envergure liés à la migration de leurs infrastructures critiques vers le cloud.\n\nMissions principales :\n\nPilotage global du projet pour le compte du client (gestion des coûts, respect des jalons du planning, niveau de qualité et allocation des ressources).\n\nCoordination quotidienne des équipes techniques du client et des différents fournisseurs tiers impliqués.\n\nGestion proactive des risques et garantie du strict respect des normes de sécurité et de conformité du client.\n\nAnimation des comités de pilotage et reporting auprès de la direction du client.\n\n\n\nProfil recherché : \n\nProfil recherché :\n\nBac+5 en informatique ou école d'ingénieurs.\n\n4 ans d'expérience minimum en gestion de projets techniques (infrastructures/cloud)\n\nCertification type PMP, PRINCE2 ou Scrum Master appréciée.",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8638301",
-      "date": "2026-11-07",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 3,
-      "raison": "Profil transferable",
-      "jours_anciennete": 13,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
       "id": "8630447",
       "titre": "Chef de projet BTP (H/F)",
       "entreprise": "Domino RH",
@@ -7332,7 +7597,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 13,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7350,7 +7615,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 13,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7364,6 +7629,24 @@
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/8637834",
       "date": "2026-11-07",
       "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 13,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8638301",
+      "titre": "Chef de Projet IT - (H/F)",
+      "entreprise": "LTd",
+      "ville": "69 - Lyon 3e Arrondissement",
+      "contrat": "Intérim - 6 Mois",
+      "salaire": "",
+      "description": "Société incontournable sur le marché du recrutement français, LTd est un Cabinet de Recrutement et une Agence de Travail Temporaire spécialisé dans les métiers de l'Ingénierie et des Entreprises.\n\nLe poste : \n\n Infrastructure & Cloud (Poste chez un client grand compte)\nLocalisation de la mission : Lyon -  Intervention sur site chez notre client (grand groupe du secteur de l'énergie)\n\nLe contexte de la mission :\nPour accompagner la transformation numérique de notre client, un acteur majeur de l'énergie, vous êtes intégré(e directement au sein de leur DSI. Vous pilotez des projets d'envergure liés à la migration de leurs infrastructures critiques vers le cloud.\n\nMissions principales :\n\nPilotage global du projet pour le compte du client (gestion des coûts, respect des jalons du planning, niveau de qualité et allocation des ressources).\n\nCoordination quotidienne des équipes techniques du client et des différents fournisseurs tiers impliqués.\n\nGestion proactive des risques et garantie du strict respect des normes de sécurité et de conformité du client.\n\nAnimation des comités de pilotage et reporting auprès de la direction du client.\n\n\n\nProfil recherché : \n\nProfil recherché :\n\nBac+5 en informatique ou école d'ingénieurs.\n\n4 ans d'expérience minimum en gestion de projets techniques (infrastructures/cloud)\n\nCertification type PMP, PRINCE2 ou Scrum Master appréciée.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8638301",
+      "date": "2026-11-07",
+      "domaine": "BIM",
       "email_contact": "",
       "niveau": 3,
       "raison": "Profil transferable",
@@ -7404,7 +7687,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 14,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7422,7 +7705,43 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 14,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8614538",
+      "titre": "Chef de projet IT (H/F)",
+      "entreprise": "Act Digital France",
+      "ville": "69 - Lyon 1er Arrondissement",
+      "contrat": "CDI",
+      "salaire": "",
+      "description": "act digital est un groupe international de conseil et d'ingénierie qui accompagne ses clients dans leurs projets de transformation numérique.\n\nPrésent dans 12 pays et fort de plus de 7 000 collaborateurs, nous mettons nos expertises au service de leurs enjeux en développement logiciel, cybersécurité, data, cloud et IA.\n\nNotre ambition : devenir le partenaire technologique de confiance des entreprises les plus innovantes, en concevant et sécurisant des systèmes qui renforcent leur performance et leur résilience.\n\nRejoindre act digital France, c'est intégrer une organisation agile et engagée, qui fait avancer les projets avec ses clients pour transformer les idées en résultats concrets, avec pragmatisme et exigence.\n\nLe poste : \n\nVous intégrerez, au sein de notre Pôle Transformation Numérique, une équipe d'experts en systèmes d'information en charge d'accompagner nos clients sur leurs projets de transformation.\n\nVous serez détaché(e) au sein de l'équipe projet d'un acteur majeur, dans le cadre de projets internes nécessitant le renforcement de l'équipe avec un Chef de Projet supplémentaire.\n\nVos missions seront les suivantes :\n\n- Piloter les projets en assurant la planification, le suivi du périmètre et la gestion des demandes d'évolution\n- Contribuer à la définition et au suivi des spécifications en collaboration avec les équipes métiers et techniques\n- Assurer le suivi de la qualité, des délais et du budget des projets\n- Mettre en place et suivre les indicateurs de pilotage (KPI) et produire les tableaux de bord associés\n- Identifier les alertes et assurer un reporting régulier auprès des parties prenantes\n- Accompagner la conduite du changement en impliquant les Business Analysts (BA) et les utilisateurs finaux\n- Participer à l'intégration et à la mise à jour des processus\n- Identifier, évaluer et suivre les risques projets\n- Anticiper les risques et mettre en place les actions permettant de réduire leur probabilité et leur impact\n- Intégrer les règles et bonnes pratiques de sécurité de l'information dans les projets, en collaboration avec le RSSI\n- Coordonner les différents interlocuteurs et assurer une communication régulière tout au long du projet\n\nProfil recherché : \n\n- Vous êtes issu(e) d'une formation Bac+5 en informatique, systèmes d'information, gestion de projet ou équivalent\n- Vous disposez d'une expérience significative en gestion de projet dans un environnement informatique ou SI\n- Vous maîtrisez les principes de pilotage de projet : planning, périmètre, budget, qualité et risques\n- Vous êtes capable d'interagir avec des interlocuteurs métiers, IT et utilisateurs finaux\n- Vous disposez d'une bonne compréhension des enjeux liés à la conduite du changement\n- Vous êtes à l'aise dans la production de reportings et le suivi d'indicateurs de performance\n- Vous êtes reconnu(e) pour votre esprit d'équipe, votre rigueur et votre autonomie\n- Vous disposez d'excellentes capacités de communication, d'analyse et de synthèse\n- Vous êtes capable d'alerter au bon niveau et de proposer des solutions adaptées\n\nQuelles compétences/connaissances pour ce poste :\n\n- Maîtrise des méthodes et outils de gestion de projet\n- Maîtrise du suivi de planning, périmètre, budget et qualité\n- Capacité à construire et suivre des tableaux de bord et KPI\n- Maîtrise de la gestion et du suivi des risques projets\n- Connaissance des principes de conduite du changement et d'accompagnement des utilisateurs\n- Capacité à coordonner des équipes et des parties prenantes métiers et IT\n- Bonne compréhension des enjeux liés à la sécurité de l'information\n- Capacité à travailler en collaboration avec un RSSI sur les sujets de sécurité\n- Anglais professionnel courant\n- Espagnol et/ou italien appréciés",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8614538",
+      "date": "2026-11-06",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 14,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "8586594",
+      "titre": "Responsable Conception Bâtiment (H/F)",
+      "entreprise": "Vinci Construction Direction Opérationnelle Centre E",
+      "ville": "69 - Lyon 9e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "Annuel de 40000.0 Euros à 41000.0 Euros",
+      "description": "Description du poste :\n\nVINCI Construction intervient dans les métiers du bâtiment, du génie civil, des réseaux et de la route, notamment en France métropolitaine.\nAu sein de la Délégation Bâtiment Centre-Est (CA de 360 M€ en 2024, 1300 collaborateurs) nous recrutons un(e) Chargé(e) d'études synthèse architecturale.\n\nSous la responsabilité du Chef de service BIM Synthèse, vous serez en charge des missions suivantes :\n\nRéalisation de la synthèse technique de nos chantiers, à ce titre vous interviendrez sur Rédaction de la notice de synthèse***Compilation des maquettes numériques***Analyse des conflits et proposition de solutions***Animation des réunions de synthèse***Modélisation de corps d'états architecturaux / clos-couvert en phase exécution\n\nMise en place des processus et outils, à ce titre vous interviendrez sur Définir et proposer un processus de synthèse adapté aux acteurs de chaque projet***Utiliser des solutions de compilation et de fédération de maquettes numériques afin de consolider les données des différentes disciplines et d'assurer la cohérence globale des projets.\n\nVeiller à la bonne communication, à ce titre vous interviendrez sur S'assurer d'avoir recueilli l'ensemble des informations nécessaires à la réalisation de ses missions dans les délais impartis\n* Organiser et animer des échanges réguliers avec les équipes travaux, les bureaux d'études et les sous-traitants afin de suivre l'avancement des sujets en cours et de garantir une coordination efficace.\n* Identifier, remonter et alerter sa hiérarchie sur toute difficulté\n\nPoste basé à Vaise (69009)\n\nDescription du profil :\n\nIssu(e) d'une formation supérieure en Bâtiment Bac +5 (Master, école d'ingénieur ou école d'architecture)\nOu Bac +3 dans le domaine de la construction avec une expérience significative de 5 ans minimum sur un poste similaire.\nVous maitrisez pleinement les outils suivants : REVIT et Navisworks ou autre logiciel de compilation.\n\nVous êtes reconnu(e) pour votre rigueur, votre capacité d'analyse et vos qualités rédactionnelles.",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8586594",
+      "date": "2026-11-06",
+      "domaine": "BIM",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 14,
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7444,31 +7763,13 @@
     },
     {
       "source": "France Travail",
-      "id": "8614538",
-      "titre": "Chef de projet IT (H/F)",
-      "entreprise": "Act Digital France",
-      "ville": "69 - Lyon 1er Arrondissement",
-      "contrat": "CDI",
-      "salaire": "",
-      "description": "act digital est un groupe international de conseil et d'ingénierie qui accompagne ses clients dans leurs projets de transformation numérique.\n\nPrésent dans 12 pays et fort de plus de 7 000 collaborateurs, nous mettons nos expertises au service de leurs enjeux en développement logiciel, cybersécurité, data, cloud et IA.\n\nNotre ambition : devenir le partenaire technologique de confiance des entreprises les plus innovantes, en concevant et sécurisant des systèmes qui renforcent leur performance et leur résilience.\n\nRejoindre act digital France, c'est intégrer une organisation agile et engagée, qui fait avancer les projets avec ses clients pour transformer les idées en résultats concrets, avec pragmatisme et exigence.\n\nLe poste : \n\nVous intégrerez, au sein de notre Pôle Transformation Numérique, une équipe d'experts en systèmes d'information en charge d'accompagner nos clients sur leurs projets de transformation.\n\nVous serez détaché(e) au sein de l'équipe projet d'un acteur majeur, dans le cadre de projets internes nécessitant le renforcement de l'équipe avec un Chef de Projet supplémentaire.\n\nVos missions seront les suivantes :\n\n- Piloter les projets en assurant la planification, le suivi du périmètre et la gestion des demandes d'évolution\n- Contribuer à la définition et au suivi des spécifications en collaboration avec les équipes métiers et techniques\n- Assurer le suivi de la qualité, des délais et du budget des projets\n- Mettre en place et suivre les indicateurs de pilotage (KPI) et produire les tableaux de bord associés\n- Identifier les alertes et assurer un reporting régulier auprès des parties prenantes\n- Accompagner la conduite du changement en impliquant les Business Analysts (BA) et les utilisateurs finaux\n- Participer à l'intégration et à la mise à jour des processus\n- Identifier, évaluer et suivre les risques projets\n- Anticiper les risques et mettre en place les actions permettant de réduire leur probabilité et leur impact\n- Intégrer les règles et bonnes pratiques de sécurité de l'information dans les projets, en collaboration avec le RSSI\n- Coordonner les différents interlocuteurs et assurer une communication régulière tout au long du projet\n\nProfil recherché : \n\n- Vous êtes issu(e) d'une formation Bac+5 en informatique, systèmes d'information, gestion de projet ou équivalent\n- Vous disposez d'une expérience significative en gestion de projet dans un environnement informatique ou SI\n- Vous maîtrisez les principes de pilotage de projet : planning, périmètre, budget, qualité et risques\n- Vous êtes capable d'interagir avec des interlocuteurs métiers, IT et utilisateurs finaux\n- Vous disposez d'une bonne compréhension des enjeux liés à la conduite du changement\n- Vous êtes à l'aise dans la production de reportings et le suivi d'indicateurs de performance\n- Vous êtes reconnu(e) pour votre esprit d'équipe, votre rigueur et votre autonomie\n- Vous disposez d'excellentes capacités de communication, d'analyse et de synthèse\n- Vous êtes capable d'alerter au bon niveau et de proposer des solutions adaptées\n\nQuelles compétences/connaissances pour ce poste :\n\n- Maîtrise des méthodes et outils de gestion de projet\n- Maîtrise du suivi de planning, périmètre, budget et qualité\n- Capacité à construire et suivre des tableaux de bord et KPI\n- Maîtrise de la gestion et du suivi des risques projets\n- Connaissance des principes de conduite du changement et d'accompagnement des utilisateurs\n- Capacité à coordonner des équipes et des parties prenantes métiers et IT\n- Bonne compréhension des enjeux liés à la sécurité de l'information\n- Capacité à travailler en collaboration avec un RSSI sur les sujets de sécurité\n- Anglais professionnel courant\n- Espagnol et/ou italien appréciés",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/8614538",
-      "date": "2026-11-06",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 3,
-      "raison": "Profil transferable",
-      "jours_anciennete": 14,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
       "id": "8560984",
       "titre": "Chargé d'affaires en électricité (H/F)",
       "entreprise": "Acorus",
       "ville": "69 - Lyon 5e Arrondissement",
       "contrat": "CDI",
       "salaire": "Mensuel de 35000.0 Euros à 40000.0 Euros",
-      "description": "Description du poste :\n\nA PROPOS DE ACORUS-ESCI est spécialisée dans la fourniture, l'installation, le câblage et la maintenance de réseaux informatiques et télécoms : vidéosurveillance, alarmes intrusions, téléphonie IP, câblage VDI cuivre et fibre optique, réseaux Wi-Fi Interventions au niveau national pour des clients grands comptes (ex: Korian, Auchan, Sodexo etc avec haut niveau d'exigence, de qualité et de réactivité.\n\nDescription\n\nNous recherchons actuellement pour notre agence de Lyon (69) un(e) Chargé d'affaires Electricité Réseaux H/F prêt(e) à intervenir sur différents projets dans la région Ouest.\n\nTa mission : un rôle à 360 Entrepreneur(se) dans l'âme, tu pilotes tes affaires de A à Z : de la détection du besoin client jusqu'à la réception finale du chantier.\n\n1. Développement Commercial & Chiffrage***Prospection active et fidélisation d'un portefeuille de clients (tertiaire, industriel Analyse des besoins clients.***Rédaction des propositions commerciales et élaboration des devis.\n\n2. Gestion Opérationnelle & Suivi de Chantiers***Planification et préparation des chantiers (approvisionnement matériel, sous-traitance Garant du respect des délais, des budgets, des normes de sécurité et de la qualité des livrables.***Interface technique et commerciale avec le client tout au long des travaux.\n\n3. Management d'Équipes***Encadrement et animation des équipes de techniciens.***Coordination des sous-traitants éventuels.\n\n4. Gestion Financière & Administrative***Suivi de la rentabilité financière de chaque affaire.***Facturation des prestations jusqu'à la clôture définitive du chantier Profil recherché***Formation : Issu(e) d'une formation supérieure (Bac+3 à Bac+5) en Réseaux & Télécoms, Génie Électrique ou Électrotechnique.***Expérience : tu as idéalement une expérience réussie de 3 à 5 ans sur un poste similaire dans le domaine du câblage courant faible / télécoms.***Compétences techniques : Le câblage VDI (cuivre/fibre), le Wi-Fi, la ToIP et les systèmes de sécurité (vidéosurveillance, intrusion) n'ont pas de secret pour toi.***Qualités humaines : tu possèdes un fort tempérament commercial, un excellent relationnel. Autonome, rigoureux(se) et orienté(e) résultats, tu sais gérer les priorités financières et opérationnelles\n\nPourquoi rejoindre Acorus ESCI:***CDI à temps plein***Panier repas : 7.5€/jours travaillé***Véhicule de service électrique fourni***Mutuelle et primes d'intéressement***Prime vacances***Opportunités d'avancement professionnel et formation continue.\n\nAcorus-ESCI est fier de favoriser la diversité et l'équité des chances dans tous ses processus de recrutement.\n\nIND/ACORUS",
+      "description": "Description du poste :\n\nA PROPOS DE ACORUS-ESCI est spécialisée dans la fourniture, l'installation, le câblage et la maintenance de réseaux informatiques et télécoms : vidéosurveillance, alarmes intrusions, téléphonie IP, câblage VDI cuivre et fibre optique, réseaux Wi-Fi Interventions au niveau national pour des clients grands comptes (ex: Korian, Auchan, Sodexo etc avec haut niveau d'exigence, de qualité et de réactivité.\n\nDescription\n\nNous recherchons actuellement pour notre agence de Lyon (69) un(e) Chargé d'affaires Electricité Réseaux H/F prêt(e) à intervenir sur différents projets dans la région Ouest.\n\nTa mission : un rôle à 360 Entrepreneur(se) dans l'âme, tu pilotes tes affaires de A à Z : de la détection du besoin client jusqu'à la réception finale du chantier.\n\n1. Développement Commercial & Chiffrage***Prospection active et fidélisation d'un portefeuille de clients (tertiaire, industriel Analyse des besoins clients.***Rédaction des propositions commerciales et élaboration des devis.\n\n2. Gestion Opérationnelle & Suivi de Chantiers***Planification et préparation des chantiers (approvisionnement matériel, sous-traitance Garant du respect des délais, des budgets, des normes de sécurité et de la qualité des livrables.***Interface technique et commerciale avec le client tout au long des travaux.\n\n3. Management d'Équipes***Encadrement et animation des équipes de techniciens.***Coordination des sous-traitants éventuels.\n\n4. Gestion Financière & Administrative***Suivi de la rentabilité financière de chaque affaire.***Facturation des prestations jusqu'à la clôture définitive du chantier.\n\nProfil recherché***Formation : Issu(e) d'une formation supérieure (Bac+3 à Bac+5) en Réseaux & Télécoms, Génie Électrique ou Électrotechnique.***Expérience : tu as idéalement une expérience réussie de 3 à 5 ans sur un poste similaire dans le domaine du câblage courant faible / télécoms.***Compétences techniques : Le câblage VDI (cuivre/fibre), le Wi-Fi, la ToIP et les systèmes de sécurité (vidéosurveillance, intrusion) n'ont pas de secret pour toi.***Qualités humaines : tu possèdes un fort tempérament commercial, un excellent relationnel. Autonome, rigoureux(se) et orienté(e) résultats, tu sais gérer les priorités financières et opérationnelles\n\nPourquoi rejoindre Acorus ESCI:***CDI à temps plein***Panier repas : 7.5€/jours travaillé***Véhicule de service électrique fourni***Mutuelle et primes d'intéressement***Prime vacances***Opportunités d'avancement professionnel et formation continue.\n\nAcorus-ESCI est fier de favoriser la diversité et l'équité des chances dans tous ses processus de recrutement.\n\nIND/ACORUS",
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/8560984",
       "date": "2026-11-05",
       "domaine": "BIM",
@@ -7476,7 +7777,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7494,7 +7795,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7512,7 +7813,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 15,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7566,7 +7867,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 16,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7584,7 +7885,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 16,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7620,7 +7921,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 17,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -7655,7 +7956,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 18,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7794,7 +8095,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 22,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "Indeed",
@@ -7829,7 +8130,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7847,7 +8148,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 23,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7969,7 +8270,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 28,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -7987,7 +8288,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 28,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -8023,7 +8324,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 29,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -8041,7 +8342,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 29,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -8153,24 +8454,6 @@
     },
     {
       "source": "France Travail",
-      "id": "7981373",
-      "titre": "Chargé d'Affaires Adjoint Maintenance Multitechnique F/H - ENERGIS RH Lyon",
-      "entreprise": "ENERGIS RH Lyon",
-      "ville": "69 - Craponne",
-      "contrat": "CDI",
-      "salaire": "",
-      "description": "ENERGIS RH, agence indépendante et de proximité, vous accompagne, depuis 2014, dans vos recherches en intérim, CDD ou CDI.\n \nNous recherchons un Chargé d'Affaires Adjoint Maintenance Multitechnique H/F pour notre client, acteur des services techniques et de la maintenance des bâtiments professionnels.\n \nDans le cadre de son développement, cette entreprise souhaite renforcer ses équipes avec un profil technique désireux d'évoluer vers la gestion d'affaires.\n \nSelon votre parcours, vous pourrez intervenir sur des dossiers de maintenance multitechnique ou de protection et extinction incendie.\n \n \n \nVos missions :\n \nEn appui des Chargés d'Affaires, vous contribuez au suivi des prestations réalisées auprès de clients multisites.\n \n-  \n-  \n- \nAnalyser les demandes techniques et recueillir les informations nécessaires.\n \n- \nPréparer les études, devis et chiffrages avec l'accompagnement des équipes.\n \n- \nConsulter les fournisseurs et partenaires pour organiser de petits travaux.\n \n- \nEffectuer des visites sur site pour les relevés, réunions ou besoins techniques.\n \n- \nSuivre l'avancement des interventions et mettre à jour les dossiers.\n \n- \nParticiper au suivi financier des travaux et contrats.\n \n- \nVeiller à la qualité des prestations, à la sécurité et à la satisfaction client.\n \n \n \n \n \n \nConditions proposées :\n \n-  \n-  \n- \nPoste basé à Saint-Genis-les-Ollières (69).\n \n- \n39 heures hebdomadaires, 2 400 à 3 000 € brut mensuel.\n \n- \nDéplacements nationaux ponctuels.\n \n- \nVéhicule de service, tickets restaurant, primes et mutuelle familiale.\n \n- \nIntégration, formation et évolution progressive vers la gestion d'affaires.\n \n \n \n \nPour l'activité multitechnique : horaires décalés un jour tous les 15 jours et astreinte une semaine tous les 4 mois.Vous possédez une formation technique supérieure en maintenance, bâtiment ou génie électrique, idéalement Bac+2, ou une expérience équivalente en extinction incendie.\n \nUne première expérience en maintenance, travaux, bureau d'études ou coordination technique est appréciée.\n \nVous savez analyser une demande, préparer un chiffrage et suivre plusieurs dossiers.\n \nDes connaissances en extincteurs, RIA ou équipements d'extinction peuvent également correspondre aux besoins de l'entreprise.\n \nRigoureux(se), curieux(se) et à l'aise dans les échanges, vous souhaitez développer vos compétences et gagner en autonomie.\n \n \n \nVous avez un bagage technique et souhaitez évoluer vers la gestion d'affaires ? Envoyez-nous votre candidature !",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7981373",
-      "date": "2026-10-15",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 3,
-      "raison": "Profil transferable",
-      "jours_anciennete": 36,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
       "id": "7982836",
       "titre": "Chargé d'Affaires Étanchéité H/F",
       "entreprise": "Work&You",
@@ -8185,25 +8468,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 36,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "source": "France Travail",
-      "id": "7982833",
-      "titre": "Chargé d'Affaires / Conducteur de Travaux Étanchéité H/F",
-      "entreprise": "Work&You",
-      "ville": "69 - Lyon 8e Arrondissement",
-      "contrat": "CDI",
-      "salaire": "Annuel de 45000.0 Euros à 55000.0 Euros",
-      "description": "LES MISSIONS DU POSTE\n#çamatchentrenous\n Des chantiers techniques spécialisés en étanchéité et revêtements en résine.\n Un poste associant développement commercial et pilotage opérationnel des travaux.\n Une autonomie dans la gestion des affaires, de l'étude des projets jusqu'à leur réception.\n ' Acteur spécialisé dans les solutions techniques d'étanchéité et de revêtements en résine, notre client accompagne des professionnels dans la réalisation de leurs projets, en milieu industriel, tertiaire et sur des ouvrages techniques. Dans le cadre de son développement, nous recherchons un Conducteur de Travaux Étanchéité H/F pour intervenir sur la région Rhône-Alpes.\nVotre potentiel permettra de\n Développer et fidéliser un portefeuille clients, tout en identifiant de nouvelles opportunités commerciales.\n Étudier les projets, réaliser les chiffrages et assurer le suivi commercial jusqu'à la signature des affaires.\n Préparer, organiser et coordonner les chantiers d'étanchéité, en lien avec les équipes de terrain.\n Piloter les équipes, les plannings et les moyens nécessaires à la bonne exécution des travaux.\n Garantir la qualité des réalisations, la satisfaction des clients et la rentabilité financière des affaires.\n\n\nPROFIL RECHERCHÉ\nVotre envie de nous rejoindre\nVous justifiez d'une expérience d'au moins 5 ans en conduite de travaux, idéalement dans le domaine de l'étanchéité, des revêtements techniques ou des résines de sols.\nVous maîtrisez l'organisation et le suivi de chantiers, la coordination des équipes et la gestion des budgets. Des compétences en études de prix, chiffrage et suivi commercial seront particulièrement appréciées.\nVous appréciez la relation client et souhaitez occuper un poste associant responsabilités techniques, gestion opérationnelle et développement commercial.\nAutonome, organisé et doté d'un bon relationnel, vous savez prendre des décisions, anticiper les difficultés et fédérer les équipes autour de vos projets.\n\n\nAVANTAGES\n Contrat : CDI\n Rémunération : 45K€-50 K€ brut annuel\n Avantages : Primes,Voiture de fonction, mutuelle etc..\nAvec Work&You, « Provoquer LA rencontre professionnelle » ! Notre cabinet s'engage à vous répondre dans les 48H !\n",
-      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7982833",
-      "date": "2026-10-15",
-      "domaine": "BIM",
-      "email_contact": "",
-      "niveau": 3,
-      "raison": "Profil transferable",
-      "jours_anciennete": 36,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -8217,6 +8482,24 @@
       "url": "https://candidat.francetravail.fr/offres/recherche/detail/215HCWV",
       "date": "2026-10-15",
       "domaine": "RESTO",
+      "email_contact": "",
+      "niveau": 3,
+      "raison": "Profil transferable",
+      "jours_anciennete": 36,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "France Travail",
+      "id": "7982833",
+      "titre": "Chargé d'Affaires / Conducteur de Travaux Étanchéité H/F",
+      "entreprise": "Work&You",
+      "ville": "69 - Lyon 8e Arrondissement",
+      "contrat": "CDI",
+      "salaire": "Annuel de 45000.0 Euros à 55000.0 Euros",
+      "description": "LES MISSIONS DU POSTE\n#çamatchentrenous\n Des chantiers techniques spécialisés en étanchéité et revêtements en résine.\n Un poste associant développement commercial et pilotage opérationnel des travaux.\n Une autonomie dans la gestion des affaires, de l'étude des projets jusqu'à leur réception.\n ' Acteur spécialisé dans les solutions techniques d'étanchéité et de revêtements en résine, notre client accompagne des professionnels dans la réalisation de leurs projets, en milieu industriel, tertiaire et sur des ouvrages techniques. Dans le cadre de son développement, nous recherchons un Conducteur de Travaux Étanchéité H/F pour intervenir sur la région Rhône-Alpes.\nVotre potentiel permettra de\n Développer et fidéliser un portefeuille clients, tout en identifiant de nouvelles opportunités commerciales.\n Étudier les projets, réaliser les chiffrages et assurer le suivi commercial jusqu'à la signature des affaires.\n Préparer, organiser et coordonner les chantiers d'étanchéité, en lien avec les équipes de terrain.\n Piloter les équipes, les plannings et les moyens nécessaires à la bonne exécution des travaux.\n Garantir la qualité des réalisations, la satisfaction des clients et la rentabilité financière des affaires.\n\n\nPROFIL RECHERCHÉ\nVotre envie de nous rejoindre\nVous justifiez d'une expérience d'au moins 5 ans en conduite de travaux, idéalement dans le domaine de l'étanchéité, des revêtements techniques ou des résines de sols.\nVous maîtrisez l'organisation et le suivi de chantiers, la coordination des équipes et la gestion des budgets. Des compétences en études de prix, chiffrage et suivi commercial seront particulièrement appréciées.\nVous appréciez la relation client et souhaitez occuper un poste associant responsabilités techniques, gestion opérationnelle et développement commercial.\nAutonome, organisé et doté d'un bon relationnel, vous savez prendre des décisions, anticiper les difficultés et fédérer les équipes autour de vos projets.\n\n\nAVANTAGES\n Contrat : CDI\n Rémunération : 45K€-50 K€ brut annuel\n Avantages : Primes,Voiture de fonction, mutuelle etc..\nAvec Work&You, « Provoquer LA rencontre professionnelle » ! Notre cabinet s'engage à vous répondre dans les 48H !\n",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7982833",
+      "date": "2026-10-15",
+      "domaine": "BIM",
       "email_contact": "",
       "niveau": 3,
       "raison": "Profil transferable",
@@ -8329,7 +8612,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 42,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -8365,7 +8648,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 45,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -8545,7 +8828,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 66,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -8617,7 +8900,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 114,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     },
     {
       "source": "France Travail",
@@ -8653,7 +8936,7 @@
       "niveau": 3,
       "raison": "Profil transferable",
       "jours_anciennete": 155,
-      "first_seen": "2026-11-19"
+      "first_seen": "2026-11-20"
     }
   ]
 }
